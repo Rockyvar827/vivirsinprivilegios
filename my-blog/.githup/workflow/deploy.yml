@@ -14,10 +14,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: npm
 
       - run: npm ci
       - run: npm run build
 
+      # evita que GitHub trate el sitio como Jekyll
       - name: Add .nojekyll
         run: echo "" > ./dist/.nojekyll
 
