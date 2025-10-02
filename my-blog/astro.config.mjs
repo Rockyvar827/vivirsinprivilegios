@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://Rockyvar827.github.io/vivirsinprivilegios', // ⚡️ cámbialo
+  site: 'https://Rockyvar827.github.io/vivirsinprivilegios/my-blog', // ⚡️ cámbialo
   base: '/vivirsinprivilegios/', // si no es repo de usuario, agrega esta línea
 });
