@@ -11,7 +11,8 @@
 		"lint": "eslint . --ext .js,.jsx,.ts,.tsx,.astro",
 		"lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.astro --fix",
 		"format": "prettier --write .",
-		"format:check": "prettier --check ."
+		"format:check": "prettier --check .",
+		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.9.4",
@@ -42,6 +43,7 @@
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-astro": "^1.3.1",
 		"eslint-plugin-jsx-a11y": "^6.10.2",
+		"gh-pages": "^6.3.0",
 		"prettier": "^3.6.2",
 		"prettier-plugin-astro": "^0.14.1",
 		"rehype-accessible-emojis": "^0.3.2",
