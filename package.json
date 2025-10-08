@@ -12,7 +12,8 @@
 		"lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.astro --fix",
 		"format": "prettier --write .",
 		"format:check": "prettier --check .",
-		"deploy": "gh-pages -d dist"
+		"deploy": "gh-pages -d dist",
+		"copy": "xcopy dist docs /E /I /Y"
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.9.4",
