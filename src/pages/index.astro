@@ -16,10 +16,11 @@ const posts = (await getCollection('blog'))
 	>
 		<div>
 			<p class="block text-3xl opacity-70 mt-9 mb-4">Welcome to</p>
-			<h1 class="text-8xl font-bold leading-none">Saral Theme</h1>
+			<h1 class="text-8xl font-bold leading-none">🌍 Vivir sin privilegios</h1>
 		</div>
 		<p class="text-2xl max-w-2xl font-light leading-normal">
-			A simple theme for personal blog sites, created for Astro framework.
+			Blog para ayudar a todos los migrantes en España a luchar contra el
+			racismo estructural
 		</p>
 		<div class="flex flex-wrap gap-8">
 			{
@@ -36,7 +37,48 @@ const posts = (await getCollection('blog'))
 		</div>
 	</main>
 
-	<!-- Recent Posts Section -->
+	<!-- Aquí inserto tu contenido personalizado -->
+	<section class="my-32 app-container space-y-6">
+		<p>
+			Bienvenid@ a mi blog personal, un espacio en construcción dedicado a
+			visibilizar el racismo estructural en España y a compartir herramientas
+			que empoderen a las comunidades migrantes y racializadas.
+		</p>
+
+		<p>
+			<strong>Vivir sin privilegios</strong> no es solo un testimonio personal, sino
+			también una guía práctica. A través de experiencias reales, análisis crítico
+			y recursos útiles, este proyecto busca generar conciencia, impulsar el cambio
+			social y acompañar a quienes enfrentan discriminación y exclusión.
+		</p>
+
+		<h2 class="section-title">📚 Contenido del blog</h2>
+		<ul class="list-disc pl-6 space-y-2">
+			<li>
+				<strong>Parte I: La realidad invisible</strong> — Historias personales, racismo
+				estructural, leyes y burocracia.
+			</li>
+			<li>
+				<strong>Parte II: Historias de lucha y resistencia</strong> — Testimonios
+				de abuso, silenciamiento y vulnerabilidad interseccional.
+			</li>
+			<li>
+				<strong>Parte III: Transformar el dolor en acción</strong> — Herramientas,
+				comunidad, denuncia y apoyo.
+			</li>
+			<li><strong>Capítulo final:</strong> Una llamada al cambio colectivo.</li>
+		</ul>
+
+		<h2 class="section-title">🚧 Sitio en construcción</h2>
+		<p>
+			Este sitio aún está en desarrollo. Próximamente podrás explorar cada
+			capítulo, acceder a recursos legales, modelos de denuncia, y participar en
+			una comunidad comprometida con la justicia social.
+		</p>
+
+		<p>Gracias por pasar por aquí. ¡Nos leemos pronto!</p>
+	</section>
+	<!-- Recent Posts Section 
 	<section class="app-container">
 		<h2 class="section-title">Recent Posts</h2>
 		<div class="posts-grid-container">
@@ -46,10 +88,10 @@ const posts = (await getCollection('blog'))
 			>Read All
 			<Icon size={20} name="mdi:arrow-right" />
 		</a>
-	</section>
+	</section>-->
 
 	<!-- Recent Posts Section -->
-	<section class="app-container py-42 grid lg:grid-cols-2 gap-28 lg:gap-10">
+	<!--<section class="app-container py-42 grid lg:grid-cols-2 gap-28 lg:gap-10">
 		<div class="space-y-6">
 			<h2 class="section-title">About Me</h2>
 			<p class="text-lg max-w-xl pb-4">
@@ -81,5 +123,5 @@ const posts = (await getCollection('blog'))
 				</a>
 			</div>
 		</div>
-	</section>
+	</section>-->
 </BaseLayout>
