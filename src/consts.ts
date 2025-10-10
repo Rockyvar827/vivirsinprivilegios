@@ -14,14 +14,6 @@ export const SocialLinks = [
 		name: 'LinkedIn',
 		url: 'https://www.linkedin.com/in/roxanaguibert/',
 	},
-	{
-		name: 'X / Twitter',
-		url: 'https://twitter.com/roxana',
-	},
-	{
-		name: 'Instagram',
-		url: 'https://instagram.com/roxana',
-	},
 ]
 
 export const WebsiteLinks = [

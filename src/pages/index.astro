@@ -16,29 +16,15 @@ const posts = (await getCollection('blog'))
 	>
 		<div>
 			<p class="block text-3xl opacity-70 mt-9 mb-4">Welcome to</p>
-			<h1 class="text-8xl font-bold leading-none">🌍 Vivir sin privilegios</h1>
+			<h1 class="text-8xl font-bold leading-none">Vivir sin privilegios</h1>
 		</div>
 		<p class="text-2xl max-w-2xl font-light leading-normal">
 			Blog para ayudar a todos los migrantes en España a luchar contra el
 			racismo estructural
 		</p>
-		<div class="flex flex-wrap gap-8">
-			{
-				SocialLinks.map((link) => (
-					<a
-						class="text-xl text-primary dark:text-primary-dark underline hover:underline underline-offset-4"
-						href={link.url}
-						target="_blank"
-					>
-						{link.name}
-					</a>
-				))
-			}
-		</div>
-	</main>
 
-	<!-- Aquí inserto tu contenido personalizado -->
-	<section class="my-32 app-container space-y-6">
+		<!-- Aquí inserto tu contenido personalizado -->
+		<!-- <section class="my-32 app-container space-y-3">-->
 		<p>
 			Bienvenid@ a mi blog personal, un espacio en construcción dedicado a
 			visibilizar el racismo estructural en España y a compartir herramientas
@@ -66,7 +52,9 @@ const posts = (await getCollection('blog'))
 				<strong>Parte III: Transformar el dolor en acción</strong> — Herramientas,
 				comunidad, denuncia y apoyo.
 			</li>
-			<li><strong>Capítulo final:</strong> Una llamada al cambio colectivo.</li>
+			<li>
+				<strong>Capítulo final:</strong> Una llamada al cambio colectivo.
+			</li>
 		</ul>
 
 		<h2 class="section-title">🚧 Sitio en construcción</h2>
@@ -77,7 +65,22 @@ const posts = (await getCollection('blog'))
 		</p>
 
 		<p>Gracias por pasar por aquí. ¡Nos leemos pronto!</p>
-	</section>
+		<!-- </section>-->
+		<div class="flex flex-wrap gap-8">
+			{
+				SocialLinks.map((link) => (
+					<a
+						class="text-xl text-primary dark:text-primary-dark underline hover:underline underline-offset-4"
+						href={link.url}
+						target="_blank"
+					>
+						{link.name}
+					</a>
+				))
+			}
+		</div>
+	</main>
+
 	<!-- Recent Posts Section-->
 	<section class="app-container">
 		<h2 class="section-title">Recent Posts</h2>
