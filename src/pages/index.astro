@@ -83,12 +83,12 @@ const posts = (await getCollection('blog'))
 
 	<!-- Recent Posts Section-->
 	<section class="app-container">
-		<h2 class="section-title">Recent Posts</h2>
+		<h2 class="section-title">Posts Recientes</h2>
 		<div class="posts-grid-container">
 			{posts.map((post) => <BlogCard post={post} />)}
 		</div>
 		<a class="btn-secondary" href="/blog"
-			>Read All
+			>Leer Todos
 			<Icon size={20} name="mdi:arrow-right" />
 		</a>
 	</section>-->
@@ -96,10 +96,17 @@ const posts = (await getCollection('blog'))
 	<!-- Recent Posts Section -->
 	<section class="app-container py-42 grid lg:grid-cols-2 gap-28 lg:gap-10">
 		<div class="space-y-6">
-			<h2 class="section-title">About Me</h2>
+			<h2 class="section-title">Sobre mí</h2>
 			<p class="text-lg max-w-xl pb-4">
-				A brief introduction about yourself. You can include your profession,
-				hobbies, interests, or anything you'd like visitors to know about you.
+				¡Hola! Soy <strong>Rosana</strong>, ingeniera informática y ciudadana
+				del mundo. He vivido en primera persona las dificultades de enfrentarse
+				a la burocracia y la invisibilidad que sufren muchas personas migrantes,
+				y por eso decidí crear este espacio para alzar la voz y compartir
+				recursos que ayuden a reclamar nuestros derechos. Me apasiona la
+				tecnología, aprender constantemente, diseñar interfaces intuitivas y
+				participar en proyectos con impacto social. En mis ratos libres,
+				disfruto pintar al óleo, inspirada por Kandinsky, y practicar deporte
+				como forma de equilibrio y fortaleza.
 			</p>
 			<a class="btn-secondary" href={`/about`}
 				>Go to About
@@ -114,7 +121,7 @@ const posts = (await getCollection('blog'))
 			<div class="flex flex-wrap mt-auto space-x-4">
 				<a
 					class="btn-primary"
-					href="mailto:example@email.com"
+					href="mailto:rllilart@gmail.com"
 					download
 					target="_blank"
 					>Get in touch
