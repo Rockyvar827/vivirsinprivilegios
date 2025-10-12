@@ -1,6 +1,7 @@
 ---
 title: 'El sistema no te protege: bienvenida a la odisea burocrática española'
 description: |
+  Parte I: La realidad invisible.
   Solicitar la nacionalidad española es una maratón de papeles, plazos incumplidos y silencio administrativo.
   Esta es la historia —y la sátira— de cómo el sistema convierte a los extranjeros en atletas del papeleo.
 pubDate: 'Oct 9 2025'
