@@ -18,7 +18,7 @@ export const SocialLinks = [
 
 export const WebsiteLinks = [
 	{
-		name: 'Incio',
+		name: 'Inicio',
 		url: '',
 	},
 	{
@@ -26,7 +26,11 @@ export const WebsiteLinks = [
 		url: 'blog',
 	},
 	{
-		name: 'Sobre mí',
+		name: 'Recursos',
+		url: 'recursos',
+	},
+	{
+		name: 'Sobre mi',
 		url: 'about',
 	},
 ]

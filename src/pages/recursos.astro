@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content'
+import BaseLayout from '../layouts/BaseLayout.astro'
+import TableOfContents from '../components/TableOfContents.astro'
+
+const entries = await getCollection('recursos')
+const entry = entries.find((e) => e.slug === 'recursos')
+if (!entry) throw new Error('No se encontró recursos.md')
+
+const { Content, headings } = await entry.render()
+const { title, description } = entry.data
+---
+
+<BaseLayout title={title} description={description}>
+	<div class="flex flex-col lg:flex-row gap-12">
+		<!-- Contenido principal con estilos tipográficos -->
+		<main class="prose prose-lg dark:prose-invert max-w-none lg:w-3/4">
+			<Content />
+		</main>
+
+		<!-- Tabla de contenidos a la derecha en pantallas grandes -->
+		<aside class="lg:w-1/4 hidden lg:block">
+			<div class="sticky top-24">
+				<TableOfContents headings={headings} />
+			</div>
+		</aside>
+	</div>
+</BaseLayout>
