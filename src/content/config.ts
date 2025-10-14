@@ -11,15 +11,47 @@ const blog = defineCollection({
 	}),
 })
 
-const recursos = defineCollection({
-	// Type-check frontmatter using a schema
+const extranjeriaCollection = defineCollection({
+	type: 'content',
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
-		pubDate: z.coerce.date(),
-		updatedDate: z.coerce.date().optional(),
-		coverImageCredit: z.string().optional(),
+		pubDate: z.date(),
+		category: z.string().optional(),
+		tags: z.array(z.string()).optional(),
 	}),
 })
 
-export const collections = { blog, recursos }
+const recursosCollection = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		pubDate: z.date(),
+		category: z.string().optional(),
+		tags: z.array(z.string()).optional(),
+	}),
+})
+
+const aboutCollection = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		author: z.string().optional(),
+		pubDate: z.date().optional(),
+		image: z
+			.object({
+				url: z.string(),
+				alt: z.string().optional(),
+			})
+			.optional(),
+	}),
+})
+
+export const collections = {
+	blog,
+	recursos: recursosCollection,
+	extranjeria: extranjeriaCollection,
+	about: aboutCollection,
+}

@@ -1,0 +1,37 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import type { MarkdownHeading } from 'astro'
+
+export async function getStaticPaths() {
+	const recursos = await getCollection('recursos')
+	const headings = await Promise.all(
+		recursos.map(async (recurso) => {
+			const rendered = await recurso.render()
+			return rendered.headings
+		})
+	)
+	return recursos.map((recurso, index) => ({
+		params: { slug: recurso.slug },
+		props: { recurso, headings: headings[index], slug: recurso.slug },
+	}))
+}
+
+type Props = {
+	recurso: CollectionEntry<'recursos'>
+	headings: MarkdownHeading[]
+	slug: string
+}
+
+const { recurso } = Astro.props
+const { Content } = await recurso.render()
+---
+
+<BaseLayout title={recurso.data.title} description={recurso.data.description}>
+	<div class="flex justify-center px-4 pt-20">
+		<main class="prose prose-lg dark:prose-invert w-full max-w-4xl">
+			<h1 class="text-4xl font-bold mb-6">{recurso.data.title}</h1>
+			<Content />
+		</main>
+	</div>
+</BaseLayout>

@@ -1,0 +1,69 @@
+---
+import { getCollection } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { Image } from 'astro:assets'
+
+// Obtener el markdown de la colección "about"
+const entries = await getCollection('about')
+const entry = entries.find((e) => e.slug === 'about')
+
+if (!entry) throw new Error('No se encontró about.md')
+
+// Renderizar contenido
+const { Content } = await entry.render()
+
+// Tipado relajado para evitar errores TS
+const { title, description, author, pubDate, image } = entry.data as any
+
+// Importar imágenes de manera dinámica
+const aboutImages = import.meta.glob(
+	'../../assets/aboutimages/**/*.{jpeg,jpg,png,gif}',
+	{ eager: true, as: 'url' }
+)
+
+// Seleccionar la portada
+const coverImageUrl = image?.url
+	? aboutImages[`../../assets/aboutimages/${image.url.split('/').pop()}`]
+	: null
+---
+
+<BaseLayout title={title} description={description}>
+	<section class="px-4 py-18 mx-auto max-w-4xl">
+		<header class="text-center mb-10">
+			{
+				description && (
+					<p class="text-gray-600 dark:text-gray-300 mb-3 text-lg">
+						{description}
+					</p>
+				)
+			}
+			{
+				(author || pubDate) && (
+					<p class="text-sm text-gray-500">
+						{author && `✍️ ${author}`}
+						{pubDate && ` — ${new Date(pubDate).toLocaleDateString('es-ES')}`}
+					</p>
+				)
+			}
+		</header>
+
+		{
+			coverImageUrl && (
+				<div class="flex justify-center mb-10">
+					<Image
+						src={coverImageUrl}
+						alt={image?.alt || 'Imagen de presentación'}
+						width={1024}
+						height={600}
+						class="rounded-3xl shadow-md"
+						loading="eager"
+					/>
+				</div>
+			)
+		}
+
+		<article class="prose prose-lg dark:prose-invert mx-auto leading-relaxed">
+			<Content />
+		</article>
+	</section>
+</BaseLayout>

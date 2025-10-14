@@ -1,0 +1,16 @@
+---
+const { post } = Astro.props
+---
+
+<a
+	href={`/extranjeria/${post.slug}/`}
+	class="block rounded-2xl shadow-md hover:shadow-lg p-6 bg-white dark:bg-zinc-900 transition-all duration-200"
+>
+	<h2 class="text-xl font-semibold mb-2">{post.data.title}</h2>
+	<p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+		{post.data.description}
+	</p>
+	<time class="text-xs text-gray-400"
+		>{post.data.pubDate.toLocaleDateString()}</time
+	>
+</a>
