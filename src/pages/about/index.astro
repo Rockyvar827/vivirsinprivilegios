@@ -7,7 +7,9 @@ import { Image } from 'astro:assets'
 const entries = await getCollection('about')
 const entry = entries.find((e) => e.slug === 'about')
 
-if (!entry) throw new Error('No se encontró about.md')
+if (!entry) {
+	throw new Error('No se encontró about.md')
+}
 
 // Renderizar contenido
 const { Content } = await entry.render()

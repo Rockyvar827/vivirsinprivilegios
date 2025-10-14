@@ -22,16 +22,16 @@ export const WebsiteLinks = [
 		url: '',
 	},
 	{
-		name: 'Blog',
-		url: 'blog',
-	},
-	{
 		name: 'Recursos',
 		url: 'recursos',
 	},
 	{
 		name: 'Extranjeria',
 		url: 'extranjeria',
+	},
+	{
+		name: 'Blog',
+		url: 'blog',
 	},
 	{
 		name: 'Sobre mi',
