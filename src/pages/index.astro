@@ -5,6 +5,15 @@ import { Icon } from 'astro-icon/components'
 import BlogCard from '../components/BlogCard.astro'
 import { getCollection } from 'astro:content'
 
+// Cargar contenido de la colección 'inicio' Y resolver el componente
+const inicioContent = await getCollection('inicio')
+const intro = await Promise.all(
+	inicioContent.map(async (entry) => ({
+		...entry,
+		component: await entry.render(),
+	}))
+).then((entries) => entries.find((e) => e.slug === 'intro'))
+
 const posts = (await getCollection('blog'))
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
 	.slice(0, 4)
@@ -14,56 +23,8 @@ const posts = (await getCollection('blog'))
 	<main
 		class="app-container flex flex-col gap-12 justify-center py-36 md:py-48 pt-44 md:pt-56 relative"
 	>
-		<div>
-			<p class="block text-3xl opacity-70 mt-9 mb-4">Welcome to</p>
-			<h1 class="text-8xl font-bold leading-none">Vivir sin privilegios</h1>
-		</div>
-		<p class="text-2xl max-w-2xl font-light leading-normal">
-			Blog para ayudar a todos los migrantes en España a luchar contra el
-			racismo estructural
-		</p>
+		{intro && <intro.component.Content />}
 
-		<!-- Aquí inserto tu contenido personalizado -->
-		<p>
-			Bienvenid@ a mi blog personal, un espacio en construcción dedicado a
-			visibilizar el racismo estructural en España y a compartir herramientas
-			que empoderen a las comunidades migrantes y racializadas.
-		</p>
-
-		<p>
-			<strong>Vivir sin privilegios</strong> no es solo un testimonio personal, sino
-			también una guía práctica. A través de experiencias reales, análisis crítico
-			y recursos útiles, este proyecto busca generar conciencia, impulsar el cambio
-			social y acompañar a quienes enfrentan discriminación y exclusión.
-		</p>
-
-		<h2 class="section-title">📚 Contenido del blog</h2>
-		<ul class="list-disc pl-6 space-y-2">
-			<li>
-				<strong>Parte I: La realidad invisible</strong> — Historias personales, racismo
-				estructural, leyes y burocracia.
-			</li>
-			<li>
-				<strong>Parte II: Historias de lucha y resistencia</strong> — Testimonios
-				de abuso, silenciamiento y vulnerabilidad interseccional.
-			</li>
-			<li>
-				<strong>Parte III: Transformar el dolor en acción</strong> — Herramientas,
-				comunidad, denuncia y apoyo.
-			</li>
-			<li>
-				<strong>Capítulo final:</strong> Una llamada al cambio colectivo.
-			</li>
-		</ul>
-
-		<h2 class="section-title">🚧 Sitio en construccion</h2>
-		<p>
-			Este sitio aún está en desarrollo. Próximamente podrás explorar cada
-			capítulo, acceder a recursos legales, modelos de denuncia, y participar en
-			una comunidad comprometida con la justicia social.
-		</p>
-
-		<p>Gracias por pasar por aquí. ¡Nos leemos pronto!</p>
 		<!-- </section>-->
 		<div class="flex flex-wrap gap-8">
 			{
