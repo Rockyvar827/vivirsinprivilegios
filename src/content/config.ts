@@ -56,10 +56,28 @@ const aboutCollection = defineCollection({
 	}),
 })
 
+const contact = defineCollection({
+	schema: z.object({
+		title: z.string(),
+		description: z.string().optional(),
+		email: z.string().optional(),
+		emailText: z.string().optional(),
+		socialProfiles: z
+			.array(
+				z.object({
+					text: z.string(),
+					href: z.string().url(),
+				})
+			)
+			.optional(),
+	}),
+})
+
 export const collections = {
 	inicio,
 	blog,
 	recursos: recursosCollection,
 	extranjeria: extranjeriaCollection,
 	about: aboutCollection,
+	contact: contact,
 }

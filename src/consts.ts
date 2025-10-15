@@ -37,4 +37,8 @@ export const WebsiteLinks = [
 		name: 'Sobre mi',
 		url: 'about',
 	},
+	{
+		name: 'Contacto',
+		url: 'contact',
+	},
 ]
