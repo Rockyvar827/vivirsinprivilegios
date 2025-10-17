@@ -3,17 +3,16 @@ name: Lint, Format, and Type Check
 on:
   push:
     branches: [main, develop]
-  pull_request:
-    branches: [main, develop]
-
 jobs:
-  lint-and-format:
-    runs-on: ubuntu-latest
-
+  test:
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
-
+        node-version:
+          - 20
+          - 22
+          - 24
+        os: [ubuntu-latest, macOS-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
