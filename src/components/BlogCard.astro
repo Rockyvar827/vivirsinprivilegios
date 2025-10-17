@@ -12,28 +12,34 @@ const blogImages = import.meta.glob<{ default: ImageMetadata }>(
 const coverImagePath = `/src/assets/blogimages/${post.slug}/cover.jpg`
 ---
 
-<a
-	href={`/blog/${post.slug}/`}
-	class="flex flex-col gap-4 pb-8 h-full group transition-colors"
+<div
+	class="border-2 border-gray-600 rounded-xl p-6 transition-colors hover:border-primary dark:hover:border-primary-dark h-full"
 >
-	{
-		blogImages[coverImagePath] && (
-			<Image
-				src={blogImages[coverImagePath]()}
-				alt={post.data.title}
-				class="object-cover rounded-xl aspect-video"
-			/>
-		)
-	}
-	<h4
-		class="text-2xl font-semibold group-hover:text-primary dark:group-hover:text-primary-dark group-hover:underline transition-colors"
+	<a
+		href={`/blog/${post.slug}/`}
+		class="flex flex-col gap-4 pb-8 h-full group transition-colors"
 	>
-		{post.data.title}
-	</h4>
-	<p class="line-clamp-3 opacity-80">
-		{post.data.description}
-	</p>
+		{
+			blogImages[coverImagePath] && (
+				<Image
+					src={blogImages[coverImagePath]()}
+					alt={post.data.title}
+					class="object-cover rounded-xl aspect-video"
+				/>
+			)
+		}
+		<h4
+			class="text-2xl font-semibold group-hover:text-primary dark:group-hover:text-primary-dark group-hover:underline transition-colors"
+		>
+			{post.data.title}
+		</h4>
+
+		<p class="line-clamp-3 opacity-80">
+			{post.data.description}
+		</p>
+	</a>
+
 	<p class="uppercase text-sm mt-auto tracking-tight">
 		<FormattedDate date={post.data.pubDate} />
 	</p>
-</a>
+</div>
