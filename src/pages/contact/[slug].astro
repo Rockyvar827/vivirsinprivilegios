@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import type { CollectionEntry } from 'astro:content'
+import type { MarkdownHeading } from 'astro'
+
+export async function getStaticPaths() {
+	const contacts = await getCollection('contact')
+	const headings = await Promise.all(
+		contacts.map(async (contact) => {
+			const rendered = await contact.render()
+			return rendered.headings
+		})
+	)
+
+	return contacts.map((contact, index) => ({
+		params: { slug: contact.slug },
+		props: { contact, headings: headings[index], slug: contact.slug },
+	}))
+}
+
+export interface Props {
+	contact: CollectionEntry<'contact'>
+	headings: MarkdownHeading[]
+	slug: string
+}
+
+const { contact } = Astro.props
+const { Content } = await contact.render() // Renderiza el cuerpo del Markdown
+---
+
+<BaseLayout title={contact.data.title}>
+	<article class="prose mx-auto max-w-3xl">
+		<h1>{contact.data.title}</h1>
+		<p class="text-gray-600 mb-6">{contact.data.description}</p>
+
+		<!-- Aquí se muestra TODO el contenido Markdown -->
+		<Content />
+	</article>
+</BaseLayout>

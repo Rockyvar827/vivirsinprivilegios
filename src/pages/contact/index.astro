@@ -5,13 +5,16 @@ import { Image } from 'astro:assets'
 import coverImage from '../../assets/contactImages/cover.jpg'
 import { SocialLinks } from '../../consts'
 
+// Obtiene la colección
 const contacts = await getCollection('contact')
 const contact = contacts[0]
+
+// Renderiza el contenido Markdown completo del primer contacto
+const { Content } = await contact.render()
 ---
 
 <BaseLayout title={contact.data.title}>
 	<main class="app-container pt-36 max-w-3xl mx-auto text-center">
-		<!-- Título centrado -->
 		<h1 class="text-5xl font-bold mb-8">{contact.data.title}</h1>
 
 		<Image
@@ -24,19 +27,19 @@ const contact = contacts[0]
 			style="object-fit: cover;"
 		/>
 
-		<!-- Sección de contacto por email y WhatsApp -->
+		<!-- 👇 Aquí renderiza el contenido completo del Markdown -->
+		<article class="prose mx-auto text-left mb-16">
+			<Content />
+		</article>
+
+		<!-- Contacto -->
 		<div class="text-center space-y-4">
 			<p>
-				¿Necesitas ayuda para gestionar una <strong>cita en Extranjería</strong
-				>?
-				<br />
-				También puedes escribirme si tienes otras consultas relacionadas con migración,
-				derechos o colaboración.
-			</p>
-
-			<p>
-				✉️ <a href="mailto:rllilart@gmail.com" class="text-primary underline">
-					rllilart@gmail.com
+				✉️ <a
+					href={`mailto:${contact.data.email}`}
+					class="text-primary underline"
+				>
+					{contact.data.email}
 				</a>
 			</p>
 
@@ -52,8 +55,7 @@ const contact = contacts[0]
 			</p>
 		</div>
 
-		<!-- Redes sociales con SocialLinks centrado -->
-		<div class="text-center">
+		<div class="text-center mt-8">
 			<p class="font-semibold mb-2">Perfiles sociales:</p>
 			<div class="flex justify-center gap-4 flex-wrap">
 				{
