@@ -28,4 +28,4 @@ pero el sistema te contesta con un rotundo _“Ya si eso te avisamos”_.
 Lo mejor es cuando descubres que por ley pueden no responderte y seguir tan tranquilos.  
 Y tú, con la vida en pausa, sin saber si reír, llorar o abrir un podcast sobre el tema.
 
-👉 **Sigue leyendo:** [El certificado digital: tu nuevo grillete tecnológico](/posts/nacionalidad-espanola-burocracia-capitulo-4)
+👉 **Sigue leyendo:** [El certificado digital: tu nuevo grillete tecnológico](/blog/nacionalidad-espanola-burocracia-capitulo-4/)

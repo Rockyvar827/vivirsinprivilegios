@@ -27,4 +27,4 @@ O luchas cada día contra el sistema… o te adaptas y sobrevives.
 Yo elegí sobrevivir, pero con una sonrisa sarcástica  
 y un dedo preparado para escribir mi historia.
 
-👉 **Sigue leyendo:** [Nacionalidad española: el trámite que envejece](/posts/nacionalidad-espanola-burocracia-capitulo-3)
+👉 **Sigue leyendo:** [Nacionalidad española: el trámite que envejece](/blog/nacionalidad-espanola-burocracia-capitulo-3/)

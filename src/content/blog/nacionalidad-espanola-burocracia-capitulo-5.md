@@ -25,4 +25,4 @@ Cada trámite se convierte en un examen psicológico que ni Freud aprobaría.
 No pido privilegios, solo humanidad.  
 Pero parece que eso, en ciertos mostradores, sigue fuera del presupuesto.
 
-👉 **Sigue leyendo:** [El gran plot twist: la nacionalidad como estafa moral](/posts/nacionalidad-espanola-burocracia-capitulo-6)
+👉 **Sigue leyendo:** [El gran plot twist: la nacionalidad como estafa moral](/blog/nacionalidad-espanola-burocracia-capitulo-6/)

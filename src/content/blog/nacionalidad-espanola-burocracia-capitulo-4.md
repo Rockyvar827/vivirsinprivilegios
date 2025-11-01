@@ -25,4 +25,4 @@ No hay funcionario que te grite,
 pero sí pantallas que te dicen _“error de servidor”_.  
 Y así, la tecnología se convierte en el guardián perfecto de la ineficiencia.
 
-👉 **Sigue leyendo:** [Funcionarios y microracismos: el cóctel perfecto](/posts/nacionalidad-espanola-burocracia-capitulo-5)
+👉 **Sigue leyendo:** [Funcionarios y microracismos: el cóctel perfecto](/blog/nacionalidad-espanola-burocracia-capitulo-5/)

@@ -29,4 +29,4 @@ Ellos ponen silencio administrativo, retrasos y cara de _“yo solo trabajo aqu�
 Una mezcla de impotencia, risas nerviosas y ganas de mudarte a Marte.  
 Y aun así, seguimos creyendo que _“esta vez sí me la conceden”_.
 
-👉 **Sigue leyendo:** [España: no es un país para negros (ni para impacientes)](/posts/nacionalidad-espanola-burocracia-capitulo-2)
+👉 **Sigue leyendo:** [España: no es un país para negros (ni para impacientes)](/blog/nacionalidad-espanola-burocracia-capitulo-2/)
