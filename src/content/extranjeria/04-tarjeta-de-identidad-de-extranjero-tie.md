@@ -10,7 +10,7 @@ tags: ['extranjería', 'Galicia']
 
 ### ¿Qué es?
 
-La **TIE** es el documento físico que acredita la autorización de residencia (temporal o permanente) y/o trabajo en España para estadías superiores a seis meses. ([interior.gob.es](https://interior.gob.es))
+La **TIE** es el documento físico que acredita la autorización de residencia (temporal o permanente) y/o trabajo en España para estadías superiores a seis meses.
 
 ### Requisitos / documentos
 

@@ -8,22 +8,37 @@ tags: ['asilo', 'refugiado', 'protección internacional', 'Galicia']
 
 ## 10. Protección internacional / asilo / refugiado
 
-### ¿Qué es?
+La **protección internacional** incluye el **asilo** y la **protección subsidiaria**, y protege a personas que no pueden regresar a su país por motivos de persecución, conflicto, violencia o violación grave de derechos humanos.  
+También existe la **situación de apatridia** para quienes no tienen nacionalidad reconocida.
 
-Trámites para personas que solicitan asilo, protección subsidiaria o situación de apatridia en España.
+## 📎 Formulario oficial de solicitud
 
-### Requisitos / documentos \* Formulario de solicitud de asilo / protección.
+El **formulario oficial de solicitud de protección internacional (asilo y protección subsidiaria)** se facilita directamente al solicitante en la **Oficina de Asilo y Refugio, comisaría de Policía o unidad de extranjería** el día de la cita.
 
-- Pasaporte u otros documentos que permitan identificar al solicitante (si los tiene).
-- Memoria escrita explicando los motivos de persecución, riesgos en el país de origen, datos personales, pruebas documentales si existen.
-- En algunos casos, certificados, testimonios, informes de derechos humanos.
-- Fotografía reciente.
+Para iniciar el trámite y saber cómo y dónde pedir cita según tu provincia, consulta la información oficial del Ministerio del Interior:
 
-### Plazo / procedimiento
+👉 [Presentación de la solicitud de protección internacional](https://proteccion-asilo.interior.gob.es/es/proteccion-internacional/presentacion-de-la-solicitud/)
 
-El solicitante debe acudir cuanto antes a la Oficina de Asilo y Refugio (dependiente del Ministerio correspondiente). Se le registra, se le concede un resguardo mientras se tramita y se analiza la solicitud. El procedimiento puede durar varios meses.
+---
 
-### Documento de identidad para refugiado / apátrida
+### ⏱️ Plazo / procedimiento
 
-Una vez concedida la protección, se puede expedir un **documento de identidad de refugiado**, protección subsidiaria o apátrida. ([sede.policia.gob.es][7])
-La expedición se realiza en unidades de extranjería autorizadas. ([sede.policia.gob.es][7])
+El solicitante debe acudir **cuanto antes** a una Unidad de Asilo, Extranjería o, en caso de llegada directa a frontera, al **puesto fronterizo o aeropuerto**.
+
+Pasos generales:
+
+1. Solicitud y entrevista.
+2. Se entrega un **resguardo de solicitud** (permiso provisional de estancia).
+3. El proceso puede durar **meses o años**, según carga de trabajo y complejidad del caso.
+4. Si es concedido, el solicitante obtiene **estatuto de refugiado o protección subsidiaria**.
+
+---
+
+### 🪪 Documento de identidad para refugiado / apátrida
+
+Una vez concedida la protección, se expide un documento de identidad específico:
+
+- **Incluso si el solicitante no tiene pasaporte del país de origen.**
+- Se tramita en **unidades de documentación de Policía Nacional** (Toma de huellas y expedición de tarjeta).
+
+> Este documento permite residir, trabajar y desplazarse dentro de España según el tipo de protección.

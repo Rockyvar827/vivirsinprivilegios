@@ -8,10 +8,7 @@ tags: ['extranjería', 'Galicia']
 
 ## 5. Prórroga de estancia de corta duración (EX-29)
 
-### ¿Qué es?
-
-Es una autorización excepcional para **prorrogar la estancia en España** de extranjeros que se encuentran en el país por motivos **distintos a la residencia o trabajo**, cuando existen **circunstancias sobrevenidas** (fuerza mayor, motivos humanitarios, enfermedad, cierre de fronteras, etc.).  
-([sede.policia.gob.es](https://sede.policia.gob.es))
+Es una autorización excepcional para **prorrogar la estancia en España** de extranjeros que se encuentran en el país por motivos **distintos a la residencia o trabajo**, cuando existen **circunstancias sobrevenidas** (fuerza mayor, motivos humanitarios, enfermedad, cierre de fronteras, etc.).
 
 📄 **Formulario oficial EX-29 (Prórroga de estancia corta):**  
 [Descargar EX-29](https://www.inclusion.gob.es/documents/410169/2156458/29-Prorroga_estancia_corta_Imprimible.pdf)

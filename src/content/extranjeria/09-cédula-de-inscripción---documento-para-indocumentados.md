@@ -8,11 +8,9 @@ tags: ['Cédula de inscripción', 'Galicia']
 
 ## 9. Cédula de inscripción / documento para indocumentados
 
-- La **Cédula de Inscripción** es un documento que se otorga al extranjero que **no puede ser documentado por su país de origen** y solicita que España sea el país que lo documente.  
-  ([sede.policia.gob.es](https://sede.policia.gob.es))
+- La **Cédula de Inscripción** es un documento que se otorga al extranjero que **no puede ser documentado por su país de origen** y solicita que España sea el país que lo documente.
 
-- El **documento provisional para indocumentados** permite permanecer legalmente en el territorio español **por 3 meses**, mientras se completan verificaciones o gestiones con autoridades del país de origen.  
-  ([sede.policia.gob.es](https://sede.policia.gob.es))
+- El **documento provisional para indocumentados** permite permanecer legalmente en el territorio español **por 3 meses**, mientras se completan verificaciones o gestiones con autoridades del país de origen.
 
 ### 📄 Formulario oficial
 

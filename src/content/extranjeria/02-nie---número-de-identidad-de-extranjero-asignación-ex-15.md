@@ -10,10 +10,7 @@ tags: ['extranjería', 'Galicia']
 
 Número de Identidad de Extranjero (Asignación EX-15).
 
-El NIE (Número de Identidad de Extranjero) es un número personal, exclusivo, único y definitivo, atribuido a extranjeros que interactúan con España por intereses económicos, profesionales o sociales. Se obtiene usando el modelo **EX-15**. ([sede.policia.gob.es](https://sede.policia.gob.es))
-
-📄 **Formulario oficial EX-15 (PDF):**  
-[Descargar EX-15 (Solicitud de NIE y certificados)](https://www.inclusion.gob.es/documents/410169/2156469/15-Formulario_NIE_y_certificados.pdf)
+El NIE (Número de Identidad de Extranjero) es un número personal, exclusivo, único y definitivo, atribuido a extranjeros que interactúan con España por intereses económicos, profesionales o sociales. Se obtiene usando el modelo **EX-15**
 
 ### Requisitos / documentos típicos
 
