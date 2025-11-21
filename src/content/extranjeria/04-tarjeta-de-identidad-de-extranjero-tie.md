@@ -10,23 +10,36 @@ tags: ['extranjería', 'Galicia']
 
 ### ¿Qué es?
 
-La TIE es el documento físico que acredita la autorización de residencia (temporal o permanente) y/o trabajo en España para estadías superiores a seis meses. ([interior.gob.es][4])
+La **TIE** es el documento físico que acredita la autorización de residencia (temporal o permanente) y/o trabajo en España para estadías superiores a seis meses. ([interior.gob.es](https://interior.gob.es))
 
 ### Requisitos / documentos
 
-Dependerán del tipo de autorización concedida (residencia, trabajo, etc.), pero habitualmente:
+Dependerán del tipo de autorización concedida (residencia, trabajo, estudios, reagrupación, etc.), pero habitualmente:
 
-- Resolución favorable de la autorización o visado.
-- Formulario correspondiente (según autorización).
+- Resolución **favorable** de la autorización o del visado.
+- Formulario de **toma de huellas (Modelo EX-17)**.  
+  📄 [Descargar EX-17](https://www.inclusion.gob.es/documents/410169/2156473/17-Toma_de_huellas_Impreso.pdf)
 - Pasaporte válido.
-- Fotografía reciente (formato exigido).
-- Justificante de haber pagado la tasa correspondiente.
-- En algunos casos: certificado médico, certificado de penales, seguro de salud, medios económicos, contrato de trabajo, etc.
+- **Fotografía reciente** (tamaño carnet, fondo blanco).
+- Justificante de haber **pagado la tasa correspondiente**.
+- Según el caso: seguro médico, contrato, medios económicos, certificado médico o de penales (solo en algunos supuestos).
+
+💳 **Pago de tasa obligatoria para expedición de TIE**  
+Tasa **790 – Código 012 (Expedición de tarjeta, toma de huellas, renovación, duplicado, etc.)**  
+🔗 [Pagar / generar tasa 790-012](https://sede.policia.gob.es/Tasa790_012/ImpresoRellenar)
 
 ### Plazo
 
-Suele emitirse en semanas o meses, dependiendo del volumen de trabajo y de la oficina competente.
+La emisión puede tardar **de semanas a varios meses**, según la oficina y el volumen de trabajo. La recogida suele requerir cita.
 
 ### Presentación / trámite
 
-Una vez concedida la autorización (o visado), debes acudir a la oficina de expedición (comisaría de policía con unidad de documentación) para la toma de huellas y recogida de la TIE. ---
+Una vez concedida la autorización (o visado), debes acudir a una **comisaría de Policía Nacional con unidad de documentación** para:
+
+1. **Toma de huellas** (entrega de documentos + firma + foto).
+2. **Recogida de la TIE** cuando esté lista.
+
+📌 **Cita previa obligatoria (Toma de huellas – Expedición de TIE):**  
+🔗 [Solicitar cita para Toma de Huellas (TIE)](https://sede.administracionespublicas.gob.es/icpplus/index.html)
+
+> ⚠️ Según la provincia, el trámite puede dividirse en dos citas (toma de huellas y recogida).

@@ -6,8 +6,6 @@ pubDate: 2025-10-16
 
 ## Reclamaciones y Recursos en Materia Tributaria
 
-### Agencia Tributaria (AEAT)
-
 - **Recursos y reclamaciones — AEAT**  
   https://sede.agenciatributaria.gob.es/Sede/recursos-reclamaciones-otros-procedimientos-revision-suspensiones.html  
   → Recursos de reposición, reclamaciones económico-administrativas y solicitudes de rectificación de errores.

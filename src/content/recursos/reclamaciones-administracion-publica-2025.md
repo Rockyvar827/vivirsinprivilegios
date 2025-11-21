@@ -4,8 +4,6 @@ description: 'Vías oficiales para presentar quejas, recursos o denuncias frente
 pubDate: 2025-10-16
 ---
 
-## Reclamaciones ante la Administración Pública
-
 ### Recursos y quejas generales
 
 - **Sede de la Administración General del Estado**  
