@@ -13,6 +13,8 @@ Es una autorización excepcional para **prorrogar la estancia en España** de ex
 📄 **Formulario oficial EX-29 (Prórroga de estancia corta):**  
 [Descargar EX-29](https://www.inclusion.gob.es/documents/410169/2156458/29-Prorroga_estancia_corta_Imprimible.pdf)
 
+---
+
 ### Requisitos / documentos
 
 - Formulario **EX-29** debidamente cumplimentado.
@@ -21,19 +23,27 @@ Es una autorización excepcional para **prorrogar la estancia en España** de ex
 - Documentos que acrediten **medios económicos** para subsistir durante la prórroga.
 - Seguro médico / asistencia sanitaria si aplica.
 
+---
+
 💳 **Tasa obligatoria**  
 Modelo **790 – Código 052**, destinada a trámites de estancia (incluye prórrogas).  
 🔗 [Pagar / generar tasa 790-052](https://sede.administracionespublicas.gob.es/tasasExtranjeria/)
+
+---
 
 ### Plazo
 
 Debe solicitarse **antes de que expire** la estancia autorizada.  
 Si se presenta fuera de plazo, la administración puede **denegar** o tramitar con expediente sancionador.
 
+---
+
 ### Dónde presentarlo
 
 Presencialmente en **oficina de extranjería** o unidades habilitadas.  
 En algunos casos puede iniciarse o adjuntarse documentación a través de **sede electrónica**, pero según provincia.
+
+---
 
 🔗 **Información oficial del trámite:**  
 [Prórroga de estancia de corta duración](https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_prorrogaestanciacorta.php)

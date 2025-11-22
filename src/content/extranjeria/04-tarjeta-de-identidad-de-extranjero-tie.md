@@ -10,7 +10,7 @@ tags: ['extranjería', 'Galicia']
 
 ### ¿Qué es?
 
-La **TIE** es el documento físico que acredita la autorización de residencia (temporal o permanente) y/o trabajo en España para estadías superiores a seis meses.
+## La **TIE** es el documento físico que acredita la autorización de residencia (temporal o permanente) y/o trabajo en España para estadías superiores a seis meses.
 
 ### Requisitos / documentos
 
@@ -24,13 +24,17 @@ Dependerán del tipo de autorización concedida (residencia, trabajo, estudios, 
 - Justificante de haber **pagado la tasa correspondiente**.
 - Según el caso: seguro médico, contrato, medios económicos, certificado médico o de penales (solo en algunos supuestos).
 
+---
+
 💳 **Pago de tasa obligatoria para expedición de TIE**  
 Tasa **790 – Código 012 (Expedición de tarjeta, toma de huellas, renovación, duplicado, etc.)**  
 🔗 [Pagar / generar tasa 790-012](https://sede.policia.gob.es/Tasa790_012/ImpresoRellenar)
 
+---
+
 ### Plazo
 
-La emisión puede tardar **de semanas a varios meses**, según la oficina y el volumen de trabajo. La recogida suele requerir cita.
+## La emisión puede tardar **de semanas a varios meses**, según la oficina y el volumen de trabajo. La recogida suele requerir cita.
 
 ### Presentación / trámite
 

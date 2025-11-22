@@ -17,6 +17,8 @@ tags: ['Cédula de inscripción', 'Galicia']
 ➡️ **EX-13 – Solicitud de cédula de inscripción**  
 📎 [Descargar Formulario EX-13](https://www.inclusion.gob.es/documents/410169/2156472/13-Formulario_Cedula_Inscripcion_Imprimible.pdf)
 
+---
+
 ### Requisitos / documentos
 
 - Formulario **EX-13** cumplimentado.
@@ -33,6 +35,8 @@ tags: ['Cédula de inscripción', 'Galicia']
 
 > 💡 _El importe varía según tipo de documento (cedula o provisional). Debe pagarse antes de la cita o llevar el justificante el día de la toma de huellas/documentación._
 
+---
+
 ### Plazo / validez
 
 - La **cédula de inscripción** suele tener validez de **un año**, renovable.  
@@ -40,6 +44,8 @@ tags: ['Cédula de inscripción', 'Galicia']
 
 - El **documento provisional para indocumentados** tiene una validez máxima de **3 meses**, mientras se investiga la situación.  
   ([sede.policia.gob.es](https://sede.policia.gob.es))
+
+---
 
 ### Presentación / trámite
 

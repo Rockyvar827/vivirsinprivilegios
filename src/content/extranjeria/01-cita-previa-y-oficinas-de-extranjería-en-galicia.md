@@ -10,7 +10,7 @@ tags: ['extranjería', 'Galicia']
 
 ### ¿Por qué es importante?
 
-La mayoría de los trámites presenciales requieren **cita previa** en la oficina de extranjería correspondiente. Sin cita, no garantizan atención. La Delegación del Gobierno en Galicia enumera los trámites que pueden hacerse en comisarías, brigadas o unidades de extranjería. ([mpt.gob.es](https://mpt.gob.es))
+## La mayoría de los trámites presenciales requieren **cita previa** en la oficina de extranjería correspondiente. Sin cita, no garantizan atención. La Delegación del Gobierno en Galicia enumera los trámites que pueden hacerse en comisarías, brigadas o unidades de extranjería. ([mpt.gob.es](https://mpt.gob.es))
 
 ### Oficinas importantes en Galicia
 
@@ -21,6 +21,8 @@ La mayoría de los trámites presenciales requieren **cita previa** en la oficin
 | Pontevedra | Calle Michelena, 28                | Atención con cita previa ([mpt.gob.es](https://mpt.gob.es))                                 |
 
 > Para encontrar la oficina que te corresponde, revisa el listado de oficinas de extranjería del Ministerio del Interior: **[Oficinas para trámites de extranjería – Ministerio del Interior](https://interior.gob.es)**
+
+---
 
 ### Qué hacer
 

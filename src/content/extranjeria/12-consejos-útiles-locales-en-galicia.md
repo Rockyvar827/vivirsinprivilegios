@@ -14,7 +14,10 @@ tags: ['sede electrónica']
 - Conserva justificantes, acuses, resguardos y número de expediente; son esenciales para seguimiento y reclamaciones.
 - Si te piden documentos de tu país de origen difíciles de obtener por razones institucionales, geográficas o por pandemia, aporta un **informe explicativo** de imposibilidad o solicita prórroga.
 - Verifica que tus documentos extranjeros estén legalizados/apostillados y traducidos si procede.
-- Según datos oficiales de la Xunta de Galicia, la inmigración y los movimientos migratorios se han incrementado en Galicia en los últimos años, lo que implica mayor volumen de trámites (y posibles demoras).  
-  👉 [Indicadores migratorios – IGE / Xunta de Galicia](https://www.ige.gal/web/mostrar_actividade_estatistica.jsp?codigo=0201008&idioma=es)
+- Según datos oficiales de la Xunta de Galicia, la inmigración y los movimientos migratorios se han incrementado en Galicia en los últimos años, lo que implica mayor volumen de trámites (y posibles demoras).
+
+---
+
+👉 [Indicadores migratorios – IGE / Xunta de Galicia](https://www.ige.gal/web/mostrar_actividade_estatistica.jsp?codigo=0201008&idioma=es)
 
 ---

@@ -1,40 +1,66 @@
 ---
 title: 'Reclamaciones contra la Administración Pública en España (2025)'
-description: 'Vías oficiales para presentar quejas, recursos o denuncias frente a actuaciones de la administración pública, accesibles a ciudadanos españoles y extranjeros residentes.'
-pubDate: 2025-10-16
+description: 'Vías oficiales para presentar quejas, recursos y denuncias frente a actuaciones de la administración pública. Accesible para ciudadanos españoles y extranjeros residentes.'
+pubDate: 2025-11-22
 ---
 
-### Recursos y quejas generales
+## 🏛️ Marco general y derechos básicos
 
-- **Sede de la Administración General del Estado**  
-  https://sede.administracionespublicas.gob.es/procedimientos/index/categoria/52  
-  → Procedimientos para interponer recursos administrativos, peticiones o reclamaciones.
+Las reclamaciones y recursos administrativos en España se rigen por la **Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas**, que reconoce el derecho a:
 
-- **Defensor del Pueblo**  
-  https://www.defensordelpueblo.es/el-defensor/como-te-podemos-ayudar/  
-  → Presentación de quejas por vulneraciones de derechos ante la administración.
+- Presentar solicitudes, quejas y recursos.
+- Relacionarse **por medios electrónicos** con la Administración.
+- Recibir respuesta motivada dentro de plazos establecidos.
 
----
-
-### Protección de datos y derechos digitales
-
-- **Agencia Española de Protección de Datos (AEPD)**  
-  https://www.aepd.es/preguntas-frecuentes/13-reclamaciones/FAQ-1301-como-puedo-interponer-una-reclamacion-si-han-vulnerado-mis-datos-de-caracter-personal  
-  → Procedimiento para reclamar vulneraciones de privacidad y uso indebido de datos personales.
+📌 Texto vigente de la ley:  
+👉 [Ley 39/2015 (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565)
 
 ---
 
-### Recursos autonómicos (ejemplo Galicia y Madrid)
+## 📌 Recursos y quejas generales
 
-- **Valedor do Pobo — Galicia**  
-  https://www.valedordopobo.gal/es  
-  → Reclamaciones y quejas ante actuaciones de la administración gallega.
+📍 **Sede de la Administración General del Estado (AGE)**  
+➡️ [Procedimientos de reclamación y recursos](https://sede.administracionespublicas.gob.es/procedimientos/index/categoria/52)  
+Permite presentar: recursos administrativos, solicitudes formales, peticiones y reclamaciones frente a ministerios, delegaciones, oficinas públicas, etc.
 
-- **Defensor del Pueblo Madrileño**  
-  https://www.defensordelpueblomadrid.es/  
-  → Atención a los ciudadanos madrileños frente a actuaciones públicas locales y autonómicas.
+📍 **Defensor del Pueblo (Ámbito estatal)**  
+➡️ [Cómo presentar una queja](https://www.defensordelpueblo.es/el-defensor/como-te-podemos-ayudar/)  
+Canal para denunciar vulneraciones de derechos fundamentales ante administraciones públicas nacionales o autonómicas.
+
+> No requiere abogado, ni procurador, ni tasa.
 
 ---
 
-> ℹ️ Actualización: octubre de 2025.  
+## 🔐 Protección de datos y derechos digitales
+
+📍 **Agencia Española de Protección de Datos (AEPD)**  
+➡️ [Cómo presentar una reclamación](https://www.aepd.es/preguntas-frecuentes/13-reclamaciones/FAQ-1301-como-puedo-interponer-una-reclamacion-si-han-vulnerado-mis-datos-de-caracter-personal)  
+Procedimiento para denuncias sobre: uso indebido de datos, cesión de información, videovigilancia, redes sociales, infracciones de derechos digitales, etc.
+
+---
+
+## 🌍 Vías autonómicas (ejemplos)
+
+📍 **Galicia — Valedor do Pobo**  
+➡️ [Presentar queja](https://www.valedordopobo.gal/es)  
+Defiende derechos de ciudadanos frente a Administración autonómica y local gallega.
+
+📍 **Madrid — Defensor del Pueblo Madrileño**  
+➡️ [Atención a la ciudadanía](https://www.defensordelpueblomadrid.es/)  
+Para reclamaciones contra la administración autonómica y municipal.
+
+> Cada Comunidad Autónoma puede tener su propio organismo de defensa ciudadana.
+
+---
+
+### 🔒 Consejos prácticos
+
+✔ Presentar siempre por **Registro Electrónico** (si puedes o debes usarlo).  
+✔ Guardar pantalla, justificantes y resguardos de presentación.  
+✔ Indicar claramente el **acto que se impugna** y lo que solicitas.  
+✔ Solicitar acuse de recibo o certificado de presentación.
+
+---
+
+> 🗓 **Actualización: Noviembre del 2025**  
 > Todos los enlaces pertenecen a organismos públicos oficiales.

@@ -13,6 +13,8 @@ Este certificado es para ciudadanos de la UE y sus familiares que quieran acredi
 📄 **Formulario Oficial (EX-18)**  
 [Descargar Formulario EX-18 (Certificado UE)](https://www.inclusion.gob.es/documents/410169/2156472/18-Certificado_residencia_comunitaria_Imprimible.pdf)
 
+---
+
 ### Requisitos / documentos
 
 - Documento de identidad válido (pasaporte o documento nacional).
@@ -24,9 +26,11 @@ Este certificado es para ciudadanos de la UE y sus familiares que quieran acredi
 Modelo **790 – Código 012**, trámite de certificado UE:  
 [Acceder al Formulario de Tasa 790-012](https://sede.policia.gob.es/Tasa790_012/ImpresoRellenar)
 
+---
+
 ### Plazo
 
-Suele emitirse en días o semanas, dependiendo de la oficina.
+## Suele emitirse en días o semanas, dependiendo de la oficina.
 
 ### Oficina / presentación
 

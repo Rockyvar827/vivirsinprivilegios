@@ -7,42 +7,35 @@ category: 'Guía Extranjería Galicia'
 tags: ['extranjería', 'testimonio', 'galicia', 'migración', 'derechos humanos']
 ---
 
-Si has llegado hasta mi blog, quiero darte las gracias por leerme. Seré breve en mi presentación.
-Soy Rosana: **afrodescendiente, mujer, extranjera y sobreviviente de violencia de género**. Me considero ciudadana del mundo, no porque suene bonito, sino porque así me ha hecho sentir la vida y el sistema: a veces invisible, a veces sola, y a veces enfrentando muros que parecen imposibles de superar.
+Soy Rosana: **afrodescendiente, mujer, extranjera y sobreviviente de violencia de género**.
+Llegar aquí no fue elegir un destino turístico, sino aprender a vivir en un sistema rancio, tóxico, que muchas veces nos invisibiliza aunque cumplamos con cada norma, paguemos impuestos y trabajemos sin descanso.
 
-A pesar de cumplir con la ley, pagar mis impuestos y esforzarme por ser una ciudadana ejemplar, mis derechos han sido ignorados más veces de las que puedo contar. Cada trámite burocrático puede sentirse como una batalla, y cada encuentro con la administración como un recordatorio de que, para algunos, nuestras voces no importan.
+He sentido el peso de la burocracia como un muro, el racismo estructural disfrazado de cortesía, y el **mobbing laboral que intenta silenciar a quienes no encajamos en los moldes de privilegio**.
+Pero también he aprendido algo que no te enseña ninguna oficina ni contrato: **la dignidad se defiende, y la resiliencia se entrena**.
 
-Pero aquí estoy, levantando la voz y mostrando lo que muchos callan. He aprendido a reconocer los patrones de manipulación e invalidación que el sistema y algunas personas usan para recordarnos que no tenemos privilegios. Y sí, duele, pero también me ha enseñado algo importante: la resiliencia se construye día a día.
+Trabajo para sostener a mi familia y continúo formándome, no solo para sobrevivir, sino para romper techos, barreras y prejuicios.
+Prepararse y estudiar no garantiza un trato justo, pero **nos da herramientas para reclamar nuestros derechos, organizarnos y no depender del silencio**.
 
-Trabajo para sostener a mi familia, muchas veces sin recibir lo justo, y me sigo formando para ser mejor profesional. Cada obstáculo que encuentro en el camino se convierte en una oportunidad para aprender, crecer y fortalecerme.
+Este espacio nació para eso: **compartir información real**, acompañar a quienes viven lo que muchos prefieren negar, y visibilizar historias de resistencia.
+Si has migrado buscando seguridad, crecimiento o simplemente vivir con dignidad, aquí tienes refugio, comunidad y conocimiento.
 
-Si has dejado tu país buscando seguridad y crecimiento personal, te animo a mantener una mirada positiva. Acepta los desafíos, aprende de ellos y sigue abriendo caminos.
+Quiero que la comunidad afrodescendiente y racializada nos **organicemos, compartamos recursos y nos defendamos juntas**. Porque esta lucha no es de una persona, ni empezó hoy.
+**Es una resistencia que lleva siglos**, y continúa cada vez que alguien intenta hacernos pequeñas.
 
-A pesar de todo lo que la vida y el sistema nos lanzan, siempre hay espacio para la esperanza, para la fuerza y para crear nuevas oportunidades. **Cada paso que damos, por pequeño que parezca, es una victoria que nadie puede quitarte**
+### ✊🏿 Voces que nos acompañan
 
-En mis ratos libres, me aferro a lo que me da paz.
-Durante un período de paro laboral, me apunté a un curso de pintura al óleo.
-Puedes ver y comprar mis cuadros aquí:
+- **“No estoy aceptando las cosas que no puedo cambiar, estoy cambiando las cosas que no puedo aceptar.”**  
+  _Angela Davis_
 
-- 🎨 [Cuadro 1](https://www.vinted.es/items/7155317877-cuadro-hecho-a-mano-oleo-sobre-madera)
-- 🎨 [Cuadro 2](https://www.vinted.es/items/7148250430-cuadro-hecho-a-mano-oleo-sobre-madera)
-- 🎨 [Cuadro 3](https://www.vinted.es/items/7209379394-cuadro-hecho-a-mano-oleo-sobre-madera)
+- **“Puedes dispararme con tus palabras… pero aún así, como el aire, me levantaré.”**  
+  _Maya Angelou_
 
-También practico deporte.
-Es mi forma de canalizar el estrés que provoca todo esto.  
-Quiero que toda la comunidad afrodescendiente y racializada nos **organicemos, apoyemos, compartamos recursos y conocimientos**.
-Esta lucha no es nueva.  
-Esta guerra lleva más de tres siglos.  
-El sistema te ignora mientras cumplas con todo, pero cuando fallas, se acuerda de ti… y no precisamente para ayudarte.
+- **“El problema no es quiénes somos, sino quiénes se creen dueños del poder para definirnos.”**  
+  _Chimamanda Ngozi Adichie_
 
-Estoy aquí para escucharte y dar visibilidad a todxs aquellas perosnas que hayan sufrido microracismos y víctimas del racismo estructural, cuentame tu historia y la haré visible para que esa realidad no quede invisible.
-En este blog también compartiré recursos que te ayuden a reclamar tus derechos.
+### 💬 Mi compromiso
 
-**No puedes controlar todos los eventos que te suceden, pero puedes decidir no ser reducido por ellos.**
-**_(1928-2014) Maya Angelou. Escritora y activista afroamericana._**
+Escucharte, visibilizarte y acompañarte con información útil para que **nadie vuelva a decirte que tus derechos no importan**.
+Si has sufrido racismo, microrracismos o discriminación, tu historia merece existir. Escríbeme y la haremos visible.
 
-**No debemos enseñar a las niñas a que se achiquen para que los hombres se sientan seguros**
-(1977-) Chimamanda Ngozi Adichie. Escritora nigeriana.
-
-**No podemos aceptar que la justicia dependa de la raza, el género o la clase social**
-**_(1944-) Angela Davis. Activista y académica afroamericana_**
+**No podemos controlar todo lo que nos sucede, pero sí podemos decidir no ser reducidas por ello.**

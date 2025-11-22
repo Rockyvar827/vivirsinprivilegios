@@ -8,7 +8,7 @@ tags: ['arraigo', 'extranjería', 'Galicia']
 
 ## 7. Arraigo
 
-El arraigo es una vía para regularizar la situación de extranjeros que han estado en España por determinados años y cumplen condiciones laborales, sociales, familiares o de formación.
+## El arraigo es una vía para regularizar la situación de extranjeros que han estado en España por determinados años y cumplen condiciones laborales, sociales, familiares o de formación.
 
 ### Tipos comunes
 
@@ -16,6 +16,8 @@ El arraigo es una vía para regularizar la situación de extranjeros que han est
 - **Arraigo laboral**
 - **Arraigo familiar**
 - **Arraigo para la formación**
+
+---
 
 ### Requisitos / documentos
 
@@ -55,7 +57,7 @@ Para solicitar cualquier trámite de arraigo (social, laboral, familiar o para l
 
 ### Plazo
 
-La legislación prevé un plazo máximo de **3 meses para resolver**, aunque en la práctica puede variar según la carga de trabajo de la oficina.
+## La legislación prevé un plazo máximo de **3 meses para resolver**, aunque en la práctica puede variar según la carga de trabajo de la oficina.
 
 ### Dónde presentarlo
 

@@ -1,58 +1,81 @@
 ---
 title: 'Reclamaciones de Consumo en España (2025)'
-description: 'Portales oficiales para consumidores y usuarios — ciudadanos españoles y extranjeros extracomunitarios — que deseen presentar reclamaciones ante empresas o servicios públicos. Incluye recursos para Galicia y Madrid.'
-pubDate: 2025-10-16
+description: 'Portales oficiales para consumidores y usuarios — ciudadanos españoles y extranjeros extracomunitarios — que deseen reclamar ante empresas o servicios públicos. Incluye recursos para Galicia y Madrid.'
+pubDate: 2025-11-22
 ---
 
-## Reclamaciones de Consumo y Derechos del Usuario
+## 🛒 Reclamaciones de Consumo y Derechos del Usuario
 
-### Enlaces estatales
+Los conflictos de consumo pueden reclamarse **tanto contra empresas privadas como servicios públicos**, con independencia de la nacionalidad del consumidor (incluye **extranjeros extracomunitarios** que residan o compren en España).
 
-- **Ministerio de Derechos Sociales, Consumo y Agenda 2030**  
-  https://www.dsca.gob.es/es/consumo/como-reclamar-conflicto-consumo  
-  → Guía oficial para reclamar ante conflictos de consumo.
+La normativa principal es el **Texto Refundido de la Ley General para la Defensa de los Consumidores y Usuarios** (TRLGDCU), que protege el derecho a:
 
-- **Sede Electrónica de Consumo — Reclamaciones y procedimientos**  
-  https://consumo.sede.gob.es/procedimientos/index/categoria/1420  
-  → Formularios electrónicos para quejas y reclamaciones.
+- Información veraz sobre bienes y servicios.
+- Seguridad y calidad.
+- Reparación o indemnización por daños.
+- Accesibilidad sin discriminación.
 
-- **Denuncias por infracciones de consumo**  
-  https://consumo.sede.gob.es/pagina/index/directorio/Denuncias_infracciones  
-  → Denuncias ante infracciones en materia de consumo.
-
-- **Centro Europeo del Consumidor en España (CEC)**  
-  https://portal-cec.consumo.gob.es/es/consultas-y-reclamaciones/como-reclamar  
-  → Asistencia para reclamaciones transfronterizas (compras online, viajes, servicios UE).
+📌 Ley de referencia en España:  
+👉 [Real Decreto Legislativo 1/2007 (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555)
 
 ---
 
-### Galicia
+## 📌 Enlaces estatales
 
-- **Xunta de Galicia — Procedimiento CO401A**  
-  https://sede.xunta.gal/es/detalle-procedemento?codtram=CO401A  
-  → Reclamaciones y denuncias de consumo ante la administración autonómica.
+📍 **Ministerio de Derechos Sociales, Consumo y Agenda 2030**  
+➡️ [Cómo reclamar un conflicto de consumo](https://www.dsca.gob.es/es/consumo/como-reclamar-conflicto-consumo)  
+Guía oficial para presentar reclamaciones frente a empresas, servicios contratados u otras entidades.
 
----
+📍 **Sede Electrónica de Consumo (Estado)**  
+➡️ [Reclamaciones y procedimientos](https://consumo.sede.gob.es/procedimientos/index/categoria/1420)  
+Permite presentar **formularios electrónicos** de quejas, reclamaciones y solicitudes de mediación.
 
-### Comunidad de Madrid
+📍 **Denuncias por infracciones de consumo**  
+➡️ [Denuncias administrativas](https://consumo.sede.gob.es/pagina/index/directorio/Denuncias_infracciones)  
+Cuando una empresa infringe la normativa (publicidad engañosa, abusos, cláusulas ilegales, productos inseguros…).
 
-- **Comunidad de Madrid — Reclamación de consumo**  
-  https://www.comunidad.madrid/servicios/consumo/presentar-reclamacion-consumo  
-  → Trámite oficial para consumidores madrileños.
-
-- **Ayuntamiento de Madrid — OMIC (Oficina Municipal de Información al Consumidor)**  
-  https://www.madrid.es/portales/munimadrid/es/Inicio/Actividad-economica-y-hacienda/Consumo/OMIC/?idCapitulo=7070537  
-  → Atención y mediación gratuita a nivel municipal.
-
----
-
-### Normativa de referencia
-
-- **Legislación sobre hojas de reclamaciones autonómicas**  
-  https://www.dsca.gob.es/consumo/legislacion-hojas-reclamaciones-comunidades-autonomas  
-  → Requisitos legales de las hojas de reclamaciones por comunidad.
+📍 **Centro Europeo del Consumidor (CEC España)**  
+➡️ [Reclamaciones transfronterizas](https://portal-cec.consumo.gob.es/es/consultas-y-reclamaciones/como-reclamar)  
+Asistencia gratuita cuando la compra se realiza en otro país de la **Unión Europea**, incluyendo compras online, viajes y transporte.
 
 ---
 
-> ℹ️ Actualizado en octubre de 2025.  
-> Los enlaces redirigen exclusivamente a fuentes oficiales del Estado y comunidades autónomas.
+## 🌍 Galicia
+
+📍 **Xunta de Galicia — Procedimiento CO401A**  
+➡️ [Reclamaciones de consumo](https://sede.xunta.gal/es/detalle-procedimento?codtram=CO401A)  
+Permite presentar reclamaciones, denuncias e iniciar mediaciones ante la administración autonómica.
+
+---
+
+## 🏙 Comunidad de Madrid
+
+📍 **Comunidad de Madrid — Reclamación de Consumo**  
+➡️ [Trámite oficial de consumo](https://www.comunidad.madrid/servicios/consumo/presentar-reclamacion-consumo)  
+Presentación de reclamaciones y solicitud de arbitraje de consumo.
+
+📍 **Ayuntamiento de Madrid — OMIC Municipal**  
+➡️ [Oficina Municipal de Información al Consumidor](https://www.madrid.es/portales/munimadrid/es/Inicio/Actividad-economica-y-hacienda/Consumo/OMIC/?idCapitulo=7070537)  
+Mediación y asesoramiento gratuito a nivel municipal.
+
+---
+
+## 📜 Normativa de referencia (Hojas de Reclamaciones)
+
+📍 **Legislación por Comunidades Autónomas**  
+➡️ [Normativa sobre hojas de reclamaciones](https://www.dsca.gob.es/consumo/legislacion-hojas-reclamaciones-comunidades-autonomas)  
+Regula la obligación de que los comercios dispongan de **hojas oficiales** y la forma en que deben entregarlas al consumidor.
+
+---
+
+### 🧾 Consejos rápidos antes de reclamar
+
+✔ Solicitar siempre **hoja oficial de reclamaciones** si existe establecimiento físico.  
+✔ Guardar prueba: tickets, pantalla de web, correos, publicidad, contrato, etc.  
+✔ Hacer la reclamación por escrito, con fecha y copia sellada o resguardo electrónico.  
+✔ Para compras online extranjeras dentro de la UE, acudir primero al **CEC**.
+
+---
+
+> 🗓 **Actualización: noviembre de 2025**  
+> Todos los enlaces redirigen únicamente a organismos oficiales del Estado y administraciones autonómicas.

@@ -26,6 +26,8 @@ tags: ['recursos', 'silencio administrativo']
 | **Recurso de alzada**                             | Cuando la resolución NO la dictó la autoridad superior y debe revisarla un órgano jerárquicamente diferente. | **1 mes** desde la notificación si es expresa. Si hay silencio, **3 meses** desde el día siguiente al silencio.                  | [Ley 39/2015, art. 121-122](https://www.boe.es/eli/es/l/2015/10/01/39) |
 | **Recurso contencioso-administrativo (judicial)** | Cuando se quiere impugnar la resolución administrativa definitiva, con o sin reposición, según sea el caso.  | **2 meses** desde la notificación de la resolución expresa. Si hay silencio, **6 meses** desde el día siguiente al silencio.     | [Ley 29/1998, art. 46](https://www.boe.es/eli/es/l/1998/07/13/29)      |
 
+---
+
 #### 📝 Notas importantes
 
 - En **extranjería**, el silencio administrativo suele ser **negativo** (desestimatorio), salvo excepciones establecidas por ley.

@@ -8,7 +8,7 @@ tags: ['extranjería', 'Galicia']
 
 ## 6. Residencia temporal y trabajo (por cuenta ajena / propia)
 
-Este es un trámite más complejo que incluye varias ramas (residencia + trabajo por cuenta ajena, por cuenta propia, investigación, servicios transnacionales). En Galicia, la oficina de extranjería de Ourense gestiona estos trámites, entre otros.
+## Este es un trámite más complejo que incluye varias ramas (residencia + trabajo por cuenta ajena, por cuenta propia, investigación, servicios transnacionales). En Galicia, la oficina de extranjería de Ourense gestiona estos trámites, entre otros.
 
 ## 📄 Modelos oficiales según la modalidad
 
@@ -41,6 +41,8 @@ Este es un trámite más complejo que incluye varias ramas (residencia + trabajo
 | **Autorización de residencia y trabajo (incluye arraigo y otras solicitudes iniciales)** | **790-052** | 🔽 Seleccionar provincia según el lugar donde se tramita                                               |
 | **Presentación de autorización por cuenta ajena (empresa/empleador)**                    | **790-062** | [Generar / pagar tasa 790-062](https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G414.shtml) |
 
+---
+
 #### 📍 Pago de **Tasa 790-052** según provincia (Galicia)
 
 | Provincia      | Enlace directo                                                                                                                                                   |
@@ -50,13 +52,15 @@ Este es un trámite más complejo que incluye varias ramas (residencia + trabajo
 | **Ourense**    | [Generar tasa 052 (Ourense)](https://sede.administracionespublicas.gob.es/tasasPDF/prepareTasa?idTasa=052&idModelo=790&idProvincia=32&reglamento=RD1155/2024)    |
 | **Pontevedra** | [Generar tasa 052 (Pontevedra)](https://sede.administracionespublicas.gob.es/tasasPDF/prepareTasa?idTasa=052&idModelo=790&idProvincia=36&reglamento=RD1155/2024) |
 
+---
+
 > 👉 [Seleccionar provincia para generar la Tasa 052](https://sede.administracionespublicas.gob.es/tasasPDF/prepareProvincia?idModelo=790&idTasa=052)
 
 ---
 
 ### Plazo
 
-La normativa establece plazos máximos para dictar resolución (generalmente 3 meses), aunque en la práctica puede variar según la oficina y carga de trabajo.
+## La normativa establece plazos máximos para dictar resolución (generalmente 3 meses), aunque en la práctica puede variar según la oficina y carga de trabajo.
 
 ### Dónde presentarlo / trámite
 
