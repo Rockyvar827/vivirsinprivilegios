@@ -1,46 +1,94 @@
 ---
-title: 'Bienvenid@s'
-description: 'Reflexiones sobre el racismo estructural en España y la necesidad de organización'
+title: 'Bienvenid@s 2025 — Racismo Institucional, Extranjería y Derechos Migrantes en España'
+description: 'Vivir sin privilegios siendo afrodescendiente o migrante en España. Racismo estructural, extranjería, derechos y organización comunitaria. Actualizado 2025.'
+tags:
+  [
+    'racismo institucional 2025',
+    'extranjería España 2025',
+    'derechos migrantes 2025',
+    'afrodescendientes España',
+    'discriminación racial',
+    'comunidad racializada',
+  ]
 ---
 
-# Bienvenid@s
+# Bienvenid@s: **España sin privilegios**
 
-## **¿Qué es vivir sin privilegios?**
+## 💬 ¿Qué significa vivir sin privilegios en España en 2025 siendo migrante o afrodescendiente?
 
-Vivir sin privilegios es existir en una realidad donde, aunque cumplas con todas las obligaciones —trabajar, pagar impuestos, educar a tus hijos, respetar las leyes—, todavía debes soportar una carga extra: el racismo, la sospecha constante, la exclusión sistemática.
+Significa **cumplir con todo** —trabajar, estudiar, pagar impuestos, cuidar de la familia, respetar la ley—  
+y aun así enfrentar **sospecha, controles y burocracia discriminatoria** que otros no viven.
 
-Es levantarte cada día sabiendo que tu color de piel, tu nombre, tu acento o tu lugar de nacimiento son usados en tu contra, por instituciones que supuestamente deben garantizar igualdad y derechos.
-
-## **¿Qué es el racismo institucional y estructural?**
-
-Es el tipo de racismo que no necesita insultos. No se grita en la calle, se aplica desde los despachos.
-
-Son leyes, normativas, procesos y silencios que impiden a millones de personas acceder a lo básico: una residencia estable, un trabajo digno, una vivienda sin discriminación, una sanidad sin miedo, una educación que no margine.
-
-El racismo institucional está en los formularios, en los tiempos de espera, en las trabas burocráticas, en la desinformación calculada.
-
-## **¿Qué hacer cuando una minoría concentra los recursos y dicta las normas?**
-
-**Conocer las leyes.** No hay otra opción.
-
-Organizarse, compartir la información, protegerse entre quienes viven las mismas violencias. Porque, aunque muchas veces la justicia se niegue, el conocimiento sigue siendo una herramienta poderosa.
-
-Y no, no te creas que los letrados y letradas están siempre para defender tus derechos. Eso sería una utopía que, lamentablemente, muchas veces se desmorona en la práctica.
-
-## **¿Por qué esta web?**
-
-Porque la información relacionada con Extranjería está **dispersa, incompleta y mal explicada**. Porque cada paso se convierte en una batalla, y la incertidumbre es usada como herramienta de control.
-
-Aquí intentaré recopilar, organizar y actualizar todo lo que pueda ayudarte a entender y enfrentar el sistema desde la información. Este es un espacio para **conocerte, organizarte y luchar**.
+Es saber que tu **color de piel, acento o pasaporte** pueden complicar un trámite de extranjería, una entrevista laboral o una solicitud de vivienda pública. Eso es **racismo institucional en 2025**.
 
 ---
 
-### **España y el espejismo de la integración**
+## 🏛 ¿Qué es el racismo institucional en España en 2025?
 
-España no es un país para afrodescendientes. A pesar del discurso oficial de diversidad, apertura e inclusión, la realidad para muchas personas negras y racializadas es otra: marginación, sospecha, control, silencio.
+El racismo institucional en 2025 no grita. **Se sella y se tramita por oficinas y plataformas digitales.**
 
-Pero aquí estamos. Y mientras estemos, vamos a reclamar lo que nos corresponde: **dignidad, derechos y justicia**.
+- Formularios que exigen lo imposible
+- Silencio administrativo que te deja sin derechos
+- Plazos eternos para renovar residencia
+- Información confusa que te hace fallar a propósito
+- Trato desigual en empleo, vivienda y servicios públicos
+
+No es un insulto. Es un **procedimiento que excluye**.  
+No se ve en la calle, **se vive en la administración**.
 
 ---
 
-### Este espacio es para ti. Para nosotrxs. Para dejar de sobrevivir y empezar a vivir con dignidad.
+## 📚 ¿Qué puede hacer la comunidad migrante y afrodescendiente en 2025?
+
+👉 **Conocer las leyes y procesos actuales.**  
+👉 **Organizarse y compartir información actualizada.**  
+👉 **Documentar y reclamar cada injusticia.**
+
+Porque en 2025, **la información es defensa y resistencia.**
+
+> No se trata de integrarse: se trata de **exigir derechos con conocimiento.**
+
+---
+
+## 🌍 ¿Por qué existe esta web en 2025?
+
+Porque la información sobre Extranjería sigue:
+
+- 🚫 dispersa
+- 🚫 confusa
+- 🚫 desactualizada
+- 🚫 diseñada para agotarte
+
+Aquí reunimos guías claras, actualizadas y pensadas para **personas migrantes y afrodescendientes en España en 2025**, especialmente Galicia.
+
+🔎 Aquí encontrarás:
+
+- **Cómo reclamar en Extranjería 2025**
+- **Racismo institucional y derechos**
+- **Denuncias por discriminación laboral y mobbing racial**
+- **Guías reales para residencia, empadronamiento y recursos administrativos**
+
+---
+
+### ✊🏿 2025: España y el mito de la integración
+
+En 2025, España presume diversidad, pero muchas personas negras y racializadas siguen viviendo:
+
+- Sospecha constante
+- Control laboral y policial
+- Obstáculos administrativos calculados
+- Precarización y silencios institucionales
+
+No queremos discursos. **Queremos derechos reales.**
+
+---
+
+## 🤝 Este espacio es para ti. Para nosotr@s. Para 2025 y más allá.
+
+Para quienes no quieren solo sobrevivir.  
+Para quienes quieren **informarse, reclamar, documentar y organizarse**.
+
+La dignidad no se suplica:  
+**se conquista con derechos.**
+
+**Bienvenid@s. La lucha informada comienza aquí.**
