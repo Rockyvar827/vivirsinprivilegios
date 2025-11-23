@@ -8,6 +8,7 @@ pubDate: 'Oct 25 2025'
 coverImage: '/images/laberinto-migratorio-espana.jpg'
 coverImageCredit: 'Foto: Unsplash'
 author: 'Equipo de Redacción'
+lastModified: 'Nov 23 2025'
 tags:
   - inmigración
   - España

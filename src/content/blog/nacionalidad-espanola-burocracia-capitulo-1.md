@@ -7,6 +7,7 @@ description: |
 pubDate: 'Oct 9 2025'
 coverImage: '/images/burocracia-espana.jpg'
 coverImageCredit: 'Foto: Unsplash'
+lastModified: 'Nov 23 2025'
 author: 'Rosana'
 tags:
   - burocracia española

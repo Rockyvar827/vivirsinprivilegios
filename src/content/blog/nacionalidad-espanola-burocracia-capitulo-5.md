@@ -7,6 +7,7 @@ pubDate: 'Oct 13 2025'
 coverImage: '/images/burocracia-espana.jpg'
 coverImageCredit: 'Foto: Unsplash'
 author: 'Rosana'
+lastModified: 'Nov 23 2025'
 tags:
   - funcionarios
   - microracismos
