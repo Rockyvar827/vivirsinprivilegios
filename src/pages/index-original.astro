@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import { SocialLinks } from '../consts'
+import { Icon } from 'astro-icon/components'
+import BlogCard from '../components/BlogCard.astro'
+import { getCollection } from 'astro:content'
+
+// Cargar contenido de la colección 'inicio' Y resolver el componente
+const inicioContent = await getCollection('inicio')
+const intro = await Promise.all(
+	inicioContent.map(async (entry) => ({
+		...entry,
+		component: await entry.render(),
+	}))
+).then((entries) => entries.find((e) => e.slug === 'intro'))
+
+const posts = (await getCollection('blog'))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 4)
+---
+
+<BaseLayout>
+	<main
+		class="app-container flex flex-col gap-12 justify-center py-36 md:py-48 pt-44 md:pt-56 relative"
+	>
+		{intro && <intro.component.Content />}
+
+		<!-- </section>-->
+		<div class="flex flex-wrap gap-8">
+			{
+				SocialLinks.map((link) => (
+					<a
+						class="text-xl text-primary dark:text-primary-dark underline hover:underline underline-offset-4"
+						href={link.url}
+						target="_blank"
+					>
+						{link.name}
+					</a>
+				))
+			}
+		</div>
+	</main>
+
+	<!-- Recent Posts Section-->
+	<section class="app-container">
+		<h2 class="section-title">Posts Recientes</h2>
+		<div class="posts-grid-container">
+			{posts.map((post) => <BlogCard post={post} />)}
+		</div>
+		<a class="btn-secondary" href="/blog"
+			>Leer Todos
+			<Icon size={20} name="mdi:arrow-right" />
+		</a>
+	</section>
+
+	<!-- Recent Posts Section -->
+	<section class="app-container py-42 grid lg:grid-cols-2 gap-28 lg:gap-10">
+		<div class="space-y-6"></div>
+	</section>
+</BaseLayout>
