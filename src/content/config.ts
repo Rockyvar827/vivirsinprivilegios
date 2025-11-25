@@ -73,6 +73,22 @@ const contact = defineCollection({
 	}),
 })
 
+const manifiestoCollection = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		author: z.string().optional(),
+		pubDate: z.date().optional(),
+		image: z
+			.object({
+				url: z.string(),
+				alt: z.string().optional(),
+			})
+			.optional(),
+	}),
+})
+
 export const collections = {
 	inicio,
 	blog,
@@ -80,4 +96,5 @@ export const collections = {
 	extranjeria: extranjeriaCollection,
 	about: aboutCollection,
 	contact: contact,
+	manifiesto: manifiestoCollection,
 }

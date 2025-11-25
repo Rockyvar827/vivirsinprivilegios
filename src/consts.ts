@@ -22,6 +22,10 @@ export const WebsiteLinks = [
 		url: '',
 	},
 	{
+		name: 'Manifiesto',
+		url: 'manifiesto',
+	},
+	{
 		name: 'Recursos',
 		url: 'recursos',
 	},

@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
-import { SocialLinks } from '../consts'
 import { Icon } from 'astro-icon/components'
 import BlogCard from '../components/BlogCard.astro'
 import { getCollection } from 'astro:content'
@@ -55,6 +54,12 @@ const posts = (await getCollection('blog'))
 				class="px-6 py-3 text-sm font-bold tracking-wide rounded-full border border-gray-500 text-gray-700 dark:text-gray-200 hover:border-red-400 hover:text-red-300"
 			>
 				Recursos urgentes
+			</a>
+			<a
+				href="/manifiesto"
+				class="px-6 py-3 text-sm font-bold tracking-wide rounded-full border border-gray-500 text-gray-700 dark:text-gray-200 hover:border-red-400 hover:text-red-300"
+			>
+				Leer manifiesto
 			</a>
 		</div>
 	</section>
