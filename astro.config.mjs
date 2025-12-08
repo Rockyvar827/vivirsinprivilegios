@@ -11,7 +11,7 @@ import { remarkModifiedTime } from './src/plugins/remark-modified-time.mjs'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://rockyvar827.github.io',
+	site: 'https://www.vivirsinprivilegios.org',
 	base: '/',
 	integrations: [
 		mdx(),
