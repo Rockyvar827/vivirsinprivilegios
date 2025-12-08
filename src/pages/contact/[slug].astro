@@ -1,7 +1,6 @@
 ---
-import { getCollection } from 'astro:content'
+import { getCollection, type CollectionEntry } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
-import type { CollectionEntry } from 'astro:content'
 import type { MarkdownHeading } from 'astro'
 
 export async function getStaticPaths() {

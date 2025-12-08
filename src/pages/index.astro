@@ -3,16 +3,6 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 import { Icon } from 'astro-icon/components'
 import BlogCard from '../components/BlogCard.astro'
 import { getCollection } from 'astro:content'
-
-// Cargar contenido de la colección 'inicio'
-const inicioContent = await getCollection('inicio')
-const intro = await Promise.all(
-	inicioContent.map(async (entry) => ({
-		...entry,
-		component: await entry.render(),
-	}))
-).then((entries) => entries.find((e) => e.slug === 'intro'))
-
 const posts = (await getCollection('blog'))
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
 	.slice(0, 4)

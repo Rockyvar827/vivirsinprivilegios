@@ -77,12 +77,14 @@ export default [
 	{
 		ignores: [
 			'dist/',
+			'docs/',
 			'node_modules/',
 			'.astro/',
 			'public/',
 			'*.config.js',
 			'*.config.mjs',
 			'*.config.ts',
+			'**/~partytown/**',
 		],
 	},
 ]

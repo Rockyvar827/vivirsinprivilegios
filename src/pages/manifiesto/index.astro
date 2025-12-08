@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content'
+import { getCollection, type CollectionEntry } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import { Image } from 'astro:assets'
 
@@ -14,20 +14,30 @@ if (!entry) {
 // Renderizar contenido
 const { Content } = await entry.render()
 
-// Tipado relajado para evitar errores TS
-const { title, description, author, pubDate, image } = entry.data as any
-
+// Tipado correcto sin usar `any`
+const { title, description, author, pubDate, image } = (
+	entry as CollectionEntry<'manifiesto'>
+).data
 // Importar imágenes de manera dinámica
 const manifiestoImages = import.meta.glob(
 	'../../assets/manifiestoimages/**/*.{jpeg,jpg,png,gif}',
 	{ eager: true, as: 'url' }
+) as Record<string, string>
+
+// Normalizar el mapa para indexar por NOMBRE DE FICHERO (ej: 'portada.png')
+const manifiestoImagesByFile: Record<string, string> = Object.fromEntries(
+	Object.entries(manifiestoImages).map(([path, url]) => {
+		const fileName = path.split('/').pop() ?? path
+		return [fileName, url]
+	})
 )
 
-// Seleccionar la portada
-const coverImageUrl = image?.url
-	? manifiestoImages[
-			`../../assets/manifiestoimages/${image.url.split('/').pop()}`
-		]
+// Aquí usamos SOLO image.url porque el tipo es { url: string; alt?: string }
+const imagePath = image?.url ?? ''
+const imageFileName = imagePath ? (imagePath.split('/').pop() ?? '') : ''
+
+const coverImageUrl = imageFileName
+	? (manifiestoImagesByFile[imageFileName] ?? null)
 	: null
 ---
 

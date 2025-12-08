@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content'
+import { getCollection, type CollectionEntry } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import { Image } from 'astro:assets'
 
@@ -14,8 +14,10 @@ if (!entry) {
 // Renderizar contenido
 const { Content } = await entry.render()
 
-// Tipado relajado para evitar errores TS
-const { title, description, author, pubDate, image } = entry.data as any
+// Tipado correcto sin usar `any`
+const { title, description, author, pubDate, image } = (
+	entry as CollectionEntry<'about'>
+).data
 
 // Importar imágenes de manera dinámica
 const aboutImages = import.meta.glob(
