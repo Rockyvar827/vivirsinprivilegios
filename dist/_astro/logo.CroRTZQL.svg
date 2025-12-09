@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Fondo azul oscuro -->
+  <rect width="500" height="500" fill="#001F3F"/>
+
+  <!-- Arco -->
+  <path d="M180 420 Q260 250 180 80" stroke="#FFD300" stroke-width="16" fill="none" stroke-linecap="round"/>
+
+  <!-- Cuerda -->
+  <line x1="180" y1="80" x2="180" y2="420" stroke="#FFD300" stroke-width="3"/>
+
+  <!-- Flecha -->
+  <line x1="150" y1="250" x2="350" y2="250" stroke="#FFD300" stroke-width="10" stroke-linecap="round"/>
+  <polygon points="350,250 320,230 320,270" fill="#FFD300"/>
+  <circle cx="150" cy="250" r="8" fill="#FFD300"/>
+</svg>
