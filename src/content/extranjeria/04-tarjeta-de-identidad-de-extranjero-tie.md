@@ -18,7 +18,7 @@ Dependerán del tipo de autorización concedida (residencia, trabajo, estudios, 
 
 - Resolución **favorable** de la autorización o del visado.
 - Formulario de **toma de huellas (Modelo EX-17)**.  
-  📄 [Descargar EX-17](https://www.inclusion.gob.es/documents/410169/2156473/17-Toma_de_huellas_Impreso.pdf)
+  📄 [Descargar EX-17](https://www.inclusion.gob.es/documents/410169/2156469/17-Formulario_TIE.pdf)
 - Pasaporte válido.
 - **Fotografía reciente** (tamaño carnet, fondo blanco).
 - Justificante de haber **pagado la tasa correspondiente**.
@@ -44,6 +44,6 @@ Una vez concedida la autorización (o visado), debes acudir a una **comisaría d
 2. **Recogida de la TIE** cuando esté lista.
 
 📌 **Cita previa obligatoria (Toma de huellas – Expedición de TIE):**  
-🔗 [Solicitar cita para Toma de Huellas (TIE)](https://sede.administracionespublicas.gob.es/icpplus/index.html)
+🔗 [Solicitar cita para Toma de Huellas (TIE)](https://icp.administracionelectronica.gob.es/icpplus/icpplus?appVersion=V+7.42.3)
 
 > ⚠️ Según la provincia, el trámite puede dividirse en dos citas (toma de huellas y recogida).

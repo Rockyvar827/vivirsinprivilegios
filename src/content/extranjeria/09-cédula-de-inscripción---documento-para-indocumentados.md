@@ -15,7 +15,7 @@ tags: ['Cédula de inscripción', 'Galicia']
 ### 📄 Formulario oficial
 
 ➡️ **EX-13 – Solicitud de cédula de inscripción**  
-📎 [Descargar Formulario EX-13](https://www.inclusion.gob.es/documents/410169/2156472/13-Formulario_Cedula_Inscripcion_Imprimible.pdf)
+📎 [Descargar Formulario EX-13](https://www.inclusion.gob.es/documents/d/migraciones/ex16-formulario-solicitud-cedula-de-inscripcion-o-titulo-de-viaje)
 
 ---
 

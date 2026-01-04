@@ -10,15 +10,15 @@ tags: ['extranjería', 'Galicia']
 
 ### ¿Por qué es importante?
 
-## La mayoría de los trámites presenciales requieren **cita previa** en la oficina de extranjería correspondiente. Sin cita, no garantizan atención. La Delegación del Gobierno en Galicia enumera los trámites que pueden hacerse en comisarías, brigadas o unidades de extranjería. ([mpt.gob.es](https://mpt.gob.es))
+## La mayoría de los trámites presenciales requieren **cita previa** en la oficina de extranjería correspondiente. Sin cita, no garantizan atención. La Delegación del Gobierno en Galicia enumera los trámites que pueden hacerse en comisarías, brigadas o unidades de extranjería. ([mpt.gob.es](https://mptmd.gob.es/))
 
 ### Oficinas importantes en Galicia
 
-| Provincia  | Oficina de Extranjería / Dirección | Datos útiles                                                                                |
-| ---------- | ---------------------------------- | ------------------------------------------------------------------------------------------- |
-| Lugo       | Calle Armanyá, 10                  | Teléfono: 982 759 070 (cita previa), horario 09:00-14:00 ([mpt.gob.es](https://mpt.gob.es)) |
-| Ourense    | Calle Parque San Lázaro, 1         | Horario: lunes a viernes 9:00-14:00 ([mpt.gob.es](https://mpt.gob.es))                      |
-| Pontevedra | Calle Michelena, 28                | Atención con cita previa ([mpt.gob.es](https://mpt.gob.es))                                 |
+| Provincia  | Oficina de Extranjería / Dirección | Datos útiles                                                                                   |
+| ---------- | ---------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Lugo       | Calle Armanyá, 10                  | Teléfono: 982 759 070 (cita previa), horario 09:00-14:00 ([mpt.gob.es](https://mptmd.gob.es/)) |
+| Ourense    | Calle Parque San Lázaro, 1         | Horario: lunes a viernes 9:00-14:00 ([mpt.gob.es](https://mptmd.gob.es/))                      |
+| Pontevedra | Calle Michelena, 28                | Atención con cita previa ([mpt.gob.es](https://mptmd.gob.es/))                                 |
 
 > Para encontrar la oficina que te corresponde, revisa el listado de oficinas de extranjería del Ministerio del Interior: **[Oficinas para trámites de extranjería – Ministerio del Interior](https://interior.gob.es)**
 

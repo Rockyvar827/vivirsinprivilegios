@@ -67,7 +67,7 @@ tags: ['extranjería', 'Galicia']
 - Presencialmente en oficina de extranjería con cita previa.
 - En algunos casos, parte del trámite puede hacerse por **sede electrónica**, especialmente cuando lo presenta la empresa o representante autorizado.
 - En Galicia, la **oficina de Ourense** es uno de los puntos que gestiona estos trámites.  
-  ([mpt.gob.es](https://mpt.gob.es))
+  ([mpt.gob.es](https://mptmd.gob.es/))
 
 ---
 
