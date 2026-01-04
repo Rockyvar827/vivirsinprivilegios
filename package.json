@@ -13,7 +13,8 @@
 		"format": "prettier --write .",
 		"format:check": "prettier --check .",
 		"deploy": "npm run build && npm run copy-docs && npm run dev",
-		"copy-docs": "rmdir /S /Q docs && mkdir docs && xcopy dist docs /E /I /Y"
+		"copy-docs": "rmdir /S /Q docs && mkdir docs && xcopy dist docs /E /I /Y",
+		"test:e2e": "playwright test"
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.9.6",
@@ -37,6 +38,7 @@
 	"devDependencies": {
 		"@astrojs/partytown": "^2.1.4",
 		"@eslint/js": "^9.33.0",
+		"@playwright/test": "^1.57.0",
 		"@tailwindcss/typography": "^0.5.16",
 		"@typescript-eslint/eslint-plugin": "^8.39.1",
 		"@typescript-eslint/parser": "^8.39.1",

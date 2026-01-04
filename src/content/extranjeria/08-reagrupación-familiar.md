@@ -30,10 +30,10 @@ tags: ['reagrupacion', 'Galicia']
 
 💳 **Tasas obligatorias**
 
-| Código           | ¿Para qué sirve?                                             | Enlace                                                                                 |
-| ---------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| **Tasa 790-052** | Autorización inicial de residencia por reagrupación familiar | [Generar/Imprimir 052](https://sede.administracionespublicas.gob.es/tasasExtranjeria/) |
-| **Tasa 790-012** | Expedición de TIE del familiar reagrupado (toma de huellas)  | [Generar/Imprimir 012](https://sede.policia.gob.es/Tasa790_012/)                       |
+| Código           | ¿Para qué sirve?                                             | Enlace                                                                                            |
+| ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| **Tasa 790-052** | Autorización inicial de residencia por reagrupación familiar | [Pagar la Tasa 052](https://sede.administracionespublicas.gob.es/pagina/index/directorio/tasa052) |
+| **Tasa 790-012** | Expedición de TIE del familiar reagrupado (toma de huellas)  | [Generar/Imprimir 012](https://sede.policia.gob.es/Tasa790_012/)                                  |
 
 ---
 

@@ -25,9 +25,23 @@ Es una autorización excepcional para **prorrogar la estancia en España** de ex
 
 ---
 
-💳 **Tasa obligatoria**  
-Modelo **790 – Código 052**, destinada a trámites de estancia (incluye prórrogas).  
-🔗 [Pagar / generar tasa 790-052](https://sede.administracionespublicas.gob.es/tasasExtranjeria/)
+### 💶 Tasa 052 — Extranjería
+
+La **Tasa 052** es la tasa administrativa que se paga para la **tramitación de autorizaciones de residencia y otra documentación de extranjería** en España.
+
+Se utiliza, entre otros casos, para:
+
+- Solicitudes iniciales de autorización de residencia
+- Renovaciones de autorizaciones de residencia
+- Prórrogas de estancia por estudios u otros motivos
+
+El pago se realiza mediante el **modelo 790 (código 052)** y puede hacerse:
+
+- **Online**, a través de la Sede Electrónica de las Administraciones Públicas
+- **Presencialmente**, imprimiendo el formulario y pagando en una entidad bancaria colaboradora
+
+📍 **Enlace oficial**  
+➡️ [Pagar la Tasa 052](https://sede.administracionespublicas.gob.es/pagina/index/directorio/tasa052)
 
 ---
 
@@ -46,4 +60,4 @@ En algunos casos puede iniciarse o adjuntarse documentación a través de **sede
 ---
 
 🔗 **Información oficial del trámite:**  
-[Prórroga de estancia de corta duración](https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_prorrogaestanciacorta.php)
+[Prórroga de estancia de corta duración](https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_prorrogaestancia_cortaduracion.php)

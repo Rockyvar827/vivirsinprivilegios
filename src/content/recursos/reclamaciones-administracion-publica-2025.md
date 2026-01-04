@@ -45,11 +45,18 @@ Procedimiento para denuncias sobre: uso indebido de datos, cesión de informaci�
 ➡️ [Presentar queja](https://www.valedordopobo.gal/es)  
 Defiende derechos de ciudadanos frente a Administración autonómica y local gallega.
 
-📍 **Madrid — Defensor del Pueblo Madrileño**  
-➡️ [Atención a la ciudadanía](https://www.defensordelpueblomadrid.es/)  
-Para reclamaciones contra la administración autonómica y municipal.
+### 🛡️ Defensor del Pueblo — Institución de defensa de derechos
 
-> Cada Comunidad Autónoma puede tener su propio organismo de defensa ciudadana.
+📍 **Institución del Defensor del Pueblo en España**  
+➡️ [Acceder al Defensor del Pueblo](https://www.defensordelpueblo.es)
+
+El **Defensor del Pueblo** es la institución constitucional que protege **los derechos y libertades fundamentales** cuando han sido vulnerados por una administración pública o sus servicios.  
+Cualquier persona puede presentar **quejas, denuncias o solicitudes de intervención** cuando sus derechos no han sido respetados por:
+
+- Administración estatal
+- Comunidades autónomas
+- Entidades locales
+- Otros organismos públicos
 
 ---
 

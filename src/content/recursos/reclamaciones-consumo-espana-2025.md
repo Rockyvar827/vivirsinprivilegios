@@ -40,23 +40,32 @@ Asistencia gratuita cuando la compra se realiza en otro país de la **Unión Eur
 
 ---
 
-## 🌍 Galicia
+### 🧑‍⚖️ Reclamaciones y denuncias de consumo — Xunta de Galicia
 
-📍 **Xunta de Galicia — Procedimiento CO401A**  
-➡️ [Reclamaciones de consumo](https://sede.xunta.gal/es/detalle-procedimento?codtram=CO401A)  
-Permite presentar reclamaciones, denuncias e iniciar mediaciones ante la administración autonómica.
+📍 **Sede Electrónica de la Xunta de Galicia (procedimiento CO401A)**  
+➡️ [Presentar reclamación o denuncia de consumo](https://sede.xunta.gal/detalle-procedemento?codtram=CO401A)
+
+Trámite oficial para que las personas consumidoras puedan **presentar reclamaciones o denuncias** frente a empresas o prestadores de servicios, así como **solicitar mediación** ante la administración autonómica de Galicia.
 
 ---
 
-## 🏙 Comunidad de Madrid
+### ⚖️ Arbitraje de Consumo — Ayuntamiento de Madrid
 
-📍 **Comunidad de Madrid — Reclamación de Consumo**  
-➡️ [Trámite oficial de consumo](https://www.comunidad.madrid/servicios/consumo/presentar-reclamacion-consumo)  
-Presentación de reclamaciones y solicitud de arbitraje de consumo.
+📍 **Ayuntamiento de Madrid — Arbitraje de Consumo**  
+➡️ [Acceder al Arbitraje de Consumo de Madrid](https://www.madrid.es/portales/munimadrid/es/Inicio/Actividad-economica-y-hacienda/Consumo/Arbitraje-de-Consumo/?vgnextfmt=default&vgnextoid=11fec0b5b23fd610VgnVCM1000001d4a900aRCRD&vgnextchannel=920b6d5ef88fe410VgnVCM1000000b205a0aRCRD&idCapitulo=11048355){:target="\_blank" rel="noopener noreferrer"}
 
-📍 **Ayuntamiento de Madrid — OMIC Municipal**  
-➡️ [Oficina Municipal de Información al Consumidor](https://www.madrid.es/portales/munimadrid/es/Inicio/Actividad-economica-y-hacienda/Consumo/OMIC/?idCapitulo=7070537)  
-Mediación y asesoramiento gratuito a nivel municipal.
+El **Arbitraje de Consumo** es un mecanismo alternativo de resolución de conflictos entre personas consumidoras y empresas o proveedores de bienes y servicios.  
+A través de este procedimiento:
+
+- se facilita una **resolución rápida, gratuita y vinculante**
+- se evita acudir directamente a la vía judicial
+- el procedimiento está supervisado por la **Administración municipal de Madrid**
+- se aplica a controversias que reúnen los requisitos establecidos por la normativa de consumo
+
+Esta herramienta es especialmente útil cuando no se ha podido resolver la discrepancia por otras vías, como:
+
+- la reclamación directa con el operador o empresa
+- la gestión con la Oficina Municipal de Información al Consumidor (OMIC)
 
 ---
 

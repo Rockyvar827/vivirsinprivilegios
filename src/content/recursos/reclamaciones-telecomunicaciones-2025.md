@@ -4,21 +4,27 @@ description: 'Enlaces oficiales para presentar reclamaciones ante operadores de 
 pubDate: 2025-10-16
 ---
 
-## 📡 Reclamaciones en el Sector de las Telecomunicaciones
+## 📡 Denuncias en el Sector de las Telecomunicaciones
 
-📍 **Portal de Usuarios de Telecomunicaciones — Ministerio de Transformación Digital**  
-➡️ [Presentar reclamación](https://usuariosteleco.digital.gob.es/reclamaciones)  
-Plataforma oficial para reclamar a operadores por:
+**Portal de Usuarios de Telecomunicaciones — Ministerio de Transformación Digital**  
+👉 [Presentar denuncia oficial](https://usuariosteleco.digital.gob.es/denuncias){:target="\_blank" rel="noopener noreferrer"}
 
-- Facturación incorrecta
-- Calidad insuficiente del servicio
-- Cortes, permanencias indebidas, penalizaciones
-- Portabilidad fija o móvil rechazada o incorrecta
+Plataforma oficial del Estado para **formular denuncias contra operadores de telecomunicaciones** cuando se detectan **irregularidades o incumplimientos normativos**, como por ejemplo:
+
+- Prácticas abusivas o fraudulentas por parte del operador
+- Incumplimiento de las condiciones contractuales
+- Vulneración de los derechos de las personas usuarias
+- Falta de respuesta tras una reclamación previa
+- Conductas reiteradas contrarias a la normativa vigente
+
+> ⚠️ **Aviso importante**  
+> La denuncia **no sustituye** a la reclamación previa ante el operador.  
+> Su finalidad es **poner en conocimiento de la Administración** hechos que pueden dar lugar a **actuaciones inspectoras o sancionadoras**.
 
 ---
 
 📍 **Guía paso a paso para reclamar**  
-➡️ [Procedimiento oficial](https://usuariosteleco.digital.gob.es/reclamaciones/procedimiento)  
+➡️ [Procedimiento oficial](https://usuariosteleco.digital.gob.es/reclamaciones/telefonia-e-internet/tramitacion-electronica)  
 Explica las fases del proceso:
 
 1. Reclamación a la **empresa operadora**
