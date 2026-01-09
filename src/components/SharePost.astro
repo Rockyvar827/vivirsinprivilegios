@@ -1,0 +1,175 @@
+---
+interface Props {
+	url: string
+	title: string
+}
+
+const { url, title } = Astro.props
+const encodedUrl = encodeURIComponent(url)
+const encodedTitle = encodeURIComponent(title)
+---
+
+<section class="mt-16 border-t pt-8">
+	<p class="text-sm uppercase tracking-wide opacity-70 mb-4">
+		Compartir este artículo
+	</p>
+
+	<div class="flex flex-wrap gap-4 items-center">
+		<!-- X / Twitter -->
+		<a
+			href={`https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="share-icon"
+			aria-label="Compartir en X"
+			title="Compartir en X"
+		>
+			<!-- X SVG -->
+			<svg viewBox="0 0 24 24" aria-hidden="true">
+				<path
+					d="M18.9 2H22l-6.8 7.8L23 22h-6.2l-4.9-6.5L6.3 22H3l7.3-8.4L1 2h6.3l4.4 5.9L18.9 2z"
+				></path>
+			</svg>
+		</a>
+
+		<!-- Facebook -->
+		<a
+			href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="share-icon"
+			aria-label="Compartir en Facebook"
+			title="Compartir en Facebook"
+		>
+			<svg viewBox="0 0 24 24" aria-hidden="true">
+				<path
+					d="M22 12a10 10 0 1 0-11.6 9.9v-7H8v-3h2.4V9.6c0-2.4 1.4-3.7 3.6-3.7 1 0 2 .1 2 .1v2.3h-1.1c-1.1 0-1.4.7-1.4 1.4V12H16l-.5 3h-2.4v7A10 10 0 0 0 22 12z"
+				></path>
+			</svg>
+		</a>
+
+		<!-- LinkedIn -->
+		<a
+			href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="share-icon"
+			aria-label="Compartir en LinkedIn"
+			title="Compartir en LinkedIn"
+		>
+			<svg viewBox="0 0 24 24" aria-hidden="true">
+				<path
+					d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM3 8.98h4v12H3zM9 8.98h3.8v1.6h.1c.5-.9 1.7-1.8 3.6-1.8 3.8 0 4.5 2.5 4.5 5.8v6.4h-4v-5.7c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1v5.8H9z"
+				></path>
+			</svg>
+		</a>
+
+		<!-- WhatsApp -->
+		<a
+			href={`https://wa.me/?text=${encodedTitle}%20${encodedUrl}`}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="share-icon"
+			aria-label="Compartir en WhatsApp"
+			title="Compartir en WhatsApp"
+		>
+			<svg viewBox="0 0 24 24" aria-hidden="true">
+				<path
+					d="M12 2a10 10 0 0 0-8.6 15l-1.4 5 5.2-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3.1.8.8-3-.2-.3A8 8 0 1 1 12 20zm4.4-6.2c-.2-.1-1.3-.6-1.5-.7s-.4-.1-.6.1-.7.7-.9.9-.3.2-.5.1a6.5 6.5 0 0 1-1.9-1.2 7 7 0 0 1-1.3-1.6c-.1-.2 0-.4.1-.5.1-.1.2-.3.3-.4.1-.1.2-.3.3-.5.1-.2 0-.3 0-.5s-.6-1.4-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3 4.9 4.2.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.3-.5 1.5-1s.2-.9.1-1c-.1-.1-.2-.2-.4-.3z"
+				></path>
+			</svg>
+		</a>
+
+		<!-- Copiar enlace -->
+		<button
+			type="button"
+			class="share-icon"
+			aria-label="Copiar enlace"
+			title="Copiar enlace"
+			data-copy
+		>
+			<svg viewBox="0 0 24 24" aria-hidden="true">
+				<path
+					d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"
+				></path>
+			</svg>
+		</button>
+
+		<span class="text-sm opacity-70 hidden" id="copy-feedback">
+			Enlace copiado
+		</span>
+	</div>
+</section>
+
+<script is:inline>
+	const btn = document.querySelector('[data-copy]')
+	const feedback = document.getElementById('copy-feedback')
+
+	if (btn) {
+		btn.addEventListener('click', async () => {
+			try {
+				await navigator.clipboard.writeText(window.location.href)
+				feedback.classList.remove('hidden')
+				setTimeout(() => feedback.classList.add('hidden'), 2000)
+			} catch {}
+		})
+	}
+</script>
+
+<style>
+	.share-icon {
+		--icon-color: rgb(55 65 81);
+		--hover-bg: rgb(55 65 81);
+		--hover-icon: white;
+
+		width: 2.75rem;
+		height: 2.75rem;
+		display: grid;
+		place-items: center;
+
+		border-radius: 9999px;
+		border: 1px solid var(--icon-color);
+
+		background-color: transparent !important;
+		color: var(--icon-color);
+
+		transition:
+			background-color 0.2s ease,
+			color 0.2s ease,
+			transform 0.15s ease;
+	}
+
+	/* SVG */
+	.share-icon svg {
+		width: 1.2rem;
+		height: 1.2rem;
+		fill: currentColor;
+	}
+
+	/* Hover / Focus */
+	.share-icon:hover,
+	.share-icon:focus-visible {
+		background-color: var(--hover-bg) !important;
+		color: var(--hover-icon);
+		outline: none;
+		transform: scale(1.05);
+	}
+
+	/* 🌙 DARK MODE — sobrescribe TODO */
+	.dark .share-icon {
+		--icon-color: rgb(56 189 248); /* cyan eléctrico */
+		--hover-bg: rgb(56 189 248);
+		--hover-icon: rgb(8 12 20);
+
+		background-color: transparent !important;
+		border-color: var(--icon-color);
+		color: var(--icon-color);
+	}
+
+	/* Dark hover (por si Tailwind mete bg-*) */
+	.dark .share-icon:hover,
+	.dark .share-icon:focus-visible {
+		background-color: var(--hover-bg) !important;
+		color: var(--hover-icon);
+	}
+</style>

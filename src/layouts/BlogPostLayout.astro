@@ -5,6 +5,7 @@ import type { MarkdownHeading, ImageMetadata } from 'astro'
 import TableOfContents from '../components/TableOfContents.astro'
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
+import SharePost from '../components/SharePost.astro'
 
 dayjs.extend(utc)
 
@@ -38,6 +39,8 @@ const coverImagePath = `/src/assets/blogimages/${slug}/cover.jpg`
 const lastModified = dayjs(remarkPluginFrontmatter.lastModified)
 	.utc()
 	.format('D MMM YYYY')
+
+const postUrl = `${Astro.site}/blog/${slug}/`
 ---
 
 <BaseLayout title={title} description={description}>
@@ -110,6 +113,7 @@ const lastModified = dayjs(remarkPluginFrontmatter.lastModified)
 						class="prose prose-neutral prose-lg md:prose-xl dark:prose-invert prose-img:rounded-xl prose-figure:text-center prose-img:mx-auto"
 					>
 						<slot />
+						<SharePost url={postUrl} title={title} />
 					</div>
 					{
 						lastModified && (
