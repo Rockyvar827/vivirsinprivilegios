@@ -10,6 +10,28 @@ import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 import { remarkModifiedTime } from './src/plugins/remark-modified-time.mjs'
 
 // https://astro.build/config
+
+export default defineConfig({
+	site: 'https://www.vivirsinprivilegios.org',
+	integrations: [
+		mdx(),
+		sitemap(),
+		icon(),
+		partytown({
+			config: {
+				forward: ['dataLayer.push'],
+			},
+		}),
+	],
+	vite: {
+		plugins: [tailwindcss()],
+	},
+	markdown: {
+		remarkPlugins: [remarkReadingTime, remarkModifiedTime],
+		rehypePlugins: [rehypeFigureTitle, rehypeAccessibleEmojis],
+	},
+})
+/** 
 export default defineConfig({
 	site: 'https://www.vivirsinprivilegios.org',
 	base: '/',
@@ -31,3 +53,4 @@ export default defineConfig({
 		rehypePlugins: [rehypeFigureTitle, rehypeAccessibleEmojis],
 	},
 })
+*/
