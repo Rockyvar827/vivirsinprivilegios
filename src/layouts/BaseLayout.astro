@@ -16,7 +16,7 @@ import '@fontsource-variable/jetbrains-mono'
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<BaseHead
 			title={title || SITE_TITLE}
@@ -31,4 +31,14 @@ import '@fontsource-variable/jetbrains-mono'
 		<Footer />
 	</body>
 </html>
-<script src="/src/scripts/external-links.ts"></script>
+<script>
+	if (
+		localStorage.theme === 'dark' ||
+		(!('theme' in localStorage) &&
+			window.matchMedia('(prefers-color-scheme: dark)').matches)
+	) {
+		document.documentElement.classList.add('dark')
+	}
+</script>
+
+<script src="public/scripts/external-links.js"></script>
