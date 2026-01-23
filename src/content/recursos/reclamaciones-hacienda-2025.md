@@ -1,43 +1,71 @@
 ---
-title: 'Reclamaciones y Recursos ante Hacienda en España (2025)'
+title: '# Reclamaciones ante Hacienda en España: cómo reclamar a la Agencia Tributaria (2025)'
 description: 'Guía oficial para reclamar cobros indebidos, errores tributarios y conflictos fiscales ante la Agencia Tributaria (AEAT) y el Ministerio de Hacienda.'
-pubDate: 2025-11-22
+pubDate: 2025-01-2026
 ---
 
-## 💼 Reclamaciones y Recursos en Materia Tributaria
+Las **reclamaciones ante Hacienda** permiten a las personas contribuyentes **defender sus derechos** frente a actuaciones incorrectas de la **Agencia Estatal de Administración Tributaria (AEAT)**, como errores en liquidaciones, sanciones indebidas, devoluciones no practicadas o retrasos injustificados.
 
-Las reclamaciones fiscales en España se rigen por la **Ley General Tributaria (LGT)**, que reconoce el derecho a corregir errores, recurrir liquidaciones y solicitar devoluciones.
+Este derecho forma parte de las garantías del sistema tributario y puede ejercerse a través de **reclamaciones, recursos administrativos o procedimientos económico-administrativos**, según el tipo de acto y el momento del procedimiento.
 
 📌 Texto legal básico:  
 👉 [Ley 58/2003, General Tributaria (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186)
 
 ---
 
-### 🏦 Procedimientos ante la Agencia Tributaria (AEAT)
+## Cuándo es recomendable presentar una reclamación ante Hacienda
+
+Es aconsejable presentar una reclamación o recurso cuando:
+
+- Existen **errores en liquidaciones tributarias**.
+- Se ha recibido una **sanción que se considera incorrecta o desproporcionada**.
+- No se ha efectuado una **devolución tributaria dentro del plazo legal**.
+- Se detectan **errores materiales o de cálculo**.
+- La Administración no responde dentro de los **plazos legalmente establecidos**.
+
+---
+
+## Tipos de reclamaciones y recursos ante Hacienda
+
+Dependiendo del caso, pueden utilizarse distintas vías:
+
+- **Recurso de reposición**, con carácter potestativo.
+- **Reclamación económico-administrativa**, ante los Tribunales Económico-Administrativos.
+- **Quejas y sugerencias**, por funcionamiento anormal del servicio.
+- **Solicitud de rectificación de autoliquidaciones**, cuando el error perjudica al contribuyente.
 
 📍 **Recursos y reclamaciones — AEAT**  
-➡️ [Procedimientos de revisión y recursos](https://sede.agenciatributaria.gob.es/Sede/recursos-reclamaciones-otros-procedimientos-revision-suspensiones.html)  
-Incluye:
-
-- **Recurso de reposición**
-- **Reclamación económico-administrativa**
-- **Rectificación de autoliquidaciones**
-- **Procedimiento de error material, aritmético o de hecho**
-- **Solicitud de suspensión del pago mientras se recurre**
+➡️ [Procedimientos de revisión y recursos](https://sede.agenciatributaria.gob.es/Sede/recursos-reclamaciones-otros-procedimientos-revision-suspensiones.html)
 
 📍 **Sede Electrónica — Devolución de ingresos indebidos**  
 ➡️ [Acceder al trámite oficial](https://sede.agenciatributaria.gob.es/Sede/procedimientos/RA03.shtml)
 
-Para casos de:
-
-- Pagos duplicados
-- Errores en autoliquidaciones
-- Cobros indebidos por parte de Hacienda
-- Retenciones incorrectas
+📍 **Quejas y Sugerencias — Ministerio de Hacienda**  
+➡️ [Presentar queja o sugerencia](https://sede.hacienda.gob.es/es-es/procedimientos/paginas/tramites?Query.Filters%5Bactua_competencia_id%5D=12)
 
 ---
 
-### ⚖️ Tipos de recursos tributarios (comparativa rápida)
+## Cómo presentar una reclamación ante la Agencia Tributaria
+
+Las reclamaciones y recursos pueden presentarse:
+
+- **Por vía electrónica**, a través de la Sede Electrónica de la Agencia Tributaria, utilizando certificado digital, Cl@ve o representante autorizado.
+- **De forma presencial**, en oficinas de la AEAT, cuando el procedimiento lo permita.
+
+## La presentación electrónica permite dejar **constancia fehaciente** de la fecha, documentación aportada y comunicaciones realizadas.
+
+## Plazos y efectos de la reclamación
+
+Los plazos varían según el tipo de recurso o reclamación presentada.  
+La falta de resolución expresa dentro del plazo puede dar lugar a los efectos previstos en la normativa tributaria y administrativa aplicable.
+
+El agotamiento de la vía administrativa permite, en su caso, el acceso a la **jurisdicción contencioso-administrativa**.
+
+---
+
+## 📌 Enlaces oficiales para reclamaciones ante Hacienda
+
+A continuación se recogen enlaces oficiales de la **Agencia Estatal de Administración Tributaria (AEAT)** y de organismos públicos competentes, que permiten ampliar información o iniciar procedimientos formales de reclamación.
 
 | Procedimiento                            | ¿Cuándo usarlo?                                                 | Plazo    | Se presenta ante                              |
 | ---------------------------------------- | --------------------------------------------------------------- | -------- | --------------------------------------------- |
@@ -51,29 +79,26 @@ Para casos de:
 
 ---
 
-### 🏛 Ministerio de Hacienda (No AEAT)
+## 📜 Marco normativo aplicable
 
-📍 **Quejas y Sugerencias — Ministerio de Hacienda**  
-➡️ [Presentar queja o sugerencia](https://sede.hacienda.gob.es/es-es/procedimientos/paginas/tramites?Query.Filters%5Bactua_competencia_id%5D=12)  
-Para incidencias **sobre el servicio o funcionamiento de oficinas**, incluyendo:
+Las reclamaciones ante Hacienda se regulan principalmente por:
 
-- Atención presencial o telemática
-- Información incorrecta
-- Demoras injustificadas
-- Irregularidades de funcionarios
+- **Ley 58/2003, General Tributaria**.
+- **Ley 39/2015**, del Procedimiento Administrativo Común.
+- Normativa tributaria específica aplicable a cada impuesto.
+- Marco normativo actualizado conforme a las reformas vigentes en **2025**, según lo dispuesto en el **BOE-A-2025-27014**.
 
-> ❗ **No es un recurso tributario.** No anula liquidaciones ni deudas, solo corrige el funcionamiento del servicio.
+🔗 https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27014
 
 ---
 
-## 🧾 Recomendaciones antes de reclamar
+## 🧾 Consejos prácticos antes de reclamar ante Hacienda
 
-✔ Conservar justificantes de pago, declaraciones y comunicaciones de Hacienda.  
-✔ Presentar siempre mediante **Sede Electrónica con certificado digital o Cl@ve**.  
-✔ Guardar resguardos de presentación y solicitudes de suspensión.  
-✔ Revisar plazos: un día fuera del plazo puede cerrar la vía administrativa.
+✔ Revisar detenidamente la notificación recibida y los plazos indicados.  
+✔ Conservar copias de declaraciones, autoliquidaciones y justificantes de pago.  
+✔ Presentar siempre la reclamación **por escrito** y dentro de plazo.  
+✔ Utilizar la vía electrónica siempre que sea posible para dejar constancia documental.
 
 ---
 
-> 🗓 **Actualización: noviembre de 2025**  
-> Todos los enlaces pertenecen a organismos oficiales del Estado.
+La posibilidad de reclamar ante Hacienda constituye un **derecho del contribuyente** y forma parte del funcionamiento normal del sistema tributario. Ejercerlo de forma adecuada permite corregir errores y garantizar una correcta aplicación de la normativa fiscal.
