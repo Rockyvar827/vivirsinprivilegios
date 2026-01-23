@@ -1,7 +1,7 @@
 ---
-title: '# Reclamaciones ante Hacienda en España: cómo reclamar a la Agencia Tributaria (2025)'
+title: 'Reclamaciones ante Hacienda en España: cómo reclamar a la Agencia Tributaria (2025)'
 description: 'Guía oficial para reclamar cobros indebidos, errores tributarios y conflictos fiscales ante la Agencia Tributaria (AEAT) y el Ministerio de Hacienda.'
-pubDate: 2025-01-2026
+pubDate: 2026-01-23
 ---
 
 Las **reclamaciones ante Hacienda** permiten a las personas contribuyentes **defender sus derechos** frente a actuaciones incorrectas de la **Agencia Estatal de Administración Tributaria (AEAT)**, como errores en liquidaciones, sanciones indebidas, devoluciones no practicadas o retrasos injustificados.
