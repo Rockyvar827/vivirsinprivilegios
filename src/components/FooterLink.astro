@@ -1,11 +1,37 @@
 ---
-const { href, label } = Astro.props
+/**
+ * FooterLink.astro
+ * Normaliza enlaces internos para evitar rutas relativas en móvil.
+ * Acepta string o URL (tipado Astro).
+ */
 
-const hrefString = href instanceof URL ? href.pathname : String(href)
+const { href, label, className = '' } = Astro.props
 
-const safeHref = hrefString.startsWith('/') ? hrefString : `/${hrefString}`
+// 1. Normalizar href a string
+let hrefString: string
+
+if (href instanceof URL) {
+	hrefString = href.pathname
+} else if (typeof href === 'string') {
+	hrefString = href
+} else {
+	hrefString = ''
+}
+
+// 2. Detectar enlaces especiales que NO deben tocarse
+const isSpecial =
+	hrefString.startsWith('http') ||
+	hrefString.startsWith('mailto:') ||
+	hrefString.startsWith('tel:') ||
+	hrefString.startsWith('#')
+
+// 3. Forzar rutas absolutas SOLO en enlaces internos
+const safeHref =
+	!isSpecial && !hrefString.startsWith('/')
+		? `/${hrefString.replace(/^\/+/, '')}`
+		: hrefString
 ---
 
-<a href={safeHref} class="footer-link">
+<a href={safeHref} class={className}>
 	{label}
 </a>

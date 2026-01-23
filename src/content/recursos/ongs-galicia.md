@@ -1,13 +1,18 @@
 ---
-title: 'ONGs en Galicia que apoyan a personas extranjeras y racializadas (2025)'
+title: 'ONGs en Galicia que ofrecen apoyo a personas extranjeras'
 description: 'Listado actualizado de organizaciones y asociaciones en Galicia que brindan apoyo, asesoramiento y acompañamiento a personas extranjeras, migrantes y racializadas. Incluye datos de contacto, enlaces web y áreas de actuación.'
 pubDate: 2025-10-26
 ---
 
-## ONGs en Galicia que apoyan a personas extranjeras y racializadas
+En Galicia existen diversas **organizaciones no gubernamentales (ONGs)** y entidades sociales que ofrecen **apoyo, orientación y acompañamiento** a personas extranjeras, solicitantes de asilo, refugiadas o en situación administrativa vulnerable.
 
-Estas organizaciones colaboran en la integración, orientación legal y social, y acompañamiento a personas extranjeras o migrantes en Galicia.  
-Puedes contactarlas directamente o proponer colaboración a través de **[vivirsinprivilegios.org](https://vivirsinprivilegios.org)**.
+Estas entidades pueden prestar ayuda en ámbitos como la **extranjería**, el **asilo**, la **integración social**, la **orientación jurídica**, el **acceso a recursos básicos** y la **mediación intercultural**, complementando la actuación de las administraciones públicas.
+
+---
+
+## Principales ONGs y entidades de apoyo en Galicia
+
+A continuación se recogen algunas de las principales organizaciones que desarrollan su labor en Galicia:
 
 | Nº    | ONG                                                                                                     | Ciudad / Dirección                                                                                   | Teléfono / Email                                                                                | Comentario                                                                      |
 | ----- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -21,6 +26,24 @@ Puedes contactarlas directamente o proponer colaboración a través de **[vivirs
 
 ---
 
+## Qué tipo de ayuda pueden ofrecer estas organizaciones
+
+Las ONGs y entidades sociales pueden ayudar, según el caso, en:
+
+- Información básica sobre **trámites de extranjería**
+- Acompañamiento social y comunitario
+- Apoyo a solicitantes de **protección internacional**
+- Orientación en situaciones de **vulnerabilidad administrativa**
+- Acceso a recursos sociales y humanitarios
+
+La disponibilidad de servicios puede variar según la provincia y la situación personal de cada persona.
+
+---
+
+## Ámbito territorial en Galicia
+
+Muchas de estas entidades cuentan con **sedes o programas en A Coruña, Lugo, Ourense y Pontevedra**, aunque la cobertura puede variar según la organización y el tipo de intervención.
+
 ### 💡 Cómo usar este recurso
 
-Este listado forma parte del proyecto [**vivirsinprivilegios.org**](https://vivirsinprivilegios.org), una iniciativa para facilitar información útil a personas extranjeras y racializadas en España.
+Este listado tiene carácter **orientativo** y no sustituye la información oficial de las administraciones públicas. Se recomienda contactar directamente con cada entidad para conocer los servicios disponibles y los requisitos de acceso.
