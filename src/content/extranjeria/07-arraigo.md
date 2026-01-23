@@ -6,33 +6,46 @@ category: 'Guía Extranjería Galicia'
 tags: ['arraigo', 'extranjería', 'Galicia']
 ---
 
-## 7. Arraigo
+# Arraigo en España: tipos, requisitos y tasas actualizadas
 
-## El arraigo es una vía para regularizar la situación de extranjeros que han estado en España por determinados años y cumplen condiciones laborales, sociales, familiares o de formación.
+El **arraigo en España** es una **autorización de residencia por circunstancias excepcionales**, regulada por la normativa de extranjería, que permite regularizar la situación administrativa de personas extranjeras que se encuentran en el país sin autorización de residencia, siempre que acrediten un determinado grado de **vinculación social, laboral, familiar o formativa**.
 
-### Tipos comunes
+Esta figura forma parte del régimen excepcional previsto en el **Reglamento de la Ley Orgánica 4/2000**, actualizado en el marco de la reforma de extranjería en vigor desde **mayo de 2025**, y se aplica cuando concurren circunstancias personales que justifican la concesión de una autorización de residencia, aun sin cumplir los requisitos ordinarios de entrada o estancia. :contentReference[oaicite:1]{index=1}
 
-- **Arraigo social**
-- **Arraigo laboral**
-- **Arraigo familiar**
-- **Arraigo para la formación**
+Elegir correctamente el **tipo de arraigo** y presentar la documentación adecuada es fundamental, ya que una parte importante de las solicitudes son **denegadas por errores evitables** en la acreditación del tiempo de permanencia, la documentación o las tasas.
+
+### Tipos de arraigo más comunes en España
+
+A partir de la reforma de **extranjería vigente desde mayo de 2025**, el arraigo se articula en varias modalidades aplicadas de forma uniforme en todo el territorio español, con requisitos y efectos específicos para cada una, reflejando la voluntad del ordenamiento de facilitar la integración y la regularización bajo criterios claros y homogéneos. :contentReference[oaicite:3]{index=3}
+
+- **Arraigo social**: para personas que acreditan integración social y medios de vida.
+- **Arraigo laboral**: para quienes han trabajado en España de forma demostrable.
+- **Arraigo familiar**: vinculado a familiares españoles o comunitarios.
+- **Arraigo para la formación**: orientado a la realización de estudios o formación reglada.
 
 ---
 
-### Requisitos / documentos
+### Requisitos y documentación habitual
 
-- Residencia continuada en España (por ejemplo **3 años** para arraigo social).
-- Informe de integración social o contrato de trabajo (según modalidad).
-- Certificado de antecedentes penales (legalizado/apostillado y traducido si corresponde).
-- Empadronamiento y documentación que acredite vida en el municipio.
-- Pago de tasas.
-- Documentos adicionales según la modalidad (contrato, medios económicos, proyecto de formación, etc.).
+**Documentación general:**
+
+- Certificado de antecedentes penales (legalizado/apostillado y traducido).
+- Empadronamiento.
+- Documentación que acredite la permanencia en España.
+- Pago de tasas correspondientes.
+
+**Según el tipo de arraigo:**
+
+- Contrato de trabajo o informe de integración social.
+- Medios económicos o proyecto de formación.
+- Documentación específica según la modalidad solicitada.
 
 ---
 
 ### 💳 Tasas obligatorias para tramitar el Arraigo
 
-Para solicitar cualquier trámite de arraigo (social, laboral, familiar o para la formación) en España, es imprescindible **abonar las tasas correspondientes**.
+Las **tasas son obligatorias** y deben abonarse correctamente para evitar que la solicitud sea inadmitida.
+Un error frecuente es pagar una tasa incorrecta o hacerlo fuera de plazo.
 
 | Código      | Nombre de la tasa                                                                           | ¿Cuándo se aplica?                                                                                                       | Enlace oficial                                                   |
 | ----------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
@@ -75,3 +88,17 @@ En la **oficina de extranjería correspondiente**, con cita previa. Parte del tr
 | **EX-11** | Residencia de larga duración o larga duración-UE (posible tras años de residencia tras el arraigo)          | [Descargar EX-11](https://www.inclusion.gob.es/documents/410169/2156469/11-Formulario_larga_duracixn.pdf)  |
 
 ---
+
+### Errores frecuentes en solicitudes de arraigo
+
+Algunos de los motivos más habituales de denegación son:
+
+- No acreditar correctamente el tiempo de permanencia en España.
+- Presentar antecedentes penales no legalizados o caducados.
+- Aportar contratos o documentos que no cumplen los requisitos exigidos.
+- Errores en el pago o presentación de las tasas.
+
+## Si tu solicitud es denegada, es posible **presentar alegaciones o una queja administrativa**, según el caso.
+
+👉 Consulta también nuestra guía sobre
+[qué hacer ante una denegación en extranjería](/extranjeria/11-recursos-y-plazos/)

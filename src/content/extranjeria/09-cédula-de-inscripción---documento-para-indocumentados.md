@@ -1,55 +1,69 @@
 ---
-title: 'Cédula de inscripción / documento para indocumentados'
+title: 'Cédula de inscripción en España: documento para personas indocumentadas'
 description: 'Qué es la cédula de inscripción y cómo solicitarla.'
 pubDate: 2025-10-13
 category: 'Guía Extranjería Galicia'
 tags: ['Cédula de inscripción', 'Galicia']
 ---
 
-## 9. Cédula de inscripción / documento para indocumentados
+La **cédula de inscripción** es un **documento de identificación** que puede concederse a la persona extranjera que **no puede ser documentada por las autoridades de su país de origen** y solicita que sea **España** quien asuma dicha documentación.
 
-- La **Cédula de Inscripción** es un documento que se otorga al extranjero que **no puede ser documentado por su país de origen** y solicita que España sea el país que lo documente.
+Asimismo, el **documento provisional para personas indocumentadas** permite la **permanencia legal en España por un periodo limitado**, con carácter temporal, mientras se realizan las verificaciones necesarias o las gestiones con las autoridades competentes del país de origen.
 
-- El **documento provisional para indocumentados** permite permanecer legalmente en el territorio español **por 3 meses**, mientras se completan verificaciones o gestiones con autoridades del país de origen.
+Ambas figuras se enmarcan en la **normativa de extranjería vigente**, actualizada tras la reforma aplicable desde **mayo de 2025**, conforme al marco normativo publicado en el BOE, y tienen un carácter **excepcional y administrativo**, no equivalente a una autorización de residencia.
 
-### 📄 Formulario oficial
+### 📄 Formulario oficial de solicitud
+
+La solicitud debe realizarse mediante el **modelo EX-13 – Solicitud de cédula de inscripción**, debidamente cumplimentado y firmado por la persona interesada.
 
 ➡️ **EX-13 – Solicitud de cédula de inscripción**  
 📎 [Descargar Formulario EX-13](https://www.inclusion.gob.es/documents/d/migraciones/ex16-formulario-solicitud-cedula-de-inscripcion-o-titulo-de-viaje)
 
 ---
 
-### Requisitos / documentos
+### Requisitos y documentación necesaria
 
-- Formulario **EX-13** cumplimentado.
-- **Pruebas de que no es posible documentarse** en el país de origen (certificados consulares, negativas, informes humanitarios, ONG, ACNUR, etc.).
-- Declaraciones, informes sociales o humanitarios.
+Para solicitar la cédula de inscripción o el documento provisional para indocumentados es necesario aportar:
+
+- **Formulario EX-13** debidamente cumplimentado.
+- **Pruebas de la imposibilidad de ser documentado** por el país de origen  
+  (certificados o negativas consulares, informes de organizaciones humanitarias, ONG, ACNUR, u otros documentos acreditativos).
+- **Declaraciones responsables**, informes sociales o humanitarios, cuando proceda.
 - **Fotografía reciente**.
-- Si existe, cualquier documento de identidad disponible, incluso caducado.
-
-### 💳 Tasas aplicables
-
-| Código           | ¿Para qué?                                                  | Enlace                                   |
-| ---------------- | ----------------------------------------------------------- | ---------------------------------------- |
-| **Tasa 790-012** | Expedición de la cédula / documentación en Policía Nacional | https://sede.policia.gob.es/Tasa790_012/ |
-
-> 💡 _El importe varía según tipo de documento (cedula o provisional). Debe pagarse antes de la cita o llevar el justificante el día de la toma de huellas/documentación._
+- Cualquier **documento de identidad disponible**, incluso si está caducado, en caso de existir.
 
 ---
 
-### Plazo / validez
+### 💳 Tasas administrativas aplicables
 
-- La **cédula de inscripción** suele tener validez de **un año**, renovable.  
-  ([sede.policia.gob.es](https://sede.policia.gob.es))
+La expedición de la cédula de inscripción o del documento provisional está sujeta al pago de la  
+**Tasa 790 – Código 012**, correspondiente a la documentación expedida por la Policía Nacional.
 
-- El **documento provisional para indocumentados** tiene una validez máxima de **3 meses**, mientras se investiga la situación.  
-  ([sede.policia.gob.es](https://sede.policia.gob.es))
+➡️ https://sede.policia.gob.es/Tasa790_012/
+
+> 💡 El importe puede variar según el tipo de documento expedido. El justificante de pago debe presentarse antes de la cita o el mismo día del trámite.
 
 ---
 
-### Presentación / trámite
+### Plazo y validez del documento
 
-- El trámite se realiza **presencialmente**, ante la **Oficina de Extranjería o Comisaría de Policía** competente.
+- La **cédula de inscripción** suele tener una **validez de un año**, pudiendo renovarse mientras persistan las circunstancias que motivaron su concesión.
+  ([sede.policia.gob.es](https://sede.policia.gob.es))
+
+- El **documento provisional para personas indocumentadas** tiene una **validez máxima de tres meses**, con carácter estrictamente temporal, mientras se investiga o verifica la situación administrativa.
+  ([sede.policia.gob.es](https://sede.policia.gob.es))
+
+Los plazos y la validez se determinan conforme a las instrucciones administrativas vigentes.
+
+---
+
+### Presentación y tramitación
+
+- El trámite debe realizarse **de forma presencial** ante la **Oficina de Extranjería o Comisaría de Policía** competente.
+- La normativa exige la **comparecencia personal obligatoria** de la persona solicitante durante el procedimiento.
+
+Este requisito responde al carácter personal y excepcional de la documentación solicitada.
+
 - La normativa exige **comparecencia personal obligatoria del solicitante**.
   ([sede.policia.gob.es](https://sede.policia.gob.es))
 

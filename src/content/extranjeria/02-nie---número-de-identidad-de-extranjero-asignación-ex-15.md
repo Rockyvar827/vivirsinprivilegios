@@ -1,42 +1,72 @@
 ---
-title: 'NIE / Número de Identidad de Extranjero (Asignación EX-15)'
+title: 'NIE en España: qué es, para qué sirve y cómo solicitarlo (EX-15)'
 description: 'Cómo solicitar el NIE (EX-15) y qué documentos necesitas.'
 pubDate: 2025-10-13
 category: 'Guía Extranjería Galicia'
 tags: ['extranjería', 'Galicia']
 ---
 
-## 2. NIE
+El **NIE (Número de Identidad de Extranjero)** es un **número personal, único y exclusivo** que asigna la Administración española a las personas extranjeras que tienen relación con España por **motivos económicos, profesionales o sociales**.
 
-Número de Identidad de Extranjero (Asignación EX-15).
+El NIE **no es un permiso de residencia ni de trabajo**, sino un **número de identificación** que se utiliza para realizar trámites oficiales como firmar contratos, abrir una cuenta bancaria, pagar impuestos o iniciar procedimientos administrativos.
 
-## El NIE (Número de Identidad de Extranjero) es un número personal, exclusivo, único y definitivo, atribuido a extranjeros que interactúan con España por intereses económicos, profesionales o sociales. Se obtiene usando el modelo **EX-15**
-
-### Requisitos / documentos típicos
-
-Formulario **EX-15** debidamente cumplimentado.  
-([Descargar EX-15 PDF](https://www.inclusion.gob.es/documents/410169/2156469/15-Formulario_NIE_y_certificados.pdf))
-
-- Pasaporte válido o documento de identidad del país de origen.
-- Justificante de interés económico, profesional o social (contrato, proyecto, motivo del trámite).
-- Pago de la tasa correspondiente (modelo oficial).
-- Fotografía reciente (según el formato exigido).
-- En algunos casos, documentos adicionales según la finalidad (residencia, trabajo, etc.).
-
-💳 **Pago de tasa**  
-Tasa **Modelo 790 – Código 012** (a realizar antes o el mismo día del trámite):  
-[Acceder al Formulario de Tasa 790-012](https://sede.policia.gob.es/Tasa790_012/)
+La asignación del NIE se regula por la normativa de extranjería y se solicita mediante el **modelo oficial EX-15**, conforme a los procedimientos establecidos por la **Policía Nacional y las Oficinas de Extranjería**.
 
 ---
 
-### Plazo
+### Requisitos y documentación para solicitar el NIE (EX-15)
 
-No hay plazo fijo garantizado; dependerá de la oficina, el volumen de trabajo y el proceso interno.
+Para solicitar la asignación del NIE es necesario presentar:
 
-### Dónde presentarlo / trámite
+- **Formulario oficial EX-15**, debidamente cumplimentado y firmado.  
+  ([Descargar EX-15 – fuente oficial](https://www.inclusion.gob.es/documents/410169/2156469/15-Formulario_NIE_y_certificados.pdf))
+
+- **Pasaporte válido** o documento de identidad del país de origen.
+
+- **Documento que justifique el interés económico, profesional o social** por el que se solicita el NIE  
+  (por ejemplo: contrato, trámite administrativo, actividad económica, escritura, etc.).
+
+- **Pago de la tasa correspondiente**, conforme al modelo oficial.
+
+- **Fotografía reciente**, si la oficina lo exige.
+
+En función del motivo alegado, la oficina puede requerir **documentación adicional**, siempre relacionada con la finalidad concreta del NIE.
 
 ---
 
-Presentación presencial en la oficina de extranjería correspondiente o, si el procedimiento lo admite, en la sede electrónica de la Policía Nacional.  
-🔗 **Trámite oficial de asignación de NIE:**  
-[Asignación de NIE a instancia del interesado](https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_asignacion_nie.php)
+💳 **Pago de la tasa para el NIE**
+
+La asignación del NIE está sujeta al pago de la **Tasa Modelo 790 – Código 012**, que debe abonarse **antes o el mismo día** de la presentación de la solicitud.
+
+👉 [Acceder al formulario oficial de la Tasa 790-012](https://sede.policia.gob.es/Tasa790_012/)
+
+---
+
+### Plazo de resolución
+
+No existe un **plazo fijo garantizado** para la asignación del NIE.  
+El tiempo de resolución depende de la **oficina competente**, la carga de trabajo y el procedimiento aplicado en cada caso.
+
+---
+
+### Dónde presentar la solicitud de NIE
+
+La solicitud del NIE puede presentarse:
+
+- De forma **presencial**, en la oficina de extranjería o comisaría de Policía Nacional competente.
+- En algunos supuestos, a través de la **sede electrónica**, si el procedimiento lo permite.
+
+🔗 **Trámite oficial de asignación de NIE (Policía Nacional):**  
+https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_asignacion_nie.php
+
+---
+
+### Errores frecuentes al solicitar el NIE
+
+Algunas solicitudes de NIE se retrasan o se rechazan por:
+
+- No justificar adecuadamente el motivo de la solicitud.
+- Confundir el NIE con una autorización de residencia o trabajo.
+- Presentar documentación incompleta o tasas incorrectas.
+
+Antes de iniciar el trámite, es **importante comprobar que el NIE** es realmente necesario para el procedimiento que se quiere realizar.

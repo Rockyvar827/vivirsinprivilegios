@@ -1,16 +1,20 @@
 ---
-title: 'Residencia temporal y trabajo'
+title: 'Residencia temporal y trabajo en España (por cuenta ajena y por cuenta propia)'
 description: 'Requisitos para residir y trabajar en Galicia como extranjero.'
 pubDate: 2025-10-13
 category: 'Guía Extranjería Galicia'
 tags: ['extranjería', 'Galicia']
 ---
 
-## 6. Residencia temporal y trabajo (por cuenta ajena / propia)
+La **residencia temporal y trabajo en España** es una autorización administrativa que permite a personas extranjeras **residir legalmente y ejercer una actividad laboral o profesional**, ya sea **por cuenta ajena o por cuenta propia**, durante un periodo determinado.
 
-## Este es un trámite más complejo que incluye varias ramas (residencia + trabajo por cuenta ajena, por cuenta propia, investigación, servicios transnacionales). En Galicia, la oficina de extranjería de Ourense gestiona estos trámites, entre otros.
+Este tipo de autorización comprende distintas modalidades (trabajo por cuenta ajena, por cuenta propia, investigación, prestación de servicios transnacionales, entre otras) y se regula por la **normativa de extranjería vigente**, actualizada tras la reforma aplicable desde **mayo de 2025**, conforme al marco publicado en el BOE.
+
+En Galicia, estos trámites son gestionados por distintas oficinas de extranjería, entre ellas la **oficina de Ourense**, según la modalidad y el tipo de solicitud.
 
 ## 📄 Modelos oficiales según la modalidad
+
+Cada modalidad de residencia y trabajo dispone de un **modelo oficial específico**, que debe utilizarse en función del tipo de actividad que se vaya a desarrollar y de la situación administrativa de la persona solicitante.
 
 | Modalidad                                                            | Modelo | Enlace                                                                                                                       |
 | -------------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -21,20 +25,27 @@ tags: ['extranjería', 'Galicia']
 
 ---
 
-### Requisitos / documentos (variable según modalidad)
+### Requisitos y documentación (según la modalidad)
 
-- Formulario de solicitud correspondiente.
-- Pasaporte válido o documento de identidad del país de origen.
-- Contrato de trabajo (si aplica) o proyecto / actividad económica (para cuenta propia).
-- Certificado de antecedentes penales del país de origen (legalizado/apostillado y traducido si procede).
-- Título o acreditación de cualificación profesional si aplica.
-- Seguro médico (si no estás cubierto por la Seguridad Social).
-- Documentos financieros que demuestren solvencia.
-- Pago de las tasas correspondientes.
+Los requisitos varían en función de la modalidad solicitada, pero de forma general se exige:
+
+- **Formulario oficial de solicitud** correspondiente a la modalidad elegida.
+- **Pasaporte válido** o documento de identidad del país de origen.
+- **Contrato de trabajo** (en solicitudes por cuenta ajena) o **proyecto/actividad económica** (en solicitudes por cuenta propia).
+- **Certificado de antecedentes penales** del país de origen, debidamente legalizado o apostillado y, en su caso, traducido.
+- **Acreditación de la cualificación profesional** o titulación, cuando sea exigible.
+- **Seguro médico**, si no existe cobertura por la Seguridad Social.
+- **Documentación económica y financiera** que acredite solvencia.
+- **Pago de las tasas administrativas** correspondientes.
 
 ---
 
-💳 **Tasas obligatorias según el tipo de autorización**
+💳 **Tasas administrativas aplicables**
+
+Las solicitudes de residencia temporal y trabajo están sujetas al pago de tasas administrativas, que varían según el tipo de autorización:
+
+- **Tasa 790 – Código 052**: para autorizaciones de residencia y trabajo, incluidas solicitudes iniciales y otras autorizaciones vinculadas.
+- **Tasa 790 – Código 062**: para la presentación de autorizaciones por cuenta ajena, a cargo de la empresa o empleador.
 
 | Tipo de trámite                                                                          | Tasa        | Enlace oficial                                                                                         |
 | ---------------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------ |
@@ -58,18 +69,20 @@ tags: ['extranjería', 'Galicia']
 
 ---
 
-### Plazo
+### Plazo de resolución
 
-## La normativa establece plazos máximos para dictar resolución (generalmente 3 meses), aunque en la práctica puede variar según la oficina y carga de trabajo.
+La normativa de extranjería establece un **plazo máximo general de tres meses** para dictar resolución sobre las solicitudes de residencia temporal y trabajo, aunque en la práctica este plazo puede variar en función de la **oficina competente** y de la **carga administrativa existente**.
 
-### Dónde presentarlo / trámite
+### Dónde presentar la solicitud
 
-- Presencialmente en oficina de extranjería con cita previa.
-- En algunos casos, parte del trámite puede hacerse por **sede electrónica**, especialmente cuando lo presenta la empresa o representante autorizado.
-- En Galicia, la **oficina de Ourense** es uno de los puntos que gestiona estos trámites.  
-  ([mpt.gob.es](https://mptmd.gob.es/))
+La solicitud puede presentarse:
+
+- **Presencialmente**, en la oficina de extranjería competente, con cita previa.
+- **Por vía electrónica**, en aquellos supuestos en que la normativa lo permite, especialmente cuando la solicitud es presentada por la empresa o por un representante autorizado.
+
+En Galicia, la **oficina de extranjería de Ourense** es uno de los órganos que gestionan este tipo de autorizaciones, entre otros. ([mpt.gob.es](https://mptmd.gob.es/))
 
 ---
 
-🔗 **Información oficial y normativa**  
+🔗 **Información oficial y normativa aplicable sobre residencia y trabajo en España:**  
 [Residencia y trabajo – Ministerio de Inclusión y Extranjería](https://www.inclusion.gob.es/web/guia-es/registro-y-documentacion/extranjeros-en-espana)

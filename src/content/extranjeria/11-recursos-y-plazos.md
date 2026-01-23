@@ -1,24 +1,35 @@
 ---
-title: 'Recursos y plazos'
+title: 'Recursos y plazos en extranjería: qué hacer ante una resolución negativa'
 description: 'Cómo presentar recursos y conocer los plazos en trámites de extranjería.'
 pubDate: 2025-10-13
 category: 'Guía Extranjería Galicia'
 tags: ['recursos', 'silencio administrativo']
 ---
 
-### 📌 Recursos y plazos
+En los **procedimientos de extranjería**, cuando una resolución administrativa es **desfavorable**, la persona interesada puede interponer los **recursos administrativos o judiciales** previstos en la normativa vigente.
 
-- Cuando una resolución es **negativa**, el interesado puede interponer un **recurso administrativo** (reposición o alzada) y, dependiendo del caso, un recurso **contencioso-administrativo** ante los tribunales.
-- El **silencio administrativo** en la mayoría de procedimientos de extranjería es **desestimatorio** (negativo) si la Administración no responde en el plazo legal.
-- La **Ley 39/2015 del Procedimiento Administrativo Común** establece los plazos generales (por ejemplo, 3 meses para resolver muchos expedientes de extranjería).  
-  👉 [Ley 39/2015 (BOE)](https://www.boe.es/eli/es/l/2015/10/01/39)
+Asimismo, cuando la Administración **no responde dentro del plazo legal**, se produce lo que se denomina **silencio administrativo**, que en la mayoría de los trámites de extranjería tiene **carácter desestimatorio (negativo)**.
+
+El régimen general de recursos y plazos se regula por la **Ley 39/2015, del Procedimiento Administrativo Común**, y se aplica a los procedimientos de extranjería conforme al marco normativo actualizado tras la reforma vigente desde **mayo de 2025**, según el BOE.
+
+👉 [Ley 39/2015 (BOE)](https://www.boe.es/eli/es/l/2015/10/01/39)
+
 - En **protección internacional (asilo)** también existen recursos específicos regulados por normativa propia.  
   👉 [Recursos administrativos y judiciales en asilo – Ministerio del Interior](https://proteccion-asilo.interior.gob.es/es/proteccion-internacional/recursos-administrativos-y-judiciales/)
+
 - Aunque la normativa fija plazos, la práctica suele implicar **retrasos** por carga administrativa en oficinas de extranjería.
 
 ---
 
-### 🗓️ Plazos oficiales para recursos en extranjería
+### Silencio administrativo en extranjería
+
+En la mayoría de los procedimientos de extranjería, la falta de resolución expresa dentro del plazo legal produce **silencio administrativo negativo**, lo que permite **interponer recurso** sin necesidad de esperar una notificación formal.
+
+Este régimen responde a lo previsto en la normativa administrativa general y en la regulación específica de extranjería.
+
+---
+
+### 🗓️ Plazos legales para interponer recursos en extranjería
 
 | Tipo de recurso                                   | ¿Cuándo procede?                                                                                             | Plazo para interponerlo                                                                                                          | Fuente oficial                                                         |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -28,8 +39,8 @@ tags: ['recursos', 'silencio administrativo']
 
 ---
 
-#### 📝 Notas importantes
+### 📝 Notas importantes a tener en cuenta
 
-- En **extranjería**, el silencio administrativo suele ser **negativo** (desestimatorio), salvo excepciones establecidas por ley.
-- Si hay **silencio**, puedes recurrir incluso sin haber recibido notificación.
-- Una vez interpuesto el recurso, la Administración debe resolver dentro de los plazos legales, aunque suele tardar más en la práctica.
+- En **extranjería**, el silencio administrativo es **generalmente desestimatorio**, salvo excepciones previstas por la ley.
+- En caso de **silencio**, es posible interponer recurso **sin haber recibido notificación expresa**.
+- Aunque la normativa establece plazos para resolver los recursos, en la práctica pueden producirse **retrasos** debido a la carga administrativa de las oficinas competentes.

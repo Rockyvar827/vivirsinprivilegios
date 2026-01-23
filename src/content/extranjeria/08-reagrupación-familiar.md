@@ -1,34 +1,38 @@
 ---
-title: 'Reagrupación familiar'
+title: 'Reagrupación familiar en España: requisitos, tasas y trámite'
 description: 'Cómo traer a tus familiares a vivir contigo legalmente.'
 pubDate: 2025-10-13
 category: 'Guía Extranjería Galicia'
 tags: ['reagrupacion', 'Galicia']
 ---
 
-## 8. Reagrupación familiar
+La **reagrupación familiar en España** es una **autorización de residencia temporal** que permite a personas extranjeras con residencia legal **reunirse con determinados familiares directos**, siempre que se acrediten los requisitos de **medios económicos, vivienda adecuada y vínculo familiar**.
 
-## La reagrupación familiar permite traer a determinados familiares directos cuando ya tienes una residencia legal en España y cumples requisitos de medios económicos, vivienda y parentesco.
+Esta autorización se regula por la **normativa de extranjería vigente**, actualizada tras la reforma aplicable desde **mayo de 2025**, conforme al marco normativo publicado en el BOE, y está sujeta a condiciones específicas según el tipo de familiar que se pretenda reagrupar.
 
-### Requisitos / documentos
+### Requisitos y documentación para la reagrupación familiar
 
-- **Autorización de residencia vigente** del reagrupante y tiempo mínimo requerido (normalmente 1 año).
-- **Medios económicos suficientes** para mantener al familiar.
-- **Vivienda adecuada**, acreditada mediante informe o contrato de alquiler/propiedad.
-- **Documentos de parentesco** (certificado de matrimonio, nacimiento, tutela, etc.) **legalizados/apostillados y traducidos**, si procede.
-- **Seguro médico** si el familiar no está cubierto por la Seguridad Social.
-- **Fotografías, pasaportes y formularios oficiales.**
-- **Pago de tasas obligatorias.**
+Para solicitar la reagrupación familiar es necesario acreditar:
+
+- **Autorización de residencia en vigor** del reagrupante y el **tiempo mínimo exigido** (habitualmente un año de residencia legal).
+- **Medios económicos suficientes** para mantener a la unidad familiar reagrupada.
+- **Vivienda adecuada**, acreditada mediante informe de habitabilidad o contrato de alquiler/propiedad.
+- **Documentación que acredite el parentesco** (certificados de matrimonio, nacimiento, tutela, etc.), debidamente **legalizada o apostillada y traducida**, si procede.
+- **Seguro médico** del familiar, cuando no esté cubierto por la Seguridad Social.
+- **Pasaportes, fotografías y formularios oficiales**.
+- **Pago de las tasas administrativas obligatorias**.
 
 ---
 
-📄 **Formulario oficial para la solicitud**  
-**EX-02 — Autorización inicial de residencia temporal por reagrupación familiar**  
+📄 **Formulario oficial de solicitud**  
+**EX-02 — Autorización inicial de residencia temporal por reagrupación familiar**, que debe presentarse debidamente cumplimentado y firmado por el reagrupante.  
 👉 [Descargar EX-02](https://www.inclusion.gob.es/documents/410169/2156472/02-Formulario_Reagrupacion_Familiar_Imprimible.pdf)
 
 ---
 
-💳 **Tasas obligatorias**
+💳 **Tasas administrativas aplicables a la reagrupación familiar**
+
+La tramitación de la reagrupación familiar está sujeta al pago de las siguientes tasas:
 
 | Código           | ¿Para qué sirve?                                             | Enlace                                                                                            |
 | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
@@ -37,23 +41,30 @@ tags: ['reagrupacion', 'Galicia']
 
 ---
 
-### Plazo
+### Plazo de resolución
 
-- El reglamento prevé un plazo máximo de **45 días** para resolver, aunque en la práctica puede variar según la oficina y carga de trabajo.
-
----
-
-### Trámite / presentación
-
-- Se presenta **en la oficina de extranjería de tu provincia**, con cita previa.
-- Tras resolución favorable, el familiar debe solicitar el **visado en el consulado español del país de origen** (si no se encuentra en España).
-- Cuando llega a España, debe **solicitar la TIE** con cita para toma de huellas (Policía Nacional).
+La normativa de extranjería prevé un **plazo máximo de 45 días** para resolver la solicitud de reagrupación familiar, aunque en la práctica este plazo puede variar en función de la **oficina competente** y de la **carga administrativa existente**. :contentReference[oaicite:2]{index=2}
 
 ---
 
-🔗 **Información oficial del trámite**  
-https://www.inclusion.gob.es/es/web/migraciones/w/autorizacion-residencia-temporal-reagrupacion-familiar
+### Trámite y presentación de la solicitud
 
-> En Galicia, cada provincia tiene una unidad de extranjería encargada del trámite. La presentación puede ser presencial o electrónica si el solicitante tiene certificado digital o representante autorizado.
+- La solicitud se presenta **en la oficina de extranjería de la provincia de residencia del reagrupante**, con cita previa.
+- Tras una **resolución favorable**, el familiar deberá solicitar el **visado correspondiente en el consulado español del país de origen**, salvo que se encuentre legalmente en España.
+- Una vez en España, el familiar reagrupado debe **solicitar la TIE**, mediante cita para toma de huellas en la Policía Nacional.
+
+---
+
+🔗 **Información oficial sobre la autorización de residencia por reagrupación familiar:**
+
+[Residencia por reagrupación familiar](https://www.inclusion.gob.es/es/web/migraciones/w/autorizacion-residencia-temporal-reagrupacion-familiar)
+
+---
+
+En **Galicia**, cada provincia dispone de una **unidad de extranjería** encargada del trámite.  
+La solicitud puede presentarse **de forma presencial o por vía electrónica**, cuando el solicitante dispone de **certificado digital** o actúa mediante **representante autorizado**.
+
+Desde **vivirsinprivilegios.org** ofrecemos **apoyo en la tramitación electrónica**, ayudando a preparar y presentar la solicitud conforme a los requisitos administrativos.  
+👉 Contacto: [https://www.vivirsinprivilegios.org/contact](/contact)
 
 ---
