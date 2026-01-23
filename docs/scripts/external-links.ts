@@ -1,13 +1,27 @@
 document.addEventListener('DOMContentLoaded', () => {
-	const anchors =
-		document.querySelectorAll<HTMLAnchorElement>('a[href^="http"]')
+	const links = document.querySelectorAll<HTMLAnchorElement>('a[href]')
 
-	anchors.forEach((a) => {
-		const url = new URL(a.href)
+	links.forEach((link) => {
+		const href = link.getAttribute('href')
+		if (!href) return
 
-		if (url.hostname !== window.location.hostname) {
-			a.target = '_blank'
-			a.rel = 'noopener noreferrer'
+		// Ignorar anclas, mailto, tel
+		if (
+			href.startsWith('#') ||
+			href.startsWith('mailto:') ||
+			href.startsWith('tel:')
+		) {
+			return
+		}
+
+		// Convertir a URL absoluta para comparar
+		const url = new URL(href, window.location.origin)
+
+		const isExternal = url.origin !== window.location.origin
+
+		if (isExternal) {
+			link.setAttribute('target', '_blank')
+			link.setAttribute('rel', 'noopener noreferrer')
 		}
 	})
 })
