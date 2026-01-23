@@ -29,9 +29,12 @@ const { Content } = await contact.render() // Renderiza el cuerpo del Markdown
 ---
 
 <BaseLayout title={contact.data.title}>
-	<article class="prose mx-auto max-w-3xl">
+	<article class="prose prose-lg dark:prose-invert mx-auto leading-relaxed">
 		<h1>{contact.data.title}</h1>
-		<p class="text-gray-600 mb-6">{contact.data.description}</p>
+
+		<p class="prose prose-lg dark:prose-invert">
+			{contact.data.description}
+		</p>
 
 		<!-- Aquí se muestra TODO el contenido Markdown -->
 		<Content />
