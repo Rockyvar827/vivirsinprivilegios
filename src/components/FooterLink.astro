@@ -1,0 +1,11 @@
+---
+const { href, label } = Astro.props
+
+const hrefString = href instanceof URL ? href.pathname : String(href)
+
+const safeHref = hrefString.startsWith('/') ? hrefString : `/${hrefString}`
+---
+
+<a href={safeHref} class="footer-link">
+	{label}
+</a>
