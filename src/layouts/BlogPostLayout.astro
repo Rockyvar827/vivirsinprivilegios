@@ -7,7 +7,10 @@ import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
 import SharePost from '../components/SharePost.astro'
 
+import customParseFormat from 'dayjs/plugin/customParseFormat'
+
 dayjs.extend(utc)
+dayjs.extend(customParseFormat)
 
 type Props = CollectionEntry<'blog'>['data'] & {
 	headings: MarkdownHeading[]
