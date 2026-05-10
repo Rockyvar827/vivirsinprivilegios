@@ -31,26 +31,3 @@ export default defineConfig({
 		rehypePlugins: [rehypeFigureTitle, rehypeAccessibleEmojis],
 	},
 })
-/** 
-export default defineConfig({
-	site: 'https://www.vivirsinprivilegios.org',
-	base: '/',
-	integrations: [
-		mdx(),
-		sitemap(),
-		icon(),
-		partytown({
-			config: {
-				forward: ['dataLayer.push'],
-			},
-		}),
-	],
-	vite: {
-		plugins: [tailwindcss()],
-	},
-	markdown: {
-		remarkPlugins: [remarkReadingTime, remarkModifiedTime],
-		rehypePlugins: [rehypeFigureTitle, rehypeAccessibleEmojis],
-	},
-})
-*/
