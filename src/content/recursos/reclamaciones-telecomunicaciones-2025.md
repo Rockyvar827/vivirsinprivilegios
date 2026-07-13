@@ -56,7 +56,7 @@ Las reclamaciones en telecomunicaciones se regulan principalmente por:
 🔗 https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27014
 
 **Portal de Usuarios de Telecomunicaciones — Ministerio de Transformación Digital**  
-👉 [Presentar denuncia oficial](https://usuariosteleco.digital.gob.es/denuncias){:target="\_blank" rel="noopener noreferrer"}
+👉 [Presentar denuncia oficial](https://usuariosteleco.digital.gob.es/denuncias)
 
 ---
 

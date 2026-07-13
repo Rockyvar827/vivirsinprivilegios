@@ -20,7 +20,7 @@ La **solicitud de protección internacional** (asilo o protección subsidiaria) 
 
 Para conocer **cómo y dónde solicitar cita** según la provincia, debe consultarse la información oficial del Ministerio del Interior:
 
-👉 [Presentación de la solicitud de protección internacional](https://proteccion-asilo.interior.gob.es/es/proteccion-internacional/presentacion-de-la-solicitud/)
+👉 [Presentación de la solicitud de protección internacional](https://proteccion-asilo.interior.gob.es/es/proteccion-internacional/pema/presentacion-de-la-solicitud/)
 
 ---
 

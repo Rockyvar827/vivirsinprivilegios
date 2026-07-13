@@ -112,10 +112,10 @@ En la práctica, los plazos varían significativamente según la **oficina de ex
 ---
 
 🔗 **Información oficial sobre el arraigo social con el nuevo Reglamento de Extranjería:**  
-[Ministerio de Inclusión — Circunstancias excepcionales](https://www.inclusion.gob.es/en/web/migraciones/w/autorizacion-residencia-temporal-por-circunstancias-excepcionales.-arraigo-social)
+[Ministerio de Inclusión — Circunstancias excepcionales](https://www.inclusion.gob.es/web/migraciones/w/autorizacion-residencia-temporal-por-circunstancias-excepcionales.-arraigo-social)
 
-🔗 **Información oficial sobre el arraigo sociolaboral con el nuevo Reglamento de Extranjería:**  
-[Ministerio de Inclusión — Circunstancias excepcionales](https://www.inclusion.gob.es/en/web/migraciones/w/29.-autorizacion-de-residencia-temporal-por-circunstancias-excepcionales.-arraigo-sociolaboral.)
+🔗 **Información oficial sobre el Arraigo SocioLaboral con el nuevo Reglamento de Extranjería:**  
+[Ministerio de Inclusión — Circunstancias excepcionales](https://www.inclusion.gob.es/web/migraciones/w/29.-autorizacion-de-residencia-temporal-por-circunstancias-excepcionales.-arraigo-sociolaboral.)
 
 ---
 

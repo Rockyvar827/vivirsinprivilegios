@@ -26,7 +26,7 @@ Para solicitar la reagrupación familiar es necesario acreditar:
 
 📄 **Formulario oficial de solicitud**  
 **EX-02 — Autorización inicial de residencia temporal por reagrupación familiar**, que debe presentarse debidamente cumplimentado y firmado por el reagrupante.  
-👉 [Descargar EX-02](https://www.inclusion.gob.es/documents/410169/2156472/02-Formulario_Reagrupacion_Familiar_Imprimible.pdf)
+👉 [Descargar EX-02](https://www.inclusion.gob.es/documents/d/migraciones/ex02.pdf)
 
 ---
 
@@ -57,7 +57,7 @@ La normativa de extranjería prevé un **plazo máximo de 45 días** para resolv
 
 🔗 **Información oficial sobre la autorización de residencia por reagrupación familiar:**
 
-[Residencia por reagrupación familiar](https://www.inclusion.gob.es/es/web/migraciones/w/autorizacion-residencia-temporal-reagrupacion-familiar)
+[Residencia por reagrupación familiar](https://www.inclusion.gob.es/es/web/migraciones/w/autorizacion-de-residencia-temporal-por-reagrupacion-familiar)
 
 ---
 

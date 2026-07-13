@@ -84,7 +84,7 @@ Asistencia gratuita cuando la compra se realiza en otro país de la **Unión Eur
 Trámite oficial para que las personas consumidoras puedan **presentar reclamaciones o denuncias** frente a empresas o prestadores de servicios, así como **solicitar mediación** ante la administración autonómica de Galicia.
 
 📍 **Ayuntamiento de Madrid — Arbitraje de Consumo**  
-➡️ [Acceder al Arbitraje de Consumo de Madrid](https://www.madrid.es/portales/munimadrid/es/Inicio/Actividad-economica-y-hacienda/Consumo/Arbitraje-de-Consumo/?vgnextfmt=default&vgnextoid=11fec0b5b23fd610VgnVCM1000001d4a900aRCRD&vgnextchannel=920b6d5ef88fe410VgnVCM1000000b205a0aRCRD&idCapitulo=11048355){:target="\_blank" rel="noopener noreferrer"}
+➡️ [Acceder al Arbitraje de Consumo de Madrid](https://www.madrid.es/portales/munimadrid/es/Inicio/Actividad-economica-y-hacienda/Consumo/Arbitraje-de-Consumo/?vgnextfmt=default&vgnextoid=11fec0b5b23fd610VgnVCM1000001d4a900aRCRD&vgnextchannel=920b6d5ef88fe410VgnVCM1000000b205a0aRCRD&idCapitulo=11048355)
 
 ---
 

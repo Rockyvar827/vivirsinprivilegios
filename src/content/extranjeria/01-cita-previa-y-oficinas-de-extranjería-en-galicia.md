@@ -42,7 +42,7 @@ Con carácter general, se exige cita previa para:
 - Expedición o renovación de **tarjetas de identidad de extranjero**
 - Consultas presenciales relacionadas con **expedientes en curso**
 
-Es imprescindible comprobar **el trámite concreto** antes de solicitar la cita, ya que no todos los procedimientos se gestionan en la misma oficina ni por el mismo organismo. :contentReference[oaicite:3]{index=3}
+Es imprescindible comprobar **el trámite concreto** antes de solicitar la cita, ya que no todos los procedimientos se gestionan en la misma oficina ni por el mismo organismo.
 
 ---
 
