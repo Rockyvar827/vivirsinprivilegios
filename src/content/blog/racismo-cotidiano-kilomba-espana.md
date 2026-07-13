@@ -6,7 +6,7 @@ description: |
   realmente?" a las cifras récord de delitos de odio de 2025, repasamos
   por qué el racismo aquí no es un incidente aislado, sino un patrón.
 pubDate: 'Jul 13 2026'
-coverImage: '/images/racismo-cotidiano-kilomba.jpg'
+coverImage: '/images/racismo-cotidiano-kilomba-espana.jpg'
 coverImageCredit: 'Ilustración generada con IA – Derechos reservados'
 lastModified: '13-07-2026'
 author: 'Rosana'
@@ -21,12 +21,12 @@ tags:
   - personas racializadas
   - de donde eres realmente
   - xenofobia España
-slug: racismo-cotidiano-kilomba-espana-2026
+slug: racismo-cotidiano-kilomba-espana
 ---
 
 ## Un libro de hace 18 años que parece escrito ayer
 
-Hace unos días me crucé, en una biblioteca, con un ejemplar de *Memorias de la plantación*, de Grada Kilomba. Lo publicó originalmente en 2008, hace ya 18 años. La edición en castellano llegó después, en 2023, de la mano de Tinta Limón. Casi dos décadas separan aquella primera edición de este 2026, y sin embargo cada página parece redactada esta misma semana, en esta misma ciudad.
+Hace unos días me crucé, en una biblioteca, con un ejemplar de _Memorias de la plantación_, de Grada Kilomba. Lo publicó originalmente en 2008, hace ya 18 años. La edición en castellano llegó después, en 2023, de la mano de Tinta Limón. Casi dos décadas separan aquella primera edición de este 2026, y sin embargo cada página parece redactada esta misma semana, en esta misma ciudad.
 
 Kilomba explica algo que cualquier persona racializada en España reconoce al instante: el racismo cotidiano no es un ataque puntual ni una anécdota aislada. Es una acumulación constante de gestos, miradas, preguntas y comentarios que se repiten en el autobús, en el trabajo, en la panadería, en la familia. Ella lo describe como quedar colocada, una y otra vez, en el lugar de lo "Otro". No importa cuánto tiempo lleves aquí, cuánto castellano hables o cuántos impuestos pagues: el vocabulario, las noticias, las miradas de la gente en la calle te devuelven constantemente al mismo sitio, el de la extranjera perpetua.
 
