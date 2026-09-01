@@ -26,10 +26,6 @@ export const WebsiteLinks = [
 		url: 'manifiesto',
 	},
 	{
-		name: 'Recursos',
-		url: 'recursos',
-	},
-	{
 		name: 'Extranjeria',
 		url: 'extranjeria',
 	},

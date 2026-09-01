@@ -21,18 +21,6 @@ const extranjeriaCollection = defineCollection({
 		tags: z.array(z.string()).optional(),
 	}),
 })
-
-const recursosCollection = defineCollection({
-	type: 'content',
-	schema: z.object({
-		title: z.string(),
-		description: z.string(),
-		pubDate: z.date(),
-		category: z.string().optional(),
-		tags: z.array(z.string()).optional(),
-	}),
-})
-
 const aboutCollection = defineCollection({
 	type: 'content',
 	schema: z.object({
@@ -84,7 +72,6 @@ const manifiestoCollection = defineCollection({
 
 export const collections = {
 	blog,
-	recursos: recursosCollection,
 	extranjeria: extranjeriaCollection,
 	about: aboutCollection,
 	contact: contact,

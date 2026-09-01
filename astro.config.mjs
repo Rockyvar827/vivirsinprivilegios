@@ -30,4 +30,11 @@ export default defineConfig({
 		remarkPlugins: [remarkReadingTime, remarkModifiedTime],
 		rehypePlugins: [rehypeFigureTitle, rehypeAccessibleEmojis],
 	},
+	i18n: {
+		defaultLocale: 'es',
+		locales: ['es', 'en', 'gl'],
+		routing: {
+			prefixDefaultLocale: false,
+		},
+	},
 })

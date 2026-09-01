@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css'
+import { getEquivalentPath } from '../i18n/routes'
 
 interface Props {
 	title: string
@@ -8,6 +9,7 @@ interface Props {
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site)
+const { es, en } = getEquivalentPath(Astro.url.pathname)
 
 const { title, description, image = `/saral-og.jpg` } = Astro.props
 ---
@@ -30,6 +32,10 @@ const { title, description, image = `/saral-og.jpg` } = Astro.props
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
+
+<link rel="alternate" hreflang="es" href={new URL(es, Astro.site)} />
+<link rel="alternate" hreflang="en" href={new URL(en, Astro.site)} />
+<link rel="alternate" hreflang="x-default" href={new URL(es, Astro.site)} />
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
