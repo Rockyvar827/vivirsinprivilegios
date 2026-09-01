@@ -69,6 +69,37 @@ const manifiestoCollection = defineCollection({
 			.optional(),
 	}),
 })
+const cookiesCollection = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		author: z.string().optional(),
+		pubDate: z.date().optional(),
+		image: z
+			.object({
+				url: z.string(),
+				alt: z.string().optional(),
+			})
+			.optional(),
+	}),
+})
+
+const privacyCollection = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		author: z.string().optional(),
+		pubDate: z.date().optional(),
+		image: z
+			.object({
+				url: z.string(),
+				alt: z.string().optional(),
+			})
+			.optional(),
+	}),
+})
 
 export const collections = {
 	blog,
@@ -76,4 +107,6 @@ export const collections = {
 	about: aboutCollection,
 	contact: contact,
 	manifiesto: manifiestoCollection,
+	cookies: cookiesCollection,
+	privacy: privacyCollection,
 }

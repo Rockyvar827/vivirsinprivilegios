@@ -1,0 +1,45 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+
+// Obtener el markdown de la colección "privacy"
+const entries = await getCollection('privacy')
+const entry = entries.find((e) => e.slug === 'privacy')
+
+if (!entry) {
+	throw new Error('No se encontró privacy.md')
+}
+
+// Renderizar contenido
+const { Content } = await entry.render()
+
+// Tipado correcto sin usar `any`
+const { title, description, pubDate } = (
+	entry as CollectionEntry<'privacy'>
+).data
+---
+
+<BaseLayout title={title} description={description}>
+	<section class="px-4 py-18 mx-auto max-w-4xl">
+		<header class="text-center mb-10">
+			{
+				description && (
+					<p class="text-gray-600 dark:text-gray-300 mb-3 text-lg">
+						{description}
+					</p>
+				)
+			}
+			{
+				pubDate && (
+					<p class="text-sm text-gray-500">
+						{`Última actualización: ${new Date(pubDate).toLocaleDateString('es-ES')}`}
+					</p>
+				)
+			}
+		</header>
+
+		<article class="prose prose-lg dark:prose-invert mx-auto leading-relaxed">
+			<Content />
+		</article>
+	</section>
+</BaseLayout>
