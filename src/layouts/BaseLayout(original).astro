@@ -41,4 +41,11 @@ import '@fontsource-variable/jetbrains-mono'
 	}
 </script>
 
-<script src="/scripts/external-links.js" is:inline defer></script>
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		document.querySelectorAll('a').forEach((link) => {
+			link.setAttribute('target', '_blank')
+			link.setAttribute('rel', 'noopener noreferrer')
+		})
+	})
+</script>
