@@ -8,7 +8,7 @@ const posts = (await getCollection('extranjeria')).sort(
 )
 ---
 
-<BaseLayout title="Guía de Extranjería en Galicia">
+<BaseLayout title="Guía de Extranjería en Galicia" description="Pasos, requisitos y tasas actualizadas para tus trámites de extranjería en Galicia, más un cuestionario de práctica del examen CCSE.">
 	<main class="app-container pt-36">
 		<h1 class="text-6xl pb-8 font-bold">Guía de Extranjería Galicia</h1>
 		<p class="md:w-2/3 text-lg leading-[2rem]">
@@ -16,6 +16,7 @@ const posts = (await getCollection('extranjeria')).sort(
 			extranjería en Galicia.
 		</p>
 	</main>
+
 	<section class="app-container py-12">
 		<ul class="posts-grid-container">
 			{

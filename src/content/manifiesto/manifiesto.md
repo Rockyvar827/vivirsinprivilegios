@@ -1,11 +1,11 @@
 ---
-title: 'Bienvenid@s 2025 — Racismo Institucional, Extranjería y Derechos Migrantes en España'
+title: 'Bienvenid@s — Racismo Institucional, Extranjería y Derechos Migrantes en España'
 description: 'Vivir sin privilegios siendo afrodescendiente o migrante en España. Racismo estructural, extranjería, derechos y organización comunitaria.'
 tags:
   [
-    'racismo institucional 2025',
-    'extranjería España 2025',
-    'derechos migrantes 2025',
+    'racismo institucional',
+    'extranjería España',
+    'derechos migrantes',
     'afrodescendientes España',
     'discriminación racial',
     'comunidad racializada',
@@ -35,9 +35,9 @@ Tu **color de piel, acento o pasaporte** pueden complicar:
 - 👩🏽‍💼 Una entrevista laboral
 - 🏘️ Una solicitud de vivienda pública
 
-## 🏛️ ¿Qué es el racismo institucional en España en 2025?
+## 🏛️ ¿Qué es el racismo institucional en España?
 
-El racismo institucional en 2025 **no grita ni insulta**.  
+El racismo institucional en **no grita ni insulta**.  
 📎 **Se sella, se tramita y se notifica por oficinas y plataformas digitales.**
 
 ### 🖥️ Se manifiesta así:
@@ -63,13 +63,13 @@ No sucede en la calle: **se vive en la administración.**
 👉 **Organizarse y compartir información verificada.**  
 👉 **Documentar y reclamar cada injusticia.**
 
-📢 En 2025, **la información es defensa y resistencia.**
+📢 En , **la información es defensa y resistencia.**
 
 > No se trata de “integrarse”, sino de **exigir derechos con conocimiento.** 🛡️✨
 
 ---
 
-## 🌍 ¿Por qué existe esta web en 2025?
+## 🌍 ¿Por qué existe esta web en ?
 
 Porque la información sobre los procesos en Extranjería para extranjeros sigue:
 
@@ -84,7 +84,7 @@ Porque la información sobre los procesos en Extranjería para extranjeros sigue
 
 🔎 Qué encontrarás?
 
-- **Cómo reclamar en Extranjería 2025**
+- **Cómo reclamar en Extranjería **
 - **Racismo institucional y derechos**
 - **Denuncias por discriminación laboral y mobbing racial**
 - **Guías reales para residencia, empadronamiento y recursos administrativos**

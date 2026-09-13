@@ -9,11 +9,18 @@ import { SocialLinks } from '../../consts'
 const contacts = await getCollection('contact')
 const contact = contacts[0]
 
+if (!contact) {
+  throw new Error('No contact entry found')
+}
+
 // Renderiza el contenido Markdown completo del primer contacto
 const { Content } = await contact.render()
 ---
 
-<BaseLayout title={contact.data.title}>
+<BaseLayout
+  title={contact.data.title ?? 'Contacto'}
+  description={contact.data.description ?? 'Información de contacto'}
+>
 	<main class="app-container pt-36 max-w-3xl mx-auto text-center">
 		<h1 class="text-5xl font-bold mb-8">{contact.data.title}</h1>
 

@@ -1,0 +1,271 @@
+{
+  "tarea": 3,
+  "titulo": "Tarea 3 – Organización territorial de España. Geografía física y política",
+  "fuente": "Manual de preparación de la prueba CCSE 2026 (Instituto Cervantes)",
+  "preguntas": [
+    {
+      "id": 3001,
+      "question": "¿Dónde están Cáceres y Badajoz?",
+      "options": {
+        "a": "En el Principado de Asturias.",
+        "b": "En Andalucía.",
+        "c": "En Extremadura."
+      },
+      "correct": "c",
+      "feedback": "Cáceres y Badajoz son las dos provincias que forman la comunidad autónoma de Extremadura."
+    },
+    {
+      "id": 3002,
+      "question": "¿Cuál es la capital la Comunidad Valenciana?",
+      "options": {
+        "a": "Alicante.",
+        "b": "Castellón.",
+        "c": "Valencia."
+      },
+      "correct": "c",
+      "feedback": "La ciudad de Valencia es la capital de la Comunidad Valenciana."
+    },
+    {
+      "id": 3003,
+      "question": "¿Dónde están las islas Baleares?",
+      "options": {
+        "a": "En el mar Cantábrico.",
+        "b": "En el mar Mediterráneo.",
+        "c": "En el océano Atlántico."
+      },
+      "correct": "b",
+      "feedback": "Las islas Baleares se encuentran en el mar Mediterráneo."
+    },
+    {
+      "id": 3004,
+      "question": "¿Cómo se llama la extensa llanura situada en el centro de la península ibérica?",
+      "options": {
+        "a": "Marisma.",
+        "b": "Cordillera.",
+        "c": "Meseta."
+      },
+      "correct": "c",
+      "feedback": "La Meseta Central es la gran llanura elevada que ocupa el centro de la península ibérica."
+    },
+    {
+      "id": 3005,
+      "question": "El parque nacional de Ordesa está en…",
+      "options": {
+        "a": "Aragón.",
+        "b": "Navarra.",
+        "c": "Castilla-La Mancha."
+      },
+      "correct": "a",
+      "feedback": "El parque nacional de Ordesa y Monte Perdido está en Aragón, en el Pirineo."
+    },
+    {
+      "id": 3006,
+      "question": "¿En qué comunidad autónoma están Guadalajara y Cuenca?",
+      "options": {
+        "a": "En Castilla y León.",
+        "b": "En Castilla-La Mancha.",
+        "c": "En Cantabria."
+      },
+      "correct": "b",
+      "feedback": "Guadalajara y Cuenca son provincias de Castilla-La Mancha."
+    },
+    {
+      "id": 3007,
+      "question": "¿Qué comunidad autónoma tiene como capital Santiago de Compostela?",
+      "options": {
+        "a": "Galicia.",
+        "b": "Asturias.",
+        "c": "Cantabria."
+      },
+      "correct": "a",
+      "feedback": "Santiago de Compostela es la capital de la comunidad autónoma de Galicia."
+    },
+    {
+      "id": 3008,
+      "question": "¿Dónde está Almería?",
+      "options": {
+        "a": "En Andalucía.",
+        "b": "En Canarias.",
+        "c": "En Aragón."
+      },
+      "correct": "a",
+      "feedback": "Almería es una provincia de la comunidad autónoma de Andalucía."
+    },
+    {
+      "id": 3009,
+      "question": "La capital de la comunidad autónoma de Galicia es…",
+      "options": {
+        "a": "A Coruña.",
+        "b": "Vigo.",
+        "c": "Santiago de Compostela."
+      },
+      "correct": "c",
+      "feedback": "Santiago de Compostela es la capital de Galicia, aunque A Coruña y Vigo sean ciudades más pobladas."
+    },
+    {
+      "id": 3010,
+      "question": "¿Cuál de estos ríos desemboca en el mar Mediterráneo?",
+      "options": {
+        "a": "El Tajo.",
+        "b": "El Júcar.",
+        "c": "El Duero."
+      },
+      "correct": "b",
+      "feedback": "El Júcar desemboca en el mar Mediterráneo; el Tajo y el Duero lo hacen en el océano Atlántico."
+    },
+    {
+      "id": 3011,
+      "question": "¿Dónde está el monte Aneto?",
+      "options": {
+        "a": "En los Pirineos.",
+        "b": "En el Sistema Central.",
+        "c": "En Sierra Nevada."
+      },
+      "correct": "a",
+      "feedback": "El Aneto, el pico más alto de los Pirineos, se encuentra en esa cordillera."
+    },
+    {
+      "id": 3012,
+      "question": "La ciudad de Vitoria es la sede administrativa de…",
+      "options": {
+        "a": "Navarra.",
+        "b": "País Vasco.",
+        "c": "La Rioja."
+      },
+      "correct": "b",
+      "feedback": "Vitoria-Gasteiz es la sede de las instituciones y administraciones del País Vasco."
+    },
+    {
+      "id": 3013,
+      "question": "España se divide en…",
+      "options": {
+        "a": "departamentos y regiones.",
+        "b": "comunidades y ciudades autónomas.",
+        "c": "regiones autónomas y distritos."
+      },
+      "correct": "b",
+      "feedback": "Territorialmente, España se organiza en comunidades autónomas y en las ciudades autónomas de Ceuta y Melilla."
+    },
+    {
+      "id": 3014,
+      "question": "El parque nacional de Aigüestortes está en…",
+      "options": {
+        "a": "Cataluña.",
+        "b": "Aragón.",
+        "c": "Castilla y León."
+      },
+      "correct": "a",
+      "feedback": "El parque nacional de Aigüestortes i Estany de Sant Maurici está en Cataluña, en el Pirineo leridano."
+    },
+    {
+      "id": 3015,
+      "question": "En el norte de África están Ceuta y…",
+      "options": {
+        "a": "Almería.",
+        "b": "Melilla.",
+        "c": "Cádiz."
+      },
+      "correct": "b",
+      "feedback": "Ceuta y Melilla son las dos ciudades autónomas españolas situadas en el norte de África."
+    },
+    {
+      "id": 3016,
+      "question": "¿En qué lugar de España hay un clima que se caracteriza por inviernos fríos y veranos muy calurosos?",
+      "options": {
+        "a": "Canarias.",
+        "b": "Comunidad Valenciana.",
+        "c": "Madrid."
+      },
+      "correct": "c",
+      "feedback": "El interior peninsular, como Madrid, tiene clima continental, con inviernos fríos y veranos muy calurosos."
+    },
+    {
+      "id": 3017,
+      "question": "¿Cuál de estos ríos desemboca en el océano Atlántico?",
+      "options": {
+        "a": "El Guadalquivir.",
+        "b": "El Manzanares.",
+        "c": "El Júcar."
+      },
+      "correct": "a",
+      "feedback": "El Guadalquivir desemboca en el océano Atlántico, en el golfo de Cádiz."
+    },
+    {
+      "id": 3018,
+      "question": "¿Cuál de estas provincias forma parte de la Comunidad de Castilla y León?",
+      "options": {
+        "a": "Burgos.",
+        "b": "Huesca.",
+        "c": "Guadalajara."
+      },
+      "correct": "a",
+      "feedback": "Burgos es una de las nueve provincias de Castilla y León."
+    },
+    {
+      "id": 3019,
+      "question": "¿En qué comunidad autónoma está la ciudad de Huesca?",
+      "options": {
+        "a": "Castilla-La Mancha.",
+        "b": "Aragón.",
+        "c": "Extremadura."
+      },
+      "correct": "b",
+      "feedback": "Huesca es una provincia de la comunidad autónoma de Aragón."
+    },
+    {
+      "id": 3020,
+      "question": "Canarias tiene un clima…",
+      "options": {
+        "a": "mediterráneo.",
+        "b": "oceánico.",
+        "c": "subtropical."
+      },
+      "correct": "c",
+      "feedback": "El archipiélago canario tiene un clima subtropical, cálido y suave todo el año."
+    },
+    {
+      "id": 3021,
+      "question": "El principal río que desemboca en el mar Mediterráneo es el…",
+      "options": {
+        "a": "Ebro.",
+        "b": "Duero.",
+        "c": "Tajo."
+      },
+      "correct": "a",
+      "feedback": "El Ebro es el principal río español que desemboca en el mar Mediterráneo."
+    },
+    {
+      "id": 3022,
+      "question": "España está entre los países de Europa más…",
+      "options": {
+        "a": "lluviosos.",
+        "b": "montañosos.",
+        "c": "fríos."
+      },
+      "correct": "b",
+      "feedback": "España es, por su relieve, uno de los países más montañosos de Europa."
+    },
+    {
+      "id": 3023,
+      "question": "¿En qué provincia está el parque nacional de Monfragüe?",
+      "options": {
+        "a": "En Cáceres.",
+        "b": "En Murcia.",
+        "c": "En Ciudad Real."
+      },
+      "correct": "a",
+      "feedback": "El parque nacional de Monfragüe se encuentra en la provincia de Cáceres, en Extremadura."
+    },
+    {
+      "id": 3024,
+      "question": "¿Cuál es la capital de la comunidad autónoma de Extremadura?",
+      "options": {
+        "a": "Cáceres.",
+        "b": "Badajoz.",
+        "c": "Mérida."
+      },
+      "correct": "c",
+      "feedback": "Mérida es la capital de la comunidad autónoma de Extremadura, aunque Badajoz y Cáceres sean sus provincias más pobladas."
+    }
+  ]
+}

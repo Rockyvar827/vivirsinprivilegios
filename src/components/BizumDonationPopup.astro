@@ -1,0 +1,282 @@
+---
+// BizumDonationPopup.astro
+//
+// Aviso de donación por Bizum que aparece cada 5 minutos mientras la
+// persona está usando el cuestionario, recordando que el contenido es
+// gratuito y sin anuncios, y que su apoyo ayuda a mantenerlo.
+//
+// EDITA ESTO antes de publicar:
+//   - BIZUM_PHONE: tu número de teléfono para recibir Bizum.
+//   - INTERVALO_MINUTOS: cada cuánto se repite el aviso (por defecto 5).
+//   - CANTIDADES: las tres cantidades sugeridas (en euros).
+//   - Ajusta el texto si quieres.
+//
+// IMPORTANTE sobre las cantidades: Bizum no ofrece, para cuentas
+// personales, ningún enlace que abra la app con el importe ya
+// rellenado (eso solo existe en el botón oficial de donaciones para
+// entidades registradas). Por eso los tres botones son solo una
+// sugerencia visual: al pulsar uno, se muestra un recordatorio del
+// importe elegido junto al número, pero la persona tiene que teclearlo
+// ella misma al hacer el Bizum desde su banco.
+//
+// Uso recomendado: colócalo en las páginas del cuestionario
+// (src/pages/extranjeria/ccse-tareaN.astro), justo antes de </BaseLayout>,
+// ya que el mensaje habla específicamente de "el cuestionario":
+//
+//   import BizumDonationPopup from '../../components/BizumDonationPopup.astro';
+//   ...
+//   <BizumDonationPopup />
+//
+// Si prefieres que se repita en todo el sitio y no solo en el
+// cuestionario, colócalo en tu layout general en su lugar.
+
+const BIZUM_PHONE = '679 518 026' // <-- sustituye por tu número real
+const INTERVALO_MINUTOS = 5
+const MENSAJE =
+	'Estás usando el cuestionario del examen CCSE de forma totalmente gratuita y sin anuncios. Si te resulta útil, tu apoyo por Bizum ayuda a mantener y mejorar este contenido.'
+const CANTIDADES = [2, 5, 10] // <-- las tres cantidades sugeridas, en euros
+---
+
+<div class="vsp-donate" data-component="bizum-popup" hidden>
+	<button
+		type="button"
+		class="vsp-donate__close"
+		data-el="close"
+		aria-label="Cerrar">×</button
+	>
+	<p class="vsp-donate__msg">{MENSAJE}</p>
+
+	<div class="vsp-donate__amounts" data-el="amounts">
+		{
+			CANTIDADES.map((cantidad) => (
+				<button type="button" class="vsp-donate__amount" data-amount={cantidad}>
+					{cantidad} €
+				</button>
+			))
+		}
+	</div>
+
+	<p class="vsp-donate__hint" data-el="hint"></p>
+
+	<div class="vsp-donate__phone">
+		<span data-el="phone">{BIZUM_PHONE}</span>
+		<button type="button" class="vsp-donate__copy" data-el="copy">Copiar</button
+		>
+	</div>
+	<div class="vsp-donate__actions">
+		<button
+			type="button"
+			class="vsp-donate__btn vsp-donate__btn--muted"
+			data-el="later">Ahora no</button
+		>
+	</div>
+</div>
+
+<script
+	is:inline
+	define:vars={{
+		phoneForCopy: BIZUM_PHONE,
+		intervalMinutes: INTERVALO_MINUTOS,
+	}}
+>
+	// @ts-nocheck -- variables inyectadas por Astro vía define:vars; el
+	// editor no las reconoce en scripts is:inline, pero existen en runtime.
+	;(function () {
+		const INTERVAL_MS = intervalMinutes * 60 * 1000
+
+		let timer = null
+
+		// NOTA: Bizum no permite, para cuentas personales, generar un enlace
+		// que abra la app con el importe ya rellenado (eso solo existe para
+		// el botón oficial de donaciones de entidades registradas). Por eso
+		// estos botones solo sirven como sugerencia visual: al elegir uno,
+		// se muestra un recordatorio del importe justo encima del número,
+		// pero la persona debe escribirlo ella misma en su app del banco.
+		const amountsBox = document.querySelector('[data-el="amounts"]')
+		const hint = document.querySelector('[data-el="hint"]')
+		if (amountsBox && hint) {
+			amountsBox.querySelectorAll('[data-amount]').forEach((btn) => {
+				btn.addEventListener('click', () => {
+					amountsBox
+						.querySelectorAll('[data-amount]')
+						.forEach((b) => b.classList.remove('is-selected'))
+					btn.classList.add('is-selected')
+					hint.textContent = `Vas a enviar ${btn.dataset.amount} € por Bizum a este número:`
+				})
+			})
+		}
+
+		const copyBtn = document.querySelector('[data-el="copy"]')
+		if (copyBtn) {
+			copyBtn.addEventListener('click', (e) => {
+				navigator.clipboard?.writeText(phoneForCopy).then(() => {
+					e.target.textContent = 'Copiado'
+					setTimeout(() => {
+						e.target.textContent = 'Copiar'
+					}, 1500)
+				})
+			})
+		}
+
+		function scheduleNext() {
+			clearTimeout(timer)
+			timer = setTimeout(mostrarPopup, INTERVAL_MS)
+		}
+
+		function mostrarPopup() {
+			const el = document.querySelector('[data-component="bizum-popup"]')
+			if (!el) return
+			el.hidden = false
+			requestAnimationFrame(() => el.classList.add('is-visible'))
+
+			el.querySelector('[data-el="close"]').addEventListener(
+				'click',
+				() => cerrar(el),
+				{ once: true }
+			)
+			el.querySelector('[data-el="later"]').addEventListener(
+				'click',
+				() => cerrar(el),
+				{ once: true }
+			)
+		}
+
+		function cerrar(el) {
+			el.classList.remove('is-visible')
+			setTimeout(() => {
+				el.hidden = true
+			}, 200)
+			// Siempre se reprograma el siguiente aviso: no existe forma de
+			// silenciarlo de manera permanente, se muestra indefinidamente
+			// cada INTERVALO_MINUTOS mientras la persona siga en la página.
+			scheduleNext()
+		}
+
+		scheduleNext()
+	})()
+</script>
+
+<style>
+	.vsp-donate {
+		position: fixed;
+		right: 1.25rem;
+		bottom: 1.25rem;
+		max-width: 320px;
+		padding: 1.25rem 1.25rem 1rem;
+		background: var(--color-surface, #ffffff);
+		border: 1px solid var(--color-border, #e2ddd6);
+		border-radius: 12px;
+		box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+		z-index: 9999;
+		opacity: 0;
+		transform: translateY(12px);
+		transition:
+			opacity 0.25s ease,
+			transform 0.25s ease;
+	}
+	.vsp-donate.is-visible {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	.vsp-donate__close {
+		position: absolute;
+		top: 0.4rem;
+		right: 0.6rem;
+		background: none;
+		border: none;
+		font-size: 1.2rem;
+		line-height: 1;
+		cursor: pointer;
+		color: var(--color-text-muted, #6b6259);
+	}
+
+	.vsp-donate__msg {
+		margin: 0 0 0.85rem;
+		font-size: 0.92rem;
+		color: var(--color-text, #2b2622);
+	}
+
+	.vsp-donate__amounts {
+		display: flex;
+		gap: 0.5rem;
+		margin-bottom: 0.6rem;
+	}
+	.vsp-donate__amount {
+		flex: 1;
+		padding: 0.45rem 0;
+		border-radius: 8px;
+		border: 1px solid var(--color-border, #e2ddd6);
+		background: transparent;
+		font-weight: 600;
+		font-size: 0.9rem;
+		cursor: pointer;
+		color: var(--color-text, #2b2622);
+	}
+	.vsp-donate__amount:hover {
+		border-color: var(--color-accent, #7a3b3b);
+	}
+	.vsp-donate__amount.is-selected {
+		background: var(--color-accent, #7a3b3b);
+		border-color: var(--color-accent, #7a3b3b);
+		color: #fff;
+	}
+
+	.vsp-donate__hint {
+		min-height: 1.1em;
+		margin: 0 0 0.4rem;
+		font-size: 0.82rem;
+		color: var(--color-text-muted, #6b6259);
+	}
+
+	.vsp-donate__phone {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.5rem;
+		padding: 0.5rem 0.75rem;
+		background: rgba(0, 0, 0, 0.03);
+		border-radius: 8px;
+		font-weight: 600;
+		margin-bottom: 0.85rem;
+	}
+	.vsp-donate__copy {
+		border: none;
+		background: var(--color-accent, #7a3b3b);
+		color: #fff;
+		padding: 0.3rem 0.7rem;
+		border-radius: 999px;
+		font-size: 0.8rem;
+		cursor: pointer;
+	}
+
+	.vsp-donate__actions {
+		display: flex;
+		gap: 0.5rem;
+	}
+	.vsp-donate__btn {
+		flex: 1;
+		padding: 0.5rem 0.75rem;
+		border-radius: 999px;
+		border: none;
+		font-size: 0.85rem;
+		cursor: pointer;
+		font-weight: 600;
+	}
+	.vsp-donate__btn--primary {
+		background: var(--color-accent, #7a3b3b);
+		color: #fff;
+	}
+	.vsp-donate__btn--muted {
+		background: rgba(0, 0, 0, 0.06);
+		color: var(--color-text, #2b2622);
+	}
+
+	@media (max-width: 480px) {
+		.vsp-donate {
+			left: 1rem;
+			right: 1rem;
+			max-width: none;
+		}
+	}
+</style>

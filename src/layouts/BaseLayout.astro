@@ -5,15 +5,16 @@ import Footer from '../components/Footer.astro'
 import CookieBanner from '../components/CookieBanner.astro'
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
 
+import '@fontsource-variable/inter'
+import '@fontsource-variable/jetbrains-mono'
+
 interface Props {
-	title?: string
-	description?: string
+	title: string
+	description: string
+	image?: string
 }
 
 const { title, description } = Astro.props
-
-import '@fontsource-variable/inter'
-import '@fontsource-variable/jetbrains-mono'
 ---
 
 <!doctype html>
@@ -27,12 +28,13 @@ import '@fontsource-variable/jetbrains-mono'
 	<body
 		class="text-foreground bg-background font-light dark:text-foreground-dark dark:bg-background-dark transition-colors"
 	>
-		<Navbar title={SITE_TITLE} />
+		<Navbar />
 		<slot />
 		<Footer />
 		<CookieBanner />
 	</body>
 </html>
+
 <script>
 	if (
 		localStorage.theme === 'dark' ||
@@ -41,13 +43,4 @@ import '@fontsource-variable/jetbrains-mono'
 	) {
 		document.documentElement.classList.add('dark')
 	}
-</script>
-
-<script>
-	document.addEventListener('DOMContentLoaded', () => {
-		document.querySelectorAll('a').forEach((link) => {
-			link.setAttribute('target', '_blank')
-			link.setAttribute('rel', 'noopener noreferrer')
-		})
-	})
 </script>

@@ -1,0 +1,318 @@
+---
+// QuizTarea2.astro
+// Cuestionario interactivo de la Tarea 2 del CCSE (Derechos y deberes
+// fundamentales), con feedback inmediato por pregunta. Preguntas de
+// tipo verdadero/falso.
+// Fuente de las preguntas: Manual de preparación de la prueba CCSE 2026
+// (Instituto Cervantes).
+//
+// Uso: importar y colocar en cualquier página Astro, por ejemplo en
+// src/pages/recursos.astro o src/pages/es/recursos.astro:
+//
+//   import QuizTarea2 from '../components/QuizTarea2.astro';
+//   ...
+//   <QuizTarea2 />
+//
+import quizData from '../data/ccse-tarea2-quiz.json';
+
+const totalPreguntas = quizData.preguntas.length;
+---
+
+<section class="ccse-quiz" data-component="quiz-tarea2">
+  <header class="ccse-quiz__header">
+    <p class="ccse-quiz__eyebrow">CCSE · Tarea 2</p>
+    <h3 class="ccse-quiz__title">Derechos y deberes fundamentales</h3>
+    <p class="ccse-quiz__desc">
+      {totalPreguntas} preguntas de práctica con corrección y explicación,
+      basadas en el manual oficial del Instituto Cervantes.
+    </p>
+  </header>
+
+  <div class="ccse-quiz__setup" data-el="setup">
+    <label class="ccse-quiz__setup-option">
+      <input type="radio" name="modo" value="todas" checked />
+      Las {totalPreguntas} preguntas, en orden
+    </label>
+    <label class="ccse-quiz__setup-option">
+      <input type="radio" name="modo" value="aleatorio" />
+      Práctica rápida (20 preguntas al azar)
+    </label>
+    <button type="button" class="ccse-quiz__btn ccse-quiz__btn--primary" data-el="start">
+      Empezar
+    </button>
+  </div>
+
+  <div class="ccse-quiz__player" data-el="player" hidden>
+    <div class="ccse-quiz__progress">
+      <div class="ccse-quiz__progress-bar" data-el="progress-bar"></div>
+    </div>
+    <p class="ccse-quiz__counter" data-el="counter"></p>
+
+    <p class="ccse-quiz__question" data-el="question"></p>
+
+    <div class="ccse-quiz__options" data-el="options"></div>
+
+    <p class="ccse-quiz__feedback" data-el="feedback" hidden></p>
+
+    <div class="ccse-quiz__controls">
+      <button type="button" class="ccse-quiz__btn ccse-quiz__btn--primary" data-el="check">
+        Comprobar
+      </button>
+      <button type="button" class="ccse-quiz__btn ccse-quiz__btn--primary" data-el="next" hidden>
+        Siguiente
+      </button>
+    </div>
+  </div>
+
+  <div class="ccse-quiz__result" data-el="result" hidden>
+    <h4 data-el="result-title"></h4>
+    <p data-el="result-desc"></p>
+    <div class="ccse-quiz__result-list" data-el="result-list"></div>
+    <button type="button" class="ccse-quiz__btn ccse-quiz__btn--primary" data-el="restart">
+      Volver a empezar
+    </button>
+  </div>
+</section>
+
+<script is:inline define:vars={{ preguntas: quizData.preguntas }}>
+  const thisScript = document.currentScript;
+  const root = thisScript.closest('[data-component="quiz-tarea2"]') || thisScript.previousElementSibling;
+  const els = {
+    setup: root.querySelector('[data-el="setup"]'),
+    start: root.querySelector('[data-el="start"]'),
+    player: root.querySelector('[data-el="player"]'),
+    progressBar: root.querySelector('[data-el="progress-bar"]'),
+    counter: root.querySelector('[data-el="counter"]'),
+    question: root.querySelector('[data-el="question"]'),
+    options: root.querySelector('[data-el="options"]'),
+    feedback: root.querySelector('[data-el="feedback"]'),
+    check: root.querySelector('[data-el="check"]'),
+    next: root.querySelector('[data-el="next"]'),
+    result: root.querySelector('[data-el="result"]'),
+    resultTitle: root.querySelector('[data-el="result-title"]'),
+    resultDesc: root.querySelector('[data-el="result-desc"]'),
+    resultList: root.querySelector('[data-el="result-list"]'),
+    restart: root.querySelector('[data-el="restart"]'),
+  };
+
+  let tanda = [];
+  let indice = 0;
+  let respuestaElegida = null;
+  let comprobada = false;
+  let aciertos = 0;
+  let fallos = [];
+
+  function barajar(arr) {
+    const copia = arr.slice();
+    for (let i = copia.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copia[i], copia[j]] = [copia[j], copia[i]];
+    }
+    return copia;
+  }
+
+  function iniciar() {
+    const modo = root.querySelector('input[name="modo"]:checked').value;
+    tanda = modo === 'aleatorio' ? barajar(preguntas).slice(0, 20) : preguntas;
+    indice = 0;
+    aciertos = 0;
+    fallos = [];
+    els.setup.hidden = true;
+    els.result.hidden = true;
+    els.player.hidden = false;
+    mostrarPregunta();
+  }
+
+  function mostrarPregunta() {
+    respuestaElegida = null;
+    comprobada = false;
+    const p = tanda[indice];
+
+    els.progressBar.style.width = `${(indice / tanda.length) * 100}%`;
+    els.counter.textContent = `Pregunta ${indice + 1} de ${tanda.length}`;
+    els.question.textContent = p.question;
+
+    els.options.innerHTML = '';
+    Object.entries(p.options).forEach(([letra, texto]) => {
+      const label = document.createElement('label');
+      label.className = 'ccse-quiz__option';
+      label.innerHTML = `
+        <input type="radio" name="opcion" value="${letra}">
+        <span><strong>${letra})</strong> ${texto}</span>
+      `;
+      label.querySelector('input').addEventListener('change', () => {
+        respuestaElegida = letra;
+      });
+      els.options.appendChild(label);
+    });
+
+    els.feedback.hidden = true;
+    els.feedback.className = 'ccse-quiz__feedback';
+    els.check.hidden = false;
+    els.next.hidden = true;
+  }
+
+  function comprobar() {
+    if (comprobada || !respuestaElegida) return;
+    comprobada = true;
+    const p = tanda[indice];
+    const esCorrecta = respuestaElegida === p.correct;
+
+    if (esCorrecta) {
+      aciertos++;
+    } else {
+      fallos.push(p);
+    }
+
+    root.querySelectorAll('.ccse-quiz__option').forEach((label) => {
+      const input = label.querySelector('input');
+      label.classList.add('is-disabled');
+      input.disabled = true;
+      if (input.value === p.correct) label.classList.add('is-correct');
+      if (input.value === respuestaElegida && !esCorrecta) label.classList.add('is-incorrect');
+    });
+
+    els.feedback.hidden = false;
+    els.feedback.classList.add(esCorrecta ? 'is-correct' : 'is-incorrect');
+    els.feedback.textContent = (esCorrecta ? 'Correcto. ' : `Incorrecto. La respuesta correcta es "${p.correct}". `) + p.feedback;
+
+    els.check.hidden = true;
+    els.next.hidden = false;
+  }
+
+  function siguiente() {
+    indice++;
+    if (indice >= tanda.length) {
+      mostrarResultado();
+    } else {
+      mostrarPregunta();
+    }
+  }
+
+  function mostrarResultado() {
+    els.player.hidden = true;
+    els.result.hidden = false;
+    els.progressBar.style.width = '100%';
+
+    const porcentaje = Math.round((aciertos / tanda.length) * 100);
+    els.resultTitle.textContent = `${aciertos} de ${tanda.length} correctas (${porcentaje}%)`;
+    els.resultDesc.textContent = fallos.length === 0
+      ? 'Muy bien, has acertado todas las preguntas de esta tanda.'
+      : 'Repasa estas preguntas antes del examen:';
+
+    els.resultList.innerHTML = '';
+    fallos.forEach((p) => {
+      const item = document.createElement('div');
+      item.className = 'ccse-quiz__result-item';
+      item.innerHTML = `
+        <p class="ccse-quiz__result-question">${p.question}</p>
+        <p class="ccse-quiz__result-answer">Respuesta correcta: <strong>${p.correct}) ${p.options[p.correct]}</strong></p>
+        <p class="ccse-quiz__result-feedback">${p.feedback}</p>
+      `;
+      els.resultList.appendChild(item);
+    });
+  }
+
+  els.start.addEventListener('click', iniciar);
+  els.check.addEventListener('click', comprobar);
+  els.next.addEventListener('click', siguiente);
+  els.restart.addEventListener('click', () => {
+    els.result.hidden = true;
+    els.setup.hidden = false;
+  });
+</script>
+
+<style>
+  .ccse-quiz {
+    --ccse-accent: var(--color-accent, #7a3b3b);
+    --ccse-bg: var(--color-surface, #ffffff);
+    --ccse-border: var(--color-border, #e2ddd6);
+    --ccse-text: var(--color-text, #2b2622);
+    --ccse-muted: var(--color-text-muted, #6b6259);
+    --ccse-radius: 10px;
+
+    max-width: 640px;
+    margin: 2rem auto;
+    padding: 1.75rem;
+    background: var(--ccse-bg);
+    border: 1px solid var(--ccse-border);
+    border-radius: var(--ccse-radius);
+    color: var(--ccse-text);
+    font-family: inherit;
+  }
+
+  .ccse-quiz__eyebrow {
+    font-size: 0.8rem;
+    color: var(--ccse-muted);
+    margin: 0 0 0.25rem;
+  }
+  .ccse-quiz__title { margin: 0 0 0.5rem; font-size: 1.25rem; }
+  .ccse-quiz__desc { margin: 0 0 1.25rem; color: var(--ccse-muted); font-size: 0.95rem; }
+
+  .ccse-quiz__setup { display: flex; flex-direction: column; gap: 0.75rem; }
+  .ccse-quiz__setup-option { display: flex; align-items: center; gap: 0.5rem; cursor: pointer; }
+
+  .ccse-quiz__btn {
+    align-self: flex-start;
+    padding: 0.6rem 1.25rem;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .ccse-quiz__btn--primary { background: var(--ccse-accent); color: #fff; }
+  .ccse-quiz__btn--primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  .ccse-quiz__progress {
+    height: 6px;
+    background: var(--ccse-border);
+    border-radius: 999px;
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+  }
+  .ccse-quiz__progress-bar {
+    height: 100%;
+    background: var(--ccse-accent);
+    width: 0%;
+    transition: width 0.2s ease;
+  }
+
+  .ccse-quiz__counter { font-size: 0.85rem; color: var(--ccse-muted); margin: 0 0 0.5rem; }
+  .ccse-quiz__question { font-size: 1.1rem; font-weight: 600; margin: 0 0 1rem; }
+
+  .ccse-quiz__options { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem; }
+  .ccse-quiz__option {
+    display: flex;
+    gap: 0.6rem;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--ccse-border);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .ccse-quiz__option:hover { border-color: var(--ccse-accent); }
+  .ccse-quiz__option.is-disabled { cursor: default; }
+  .ccse-quiz__option.is-correct { border-color: #3c8a52; background: rgba(60,138,82,0.08); }
+  .ccse-quiz__option.is-incorrect { border-color: #b3453f; background: rgba(179,69,63,0.08); }
+
+  .ccse-quiz__feedback {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+  }
+  .ccse-quiz__feedback.is-correct { background: rgba(60,138,82,0.1); color: #275c37; }
+  .ccse-quiz__feedback.is-incorrect { background: rgba(179,69,63,0.1); color: #7c2e29; }
+
+  .ccse-quiz__controls { display: flex; gap: 0.75rem; }
+
+  .ccse-quiz__result-list { display: flex; flex-direction: column; gap: 1rem; margin: 1rem 0; }
+  .ccse-quiz__result-item {
+    padding: 0.85rem 1rem;
+    border-left: 3px solid var(--ccse-accent);
+    background: rgba(0,0,0,0.02);
+    border-radius: 0 8px 8px 0;
+  }
+  .ccse-quiz__result-question { font-weight: 600; margin: 0 0 0.35rem; }
+  .ccse-quiz__result-answer { margin: 0 0 0.35rem; font-size: 0.9rem; }
+  .ccse-quiz__result-feedback { margin: 0; font-size: 0.9rem; color: var(--ccse-muted); }
+</style>
