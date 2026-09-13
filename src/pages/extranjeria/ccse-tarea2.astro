@@ -1,21 +1,27 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import QuizTarea2 from '../../components/QuizTarea2.astro'
+import BizumDonationPopup from '../../components/BizumDonationPopup.astro'
 ---
 
-<BaseLayout title="Examen CCSE Tarea 2 · Guía de Extranjería Galicia" description="Cuestionario de práctica de la Tarea 2 del examen CCSE, con corrección y explicación en cada pregunta.">
+<BaseLayout
+	title="Examen CCSE Tarea 2 · Guía de Extranjería Galicia"
+	description="Cuestionario de práctica de la Tarea 2 del examen CCSE, con corrección y explicación en cada pregunta."
+>
 	<main class="app-container pt-36">
 		<p class="text-sm uppercase tracking-wide text-gray-500 pb-2">
-			<a href="/extranjeria" class="hover:underline">Extranjería</a> / Examen CCSE / Tarea 2
+			<a href="/extranjeria" class="hover:underline">Extranjería</a> / Examen CCSE
+			/ Tarea 2
 		</p>
 		<h1 class="text-6xl pb-8 font-bold">Derechos y deberes fundamentales</h1>
 		<p class="md:w-2/3 text-lg leading-[2rem] pb-8">
-			Cuestionario de práctica de la Tarea 2, con preguntas de
-			verdadero o falso, corrección y explicación en cada una,
-			basado en el manual oficial del Instituto Cervantes.
+			Cuestionario de práctica de la Tarea 2, con preguntas de verdadero o
+			falso, corrección y explicación en cada una, basado en el manual oficial
+			del Instituto Cervantes.
 		</p>
 	</main>
 	<section class="app-container py-12">
 		<QuizTarea2 />
+		<BizumDonationPopup />
 	</section>
 </BaseLayout>

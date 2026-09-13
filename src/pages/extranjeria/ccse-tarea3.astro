@@ -1,21 +1,28 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import QuizTarea3 from '../../components/QuizTarea3.astro'
+import BizumDonationPopup from '../../components/BizumDonationPopup.astro'
 ---
 
-<BaseLayout title="Examen CCSE Tarea 3 · Guía de Extranjería Galicia" description="Cuestionario de práctica de la Tarea 3 del examen CCSE, con corrección y explicación en cada pregunta.">
+<BaseLayout
+	title="Examen CCSE Tarea 3 · Guía de Extranjería Galicia"
+	description="Cuestionario de práctica de la Tarea 3 del examen CCSE, con corrección y explicación en cada pregunta."
+>
 	<main class="app-container pt-36">
 		<p class="text-sm uppercase tracking-wide text-gray-500 pb-2">
-			<a href="/extranjeria" class="hover:underline">Extranjería</a> / Examen CCSE / Tarea 3
+			<a href="/extranjeria" class="hover:underline">Extranjería</a> / Examen CCSE
+			/ Tarea 3
 		</p>
-		<h1 class="text-6xl pb-8 font-bold">Organización territorial y geografía</h1>
+		<h1 class="text-6xl pb-8 font-bold">
+			Organización territorial y geografía
+		</h1>
 		<p class="md:w-2/3 text-lg leading-[2rem] pb-8">
-			Cuestionario de práctica de la Tarea 3, con corrección y
-			explicación en cada pregunta, basado en el manual oficial
-			del Instituto Cervantes.
+			Cuestionario de práctica de la Tarea 3, con corrección y explicación en
+			cada pregunta, basado en el manual oficial del Instituto Cervantes.
 		</p>
 	</main>
 	<section class="app-container py-12">
 		<QuizTarea3 />
+		<BizumDonationPopup />
 	</section>
 </BaseLayout>
