@@ -31,7 +31,7 @@
 // cuestionario, colócalo en tu layout general en su lugar.
 
 const BIZUM_PHONE = '679 518 026' // <-- sustituye por tu número real
-const INTERVALO_MINUTOS = 5
+const INTERVALO_MINUTOS = 1
 const MENSAJE =
 	'Estás usando el cuestionario del examen CCSE de forma totalmente gratuita y sin anuncios. Si te resulta útil, tu apoyo por Bizum ayuda a mantener y mejorar este contenido.'
 const CANTIDADES = [2, 5, 10] // <-- las tres cantidades sugeridas, en euros
@@ -236,9 +236,15 @@ const CANTIDADES = [2, 5, 10] // <-- las tres cantidades sugeridas, en euros
 		gap: 0.5rem;
 		padding: 0.5rem 0.75rem;
 		background: rgba(0, 0, 0, 0.03);
+		border: 1px solid var(--color-border, #e2ddd6);
 		border-radius: 8px;
 		font-weight: 600;
+		color: var(--color-text, #2b2622);
 		margin-bottom: 0.85rem;
+	}
+	.vsp-donate__phone span {
+		color: inherit;
+		letter-spacing: 0.02em;
 	}
 	.vsp-donate__copy {
 		border: none;
@@ -270,6 +276,46 @@ const CANTIDADES = [2, 5, 10] // <-- las tres cantidades sugeridas, en euros
 	.vsp-donate__btn--muted {
 		background: rgba(0, 0, 0, 0.06);
 		color: var(--color-text, #2b2622);
+	}
+
+	/* Modo oscuro: no dependemos solo de --color-surface / --color-text
+	   globales (pueden no estar redefinidas para .dark). Fijamos aquí
+	   valores explícitos de fondo, borde y texto para que el número de
+	   teléfono y el resto del contenido tengan contraste garantizado. */
+	:global(.dark) .vsp-donate {
+		background: #201c18;
+		border-color: #3a332c;
+		box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+	}
+	:global(.dark) .vsp-donate__close {
+		color: #b9b0a4;
+	}
+	:global(.dark) .vsp-donate__msg {
+		color: #f2ede6;
+	}
+	:global(.dark) .vsp-donate__amount {
+		border-color: #3a332c;
+		color: #f2ede6;
+	}
+	:global(.dark) .vsp-donate__amount:hover {
+		border-color: var(--color-accent, #b96a6a);
+	}
+	:global(.dark) .vsp-donate__amount.is-selected {
+		background: var(--color-accent, #b96a6a);
+		border-color: var(--color-accent, #b96a6a);
+		color: #201c18;
+	}
+	:global(.dark) .vsp-donate__hint {
+		color: #b9b0a4;
+	}
+	:global(.dark) .vsp-donate__phone {
+		background: rgba(255, 255, 255, 0.06);
+		border-color: #3a332c;
+		color: #f2ede6;
+	}
+	:global(.dark) .vsp-donate__btn--muted {
+		background: rgba(255, 255, 255, 0.08);
+		color: #f2ede6;
 	}
 
 	@media (max-width: 480px) {

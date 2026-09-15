@@ -79,7 +79,7 @@ const isExtranjeria = (url: string) => url.replace(/\/$/, '') === 'extranjeria'
 
 			<!-- Mobile nav -->
 			<div
-				class="translate-x-full md:hidden fixed top-0 right-0 bg-background dark:bg-background-dark h-screen w-5/6 px-8 py-6 transition-transform z-40 border-l-[1px] border-background"
+				class="translate-x-full md:hidden fixed top-0 right-0 bg-background dark:bg-background-dark h-screen w-5/6 px-8 py-6 transition-transform z-40 border-l-[1px] border-background overflow-y-auto"
 				id="mobile-menu"
 			>
 				<button
@@ -90,24 +90,48 @@ const isExtranjeria = (url: string) => url.replace(/\/$/, '') === 'extranjeria'
 				>
 					<Icon aria-hidden name="mdi:close" size={32} />
 				</button>
-				<div class="flex flex-col h-full items-start gap-8 pt-16">
+				<div class="flex flex-col h-full items-start gap-6 pt-16 w-full">
 					{
-						WebsiteLinks.map((link) => (
-							<Fragment>
+						WebsiteLinks.map((link) =>
+							isExtranjeria(link.url) ? (
+								<div class="w-full" data-el="mobile-extranjeria-dropdown">
+									<button
+										type="button"
+										class="text-4xl font-light flex items-center gap-2 w-full"
+										data-el="mobile-dropdown-trigger"
+										aria-expanded="false"
+									>
+										{link.name}
+										<Icon
+											aria-hidden
+											name="mdi:chevron-down"
+											size={28}
+											class="transition-transform shrink-0"
+											data-el="mobile-dropdown-chevron"
+										/>
+									</button>
+									<div
+										class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out overflow-hidden w-full"
+										data-el="mobile-dropdown-panel"
+										data-open="false"
+									>
+										<div class="min-h-0 overflow-hidden">
+											<div class="flex flex-col gap-3 pl-4 pt-3">
+												{CCSE_LINKS.map((sub) => (
+													<a href={`/${sub.url}`} class="text-xl font-light hover:underline">
+														{sub.name}
+													</a>
+												))}
+											</div>
+										</div>
+									</div>
+								</div>
+							) : (
 								<NavbarLink class="text-4xl font-light" href={link.url}>
 									{link.name}
 								</NavbarLink>
-								{isExtranjeria(link.url) && (
-									<div class="flex flex-col gap-4 pl-4 -mt-4">
-										{CCSE_LINKS.map((sub) => (
-											<a href={`/${sub.url}`} class="text-xl font-light hover:underline">
-												{sub.name}
-											</a>
-										))}
-									</div>
-								)}
-							</Fragment>
-						))
+							)
+						)
 					}
 					<ThemeSelector class:list="mt-4" />
 				</div>
@@ -115,7 +139,7 @@ const isExtranjeria = (url: string) => url.replace(/\/$/, '') === 'extranjeria'
 		</div>
 	</nav>
 
-	<script>
+	<script is:inline>
 		function toggleNav() {
 			document
 				.querySelector('#mobile-menu')
@@ -129,13 +153,13 @@ const isExtranjeria = (url: string) => url.replace(/\/$/, '') === 'extranjeria'
 			.querySelector('#nav-close-btn')
 			?.addEventListener('click', toggleNav)
 
-		const dropdown = document.querySelector<HTMLElement>('[data-el="extranjeria-dropdown"]')
+		const dropdown = document.querySelector('[data-el="extranjeria-dropdown"]')
 		if (dropdown) {
-			const trigger = dropdown.querySelector<HTMLElement>('[data-el="dropdown-trigger"]')
-			const list = dropdown.querySelector<HTMLUListElement>('[data-el="dropdown-list"]')
+			const trigger = dropdown.querySelector('[data-el="dropdown-trigger"]')
+			const list = dropdown.querySelector('[data-el="dropdown-list"]')
 
 			if (trigger && list) {
-				let closeTimeout: ReturnType<typeof setTimeout>
+				let closeTimeout
 
 				const open = () => {
 					clearTimeout(closeTimeout)
@@ -156,11 +180,36 @@ const isExtranjeria = (url: string) => url.replace(/\/$/, '') === 'extranjeria'
 
 				// Teclado: mostrar al enfocar el enlace o cualquier item del desplegable
 				dropdown.addEventListener('focusin', open)
-				dropdown.addEventListener('focusout', (e: FocusEvent) => {
-					const next = e.relatedTarget as Node | null
+				dropdown.addEventListener('focusout', (e) => {
+					const next = e.relatedTarget
 					if (!next || !dropdown.contains(next)) close()
 				})
 			}
+		}
+
+		// Móvil: acordeón para el submenú de Extranjería
+		const mobileDropdown = document.querySelector(
+			'[data-el="mobile-extranjeria-dropdown"]'
+		)
+		if (mobileDropdown) {
+			const mobileTrigger = mobileDropdown.querySelector(
+				'[data-el="mobile-dropdown-trigger"]'
+			)
+			const mobilePanel = mobileDropdown.querySelector(
+				'[data-el="mobile-dropdown-panel"]'
+			)
+			const mobileChevron = mobileDropdown.querySelector(
+				'[data-el="mobile-dropdown-chevron"]'
+			)
+
+			mobileTrigger?.addEventListener('click', () => {
+				const isOpen = mobilePanel?.dataset.open === 'true'
+				if (mobilePanel) mobilePanel.dataset.open = isOpen ? 'false' : 'true'
+				mobilePanel?.classList.toggle('grid-rows-[1fr]', !isOpen)
+				mobilePanel?.classList.toggle('grid-rows-[0fr]', isOpen)
+				mobileTrigger?.setAttribute('aria-expanded', String(!isOpen))
+				mobileChevron?.classList.toggle('rotate-180', !isOpen)
+			})
 		}
 	</script>
 </header>
