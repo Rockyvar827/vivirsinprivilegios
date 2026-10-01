@@ -138,80 +138,98 @@ const isExtranjeria = (url: string) => url.replace(/\/$/, '') === 'extranjeria'
 			</div>
 		</div>
 	</nav>
+<script is:inline>
+	// Detecta dispositivos táctiles (tablets y móviles), no por ancho de pantalla
+	const isTouchDevice = window.matchMedia('(hover: none), (pointer: coarse)').matches
 
-	<script is:inline>
-		function toggleNav() {
-			document
-				.querySelector('#mobile-menu')
-				?.classList.toggle('mobile-nav-open')
-		}
-
+	function toggleNav() {
 		document
-			.querySelector('#nav-open-btn')
-			?.addEventListener('click', toggleNav)
-		document
-			.querySelector('#nav-close-btn')
-			?.addEventListener('click', toggleNav)
+			.querySelector('#mobile-menu')
+			?.classList.toggle('mobile-nav-open')
+	}
 
-		const dropdown = document.querySelector('[data-el="extranjeria-dropdown"]')
-		if (dropdown) {
-			const trigger = dropdown.querySelector('[data-el="dropdown-trigger"]')
-			const list = dropdown.querySelector('[data-el="dropdown-list"]')
+	document
+		.querySelector('#nav-open-btn')
+		?.addEventListener('click', toggleNav)
+	document
+		.querySelector('#nav-close-btn')
+		?.addEventListener('click', toggleNav)
 
-			if (trigger && list) {
-				let closeTimeout
+	const dropdown = document.querySelector('[data-el="extranjeria-dropdown"]')
+	if (dropdown) {
+		const trigger = dropdown.querySelector('[data-el="dropdown-trigger"]')
+		const list = dropdown.querySelector('[data-el="dropdown-list"]')
 
-				const open = () => {
-					clearTimeout(closeTimeout)
-					list.dataset.open = 'true'
-					trigger.setAttribute('aria-expanded', 'true')
-				}
-				const close = () => {
-					list.dataset.open = 'false'
-					trigger.setAttribute('aria-expanded', 'false')
-				}
-				const scheduleClose = () => {
-					closeTimeout = setTimeout(close, 150)
-				}
+		if (trigger && list) {
+			let closeTimeout
 
-				// Escritorio: mostrar el desplegable al pasar el ratón por encima
-				dropdown.addEventListener('mouseenter', open)
-				dropdown.addEventListener('mouseleave', scheduleClose)
+			const open = () => {
+				clearTimeout(closeTimeout)
+				list.dataset.open = 'true'
+				trigger.setAttribute('aria-expanded', 'true')
+			}
+			const close = () => {
+				list.dataset.open = 'false'
+				trigger.setAttribute('aria-expanded', 'false')
+			}
+			const scheduleClose = () => {
+				closeTimeout = setTimeout(close, 150)
+			}
 
-				// Teclado: mostrar al enfocar el enlace o cualquier item del desplegable
-				dropdown.addEventListener('focusin', open)
-				dropdown.addEventListener('focusout', (e) => {
-					const next = e.relatedTarget
-					if (!next || !dropdown.contains(next)) close()
+			// Escritorio: mostrar el desplegable al pasar el ratón por encima
+			dropdown.addEventListener('mouseenter', open)
+			dropdown.addEventListener('mouseleave', scheduleClose)
+
+			// Teclado: mostrar al enfocar el enlace o cualquier item del desplegable
+			dropdown.addEventListener('focusin', open)
+			dropdown.addEventListener('focusout', (e) => {
+				const next = e.relatedTarget
+				if (!next || !dropdown.contains(next)) close()
+			})
+
+			// Táctil (tablets): el primer toque abre la lista en vez de navegar;
+			// si ya está abierta, el segundo toque navega con normalidad
+			if (isTouchDevice) {
+				trigger.addEventListener('click', (e) => {
+					const isOpen = list.dataset.open === 'true'
+					if (!isOpen) {
+						e.preventDefault()
+						open()
+					}
+				})
+
+				document.addEventListener('click', (e) => {
+					if (!dropdown.contains(e.target)) close()
 				})
 			}
 		}
+	}
 
-		// Móvil: acordeón para el submenú de Extranjería
-		const mobileDropdown = document.querySelector(
-			'[data-el="mobile-extranjeria-dropdown"]'
+	// Acordeón para el submenú de Extranjería (menú móvil, hamburguesa)
+	const mobileDropdown = document.querySelector(
+		'[data-el="mobile-extranjeria-dropdown"]'
+	)
+	if (mobileDropdown) {
+		const mobileTrigger = mobileDropdown.querySelector(
+			'[data-el="mobile-dropdown-trigger"]'
 		)
-		if (mobileDropdown) {
-			const mobileTrigger = mobileDropdown.querySelector(
-				'[data-el="mobile-dropdown-trigger"]'
-			)
-			const mobilePanel = mobileDropdown.querySelector(
-				'[data-el="mobile-dropdown-panel"]'
-			)
-			const mobileChevron = mobileDropdown.querySelector(
-				'[data-el="mobile-dropdown-chevron"]'
-			)
+		const mobilePanel = mobileDropdown.querySelector(
+			'[data-el="mobile-dropdown-panel"]'
+		)
+		const mobileChevron = mobileDropdown.querySelector(
+			'[data-el="mobile-dropdown-chevron"]'
+		)
 
-			mobileTrigger?.addEventListener('click', () => {
-				const isOpen = mobilePanel?.dataset.open === 'true'
-				if (mobilePanel) mobilePanel.dataset.open = isOpen ? 'false' : 'true'
-				mobilePanel?.classList.toggle('grid-rows-[1fr]', !isOpen)
-				mobilePanel?.classList.toggle('grid-rows-[0fr]', isOpen)
-				mobileTrigger?.setAttribute('aria-expanded', String(!isOpen))
-				mobileChevron?.classList.toggle('rotate-180', !isOpen)
-			})
-		}
-	</script>
+		mobileTrigger?.addEventListener('click', () => {
+			const isOpen = mobilePanel?.dataset.open === 'true'
+			if (mobilePanel) mobilePanel.dataset.open = isOpen ? 'false' : 'true'
+			mobilePanel?.classList.toggle('grid-rows-[1fr]', !isOpen)
+			mobilePanel?.classList.toggle('grid-rows-[0fr]', isOpen)
+			mobileTrigger?.setAttribute('aria-expanded', String(!isOpen))
+			mobileChevron?.classList.toggle('rotate-180', !isOpen)
+		})
+	}
+</script>
 </header>
 
 <script is:inline>

@@ -69,31 +69,56 @@ const t={preserveBehavior:!1},e=e=>{if("string"==typeof e)return[e,t];const[n,r=
 				})
 			}
 		}
+// Detecta si el dispositivo es táctil (tablet o móvil), no por ancho de pantalla
+const isTouchDevice = window.matchMedia('(hover: none), (pointer: coarse)').matches
 
-		// Móvil: acordeón para el submenú de Extranjería
-		const mobileDropdown = document.querySelector(
-			'[data-el="mobile-extranjeria-dropdown"]'
-		)
-		if (mobileDropdown) {
-			const mobileTrigger = mobileDropdown.querySelector(
-				'[data-el="mobile-dropdown-trigger"]'
-			)
-			const mobilePanel = mobileDropdown.querySelector(
-				'[data-el="mobile-dropdown-panel"]'
-			)
-			const mobileChevron = mobileDropdown.querySelector(
-				'[data-el="mobile-dropdown-chevron"]'
-			)
+// Acordeón para el submenú de Extranjería (móvil y tablet)
+const mobileDropdown = document.querySelector(
+	'[data-el="mobile-extranjeria-dropdown"]'
+)
+if (mobileDropdown) {
+	const mobileTrigger = mobileDropdown.querySelector(
+		'[data-el="mobile-dropdown-trigger"]'
+	)
+	const mobilePanel = mobileDropdown.querySelector(
+		'[data-el="mobile-dropdown-panel"]'
+	)
+	const mobileChevron = mobileDropdown.querySelector(
+		'[data-el="mobile-dropdown-chevron"]'
+	)
 
-			mobileTrigger?.addEventListener('click', () => {
-				const isOpen = mobilePanel?.dataset.open === 'true'
-				if (mobilePanel) mobilePanel.dataset.open = isOpen ? 'false' : 'true'
-				mobilePanel?.classList.toggle('grid-rows-[1fr]', !isOpen)
-				mobilePanel?.classList.toggle('grid-rows-[0fr]', isOpen)
-				mobileTrigger?.setAttribute('aria-expanded', String(!isOpen))
-				mobileChevron?.classList.toggle('rotate-180', !isOpen)
-			})
+	let justOpened = false
+
+	mobileTrigger?.addEventListener('click', (e) => {
+		e.stopPropagation() // evita que este mismo toque dispare un listener de "click fuera"
+
+		const isOpen = mobilePanel?.dataset.open === 'true'
+		if (mobilePanel) mobilePanel.dataset.open = isOpen ? 'false' : 'true'
+		mobilePanel?.classList.toggle('grid-rows-[1fr]', !isOpen)
+		mobilePanel?.classList.toggle('grid-rows-[0fr]', isOpen)
+		mobileTrigger?.setAttribute('aria-expanded', String(!isOpen))
+		mobileChevron?.classList.toggle('rotate-180', !isOpen)
+
+		// Si se acaba de abrir, ignora el próximo "click fuera" durante un instante
+		if (!isOpen) {
+			justOpened = true
+			setTimeout(() => { justOpened = false }, 300)
 		}
+	})
+
+	// Cierra al tocar fuera del dropdown, pero no en el mismo toque que lo abrió
+	document.addEventListener('click', (e) => {
+		if (justOpened) return
+		if (!mobileDropdown.contains(e.target) && mobilePanel?.dataset.open === 'true') {
+			mobilePanel.dataset.open = 'false'
+			mobilePanel.classList.remove('grid-rows-[1fr]')
+			mobilePanel.classList.add('grid-rows-[0fr]')
+			mobileTrigger?.setAttribute('aria-expanded', 'false')
+			mobileChevron?.classList.remove('rotate-180')
+		}
+	})
+}
+		
 	</script> </header> <script>
 	function reComputeTheme() {
 		if (
