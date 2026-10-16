@@ -8,7 +8,7 @@ description: |
   podemos hacer, hoy, con nuestra energía.
 pubDate: 'Jul 21 2026'
 coverImage: '/images/mujer-afrodescendiente-racismo-estructural.jpg'
-coverImageCredit: 'Pendiente de sustituir por imagen propia o con licencia'
+coverImageCredit: 'Collage generado con Paint – Derechos reservados'
 lastModified: '21-07-2026'
 author: 'Rosana'
 tags:
