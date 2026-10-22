@@ -36,14 +36,19 @@ jobs:
         continue-on-error: true   # que un fallo de una web no impida abrir el PR del BOE
 
       - name: Abrir o actualizar el Pull Request
+        id: pr
         env:
           GH_TOKEN: ${{ github.token }}
           BASE: ${{ github.event.repository.default_branch }}
+          LISTA: ${{ runner.temp }}/nuevos.txt
         run: |
           if [ -z "$(git status --porcelain src/content/novedades)" ]; then
             echo "Sin novedades hoy. No se abre Pull Request."
             exit 0
           fi
+
+          # Lista de borradores nuevos, para el email (antes de hacer git add)
+          git ls-files --others --exclude-standard src/content/novedades > "$LISTA"
 
           RAMA="novedades-automaticas"
           git config user.name "github-actions[bot]"
@@ -59,3 +64,21 @@ jobs:
               --title "Novedades detectadas $(date +%F)" \
               --body "Borradores generados automáticamente (draft: true). Al fusionar no se publica nada: redacta el resumen de cada uno y cambia a draft: false después."
           fi
+
+          if [ -s "$LISTA" ]; then
+            echo "hay_novedades=true" >> "$GITHUB_OUTPUT"
+            echo "pr_url=$(gh pr view "$RAMA" --json url --jq .url)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Avisar por email
+        if: steps.pr.outputs.hay_novedades == 'true'
+        continue-on-error: true   # un fallo del correo no debe romper el workflow
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          PR_URL: ${{ steps.pr.outputs.pr_url }}
+          LISTA: ${{ runner.temp }}/nuevos.txt
+        run: python monitor/avisar.py
