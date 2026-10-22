@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content'
+import { glob } from "astro/loaders";
 
 const blog = defineCollection({
 	// Type-check frontmatter using a schema
@@ -101,6 +102,22 @@ const privacyCollection = defineCollection({
 	}),
 })
 
+
+const novedades = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "./src/content/novedades" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    pubDate: z.coerce.date(),
+    checkedDate: z.coerce.date(),
+    source: z.string(),
+    sourceUrl: z.string().url(),
+    category: z.enum(["nacionalidad", "residencia", "asilo", "estudiantes", "legislacion", "otros"]),
+    draft: z.boolean().default(false),
+  }),
+});
+
+
 export const collections = {
 	blog,
 	extranjeria: extranjeriaCollection,
@@ -109,4 +126,5 @@ export const collections = {
 	manifiesto: manifiestoCollection,
 	cookies: cookiesCollection,
 	privacy: privacyCollection,
+	novedades: novedades
 }

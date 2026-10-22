@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 import { Icon } from 'astro-icon/components'
 import BlogCard from '../components/BlogCard.astro'
 import { getCollection } from 'astro:content'
+import SocialLinks from "../components/SocialLinks.astro";
 const posts = (await getCollection('blog'))
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
 	.slice(0, 4)
@@ -76,7 +77,7 @@ const posts = (await getCollection('blog'))
 			>
 				Es saber que tu <strong>color de piel, acento o pasaporte</strong> pueden
 				complicar tu vida en Extranjería, en el trabajo o en el acceso a vivienda
-				pública. Eso es <strong>racismo institucional en 2025.</strong>
+				pública. Eso es <strong>racismo institucional.</strong>
 			</p>
 		</div>
 	</section>
@@ -86,13 +87,13 @@ const posts = (await getCollection('blog'))
 			<h2
 				class="text-xl md:text-2xl font-bold text-primary dark:text-primary-dark"
 			>
-				🏛 ¿Qué es el racismo institucional en España en 2025?
+				🏛 ¿Qué es el racismo institucional en España?
 			</h2>
 
 			<p
 				class="text-sm md:text-base text-gray-800 dark:text-gray-300 max-w-2xl mx-auto"
 			>
-				El racismo institucional en 2025 no grita.
+				El racismo institucional no grita.
 				<strong
 					>Se sella y se tramita por oficinas y plataformas digitales.</strong
 				>
@@ -237,4 +238,5 @@ const posts = (await getCollection('blog'))
 			Leer todos <Icon size={20} name="mdi:arrow-right" />
 		</a>
 	</section>
+	<SocialLinks />
 </BaseLayout>

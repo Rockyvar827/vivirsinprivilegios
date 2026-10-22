@@ -30,6 +30,10 @@ export const WebsiteLinks = [
 		url: 'extranjeria',
 	},
 	{
+		name: 'Novedades',
+		url: 'novedades',
+	},
+	{
 		name: 'Blog',
 		url: 'blog',
 	},

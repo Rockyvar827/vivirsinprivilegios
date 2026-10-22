@@ -1,0 +1,72 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import NovedadCard from "../../../components/NovedadCard.astro";
+import NovedadesNav from "../../../components/NovedadesNav.astro";
+import { CATEGORIAS, NOMBRE_SITIO, resumenCategorias, jsonSeguro } from "../../../utils/novedades";
+
+export async function getStaticPaths() {
+  const todas = (await getCollection("novedades", ({ data }) => !data.draft))
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  const categorias = resumenCategorias(todas);
+  // Solo se generan categorías con contenido: evita páginas vacías
+  return categorias.map((c) => ({
+    params: { categoria: c.slug },
+    props: { slug: c.slug, categorias, novedades: todas.filter((n) => n.data.category === c.slug) },
+  }));
+}
+
+const { slug, categorias, novedades } = Astro.props;
+const cat = CATEGORIAS[slug as keyof typeof CATEGORIAS];
+const SITE = Astro.site?.origin ?? "https://vivirsinprivilegios.org";
+const url = `${SITE}/novedades/categoria/${slug}/`;
+const titulo = `Novedades de ${cat.nombre.toLowerCase()} en extranjería (España)`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      url,
+      name: titulo,
+      description: cat.descripcion,
+      inLanguage: "es",
+      isPartOf: { "@type": "WebSite", name: NOMBRE_SITIO, url: SITE },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Inicio", item: `${SITE}/` },
+        { "@type": "ListItem", position: 2, name: "Novedades", item: `${SITE}/novedades/` },
+        { "@type": "ListItem", position: 3, name: cat.nombre, item: url },
+      ],
+    },
+  ],
+};
+---
+<BaseLayout title={titulo} description={cat.descripcion}>
+  <script is:inline type="application/ld+json" set:html={jsonSeguro(jsonLd)} />
+
+  <main class="novedades">
+    <nav class="migas" aria-label="Migas de pan">
+      <a href="/">Inicio</a> › <a href="/novedades/">Novedades</a> › <span>{cat.nombre}</span>
+    </nav>
+
+    <h1>Novedades de {cat.nombre.toLowerCase()}</h1>
+    <p class="lead">{cat.descripcion}</p>
+
+    <NovedadesNav categorias={categorias} activa={slug} />
+
+    <div class="lista">
+      {novedades.map((n) => <NovedadCard n={n} />)}
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .novedades { max-width: 52rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .migas { font-size: 0.85rem; opacity: 0.8; margin-bottom: 1rem; }
+  h1 { line-height: 1.2; margin: 0 0 0.75rem; }
+  .lead { font-size: 1.1rem; margin: 0; }
+  .lista { display: grid; gap: 1rem; }
+</style>

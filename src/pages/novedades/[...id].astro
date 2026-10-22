@@ -1,0 +1,117 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import NovedadCard from "../../components/NovedadCard.astro";
+import { CATEGORIAS, NOMBRE_SITIO, fechaLarga, fechaISO, jsonSeguro } from "../../utils/novedades";
+
+export async function getStaticPaths() {
+  const novedades = await getCollection("novedades", ({ data }) => !data.draft);
+  return novedades.map((n) => ({ params: { id: n.id }, props: { n } }));
+}
+
+const { n } = Astro.props;
+const { Content } = await render(n);
+const cat = CATEGORIAS[n.data.category as keyof typeof CATEGORIAS];
+const SITE = Astro.site?.origin ?? "https://vivirsinprivilegios.org";
+const url = `${SITE}/novedades/${n.id}/`;
+
+const relacionadas = (await getCollection("novedades", ({ data }) => !data.draft && data.category === n.data.category))
+  .filter((o) => o.id !== n.id)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const autor = { "@type": "Organization", name: NOMBRE_SITIO, url: SITE };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      headline: n.data.title.slice(0, 110),
+      description: n.data.description,
+      datePublished: fechaISO(n.data.pubDate),
+      dateModified: fechaISO(n.data.checkedDate),
+      inLanguage: "es",
+      articleSection: cat.nombre,
+      mainEntityOfPage: url,
+      isBasedOn: n.data.sourceUrl,
+      author: autor,
+      publisher: autor,
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Inicio", item: `${SITE}/` },
+        { "@type": "ListItem", position: 2, name: "Novedades", item: `${SITE}/novedades/` },
+        { "@type": "ListItem", position: 3, name: cat.nombre, item: `${SITE}/novedades/categoria/${n.data.category}/` },
+        { "@type": "ListItem", position: 4, name: n.data.title, item: url },
+      ],
+    },
+  ],
+};
+---
+<BaseLayout title={n.data.title} description={n.data.description}>
+  <script is:inline type="application/ld+json" set:html={jsonSeguro(jsonLd)} />
+
+  <main class="novedad">
+    <nav class="migas" aria-label="Migas de pan">
+      <a href="/">Inicio</a> › <a href="/novedades/">Novedades</a> ›
+      <a href={`/novedades/categoria/${n.data.category}/`}>{cat.nombre}</a>
+    </nav>
+
+    <article>
+      <header>
+        <p class="meta">
+          <a class="etiqueta" href={`/novedades/categoria/${n.data.category}/`}>{cat.nombre}</a>
+          <span>Publicado: <time datetime={fechaISO(n.data.pubDate)}>{fechaLarga(n.data.pubDate)}</time></span>
+          <span>Última comprobación: <time datetime={fechaISO(n.data.checkedDate)}>{fechaLarga(n.data.checkedDate)}</time></span>
+        </p>
+        <h1>{n.data.title}</h1>
+        <p class="lead">{n.data.description}</p>
+      </header>
+
+      <div class="contenido"><Content /></div>
+
+      <aside class="fuente" aria-label="Fuente oficial">
+        <p>
+          <strong>Fuente oficial:</strong>
+          <a href={n.data.sourceUrl} target="_blank" rel="noopener noreferrer">{n.data.source}</a>
+        </p>
+        <p class="aviso">
+          Información orientativa, no constituye asesoría jurídica. Contrasta siempre con la
+          fuente oficial antes de tomar decisiones sobre tu trámite.
+        </p>
+      </aside>
+    </article>
+
+    {relacionadas.length > 0 && (
+      <section class="relacionadas">
+        <h2>Más novedades de {cat.nombre.toLowerCase()}</h2>
+        <div class="lista">
+          {relacionadas.map((r) => <NovedadCard n={r} />)}
+        </div>
+        <p><a href="/novedades/">Ver todas las novedades →</a></p>
+      </section>
+    )}
+  </main>
+</BaseLayout>
+
+<style>
+  .novedad { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .migas { font-size: 0.85rem; opacity: 0.8; margin-bottom: 1rem; }
+  .meta { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; align-items: center; font-size: 0.88rem; margin: 0 0 0.75rem; }
+  .etiqueta {
+    padding: 0.1rem 0.6rem; border-radius: 999px; text-decoration: none; font-weight: 600;
+    background: color-mix(in srgb, currentColor 10%, transparent);
+  }
+  h1 { line-height: 1.2; margin: 0 0 0.75rem; }
+  .lead { font-size: 1.1rem; opacity: 0.9; margin: 0 0 1.5rem; }
+  .contenido :global(h2) { margin-top: 1.75rem; }
+  .fuente {
+    margin-top: 2rem; padding: 1rem 1.25rem; border-radius: 12px;
+    border-left: 4px solid currentColor; background: color-mix(in srgb, currentColor 6%, transparent);
+  }
+  .fuente p { margin: 0; }
+  .aviso { font-size: 0.88rem; opacity: 0.85; margin-top: 0.5rem !important; }
+  .relacionadas { margin-top: 3rem; }
+  .lista { display: grid; gap: 1rem; margin-bottom: 1rem; }
+</style>
