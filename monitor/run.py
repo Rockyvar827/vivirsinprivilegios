@@ -50,6 +50,8 @@ CATEGORIAS = (
     ("extranjer", "residencia"),
 )
 
+# Titulos que contienen palabras clave pero no tratan de extranjeria
+EXCLUIR = ("turista extranjero",)
 
 def lista(x):
     if x is None:
@@ -89,6 +91,8 @@ def es_relevante(seccion, departamento, titulo):
     if not seccion.lower().startswith(SECCIONES):
         return False
     t = titulo.lower()
+    if any(x in t for x in EXCLUIR):
+        return False
     if any(c in t for c in CLAVES_FUERTES):
         return True
     vigilado = any(d in departamento.lower() for d in DEPARTAMENTOS)

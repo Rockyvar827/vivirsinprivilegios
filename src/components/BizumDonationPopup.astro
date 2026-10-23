@@ -1,39 +1,32 @@
 ---
 // BizumDonationPopup.astro
 //
-// Aviso de donación por Bizum que aparece cada 5 minutos mientras la
-// persona está usando el cuestionario, recordando que el contenido es
-// gratuito y sin anuncios, y que su apoyo ayuda a mantenerlo.
+// Aviso de donación por Bizum que aparece cada INTERVALO_MINUTOS minutos
+// mientras la persona está en la página de inicio, recordando que el
+// contenido es gratuito y sin anuncios, y que su apoyo ayuda a mantenerlo.
 //
 // EDITA ESTO antes de publicar:
 //   - BIZUM_PHONE: tu número de teléfono para recibir Bizum.
-//   - INTERVALO_MINUTOS: cada cuánto se repite el aviso (por defecto 5).
+//   - INTERVALO_MINUTOS: cada cuánto se repite el aviso (por defecto 2).
 //   - CANTIDADES: las tres cantidades sugeridas (en euros).
-//   - Ajusta el texto si quieres.
+//   - MENSAJE: el texto del aviso.
 //
 // IMPORTANTE sobre las cantidades: Bizum no ofrece, para cuentas
 // personales, ningún enlace que abra la app con el importe ya
-// rellenado (eso solo existe en el botón oficial de donaciones para
-// entidades registradas). Por eso los tres botones son solo una
-// sugerencia visual: al pulsar uno, se muestra un recordatorio del
-// importe elegido junto al número, pero la persona tiene que teclearlo
-// ella misma al hacer el Bizum desde su banco.
+// rellenado. Por eso los tres botones son solo una sugerencia visual:
+// al pulsar uno, se muestra un recordatorio del importe elegido junto
+// al número, pero la persona tiene que teclearlo ella misma en su banco.
 //
-// Uso recomendado: colócalo en las páginas del cuestionario
-// (src/pages/extranjeria/ccse-tareaN.astro), justo antes de </BaseLayout>,
-// ya que el mensaje habla específicamente de "el cuestionario":
+// Uso: colócalo en src/pages/index.astro, justo antes de </BaseLayout>:
 //
-//   import BizumDonationPopup from '../../components/BizumDonationPopup.astro';
+//   import BizumDonationPopup from '../components/BizumDonationPopup.astro'
 //   ...
 //   <BizumDonationPopup />
-//
-// Si prefieres que se repita en todo el sitio y no solo en el
-// cuestionario, colócalo en tu layout general en su lugar.
 
 const BIZUM_PHONE = '679 518 026' // <-- sustituye por tu número real
-const INTERVALO_MINUTOS = 1
+const INTERVALO_MINUTOS = 2
 const MENSAJE =
-	'Estás usando el cuestionario del examen CCSE de forma totalmente gratuita y sin anuncios. Si te resulta útil, tu apoyo por Bizum ayuda a mantener y mejorar este contenido.'
+	'Esta web es totalmente gratuita y no tiene anuncios. Si te resulta útil, tu apoyo por Bizum ayuda a mantener y mejorar este contenido.'
 const CANTIDADES = [2, 5, 10] // <-- las tres cantidades sugeridas, en euros
 ---
 
