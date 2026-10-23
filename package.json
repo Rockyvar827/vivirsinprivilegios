@@ -14,7 +14,7 @@
 		"format:check": "prettier --check .",
 		"deploy": "npm run build && npm run copy-docs && npm run dev",
 		"copy-docs": "rm -rf docs && mkdir -p docs && cp -r dist/. docs/",
-    "copy-docs:win": "rmdir /S /Q docs && mkdir docs && xcopy dist docs /E /I /Y",
+		"copy-docs:win": "rmdir /S /Q docs && mkdir docs && xcopy dist docs /E /I /Y",
 		"test:e2e": "playwright test"
 	},
 	"dependencies": {
@@ -35,16 +35,16 @@
 		"reading-time": "^1.5.0",
 		"rehype-figure-title": "^1.0.0",
 		"tailwindcss": "^4.1.12",
-		"typescript": "^6.0.2"
+		"typescript": "^5.9.3"
 	},
 	"devDependencies": {
 		"@astrojs/partytown": "^2.1.4",
-		"@eslint/js": "^10.0.1",
+		"@eslint/js": "^9.39.5",
 		"@playwright/test": "^1.57.0",
 		"@tailwindcss/typography": "^0.5.16",
 		"@typescript-eslint/eslint-plugin": "^8.39.1",
 		"@typescript-eslint/parser": "^8.39.1",
-		"eslint": "^10.1.0",
+		"eslint": "^9.39.5",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-astro": "^1.3.1",
 		"eslint-plugin-jsx-a11y": "^6.10.2",
