@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css'
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
 
 interface Props {
 	title: string
@@ -7,8 +8,46 @@ interface Props {
 	image?: string
 }
 
-const { title, description, image = `/saral-og.jpg` } = Astro.props
+const { title, description, image = '/og-vivir-sin-privilegios.jpg' } = Astro.props
+
+const SITE = Astro.site?.origin ?? 'https://www.vivirsinprivilegios.org'
+// URL canónica: siempre el dominio de `site` (con www) y la ruta actual
+const canonicalURL = new URL(Astro.url.pathname, SITE)
+const ogImage = new URL(image, SITE)
+
+// Datos estructurados del sitio: solo en la portada
+const esPortada = Astro.url.pathname === '/'
+const jsonLd = {
+	'@context': 'https://schema.org',
+	'@graph': [
+		{
+			'@type': 'WebSite',
+			'@id': `${SITE}/#website`,
+			url: `${SITE}/`,
+			name: SITE_TITLE,
+			description: SITE_DESCRIPTION,
+			inLanguage: 'es',
+			publisher: { '@id': `${SITE}/#organization` },
+		},
+		{
+			'@type': 'Organization',
+			'@id': `${SITE}/#organization`,
+			name: SITE_TITLE,
+			url: `${SITE}/`,
+			logo: `${SITE}/apple-touch-icon.png`,
+			sameAs: [
+				'https://www.instagram.com/vivirsinprivilegios/',
+				'https://www.youtube.com/@vivirsinprivilegios',
+			],
+		},
+	],
+}
+const jsonLdSeguro = JSON.stringify(jsonLd).replace(/</g, '\\u003c')
 ---
+
+<!-- Codificación y viewport primero: el charset debe estar en los primeros 1024 bytes -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
 
 <!-- Google AdSense -->
 <script
@@ -32,8 +71,6 @@ const { title, description, image = `/saral-og.jpg` } = Astro.props
 <meta name="google-site-verification" content="googlefc9b444cd0ac3afc" />
 
 <!-- Global Metadata -->
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="generator" content={Astro.generator} />
 
 <!-- Favicons -->
@@ -41,32 +78,42 @@ const { title, description, image = `/saral-og.jpg` } = Astro.props
 <link rel="icon" type="image/svg+xml" href={`/favicon.svg`} />
 <link rel="shortcut icon" href={`/favicon.ico`} />
 <link rel="apple-touch-icon" sizes="180x180" href={`/apple-touch-icon.png`} />
-<meta name="apple-mobile-web-app-title" content="Saral Theme" />
+<meta name="apple-mobile-web-app-title" content={SITE_TITLE} />
 <link rel="manifest" href={`/site.webmanifest`} />
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<link rel="canonical" href={canonicalURL} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:alt" content={title} />
+<meta property="og:site_name" content={SITE_TITLE} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
+<meta property="twitter:url" content={canonicalURL} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image, Astro.url)} />
+<meta property="twitter:image" content={ogImage} />
 
 <!-- RSS Auto-discovery -->
 <link
 	rel="alternate"
 	type="application/rss+xml"
-	title="Saral Theme RSS Feed"
+	title={`${SITE_TITLE} RSS Feed`}
 	href={new URL('rss.xml', Astro.site)}
 />
+
+<!-- Datos estructurados (solo portada) -->
+{
+	esPortada && (
+		<script is:inline type="application/ld+json" set:html={jsonLdSeguro} />
+	)
+}
