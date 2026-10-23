@@ -5,14 +5,21 @@ import BlogCard from '../components/BlogCard.astro'
 import { getCollection } from 'astro:content'
 import SocialLinks from "../components/SocialLinks.astro";
 import BizumDonationPopup from '../components/BizumDonationPopup.astro'
+import NovedadCard from '../components/NovedadCard.astro'
 const posts = (await getCollection('blog'))
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
 	.slice(0, 4)
+
+const novedades = (
+	await getCollection('novedades', ({ data }) => !data.draft)
+)
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 3)
 ---
 
 <BaseLayout
-	title="Vivir sin Privilegios"
-	description="Información clara contra el mobbing laboral, el racismo institucional y la burocracia discriminatoria en España."
+	title="Vivir sin Privilegios | Extranjería, arraigo y nacionalidad"
+	description="Guías claras y novedades oficiales sobre extranjería en España: arraigo, NIE, cita previa y nacionalidad. Contra el racismo institucional y la burocracia."
 >
 	<!-- HERO IMPACTO -->
 	<section
@@ -33,6 +40,13 @@ const posts = (await getCollection('blog'))
 				Hablamos claro sobre mobbing laboral, racismo institucional y violencia
 				burocrática en España. No para que quede bonito. Para que se entienda y
 				se combata.
+			</p>
+
+			<p
+				class="mt-3 text-base md:text-lg text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
+			>
+				Guías y novedades de extranjería para personas hispanohablantes de
+				cualquier país: NIE, cita previa, arraigo, residencia y nacionalidad.
 			</p>
 		</div>
 
@@ -222,10 +236,36 @@ const posts = (await getCollection('blog'))
 				href="/extranjeria/07-arraigo/"
 				class="text-xs inline-block mt-4 font-semibold underline underline-offset-2 text-green-500"
 			>
-				Ver más →
+				Guía de arraigo en España →
 			</a>
 		</div>
 	</section>
+
+	<!-- NOVEDADES DE EXTRANJERÍA -->
+	{
+		novedades.length > 0 && (
+			<section class="app-container pb-16 md:pb-24">
+				<h2 class="section-title text-2xl md:text-3xl font-bold">
+					Últimas novedades de extranjería
+				</h2>
+				<p class="mt-3 max-w-2xl text-gray-800 dark:text-gray-300">
+					Cambios en trámites y legislación, siempre con fuente oficial y
+					fecha de comprobación.
+				</p>
+				<div class="mt-8 grid gap-4 md:grid-cols-3">
+					{novedades.map((n) => (
+						<NovedadCard n={n} />
+					))}
+				</div>
+				<a
+					class="btn-secondary mt-8 inline-flex items-center gap-2"
+					href="/novedades/"
+				>
+					Ver todas las novedades <Icon size={20} name="mdi:arrow-right" />
+				</a>
+			</section>
+		)
+	}
 
 	<!-- POSTS RECIENTES -->
 	<section class="app-container">

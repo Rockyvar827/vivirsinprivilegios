@@ -3,7 +3,7 @@
 
 export const SITE_TITLE = 'Vivir sin Privilegios'
 export const SITE_DESCRIPTION =
-	'Blog para ayudar a todos los migrantes en España a luchar contra el racismo estructural'
+	'Guías y novedades de extranjería en España para personas migrantes hispanohablantes: arraigo, NIE, cita previa y nacionalidad.'
 
 // If you deploy to a subdirectory, set the `WEBSITE_BASE` here.
 // e.g. '/blog' if you are deploying to example.com/blog
@@ -26,7 +26,7 @@ export const WebsiteLinks = [
 		url: 'manifiesto',
 	},
 	{
-		name: 'Extranjeria',
+		name: 'Extranjería',
 		url: 'extranjeria',
 	},
 	{

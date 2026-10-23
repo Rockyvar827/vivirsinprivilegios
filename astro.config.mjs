@@ -15,7 +15,12 @@ export default defineConfig({
 	site: 'https://www.vivirsinprivilegios.org',
 	integrations: [
 		mdx(),
-		sitemap(),
+		sitemap({
+			i18n: {
+				defaultLocale: 'es',
+				locales: { es: 'es', en: 'en', gl: 'gl' },
+			},
+		}),
 		icon(),
 		partytown({
 			config: {
