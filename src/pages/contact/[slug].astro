@@ -1,5 +1,5 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content'
+import { getCollection, type CollectionEntry, render } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import type { MarkdownHeading } from 'astro'
 
@@ -7,14 +7,14 @@ export async function getStaticPaths() {
 	const contacts = await getCollection('contact')
 	const headings = await Promise.all(
 		contacts.map(async (contact) => {
-			const rendered = await contact.render()
+			const rendered = await render(contact)
 			return rendered.headings
 		})
 	)
 
 	return contacts.map((contact, index) => ({
-		params: { slug: contact.slug },
-		props: { contact, headings: headings[index], slug: contact.slug },
+		params: { slug: contact.id },
+		props: { contact, headings: headings[index], slug: contact.id },
 	}))
 }
 
@@ -25,7 +25,7 @@ export interface Props {
 }
 
 const { contact } = Astro.props
-const { Content } = await contact.render() // Renderiza el cuerpo del Markdown
+const { Content } = await render(contact) // Renderiza el cuerpo del Markdown
 const title = contact.data.title ?? 'Contacto'
 const description = contact.data.description ?? ''
 ---

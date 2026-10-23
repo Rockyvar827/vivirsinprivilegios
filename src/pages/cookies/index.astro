@@ -1,17 +1,17 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content'
+import { getCollection, type CollectionEntry, render } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 
 // Obtener el markdown de la colección "cookies"
 const entries = await getCollection('cookies')
-const entry = entries.find((e) => e.slug === 'cookies')
+const entry = entries.find((e) => e.id === 'cookies')
 
 if (!entry) {
 	throw new Error('No se encontró cookies.md')
 }
 
 // Renderizar contenido
-const { Content } = await entry.render()
+const { Content } = await render(entry)
 
 // Tipado correcto sin usar `any`
 const { title, description, pubDate } = (

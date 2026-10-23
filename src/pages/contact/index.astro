@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content'
+import { getCollection, render } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import { Image } from 'astro:assets'
 import coverImage from '../../assets/contactImages/cover.jpg'
@@ -14,7 +14,7 @@ if (!contact) {
 }
 
 // Renderiza el contenido Markdown completo del primer contacto
-const { Content } = await contact.render()
+const { Content } = await render(contact)
 ---
 
 <BaseLayout

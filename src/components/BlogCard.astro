@@ -9,14 +9,14 @@ const blogImages = import.meta.glob<{ default: ImageMetadata }>(
 	'/src/assets/blogimages/**/*.{jpeg,jpg,png,gif}'
 )
 
-const coverImagePath = `/src/assets/blogimages/${post.slug}/cover.jpg`
+const coverImagePath = `/src/assets/blogimages/${post.id}/cover.jpg`
 ---
 
 <div
 	class="border-2 border-gray-600 rounded-xl p-6 transition-colors hover:border-primary dark:hover:border-primary-dark h-full"
 >
 	<a
-		href={`/blog/${post.slug}/`}
+		href={`/blog/${post.id}/`}
 		class="flex flex-col gap-4 pb-8 h-full group transition-colors"
 	>
 		{

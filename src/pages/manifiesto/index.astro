@@ -1,18 +1,18 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content'
+import { getCollection, type CollectionEntry, render } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import { Image } from 'astro:assets'
 
 // Obtener el markdown de la colección "manifiesto"
 const entries = await getCollection('manifiesto')
-const entry = entries.find((e) => e.slug === 'manifiesto')
+const entry = entries.find((e) => e.id === 'manifiesto')
 
 if (!entry) {
 	throw new Error('No se encontró intro.md')
 }
 
 // Renderizar contenido
-const { Content } = await entry.render()
+const { Content } = await render(entry)
 
 // Tipado correcto sin usar `any`
 const { title, description, author, pubDate, image } = (
