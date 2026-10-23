@@ -51,7 +51,9 @@ CATEGORIAS = (
 )
 
 # Titulos que contienen palabras clave pero no tratan de extranjeria
-EXCLUIR = ("turista extranjero",)
+# Las concesiones individuales de nacionalidad (Reales Decretos "por carta de naturaleza") llevan
+# nombres de personas y no son novedades normativas
+EXCLUIR = ("turista extranjero", "carta de naturaleza", "se concede la nacionalidad española")
 
 def lista(x):
     if x is None:
