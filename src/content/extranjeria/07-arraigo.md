@@ -16,7 +16,7 @@ Elegir correctamente el **tipo de arraigo** y presentar la documentación adecua
 
 ### Tipos de arraigo más comunes en España
 
-A partir de la reforma de **extranjería vigente desde mayo de 2025**, el arraigo se articula en varias modalidades aplicadas de forma uniforme en todo el territorio español, con requisitos y efectos específicos para cada una, reflejando la voluntad del ordenamiento de facilitar la integración y la regularización bajo criterios claros y homogéneos. :contentReference[oaicite:3]{index=3}
+A partir de la reforma de **extranjería vigente desde mayo de 2025**, el arraigo se articula en varias modalidades aplicadas de forma uniforme en todo el territorio español, con requisitos y efectos específicos para cada una, reflejando la voluntad del ordenamiento de facilitar la integración y la regularización bajo criterios claros y homogéneos.
 
 - **Arraigo social**: para personas que acreditan integración social y medios de vida.
 - **Arraigo laboral**: para quienes han trabajado en España de forma demostrable.

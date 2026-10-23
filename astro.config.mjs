@@ -30,27 +30,11 @@ export default defineConfig({
 		remarkPlugins: [remarkReadingTime, remarkModifiedTime],
 		rehypePlugins: [rehypeFigureTitle, rehypeAccessibleEmojis],
 	},
-})
-/** 
-export default defineConfig({
-	site: 'https://www.vivirsinprivilegios.org',
-	base: '/',
-	integrations: [
-		mdx(),
-		sitemap(),
-		icon(),
-		partytown({
-			config: {
-				forward: ['dataLayer.push'],
-			},
-		}),
-	],
-	vite: {
-		plugins: [tailwindcss()],
-	},
-	markdown: {
-		remarkPlugins: [remarkReadingTime, remarkModifiedTime],
-		rehypePlugins: [rehypeFigureTitle, rehypeAccessibleEmojis],
+	i18n: {
+		defaultLocale: 'es',
+		locales: ['es', 'en', 'gl'],
+		routing: {
+			prefixDefaultLocale: false,
+		},
 	},
 })
-*/

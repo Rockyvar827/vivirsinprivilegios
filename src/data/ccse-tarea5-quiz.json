@@ -1,0 +1,931 @@
+{
+  "tarea": 5,
+  "titulo": "Tarea 5 – Sociedad española",
+  "fuente": "Manual de preparación de la prueba CCSE 2026 (Instituto Cervantes)",
+  "preguntas": [
+    {
+      "id": 5001,
+      "question": "¿Qué documento deben solicitar los extranjeros para residir legalmente en España?",
+      "options": {
+        "a": "El Documento Nacional de Identidad (DNI).",
+        "b": "La Tarjeta de Identidad de Extranjero (TIE).",
+        "c": "El certificado de empadronamiento."
+      },
+      "correct": "b",
+      "feedback": "Los extranjeros que residen legalmente en España deben obtener la Tarjeta de Identidad de Extranjero (TIE)."
+    },
+    {
+      "id": 5002,
+      "question": "¿Cuál es el documento que certifica el lugar de residencia del titular?",
+      "options": {
+        "a": "El certificado de empadronamiento.",
+        "b": "La partida de nacimiento.",
+        "c": "El carné de conducir."
+      },
+      "correct": "a",
+      "feedback": "El certificado de empadronamiento acredita el domicilio habitual de una persona en un municipio."
+    },
+    {
+      "id": 5003,
+      "question": "¿A qué sustituye el registro electrónico individual?",
+      "options": {
+        "a": "Al DNI.",
+        "b": "Al permiso de conducir.",
+        "c": "Al libro de familia."
+      },
+      "correct": "c",
+      "feedback": "El registro electrónico individual de la Seguridad Social sustituye progresivamente al tradicional libro de familia."
+    },
+    {
+      "id": 5004,
+      "question": "¿Cuál es la edad mínima para conducir un coche en España?",
+      "options": {
+        "a": "16 años.",
+        "b": "18 años.",
+        "c": "20 años."
+      },
+      "correct": "b",
+      "feedback": "La edad mínima para obtener el permiso de conducir de coche (clase B) en España son 18 años."
+    },
+    {
+      "id": 5005,
+      "question": "El carné de conducir se hace en…",
+      "options": {
+        "a": "la Dirección General de Tráfico (DGT).",
+        "b": "la Policía Nacional.",
+        "c": "el Registro Civil."
+      },
+      "correct": "a",
+      "feedback": "El carné de conducir se tramita a través de la Dirección General de Tráfico (DGT)."
+    },
+    {
+      "id": 5006,
+      "question": "Para sacar el carné de conducir hay que aprobar…",
+      "options": {
+        "a": "un examen teórico.",
+        "b": "un examen práctico.",
+        "c": "un examen teórico y otro práctico."
+      },
+      "correct": "c",
+      "feedback": "Para obtener el carné de conducir es necesario aprobar tanto el examen teórico como el práctico."
+    },
+    {
+      "id": 5007,
+      "question": "¿Dónde se tramita el libro de familia?",
+      "options": {
+        "a": "En el Registro Civil.",
+        "b": "En la Seguridad Social.",
+        "c": "En las comisarías de policía."
+      },
+      "correct": "a",
+      "feedback": "El libro de familia se tramita en el Registro Civil."
+    },
+    {
+      "id": 5008,
+      "question": "¿Cuál de estos canales de televisión es autonómico?",
+      "options": {
+        "a": "Telecinco.",
+        "b": "Nova.",
+        "c": "Canal Sur."
+      },
+      "correct": "c",
+      "feedback": "Canal Sur es la televisión pública autonómica de Andalucía."
+    },
+    {
+      "id": 5009,
+      "question": "¿Cuánto dura el permiso de maternidad o paternidad?",
+      "options": {
+        "a": "12 semanas.",
+        "b": "19 semanas.",
+        "c": "22 semanas."
+      },
+      "correct": "b",
+      "feedback": "El permiso de maternidad o paternidad en España tiene una duración de 19 semanas (16 más una ampliación gradual)."
+    },
+    {
+      "id": 5010,
+      "question": "¿Cuál es la tasa máxima de alcohol en sangre permitida a los conductores, en gramos por litro (g/l)?",
+      "options": {
+        "a": "0,5.",
+        "b": "0,7.",
+        "c": "0,9."
+      },
+      "correct": "a",
+      "feedback": "La tasa máxima general de alcoholemia permitida a los conductores en España es de 0,5 g/l."
+    },
+    {
+      "id": 5011,
+      "question": "¿Cuál es el tipo de residencia más habitual en España?",
+      "options": {
+        "a": "Casa rural.",
+        "b": "Piso en un edificio de viviendas.",
+        "c": "Chalé independiente."
+      },
+      "correct": "b",
+      "feedback": "El tipo de vivienda más habitual en España es el piso dentro de un edificio de viviendas."
+    },
+    {
+      "id": 5012,
+      "question": "¿Qué comunidad autónoma es conocida por la calidad de su aceite de oliva?",
+      "options": {
+        "a": "Cantabria.",
+        "b": "Andalucía.",
+        "c": "La Rioja."
+      },
+      "correct": "b",
+      "feedback": "Andalucía es la comunidad autónoma más conocida por la calidad y producción de su aceite de oliva."
+    },
+    {
+      "id": 5013,
+      "question": "¿Cómo se llama la revisión que deben pasar obligatoriamente los coches?",
+      "options": {
+        "a": "IBI (Impuesto sobre Bienes Inmuebles).",
+        "b": "ITV (Inspección Técnica de Vehículos).",
+        "c": "ITE (Inspección Técnica de Edificios)."
+      },
+      "correct": "b",
+      "feedback": "Los vehículos deben pasar periódicamente la ITV (Inspección Técnica de Vehículos)."
+    },
+    {
+      "id": 5014,
+      "question": "El aperitivo que acompaña a la bebida en bares y restaurantes se llama…",
+      "options": {
+        "a": "bocadillo.",
+        "b": "tapa.",
+        "c": "primer plato."
+      },
+      "correct": "b",
+      "feedback": "En España, el pequeño aperitivo que suele acompañar a las bebidas se llama tapa."
+    },
+    {
+      "id": 5015,
+      "question": "¿Dónde se tramita la tarjeta sanitaria?",
+      "options": {
+        "a": "En la comisaría de policía.",
+        "b": "En el centro de salud.",
+        "c": "En el Ministerio de Sanidad."
+      },
+      "correct": "b",
+      "feedback": "La tarjeta sanitaria se tramita en el centro de salud correspondiente."
+    },
+    {
+      "id": 5016,
+      "question": "¿Con cuántos hijos una familia es numerosa?",
+      "options": {
+        "a": "Con 1 hijo.",
+        "b": "Con 2 hijos.",
+        "c": "Con 3 hijos."
+      },
+      "correct": "c",
+      "feedback": "En España se considera familia numerosa, con carácter general, a la que tiene 3 o más hijos."
+    },
+    {
+      "id": 5017,
+      "question": "En España está permitido el matrimonio…",
+      "options": {
+        "a": "solo entre personas del mismo sexo.",
+        "b": "entre personas del mismo y diferente sexo.",
+        "c": "solo entre personas de diferente sexo."
+      },
+      "correct": "b",
+      "feedback": "En España el matrimonio está permitido tanto entre personas del mismo como de diferente sexo."
+    },
+    {
+      "id": 5018,
+      "question": "Los propietarios de perros deben registrarlos en…",
+      "options": {
+        "a": "el Ministerio de Justicia.",
+        "b": "la comisaría de policía.",
+        "c": "el Ayuntamiento."
+      },
+      "correct": "c",
+      "feedback": "Los propietarios de perros deben registrarlos en el censo canino del Ayuntamiento."
+    },
+    {
+      "id": 5019,
+      "question": "Los principales ingredientes de la tortilla española son huevos y…",
+      "options": {
+        "a": "pimientos.",
+        "b": "patatas.",
+        "c": "tomates."
+      },
+      "correct": "b",
+      "feedback": "La tortilla española tradicional se elabora con huevos y patatas."
+    },
+    {
+      "id": 5020,
+      "question": "¿Cuál es uno de los platos más conocidos internacionalmente de la gastronomía española?",
+      "options": {
+        "a": "Gazpacho.",
+        "b": "Pizza.",
+        "c": "Pasta."
+      },
+      "correct": "a",
+      "feedback": "El gazpacho es uno de los platos españoles más conocidos internacionalmente."
+    },
+    {
+      "id": 5021,
+      "question": "¿Cuál de estos canales de televisión es público?",
+      "options": {
+        "a": "Tele 5.",
+        "b": "La 1.",
+        "c": "Antena 3."
+      },
+      "correct": "b",
+      "feedback": "La 1 es un canal de la televisión pública estatal (RTVE)."
+    },
+    {
+      "id": 5022,
+      "question": "En una comunidad de vecinos, una de las normas es…",
+      "options": {
+        "a": "abrir la puerta al cartero.",
+        "b": "no molestar con ruido.",
+        "c": "limpiar los espacios comunes."
+      },
+      "correct": "b",
+      "feedback": "Una norma habitual de convivencia en comunidades de vecinos es no molestar con ruidos."
+    },
+    {
+      "id": 5023,
+      "question": "¿Cuál de estos es el principal ingrediente de la paella valenciana?",
+      "options": {
+        "a": "Arroz.",
+        "b": "Chorizo.",
+        "c": "Garbanzos."
+      },
+      "correct": "a",
+      "feedback": "El arroz es el ingrediente principal de la paella valenciana."
+    },
+    {
+      "id": 5024,
+      "question": "La sidra es una bebida típica de…",
+      "options": {
+        "a": "Asturias.",
+        "b": "Valencia.",
+        "c": "Canarias."
+      },
+      "correct": "a",
+      "feedback": "La sidra es una bebida típica de Asturias."
+    },
+    {
+      "id": 5025,
+      "question": "Los españoles tienen dos apellidos, el primero es…",
+      "options": {
+        "a": "obligatoriamente el de la madre.",
+        "b": "obligatoriamente el del padre.",
+        "c": "puede ser el de la madre o el del padre."
+      },
+      "correct": "c",
+      "feedback": "Actualmente los progenitores pueden decidir el orden de los apellidos; el primero puede ser el de la madre o el del padre."
+    },
+    {
+      "id": 5026,
+      "question": "La Fiesta Nacional de España es el…",
+      "options": {
+        "a": "6 de diciembre.",
+        "b": "15 de agosto.",
+        "c": "12 de octubre."
+      },
+      "correct": "c",
+      "feedback": "La Fiesta Nacional de España se celebra el 12 de octubre."
+    },
+    {
+      "id": 5027,
+      "question": "¿Qué días suelen cerrar la mayoría de las tiendas o el pequeño comercio?",
+      "options": {
+        "a": "Los lunes.",
+        "b": "Los domingos.",
+        "c": "Los sábados por la tarde."
+      },
+      "correct": "b",
+      "feedback": "El pequeño comercio suele cerrar habitualmente los domingos."
+    },
+    {
+      "id": 5028,
+      "question": "¿Dónde se hace el pasaporte?",
+      "options": {
+        "a": "En el registro civil.",
+        "b": "En una comisaría de policía.",
+        "c": "En el Ayuntamiento."
+      },
+      "correct": "b",
+      "feedback": "El pasaporte se tramita en una comisaría de policía."
+    },
+    {
+      "id": 5029,
+      "question": "El Ministerio de Igualdad es el encargado de luchar contra la violencia de género y la…",
+      "options": {
+        "a": "separación.",
+        "b": "discriminación.",
+        "c": "solidaridad."
+      },
+      "correct": "b",
+      "feedback": "El Ministerio de Igualdad trabaja contra la violencia de género y contra la discriminación."
+    },
+    {
+      "id": 5030,
+      "question": "¿Qué comunidad autónoma es conocida por la calidad de sus cavas?",
+      "options": {
+        "a": "Galicia.",
+        "b": "Cataluña.",
+        "c": "Castilla-La Mancha."
+      },
+      "correct": "b",
+      "feedback": "Cataluña es la comunidad autónoma más conocida por la producción de cava."
+    },
+    {
+      "id": 5031,
+      "question": "¿Qué documento se necesita para recibir atención médica en la sanidad pública?",
+      "options": {
+        "a": "El pasaporte.",
+        "b": "La tarjeta sanitaria.",
+        "c": "El certificado de nacimiento."
+      },
+      "correct": "b",
+      "feedback": "La tarjeta sanitaria es el documento necesario para recibir atención médica en la sanidad pública."
+    },
+    {
+      "id": 5032,
+      "question": "El horario de Canarias, con respecto a la Península, es de…",
+      "options": {
+        "a": "dos horas menos.",
+        "b": "una hora menos.",
+        "c": "una hora más."
+      },
+      "correct": "b",
+      "feedback": "Canarias tiene una hora menos que la Península."
+    },
+    {
+      "id": 5033,
+      "question": "Para acceder a la Universidad se debe superar una prueba de evaluación llamada…",
+      "options": {
+        "a": "Selectividad.",
+        "b": "Examen preuniversitario.",
+        "c": "Prueba de Acceso a la Universidad."
+      },
+      "correct": "c",
+      "feedback": "El acceso a la universidad requiere superar la Prueba de Acceso a la Universidad (conocida popularmente como Selectividad, pero cuyo nombre oficial es este)."
+    },
+    {
+      "id": 5034,
+      "question": "¿Cuál de estos productos necesita importar España de otros países?",
+      "options": {
+        "a": "Petróleo.",
+        "b": "Aceite de oliva.",
+        "c": "Medicamentos."
+      },
+      "correct": "a",
+      "feedback": "España necesita importar petróleo, al no disponer de producción propia suficiente."
+    },
+    {
+      "id": 5035,
+      "question": "¿Qué tipo de impuestos tienen que pagar los ciudadanos en España?",
+      "options": {
+        "a": "Impuestos directos como el IRPF.",
+        "b": "Impuestos indirectos como el IVA.",
+        "c": "Impuestos directos e indirectos."
+      },
+      "correct": "c",
+      "feedback": "Los ciudadanos en España pagan tanto impuestos directos (como el IRPF) como indirectos (como el IVA)."
+    },
+    {
+      "id": 5036,
+      "question": "Los adultos sin Bachillerato pueden estudiar en la Universidad haciendo una prueba especial a partir de los…",
+      "options": {
+        "a": "18 años.",
+        "b": "23 años.",
+        "c": "25 años."
+      },
+      "correct": "c",
+      "feedback": "A partir de los 25 años, los adultos sin Bachillerato pueden acceder a la Universidad mediante una prueba especial."
+    },
+    {
+      "id": 5037,
+      "question": "¿Dónde puede encontrarse la siguiente norma «No pisar el césped, ni arrancar flores»?",
+      "options": {
+        "a": "En zonas de recreo.",
+        "b": "En los teatros.",
+        "c": "En los estadios de fútbol."
+      },
+      "correct": "a",
+      "feedback": "Este tipo de normas son habituales en parques y zonas de recreo."
+    },
+    {
+      "id": 5038,
+      "question": "El Bachillerato en España…",
+      "options": {
+        "a": "es obligatorio.",
+        "b": "se compone de dos cursos académicos.",
+        "c": "es la enseñanza a alumnos de 14 a 16 años."
+      },
+      "correct": "b",
+      "feedback": "El Bachillerato se compone de dos cursos académicos y no es una etapa obligatoria."
+    },
+    {
+      "id": 5039,
+      "question": "El Impuesto sobre el Valor Añadido (IVA) forma parte de los…",
+      "options": {
+        "a": "Impuestos indirectos.",
+        "b": "Impuestos sobre la renta.",
+        "c": "Impuestos sobre sociedades."
+      },
+      "correct": "a",
+      "feedback": "El IVA es un impuesto indirecto que se aplica al consumo."
+    },
+    {
+      "id": 5040,
+      "question": "¿Qué número reciben los trabajadores al comenzar su primer empleo?",
+      "options": {
+        "a": "El de la Seguridad Social.",
+        "b": "El del pasaporte.",
+        "c": "El número de servicio."
+      },
+      "correct": "a",
+      "feedback": "Al comenzar a trabajar, los trabajadores reciben un número de afiliación a la Seguridad Social."
+    },
+    {
+      "id": 5041,
+      "question": "Los colegios públicos…",
+      "options": {
+        "a": "pueden decidir su número de plazas.",
+        "b": "pueden contratar a los profesores que quieran.",
+        "c": "son gratuitos."
+      },
+      "correct": "c",
+      "feedback": "La educación en los colegios públicos es gratuita."
+    },
+    {
+      "id": 5042,
+      "question": "¿Cuál de estos puertos es uno de los principales de España?",
+      "options": {
+        "a": "Tenerife.",
+        "b": "Alicante.",
+        "c": "Algeciras."
+      },
+      "correct": "c",
+      "feedback": "El puerto de Algeciras es uno de los principales puertos de España, especialmente por su tráfico de mercancías."
+    },
+    {
+      "id": 5043,
+      "question": "Un colegio concertado es un colegio privado que…",
+      "options": {
+        "a": "recibe dinero de la Administración.",
+        "b": "financian los padres de los alumnos.",
+        "c": "recibe dinero de los bancos."
+      },
+      "correct": "a",
+      "feedback": "Un colegio concertado es un centro privado que recibe financiación pública de la Administración."
+    },
+    {
+      "id": 5044,
+      "question": "España exporta productos principalmente a países…",
+      "options": {
+        "a": "de Hispanoamérica.",
+        "b": "de la Unión Europea.",
+        "c": "del norte de África."
+      },
+      "correct": "b",
+      "feedback": "La mayoría de las exportaciones españolas tienen como destino los países de la Unión Europea."
+    },
+    {
+      "id": 5045,
+      "question": "Las bibliotecas públicas son gratuitas para…",
+      "options": {
+        "a": "todos.",
+        "b": "los parados.",
+        "c": "los niños."
+      },
+      "correct": "a",
+      "feedback": "El acceso a las bibliotecas públicas es gratuito para toda la población."
+    },
+    {
+      "id": 5046,
+      "question": "¿Cuál de estos productos exporta España más que importa?",
+      "options": {
+        "a": "Gas.",
+        "b": "Ropa.",
+        "c": "Calzado."
+      },
+      "correct": "c",
+      "feedback": "España exporta más calzado del que importa, siendo un sector tradicionalmente exportador."
+    },
+    {
+      "id": 5047,
+      "question": "Una persona mayor de 18 años puede obtener el título de Graduado en Educación Secundaria Obligatoria en…",
+      "options": {
+        "a": "un Centro de Educación de Personas Adultas.",
+        "b": "un centro de enseñanza primaria.",
+        "c": "una universidad."
+      },
+      "correct": "a",
+      "feedback": "Los Centros de Educación de Personas Adultas permiten obtener el título de Graduado en ESO siendo mayor de edad."
+    },
+    {
+      "id": 5048,
+      "question": "La formación profesional…",
+      "options": {
+        "a": "es para mayores de 25 años.",
+        "b": "puede ser de grado medio o superior.",
+        "c": "es obligatoria."
+      },
+      "correct": "b",
+      "feedback": "La formación profesional se organiza en grado medio y grado superior."
+    },
+    {
+      "id": 5049,
+      "question": "¿Adónde vamos para ver al médico de familia o al pediatra?",
+      "options": {
+        "a": "Al hospital.",
+        "b": "Al centro de salud.",
+        "c": "A la farmacia."
+      },
+      "correct": "b",
+      "feedback": "El médico de familia y el pediatra atienden habitualmente en el centro de salud."
+    },
+    {
+      "id": 5050,
+      "question": "¿Para cuántos años vale la tarjeta sanitaria europea?",
+      "options": {
+        "a": "Para un año.",
+        "b": "Para dos años.",
+        "c": "Para 10 años."
+      },
+      "correct": "b",
+      "feedback": "La tarjeta sanitaria europea tiene una validez de dos años."
+    },
+    {
+      "id": 5051,
+      "question": "¿A qué hora se cena normalmente en España?",
+      "options": {
+        "a": "A las 18 h.",
+        "b": "A las 23 h.",
+        "c": "A las 21 o 22 h."
+      },
+      "correct": "c",
+      "feedback": "En España es habitual cenar entre las 21 y las 22 horas."
+    },
+    {
+      "id": 5052,
+      "question": "¿Cuál es el número de teléfono único para cualquier emergencia?",
+      "options": {
+        "a": "060.",
+        "b": "112.",
+        "c": "911."
+      },
+      "correct": "b",
+      "feedback": "El 112 es el número de teléfono único para emergencias en España."
+    },
+    {
+      "id": 5053,
+      "question": "¿Cuál de estos periódicos se publica a nivel nacional?",
+      "options": {
+        "a": "El Diario Vasco.",
+        "b": "El País.",
+        "c": "La Voz de Galicia."
+      },
+      "correct": "b",
+      "feedback": "El País es un periódico de difusión nacional, a diferencia de los otros dos, que son de ámbito autonómico."
+    },
+    {
+      "id": 5054,
+      "question": "¿Dónde se venden sellos y tabaco?",
+      "options": {
+        "a": "En el quiosco.",
+        "b": "En la farmacia.",
+        "c": "En el estanco."
+      },
+      "correct": "c",
+      "feedback": "Los sellos y el tabaco se venden en los estancos."
+    },
+    {
+      "id": 5055,
+      "question": "¿Cuándo se puede llamar al número de teléfono para atención a víctimas de violencia de género?",
+      "options": {
+        "a": "Las 24 horas del día.",
+        "b": "En horario de mañana.",
+        "c": "De lunes a viernes."
+      },
+      "correct": "a",
+      "feedback": "El teléfono de atención a víctimas de violencia de género está disponible las 24 horas del día."
+    },
+    {
+      "id": 5056,
+      "question": "La organización que trabaja para conseguir la integración de las personas con discapacidad visual es…",
+      "options": {
+        "a": "la ONCE.",
+        "b": "Unicef.",
+        "c": "Cáritas."
+      },
+      "correct": "a",
+      "feedback": "La ONCE es la organización que trabaja por la integración de las personas con discapacidad visual."
+    },
+    {
+      "id": 5057,
+      "question": "El Camino de Santiago es…",
+      "options": {
+        "a": "Patrimonio de la Humanidad.",
+        "b": "una vía de ferrocarril.",
+        "c": "una ruta para excursionistas."
+      },
+      "correct": "a",
+      "feedback": "El Camino de Santiago está declarado Patrimonio de la Humanidad."
+    },
+    {
+      "id": 5058,
+      "question": "¿Cuál es el canal de televisión estatal que transmite noticias de actualidad nacional e internacional continuamente?",
+      "options": {
+        "a": "Teledeporte.",
+        "b": "La 1.",
+        "c": "Canal 24 horas."
+      },
+      "correct": "c",
+      "feedback": "El Canal 24 Horas es el canal estatal dedicado a la actualidad informativa continua."
+    },
+    {
+      "id": 5059,
+      "question": "El teléfono gratuito para las víctimas de violencia de género es el…",
+      "options": {
+        "a": "091.",
+        "b": "112.",
+        "c": "016."
+      },
+      "correct": "c",
+      "feedback": "El 016 es el teléfono gratuito de atención a las víctimas de violencia de género."
+    },
+    {
+      "id": 5060,
+      "question": "En España, la red de trenes puede ser de larga distancia, de media distancia y…",
+      "options": {
+        "a": "de cercanías.",
+        "b": "rural.",
+        "c": "transnacional."
+      },
+      "correct": "a",
+      "feedback": "La red ferroviaria española se organiza en trenes de larga distancia, media distancia y cercanías."
+    },
+    {
+      "id": 5061,
+      "question": "¿Qué está prohibido en la puerta de un colegio?",
+      "options": {
+        "a": "Fumar un cigarrillo.",
+        "b": "Conducir un coche.",
+        "c": "Vender refrescos."
+      },
+      "correct": "a",
+      "feedback": "Está prohibido fumar en las inmediaciones de la puerta de un colegio."
+    },
+    {
+      "id": 5062,
+      "question": "¿Qué título se obtiene al finalizar un ciclo de grado medio de Formación Profesional?",
+      "options": {
+        "a": "Bachiller.",
+        "b": "Técnico.",
+        "c": "Graduado en ESO."
+      },
+      "correct": "b",
+      "feedback": "Al finalizar un ciclo de grado medio de Formación Profesional se obtiene el título de Técnico."
+    },
+    {
+      "id": 5063,
+      "question": "¿Qué título se obtiene tras realizar una tesis doctoral en España?",
+      "options": {
+        "a": "Máster.",
+        "b": "Graduado.",
+        "c": "Doctor."
+      },
+      "correct": "c",
+      "feedback": "Tras defender una tesis doctoral se obtiene el título de Doctor."
+    },
+    {
+      "id": 5064,
+      "question": "¿Dónde se compran las medicinas con receta?",
+      "options": {
+        "a": "En el hospital.",
+        "b": "En el centro de salud.",
+        "c": "En la farmacia."
+      },
+      "correct": "c",
+      "feedback": "Los medicamentos con receta se adquieren en la farmacia."
+    },
+    {
+      "id": 5065,
+      "question": "¿Cuál de estas tres recomendaciones podemos encontrar en un parque?",
+      "options": {
+        "a": "No pisar el césped.",
+        "b": "Se recomienda pagar el billete con el dinero justo.",
+        "c": "Respetar las normas sobre equipaje."
+      },
+      "correct": "a",
+      "feedback": "«No pisar el césped» es un aviso típico en los parques públicos."
+    },
+    {
+      "id": 5066,
+      "question": "¿Cuál de las siguientes cosas es obligatoria para el propietario de un coche en España?",
+      "options": {
+        "a": "El garaje.",
+        "b": "El seguro.",
+        "c": "La alarma."
+      },
+      "correct": "b",
+      "feedback": "El seguro del coche es obligatorio para todo propietario de un vehículo en España."
+    },
+    {
+      "id": 5067,
+      "question": "El aeropuerto Adolfo Suárez está en…",
+      "options": {
+        "a": "Barcelona.",
+        "b": "Madrid.",
+        "c": "Bilbao."
+      },
+      "correct": "b",
+      "feedback": "El aeropuerto Adolfo Suárez Madrid-Barajas está en Madrid."
+    },
+    {
+      "id": 5068,
+      "question": "En un coche es obligatorio el uso del cinturón de seguridad…",
+      "options": {
+        "a": "solo en el asiento del conductor.",
+        "b": "en los asientos delanteros.",
+        "c": "en todos los asientos."
+      },
+      "correct": "c",
+      "feedback": "El cinturón de seguridad es obligatorio en todos los asientos del vehículo, delanteros y traseros."
+    },
+    {
+      "id": 5069,
+      "question": "¿Cuál es el límite de velocidad en autopista?",
+      "options": {
+        "a": "90 km/h.",
+        "b": "120 km/h.",
+        "c": "150 km/h."
+      },
+      "correct": "b",
+      "feedback": "El límite general de velocidad en autopista en España es de 120 km/h."
+    },
+    {
+      "id": 5070,
+      "question": "Ceder el asiento a las personas con movilidad reducida es una norma que encontramos indicada en…",
+      "options": {
+        "a": "el transporte público.",
+        "b": "las bibliotecas.",
+        "c": "los museos."
+      },
+      "correct": "a",
+      "feedback": "En el transporte público suele indicarse la norma de ceder el asiento a personas con movilidad reducida."
+    },
+    {
+      "id": 5071,
+      "question": "¿Cuál es el medio de transporte público que tiene una luz verde encendida si está libre?",
+      "options": {
+        "a": "El autobús.",
+        "b": "El taxi.",
+        "c": "El tranvía."
+      },
+      "correct": "b",
+      "feedback": "Los taxis llevan una luz verde encendida cuando están libres."
+    },
+    {
+      "id": 5072,
+      "question": "¿Qué debes hacer si tienes un perro?",
+      "options": {
+        "a": "Pasearlo sin correa.",
+        "b": "Ponerle un microchip y vacunarlo.",
+        "c": "No recoger sus excrementos."
+      },
+      "correct": "b",
+      "feedback": "Es obligatorio identificar al perro con microchip y mantener al día sus vacunas."
+    },
+    {
+      "id": 5073,
+      "question": "Los españoles necesitan el pasaporte para viajar a…",
+      "options": {
+        "a": "Italia.",
+        "b": "China.",
+        "c": "Alemania."
+      },
+      "correct": "b",
+      "feedback": "Para viajar a China, fuera del espacio Schengen, los españoles necesitan pasaporte, a diferencia de Italia o Alemania."
+    },
+    {
+      "id": 5074,
+      "question": "¿Cuál es la edad mínima para trabajar en España?",
+      "options": {
+        "a": "16 años.",
+        "b": "18 años.",
+        "c": "21 años."
+      },
+      "correct": "a",
+      "feedback": "La edad mínima legal para trabajar en España son 16 años."
+    },
+    {
+      "id": 5075,
+      "question": "¿Cuál es el sector de mayor peso en la economía española?",
+      "options": {
+        "a": "Agricultura.",
+        "b": "Servicios.",
+        "c": "Construcción."
+      },
+      "correct": "b",
+      "feedback": "El sector servicios es el que tiene mayor peso en la economía española."
+    },
+    {
+      "id": 5076,
+      "question": "España es innovadora en el sector de…",
+      "options": {
+        "a": "la ingeniería aeroespacial.",
+        "b": "las energías renovables.",
+        "c": "la energía nuclear."
+      },
+      "correct": "b",
+      "feedback": "España es un país innovador y puntero en el desarrollo de energías renovables."
+    },
+    {
+      "id": 5077,
+      "question": "¿Cómo se llama la ley laboral más importante de España?",
+      "options": {
+        "a": "La Constitución.",
+        "b": "El Estatuto de los Trabajadores.",
+        "c": "El Servicio Público de Empleo Estatal."
+      },
+      "correct": "b",
+      "feedback": "El Estatuto de los Trabajadores es la ley laboral más importante de España."
+    },
+    {
+      "id": 5078,
+      "question": "¿Cuál de estos establecimientos está abierto 24 horas si es necesario?",
+      "options": {
+        "a": "Farmacia.",
+        "b": "Pescadería.",
+        "c": "Librería."
+      },
+      "correct": "a",
+      "feedback": "Las farmacias de guardia permanecen abiertas 24 horas cuando es necesario."
+    },
+    {
+      "id": 5079,
+      "question": "La educación infantil en España…",
+      "options": {
+        "a": "es obligatoria.",
+        "b": "tiene dos ciclos.",
+        "c": "empieza a los 4 años."
+      },
+      "correct": "b",
+      "feedback": "La educación infantil se organiza en dos ciclos (de 0 a 3 años y de 3 a 6 años) y no es obligatoria."
+    },
+    {
+      "id": 5080,
+      "question": "¿Cuándo empieza el calendario escolar?",
+      "options": {
+        "a": "En agosto.",
+        "b": "En septiembre.",
+        "c": "En octubre."
+      },
+      "correct": "b",
+      "feedback": "El curso escolar en España comienza habitualmente en septiembre."
+    },
+    {
+      "id": 5081,
+      "question": "Las Escuelas Oficiales de Idiomas…",
+      "options": {
+        "a": "son centros de enseñanza privada.",
+        "b": "son para mayores de 16 años.",
+        "c": "dependen del Instituto Cervantes."
+      },
+      "correct": "b",
+      "feedback": "Las Escuelas Oficiales de Idiomas son centros públicos dirigidos a personas mayores de 16 años."
+    },
+    {
+      "id": 5082,
+      "question": "¿Cuál es el documento que recoge los años de cotización a la Seguridad Social?",
+      "options": {
+        "a": "Informe de vida laboral.",
+        "b": "Recibo de finiquito.",
+        "c": "Certificado de profesionalidad."
+      },
+      "correct": "a",
+      "feedback": "El informe de vida laboral recoge el historial de cotizaciones a la Seguridad Social."
+    },
+    {
+      "id": 5083,
+      "question": "Los convenios colectivos de una empresa son los que se firman con los representantes de los trabajadores sobre…",
+      "options": {
+        "a": "las condiciones laborales.",
+        "b": "el futuro de la empresa.",
+        "c": "la relación con los clientes."
+      },
+      "correct": "a",
+      "feedback": "Los convenios colectivos regulan las condiciones laborales acordadas entre la empresa y los representantes de los trabajadores."
+    },
+    {
+      "id": 5084,
+      "question": "¿En cuál de estos sectores destaca España?",
+      "options": {
+        "a": "En el turismo.",
+        "b": "En la industria automovilística.",
+        "c": "En tecnología digital."
+      },
+      "correct": "a",
+      "feedback": "España destaca internacionalmente en el sector turístico."
+    }
+  ]
+}

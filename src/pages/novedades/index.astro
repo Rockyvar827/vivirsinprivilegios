@@ -1,0 +1,93 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import NovedadCard from "../../components/NovedadCard.astro";
+import NovedadesNav from "../../components/NovedadesNav.astro";
+import { NOMBRE_SITIO, resumenCategorias, jsonSeguro } from "../../utils/novedades";
+
+const SITE = Astro.site?.origin ?? "https://vivirsinprivilegios.org";
+const novedades = (await getCollection("novedades", ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const categorias = resumenCategorias(novedades);
+
+const titulo = "Novedades de extranjería en España: cambios en trámites y leyes";
+const descripcion =
+  "Cambios en trámites y legislación de extranjería en España (residencia, nacionalidad, asilo, estudiantes), explicados con fuente oficial y fecha de comprobación.";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": `${SITE}/novedades/#pagina`,
+      url: `${SITE}/novedades/`,
+      name: titulo,
+      description: descripcion,
+      inLanguage: "es",
+      isPartOf: { "@type": "WebSite", name: NOMBRE_SITIO, url: SITE },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Inicio", item: `${SITE}/` },
+        { "@type": "ListItem", position: 2, name: "Novedades", item: `${SITE}/novedades/` },
+      ],
+    },
+    {
+      "@type": "ItemList",
+      itemListElement: novedades.slice(0, 20).map((n, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `${SITE}/novedades/${n.id}/`,
+        name: n.data.title,
+      })),
+    },
+  ],
+};
+---
+<BaseLayout title={titulo} description={descripcion}>
+  <script is:inline type="application/ld+json" set:html={jsonSeguro(jsonLd)} />
+
+  <main class="novedades">
+    <nav class="migas" aria-label="Migas de pan">
+      <a href="/">Inicio</a> › <span>Novedades</span>
+    </nav>
+
+    <header>
+      <h1>Novedades de extranjería en España</h1>
+      <p class="lead">
+        Aquí publicamos los cambios en trámites y legislación que afectan a personas
+        extranjeras no comunitarias: residencia, nacionalidad, asilo y estudiantes.
+        Cada novedad se explica en lenguaje claro y enlaza a la fuente oficial.
+      </p>
+      <ul class="como">
+        <li><strong>Fuente oficial</strong> en cada entrada (BOE o ministerio).</li>
+        <li><strong>Fecha de comprobación</strong>: verificamos que la información sigue vigente.</li>
+        <li><strong>Orientativo</strong>: no es asesoría jurídica; contrasta siempre con la fuente.</li>
+      </ul>
+    </header>
+
+    {categorias.length > 0 && <NovedadesNav categorias={categorias} />}
+
+    {novedades.length === 0 ? (
+      <p>Todavía no hay novedades publicadas. Vuelve pronto.</p>
+    ) : (
+      <div class="lista">
+        {novedades.map((n) => <NovedadCard n={n} />)}
+      </div>
+    )}
+  </main>
+</BaseLayout>
+
+<style>
+  .novedades { max-width: 52rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .migas { font-size: 0.85rem; opacity: 0.8; margin-bottom: 1rem; }
+  h1 { line-height: 1.2; margin: 0 0 0.75rem; }
+  .lead { font-size: 1.1rem; margin: 0 0 1rem; }
+  .como {
+    margin: 0; padding: 0.9rem 1.2rem 0.9rem 2rem; font-size: 0.92rem;
+    border-radius: 12px; background: color-mix(in srgb, currentColor 6%, transparent);
+  }
+  .como li + li { margin-top: 0.3rem; }
+  .lista { display: grid; gap: 1rem; }
+</style>

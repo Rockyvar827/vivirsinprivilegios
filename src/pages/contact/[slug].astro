@@ -26,14 +26,16 @@ export interface Props {
 
 const { contact } = Astro.props
 const { Content } = await contact.render() // Renderiza el cuerpo del Markdown
+const title = contact.data.title ?? 'Contacto'
+const description = contact.data.description ?? ''
 ---
 
-<BaseLayout title={contact.data.title}>
+<BaseLayout title={title} description={description}>
 	<article class="prose prose-lg dark:prose-invert mx-auto leading-relaxed">
-		<h1>{contact.data.title}</h1>
+		<h1>{title}</h1>
 
 		<p class="prose prose-lg dark:prose-invert">
-			{contact.data.description}
+			{description}
 		</p>
 
 		<!-- Aquí se muestra TODO el contenido Markdown -->

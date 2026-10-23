@@ -1,0 +1,33 @@
+---
+import type { Categoria, resumenCategorias } from "../utils/novedades";
+
+interface Props {
+  categorias: ReturnType<typeof resumenCategorias>;
+  activa?: Categoria;
+}
+
+const { categorias, activa } = Astro.props;
+---
+<nav class="chips" aria-label="Filtrar novedades por tema">
+  <a href="/novedades/" aria-current={!activa ? "page" : undefined}>Todas</a>
+  {categorias.map((c) => (
+    <a href={`/novedades/categoria/${c.slug}/`} aria-current={activa === c.slug ? "page" : undefined}>
+      {c.nombre} <span>({c.total})</span>
+    </a>
+  ))}
+</nav>
+
+<style>
+  .chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.25rem 0 1.75rem; }
+  .chips a {
+    padding: 0.35rem 0.85rem; border-radius: 999px; text-decoration: none; font-size: 0.9rem;
+    border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  }
+  .chips a:hover { background: color-mix(in srgb, currentColor 8%, transparent); }
+  .chips a[aria-current="page"] {
+    background: color-mix(in srgb, currentColor 18%, transparent);
+    border-color: currentColor;
+    font-weight: 700;
+  }
+  .chips span { opacity: 0.7; }
+</style>

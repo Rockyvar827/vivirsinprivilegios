@@ -1,0 +1,403 @@
+{
+  "tarea": 4,
+  "titulo": "Tarea 4 – Cultura e historia de España",
+  "fuente": "Manual de preparación de la prueba CCSE 2026 (Instituto Cervantes)",
+  "preguntas": [
+    {
+      "id": 4001,
+      "question": "Los personajes principales de la novela el Quijote son don Quijote y…",
+      "options": {
+        "a": "Don Juan.",
+        "b": "Sancho Panza.",
+        "c": "Doña Inés."
+      },
+      "correct": "b",
+      "feedback": "Sancho Panza es el escudero y compañero inseparable de don Quijote en la novela de Cervantes."
+    },
+    {
+      "id": 4002,
+      "question": "¿Qué científica española es reconocida por sus investigaciones?",
+      "options": {
+        "a": "Almudena Grandes.",
+        "b": "Montserrat Caballé.",
+        "c": "Margarita Salas."
+      },
+      "correct": "c",
+      "feedback": "Margarita Salas fue una bioquímica española reconocida internacionalmente por sus investigaciones en biología molecular."
+    },
+    {
+      "id": 4003,
+      "question": "¿Quién escribió La casa de Bernarda Alba?",
+      "options": {
+        "a": "Federico García Lorca.",
+        "b": "Miguel de Cervantes.",
+        "c": "Antonio Machado."
+      },
+      "correct": "a",
+      "feedback": "Federico García Lorca es el autor de La casa de Bernarda Alba."
+    },
+    {
+      "id": 4004,
+      "question": "¿Quién escribió Nada, una novela sobre la posguerra española?",
+      "options": {
+        "a": "Carmen Laforet.",
+        "b": "Ana María Matute.",
+        "c": "María Dueñas."
+      },
+      "correct": "a",
+      "feedback": "Carmen Laforet es la autora de la novela Nada, ambientada en la posguerra española."
+    },
+    {
+      "id": 4005,
+      "question": "¿Qué músico compuso El amor brujo?",
+      "options": {
+        "a": "Manuel de Falla.",
+        "b": "Isaac Albéniz.",
+        "c": "Joaquín Rodrigo."
+      },
+      "correct": "a",
+      "feedback": "Manuel de Falla es el compositor de El amor brujo."
+    },
+    {
+      "id": 4006,
+      "question": "¿Qué es típico en la Noche de San Juan?",
+      "options": {
+        "a": "Comer uvas.",
+        "b": "Encender hogueras.",
+        "c": "Regalar libros."
+      },
+      "correct": "b",
+      "feedback": "En la Noche de San Juan es tradicional encender hogueras."
+    },
+    {
+      "id": 4007,
+      "question": "¿Cuál es el instrumento más característico de la música flamenca?",
+      "options": {
+        "a": "La gaita.",
+        "b": "La guitarra.",
+        "c": "El piano."
+      },
+      "correct": "b",
+      "feedback": "La guitarra española es el instrumento más característico del flamenco."
+    },
+    {
+      "id": 4008,
+      "question": "Isabel Coixet es una…",
+      "options": {
+        "a": "cantante pop.",
+        "b": "bailarina clásica.",
+        "c": "directora de cine."
+      },
+      "correct": "c",
+      "feedback": "Isabel Coixet es una reconocida directora de cine española."
+    },
+    {
+      "id": 4009,
+      "question": "Una de las cantantes españolas más famosas actualmente es…",
+      "options": {
+        "a": "Rosalía.",
+        "b": "Marisol.",
+        "c": "Lola Flores."
+      },
+      "correct": "a",
+      "feedback": "Rosalía es actualmente una de las cantantes españolas más internacionales y populares."
+    },
+    {
+      "id": 4010,
+      "question": "¿En qué ciudad de España hay una mezquita que es Patrimonio de la Humanidad?",
+      "options": {
+        "a": "Santiago de Compostela.",
+        "b": "Madrid.",
+        "c": "Córdoba."
+      },
+      "correct": "c",
+      "feedback": "La Mezquita-Catedral de Córdoba está declarada Patrimonio de la Humanidad."
+    },
+    {
+      "id": 4011,
+      "question": "¿En qué ciudad de España se encuentra La Alhambra, que es Patrimonio de la Humanidad?",
+      "options": {
+        "a": "En Sevilla.",
+        "b": "En Córdoba.",
+        "c": "En Granada."
+      },
+      "correct": "c",
+      "feedback": "La Alhambra se encuentra en Granada y está declarada Patrimonio de la Humanidad."
+    },
+    {
+      "id": 4012,
+      "question": "¿Cuál es el nombre de la directora española que ha destacado por su mirada crítica y por modernizar el cine nacional?",
+      "options": {
+        "a": "Pilar Miró.",
+        "b": "Sara Baras.",
+        "c": "Penélope Cruz."
+      },
+      "correct": "a",
+      "feedback": "Pilar Miró fue una directora clave en la modernización y renovación del cine español."
+    },
+    {
+      "id": 4013,
+      "question": "¿Qué novela de éxito ha escrito Irene Vallejo?",
+      "options": {
+        "a": "El infinito en un junco.",
+        "b": "El tiempo entre costuras.",
+        "c": "El camino."
+      },
+      "correct": "a",
+      "feedback": "Irene Vallejo es la autora de El infinito en un junco, un gran éxito editorial."
+    },
+    {
+      "id": 4014,
+      "question": "¿Cómo se llama la mayor institución pública dedicada a la investigación en España?",
+      "options": {
+        "a": "Real Academia Española (RAE).",
+        "b": "Consejo Superior de investigaciones Científicas (CSIC).",
+        "c": "La sociedad General de Autores (SGAE)."
+      },
+      "correct": "b",
+      "feedback": "El CSIC (Consejo Superior de Investigaciones Científicas) es la mayor institución pública de investigación en España."
+    },
+    {
+      "id": 4015,
+      "question": "Paco de Lucía fue un famoso….",
+      "options": {
+        "a": "científico.",
+        "b": "guitarrista.",
+        "c": "pintor."
+      },
+      "correct": "b",
+      "feedback": "Paco de Lucía fue un célebre guitarrista de flamenco."
+    },
+    {
+      "id": 4016,
+      "question": "¿Qué celebramos el 24 de diciembre?",
+      "options": {
+        "a": "Carnaval.",
+        "b": "Nochebuena.",
+        "c": "San Juan."
+      },
+      "correct": "b",
+      "feedback": "El 24 de diciembre se celebra la Nochebuena."
+    },
+    {
+      "id": 4017,
+      "question": "Juan Mari Arzak es un famoso….",
+      "options": {
+        "a": "escritor.",
+        "b": "músico.",
+        "c": "cocinero."
+      },
+      "correct": "c",
+      "feedback": "Juan Mari Arzak es un reconocido cocinero español, referente de la alta cocina vasca."
+    },
+    {
+      "id": 4018,
+      "question": "¿Quién fue Clara Campoamor?",
+      "options": {
+        "a": "Una defensora de los derechos de la mujer.",
+        "b": "Una cantante lírica.",
+        "c": "Una directora de cine."
+      },
+      "correct": "a",
+      "feedback": "Clara Campoamor fue una política y abogada que defendió el sufragio femenino en España."
+    },
+    {
+      "id": 4019,
+      "question": "¿Qué canciones típicas se cantan en Navidad?",
+      "options": {
+        "a": "Flamenco.",
+        "b": "Villancicos.",
+        "c": "Jotas."
+      },
+      "correct": "b",
+      "feedback": "Los villancicos son las canciones típicas de la Navidad en España."
+    },
+    {
+      "id": 4020,
+      "question": "La Liga y la Copa del Rey son competiciones de…",
+      "options": {
+        "a": "natación.",
+        "b": "atletismo.",
+        "c": "fútbol."
+      },
+      "correct": "c",
+      "feedback": "La Liga y la Copa del Rey son las principales competiciones de fútbol en España."
+    },
+    {
+      "id": 4021,
+      "question": "¿Quién ha recibido el premio Nobel de Literatura?",
+      "options": {
+        "a": "María Zambrano.",
+        "b": "Pablo Picasso.",
+        "c": "Vicente Aleixandre."
+      },
+      "correct": "c",
+      "feedback": "Vicente Aleixandre recibió el premio Nobel de Literatura en 1977."
+    },
+    {
+      "id": 4022,
+      "question": "¿Qué fiesta se celebra en Pamplona el 7 de julio?",
+      "options": {
+        "a": "Los sanfermines.",
+        "b": "Las Fallas.",
+        "c": "La Feria de Abril."
+      },
+      "correct": "a",
+      "feedback": "Los sanfermines, con el famoso encierro, se celebran en Pamplona a partir del 7 de julio."
+    },
+    {
+      "id": 4023,
+      "question": "Teresa Perales y Daniel Molina son…",
+      "options": {
+        "a": "campeones paraolímpicos.",
+        "b": "músicos famosos.",
+        "c": "artistas de cine."
+      },
+      "correct": "a",
+      "feedback": "Teresa Perales y Daniel Molina son destacados deportistas paralímpicos españoles."
+    },
+    {
+      "id": 4024,
+      "question": "¿Qué toman los españoles la noche del 31 de diciembre para celebrar el cambio de año?",
+      "options": {
+        "a": "Lentejas.",
+        "b": "Uvas.",
+        "c": "Aceitunas."
+      },
+      "correct": "b",
+      "feedback": "La tradición de Nochevieja en España es tomar las doce uvas con las campanadas."
+    },
+    {
+      "id": 4025,
+      "question": "¿Qué mujer es autora del cuadro La verbena?",
+      "options": {
+        "a": "Maruja Mallo.",
+        "b": "Carmen Maura.",
+        "c": "Clara Lago."
+      },
+      "correct": "a",
+      "feedback": "Maruja Mallo es la autora del cuadro La verbena."
+    },
+    {
+      "id": 4026,
+      "question": "¿En qué museo español puedes ver el cuadro Guernica de Picasso?",
+      "options": {
+        "a": "Museo del Prado.",
+        "b": "Museo Reina Sofía.",
+        "c": "Museo Thyssen-Bornemisza."
+      },
+      "correct": "b",
+      "feedback": "El Guernica de Picasso se expone en el Museo Reina Sofía, en Madrid."
+    },
+    {
+      "id": 4027,
+      "question": "¿Qué escritora española escribe en otra lengua oficial de España?",
+      "options": {
+        "a": "Mercè Rodoreda.",
+        "b": "Almudena Grandes.",
+        "c": "Ana María Matute."
+      },
+      "correct": "a",
+      "feedback": "Mercè Rodoreda escribió en catalán, una de las lenguas cooficiales de España."
+    },
+    {
+      "id": 4028,
+      "question": "¿Qué tres culturas convivieron en la España medieval?",
+      "options": {
+        "a": "La cristiana, la judía y la musulmana.",
+        "b": "La fenicia, la judía y la musulmana.",
+        "c": "La griega, la cristiana y la judía."
+      },
+      "correct": "a",
+      "feedback": "En la España medieval convivieron durante siglos las culturas cristiana, judía y musulmana."
+    },
+    {
+      "id": 4029,
+      "question": "El 6 de diciembre se celebra en España…",
+      "options": {
+        "a": "el Día de la Constitución.",
+        "b": "la llegada de Colón a América.",
+        "c": "el Día del Libro."
+      },
+      "correct": "a",
+      "feedback": "El 6 de diciembre se celebra el Día de la Constitución española."
+    },
+    {
+      "id": 4030,
+      "question": "¿Qué ciudad fue un centro científico en Al-Ándalus, donde se estudiaba medicina y astronomía?",
+      "options": {
+        "a": "Barcelona.",
+        "b": "Madrid.",
+        "c": "Córdoba."
+      },
+      "correct": "c",
+      "feedback": "Córdoba fue un importante centro científico y cultural durante Al-Ándalus."
+    },
+    {
+      "id": 4031,
+      "question": "¿En qué ciudad española está el Museo Guggenheim?",
+      "options": {
+        "a": "Bilbao.",
+        "b": "Madrid.",
+        "c": "Valencia."
+      },
+      "correct": "a",
+      "feedback": "El Museo Guggenheim se encuentra en Bilbao."
+    },
+    {
+      "id": 4032,
+      "question": "El Premio Cervantes se da a…",
+      "options": {
+        "a": "actores.",
+        "b": "escritores.",
+        "c": "pintores."
+      },
+      "correct": "b",
+      "feedback": "El Premio Cervantes reconoce la trayectoria de escritores en lengua española."
+    },
+    {
+      "id": 4033,
+      "question": "¿Qué premio reconoce a los mejores actores y películas?",
+      "options": {
+        "a": "Premio Goya.",
+        "b": "Premio Nobel.",
+        "c": "Premio Cervantes."
+      },
+      "correct": "a",
+      "feedback": "Los Premios Goya reconocen lo mejor del cine español, incluyendo actores y películas."
+    },
+    {
+      "id": 4034,
+      "question": "¿Qué premios promueven en España valores científicos, culturales y humanísticos?",
+      "options": {
+        "a": "Los Premios Cervantes.",
+        "b": "Los Premios Princesa de Asturias.",
+        "c": "Los Premios Goya."
+      },
+      "correct": "b",
+      "feedback": "Los Premios Princesa de Asturias reconocen la labor científica, cultural y humanística a nivel internacional."
+    },
+    {
+      "id": 4035,
+      "question": "¿Cuál de estos deportes es muy popular en España?",
+      "options": {
+        "a": "El fútbol.",
+        "b": "El esquí",
+        "c": "El golf."
+      },
+      "correct": "a",
+      "feedback": "El fútbol es, con diferencia, el deporte más popular en España."
+    },
+    {
+      "id": 4036,
+      "question": "¿Cuál de estos deportistas juega al tenis?",
+      "options": {
+        "a": "Pau Gasol.",
+        "b": "Carlos Sainz.",
+        "c": "Carlos Alcaraz."
+      },
+      "correct": "c",
+      "feedback": "Carlos Alcaraz es un reconocido tenista español."
+    }
+  ]
+}

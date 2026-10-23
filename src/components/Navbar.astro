@@ -4,6 +4,16 @@ import { Icon } from 'astro-icon/components'
 import ThemeSelector from './ThemeSelector.astro'
 import { WebsiteLinks } from '../consts'
 import LogoSVG from '../assets/logo.svg'
+
+const CCSE_LINKS = [
+	{ name: 'Examen CCSE · Tarea 1', url: 'extranjeria/ccse-tarea1' },
+	{ name: 'Examen CCSE · Tarea 2', url: 'extranjeria/ccse-tarea2' },
+	{ name: 'Examen CCSE · Tarea 3', url: 'extranjeria/ccse-tarea3' },
+	{ name: 'Examen CCSE · Tarea 4', url: 'extranjeria/ccse-tarea4' },
+	{ name: 'Examen CCSE · Tarea 5', url: 'extranjeria/ccse-tarea5' },
+]
+
+const isExtranjeria = (url: string) => url.replace(/\/$/, '') === 'extranjeria'
 ---
 
 <header class="fixed top-0 w-full z-40 bg-background dark:bg-background-dark">
@@ -14,15 +24,47 @@ import LogoSVG from '../assets/logo.svg'
 			</a>
 			<div class="gap-8 hidden md:flex items-center">
 				{
-					WebsiteLinks.map((link) => (
-						<NavbarLink
-							class="text-lg"
-							href={`/${link.url}`}
-							target={link.url.charAt(0) === 'h' ? '_blank' : '_self'}
-						>
-							{link.name}
-						</NavbarLink>
-					))
+					WebsiteLinks.map((link) =>
+						isExtranjeria(link.url) ? (
+							<div class="relative" data-el="extranjeria-dropdown">
+								<NavbarLink
+									class="text-lg inline-flex items-center gap-1"
+									href={`/${link.url}`}
+									target={link.url.charAt(0) === 'h' ? '_blank' : '_self'}
+									data-el="dropdown-trigger"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									{link.name}
+									<Icon aria-hidden name="mdi:chevron-down" size={18} />
+								</NavbarLink>
+								<ul
+									class="absolute left-0 top-full pt-3 hidden min-w-[240px] flex-col rounded-xl border border-black/10 dark:border-white/10 bg-background dark:bg-background-dark py-2 shadow-lg data-[open=true]:flex"
+									data-el="dropdown-list"
+									data-open="false"
+								>
+									{CCSE_LINKS.map((sub) => (
+										<li>
+											<a
+												href={`/${sub.url}`}
+												class="block px-4 py-2 text-base hover:underline"
+											>
+												{sub.name}
+											</a>
+										</li>
+									))}
+								</ul>
+							</div>
+						) : (
+							<NavbarLink
+								class="text-lg"
+								href={`/${link.url}`}
+								target={link.url.charAt(0) === 'h' ? '_blank' : '_self'}
+							>
+								{link.name}
+							</NavbarLink>
+						)
+					)
 				}
 				<ThemeSelector />
 			</div>
@@ -37,7 +79,7 @@ import LogoSVG from '../assets/logo.svg'
 
 			<!-- Mobile nav -->
 			<div
-				class="translate-x-full md:hidden fixed top-0 right-0 bg-background dark:bg-background-dark h-screen w-5/6 px-8 py-6 transition-transform z-40 border-l-[1px] border-background"
+				class="translate-x-full md:hidden fixed top-0 right-0 bg-background dark:bg-background-dark h-screen w-5/6 px-8 py-6 transition-transform z-40 border-l-[1px] border-background overflow-y-auto"
 				id="mobile-menu"
 			>
 				<button
@@ -48,34 +90,146 @@ import LogoSVG from '../assets/logo.svg'
 				>
 					<Icon aria-hidden name="mdi:close" size={32} />
 				</button>
-				<div class="flex flex-col h-full items-start gap-8 pt-16">
+				<div class="flex flex-col h-full items-start gap-6 pt-16 w-full">
 					{
-						WebsiteLinks.map((link) => (
-							<NavbarLink class="text-4xl font-light" href={link.url}>
-								{link.name}
-							</NavbarLink>
-						))
+						WebsiteLinks.map((link) =>
+							isExtranjeria(link.url) ? (
+								<div class="w-full" data-el="mobile-extranjeria-dropdown">
+									<button
+										type="button"
+										class="text-4xl font-light flex items-center gap-2 w-full"
+										data-el="mobile-dropdown-trigger"
+										aria-expanded="false"
+									>
+										{link.name}
+										<Icon
+											aria-hidden
+											name="mdi:chevron-down"
+											size={28}
+											class="transition-transform shrink-0"
+											data-el="mobile-dropdown-chevron"
+										/>
+									</button>
+									<div
+										class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out overflow-hidden w-full"
+										data-el="mobile-dropdown-panel"
+										data-open="false"
+									>
+										<div class="min-h-0 overflow-hidden">
+											<div class="flex flex-col gap-3 pl-4 pt-3">
+												{CCSE_LINKS.map((sub) => (
+													<a href={`/${sub.url}`} class="text-xl font-light hover:underline">
+														{sub.name}
+													</a>
+												))}
+											</div>
+										</div>
+									</div>
+								</div>
+							) : (
+								<NavbarLink class="text-4xl font-light" href={link.url}>
+									{link.name}
+								</NavbarLink>
+							)
+						)
 					}
 					<ThemeSelector class:list="mt-4" />
 				</div>
 			</div>
 		</div>
 	</nav>
+<script is:inline>
+	// Detecta dispositivos táctiles (tablets y móviles), no por ancho de pantalla
+	const isTouchDevice = window.matchMedia('(hover: none), (pointer: coarse)').matches
 
-	<script>
-		function toggleNav() {
-			document
-				.querySelector('#mobile-menu')
-				?.classList.toggle('mobile-nav-open')
+	function toggleNav() {
+		document
+			.querySelector('#mobile-menu')
+			?.classList.toggle('mobile-nav-open')
+	}
+
+	document
+		.querySelector('#nav-open-btn')
+		?.addEventListener('click', toggleNav)
+	document
+		.querySelector('#nav-close-btn')
+		?.addEventListener('click', toggleNav)
+
+	const dropdown = document.querySelector('[data-el="extranjeria-dropdown"]')
+	if (dropdown) {
+		const trigger = dropdown.querySelector('[data-el="dropdown-trigger"]')
+		const list = dropdown.querySelector('[data-el="dropdown-list"]')
+
+		if (trigger && list) {
+			let closeTimeout
+
+			const open = () => {
+				clearTimeout(closeTimeout)
+				list.dataset.open = 'true'
+				trigger.setAttribute('aria-expanded', 'true')
+			}
+			const close = () => {
+				list.dataset.open = 'false'
+				trigger.setAttribute('aria-expanded', 'false')
+			}
+			const scheduleClose = () => {
+				closeTimeout = setTimeout(close, 150)
+			}
+
+			// Escritorio: mostrar el desplegable al pasar el ratón por encima
+			dropdown.addEventListener('mouseenter', open)
+			dropdown.addEventListener('mouseleave', scheduleClose)
+
+			// Teclado: mostrar al enfocar el enlace o cualquier item del desplegable
+			dropdown.addEventListener('focusin', open)
+			dropdown.addEventListener('focusout', (e) => {
+				const next = e.relatedTarget
+				if (!next || !dropdown.contains(next)) close()
+			})
+
+			// Táctil (tablets): el primer toque abre la lista en vez de navegar;
+			// si ya está abierta, el segundo toque navega con normalidad
+			if (isTouchDevice) {
+				trigger.addEventListener('click', (e) => {
+					const isOpen = list.dataset.open === 'true'
+					if (!isOpen) {
+						e.preventDefault()
+						open()
+					}
+				})
+
+				document.addEventListener('click', (e) => {
+					if (!dropdown.contains(e.target)) close()
+				})
+			}
 		}
+	}
 
-		document
-			.querySelector('#nav-open-btn')
-			?.addEventListener('click', toggleNav)
-		document
-			.querySelector('#nav-close-btn')
-			?.addEventListener('click', toggleNav)
-	</script>
+	// Acordeón para el submenú de Extranjería (menú móvil, hamburguesa)
+	const mobileDropdown = document.querySelector(
+		'[data-el="mobile-extranjeria-dropdown"]'
+	)
+	if (mobileDropdown) {
+		const mobileTrigger = mobileDropdown.querySelector(
+			'[data-el="mobile-dropdown-trigger"]'
+		)
+		const mobilePanel = mobileDropdown.querySelector(
+			'[data-el="mobile-dropdown-panel"]'
+		)
+		const mobileChevron = mobileDropdown.querySelector(
+			'[data-el="mobile-dropdown-chevron"]'
+		)
+
+		mobileTrigger?.addEventListener('click', () => {
+			const isOpen = mobilePanel?.dataset.open === 'true'
+			if (mobilePanel) mobilePanel.dataset.open = isOpen ? 'false' : 'true'
+			mobilePanel?.classList.toggle('grid-rows-[1fr]', !isOpen)
+			mobilePanel?.classList.toggle('grid-rows-[0fr]', isOpen)
+			mobileTrigger?.setAttribute('aria-expanded', String(!isOpen))
+			mobileChevron?.classList.toggle('rotate-180', !isOpen)
+		})
+	}
+</script>
 </header>
 
 <script is:inline>

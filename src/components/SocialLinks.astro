@@ -1,0 +1,122 @@
+---
+const SITE_NAME = "Vivir sin Privilegios";
+const SITE_URL = "https://vivirsinprivilegios.com"; // ← cambia por tu dominio real
+
+const links = [
+  {
+    name: "Instagram",
+    handle: "@vivirsinprivilegios",
+    href: "https://www.instagram.com/vivirsinprivilegios/",
+    path: "M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6Zm9.65 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z",
+  },
+  {
+    name: "YouTube",
+    handle: "@vivirsinprivilegios",
+    href: "https://www.youtube.com/@vivirsinprivilegios",
+    path: "M21.6 7.2a2.5 2.5 0 0 0-1.76-1.77C18.27 5 12 5 12 5s-6.27 0-7.84.43A2.5 2.5 0 0 0 2.4 7.2C2 8.78 2 12 2 12s0 3.22.4 4.8a2.5 2.5 0 0 0 1.76 1.77C5.73 19 12 19 12 19s6.27 0 7.84-.43a2.5 2.5 0 0 0 1.76-1.77C22 15.22 22 12 22 12s0-3.22-.4-4.8ZM10 15V9l5.2 3L10 15Z",
+  },
+];
+
+// Datos estructurados: ayudan a Google a vincular tus perfiles sociales con la marca
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: SITE_NAME,
+  url: SITE_URL,
+  sameAs: links.map((l) => l.href),
+};
+---
+
+<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+<section class="social" aria-labelledby="social-title">
+  <h2 id="social-title" class="social__title">
+    Síguenos en nuestras redes y no te pierdas nada
+  </h2>
+  <p class="social__subtitle">
+    Únete a la comunidad de {SITE_NAME}: contenido nuevo, ideas y novedades cada semana.
+  </p>
+
+  <ul class="social-links">
+    {links.map((l) => (
+      <li>
+        <a
+          href={l.href}
+          target="_blank"
+          rel="me noopener noreferrer"
+          aria-label={`Síguenos en ${l.name}: ${SITE_NAME}`}
+          title={`${SITE_NAME} en ${l.name}`}
+        >
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true" focusable="false">
+            <path d={l.path} />
+          </svg>
+          <span class="social-links__text">
+            <strong>{l.name}</strong>
+            <small>{l.handle}</small>
+          </span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</section>
+
+<style>
+  .social {
+    text-align: center;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+    max-width: 40rem;
+  }
+  .social__title {
+    font-size: clamp(1.4rem, 4vw, 2rem);
+    line-height: 1.25;
+    margin: 0 0 0.5rem;
+  }
+  .social__subtitle {
+    margin: 0 0 1.5rem;
+    opacity: 0.8;
+  }
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  .social-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid currentColor;
+    border-radius: 9999px;
+    color: inherit;
+    text-decoration: none;
+    text-align: left;
+    transition: transform 0.15s ease, opacity 0.15s ease, background-color 0.15s ease;
+  }
+  .social-links a:hover,
+  .social-links a:focus-visible {
+    transform: translateY(-2px);
+    opacity: 0.8;
+  }
+  .social-links a:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+  .social-links__text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+  .social-links__text small {
+    opacity: 0.7;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .social-links a {
+      transition: none;
+    }
+  }
+</style>

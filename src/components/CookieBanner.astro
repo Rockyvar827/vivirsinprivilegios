@@ -1,0 +1,104 @@
+---
+// CookieBanner.astro
+// Banner de consentimiento de cookies (RGPD). Aceptar y Rechazar tienen
+// el mismo peso visual, como exige la normativa: no se puede inducir al
+// "Aceptar" destacándolo sobre el "Rechazar".
+// Nota: el consentimiento "denied" por defecto (Google Consent Mode v2)
+// se declara en BaseHead.astro, lo antes posible en el <head>.
+---
+
+<div
+	id="cookie-banner"
+	class="hidden fixed inset-x-0 bottom-0 z-50 p-4 md:p-6"
+	role="dialog"
+	aria-live="polite"
+	aria-label="Consentimiento de cookies"
+>
+	<div
+		class="mx-auto max-w-3xl bg-gray-100 dark:bg-neutral-900 border border-gray-300 dark:border-gray-700 rounded-2xl shadow-lg p-5 md:p-6 flex flex-col md:flex-row md:items-center gap-4"
+	>
+		<p class="text-sm md:text-base text-gray-800 dark:text-gray-300 leading-relaxed flex-1">
+			Usamos cookies analíticas para entender cómo se usa esta web y
+			mejorar el contenido. Puedes aceptarlas o rechazarlas — las
+			cookies técnicas necesarias para el funcionamiento del sitio se
+			mantienen en cualquier caso. Más info en nuestra
+			<a href="/cookies" class="underline hover:text-red-600 dark:hover:text-red-400">
+				Política de Cookies
+			</a>
+			y
+			<a href="/privacy" class="underline hover:text-red-600 dark:hover:text-red-400">
+				Política de Privacidad
+			</a>.
+		</p>
+
+		<div class="flex gap-3 shrink-0 justify-center md:justify-end">
+			<button
+				id="cookie-reject"
+				type="button"
+				class="px-4 py-2 rounded-full text-sm md:text-base font-medium border border-gray-400 dark:border-gray-600 text-gray-800 dark:text-gray-200 hover:border-red-500 dark:hover:border-red-400 hover:text-red-600 dark:hover:text-red-300 transition-all"
+			>
+				Rechazar
+			</button>
+			<button
+				id="cookie-accept"
+				type="button"
+				class="px-4 py-2 rounded-full text-sm md:text-base font-medium bg-red-600 text-white hover:bg-red-500 transition-all"
+			>
+				Aceptar
+			</button>
+		</div>
+	</div>
+</div>
+
+<script is:inline>
+	;(function () {
+		var CONSENT_KEY = 'cookie_consent'
+		// ⚠️ Sustituye por tu ID real de Google Analytics (formato G-XXXXXXX)
+		var GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'
+
+		function loadAnalytics() {
+			if (window.__gaLoaded) return
+			window.__gaLoaded = true
+
+			var script = document.createElement('script')
+			script.src =
+				'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID
+			script.async = true
+			document.head.appendChild(script)
+
+			gtag('consent', 'update', { analytics_storage: 'granted' })
+			gtag('js', new Date())
+			gtag('config', GA_MEASUREMENT_ID)
+		}
+
+		function init() {
+			var banner = document.getElementById('cookie-banner')
+			var acceptBtn = document.getElementById('cookie-accept')
+			var rejectBtn = document.getElementById('cookie-reject')
+			var stored = localStorage.getItem(CONSENT_KEY)
+
+			if (stored === 'accepted') {
+				loadAnalytics()
+			} else if (!stored) {
+				banner.classList.remove('hidden')
+			}
+
+			acceptBtn.addEventListener('click', function () {
+				localStorage.setItem(CONSENT_KEY, 'accepted')
+				banner.classList.add('hidden')
+				loadAnalytics()
+			})
+
+			rejectBtn.addEventListener('click', function () {
+				localStorage.setItem(CONSENT_KEY, 'rejected')
+				banner.classList.add('hidden')
+			})
+		}
+
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', init)
+		} else {
+			init()
+		}
+	})()
+</script>

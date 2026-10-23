@@ -1,0 +1,367 @@
+{
+  "tarea": 2,
+  "titulo": "Tarea 2 – Derechos y deberes fundamentales",
+  "fuente": "Manual de preparación de la prueba CCSE 2026 (Instituto Cervantes)",
+  "preguntas": [
+    {
+      "id": 2001,
+      "question": "En España, la Constitución obliga a todos los ciudadanos a practicar una religión.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "La Constitución garantiza la libertad religiosa; nadie puede ser obligado a practicar una religión."
+    },
+    {
+      "id": 2002,
+      "question": "Los españoles que obtienen la nacionalidad por residencia deben esperar tres años para poder votar en las elecciones.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "El derecho al voto se adquiere con la nacionalidad española, sin un periodo de espera adicional."
+    },
+    {
+      "id": 2003,
+      "question": "En España, la Constitución prohíbe la tortura y la pena de muerte.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La Constitución prohíbe expresamente la tortura y ha abolido la pena de muerte."
+    },
+    {
+      "id": 2004,
+      "question": "El funcionamiento de los partidos políticos tiene que ser democrático.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La Constitución exige que la estructura interna y el funcionamiento de los partidos sean democráticos."
+    },
+    {
+      "id": 2005,
+      "question": "Se puede obligar a alguien a decir cuáles son sus ideas políticas o religiosas.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "Nadie puede ser obligado a declarar su ideología, religión o creencias."
+    },
+    {
+      "id": 2006,
+      "question": "Se puede limitar a una persona el derecho a entrar y salir libremente de España por motivos ideológicos.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "El derecho a entrar y salir de España no puede limitarse por motivos políticos o ideológicos."
+    },
+    {
+      "id": 2007,
+      "question": "La Educación Primaria (de 6 a 12 años) es gratuita y obligatoria.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La Educación Primaria forma parte de la enseñanza básica, obligatoria y gratuita."
+    },
+    {
+      "id": 2008,
+      "question": "La Constitución garantiza el derecho de los españoles a una vivienda digna.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "El artículo 47 de la Constitución reconoce el derecho a disfrutar de una vivienda digna y adecuada."
+    },
+    {
+      "id": 2009,
+      "question": "En España la policía puede entrar en cualquier casa sin resolución judicial en cualquier momento.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "El domicilio es inviolable; salvo flagrante delito, se necesita resolución judicial o consentimiento del titular."
+    },
+    {
+      "id": 2010,
+      "question": "Se garantiza el secreto de las comunicaciones de los españoles, salvo resolución judicial.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "El secreto de las comunicaciones está garantizado y solo puede intervenirse por resolución judicial."
+    },
+    {
+      "id": 2011,
+      "question": "La Constitución reconoce el derecho de los ciudadanos a asociarse libremente.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "El derecho de asociación está reconocido en la Constitución."
+    },
+    {
+      "id": 2012,
+      "question": "Los profesores pueden enseñar con libertad, dentro de los límites de la Constitución.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La libertad de cátedra está reconocida, siempre dentro de los límites constitucionales."
+    },
+    {
+      "id": 2013,
+      "question": "La Constitución reconoce únicamente los derechos fundamentales de los españoles.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "Muchos derechos y libertades reconocidos se extienden también a los extranjeros, no solo a los españoles."
+    },
+    {
+      "id": 2014,
+      "question": "Los ciudadanos deben colaborar con los jueces si se lo piden.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "Es un deber ciudadano colaborar con la Administración de Justicia cuando así se requiere."
+    },
+    {
+      "id": 2015,
+      "question": "La ley limita el acceso de terceras personas a datos de carácter personal.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La legislación de protección de datos limita el acceso y uso de la información personal por terceros."
+    },
+    {
+      "id": 2016,
+      "question": "La libertad de prensa está limitada por el respeto al honor de las personas.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La libertad de expresión e información encuentra su límite en el derecho al honor, la intimidad y la propia imagen."
+    },
+    {
+      "id": 2017,
+      "question": "En España las causas de separación y divorcio están reguladas por la ley.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La separación y el divorcio están regulados por la legislación civil española."
+    },
+    {
+      "id": 2018,
+      "question": "La atención sanitaria gratuita es solo para personas mayores de 65 años.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "La atención sanitaria pública gratuita no se limita a los mayores de 65 años; alcanza al conjunto de la población."
+    },
+    {
+      "id": 2019,
+      "question": "En España los hombres y las mujeres tienen los mismos derechos.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La Constitución establece la igualdad ante la ley sin discriminación por razón de sexo."
+    },
+    {
+      "id": 2020,
+      "question": "La enseñanza obligatoria consta de dos etapas: Educación Primaria y Educación Secundaria Obligatoria.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La enseñanza básica obligatoria comprende la Educación Primaria y la Educación Secundaria Obligatoria (ESO)."
+    },
+    {
+      "id": 2021,
+      "question": "En España hay una religión oficial.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "España es un Estado aconfesional; no existe una religión oficial."
+    },
+    {
+      "id": 2022,
+      "question": "La atención sanitaria pública es gratuita.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "El sistema público de salud español ofrece atención sanitaria gratuita en el momento del uso."
+    },
+    {
+      "id": 2023,
+      "question": "La enseñanza básica en España es solo para los extranjeros.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "La enseñanza básica es obligatoria y gratuita para todos los menores, no solo para los extranjeros."
+    },
+    {
+      "id": 2024,
+      "question": "En España está reconocido el derecho de asociación.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "El derecho de asociación está reconocido en la Constitución española."
+    },
+    {
+      "id": 2025,
+      "question": "Los sindicatos pueden participar en negociaciones con empresarios y con el Gobierno.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "Los sindicatos tienen reconocido el derecho a participar en la negociación colectiva y el diálogo social."
+    },
+    {
+      "id": 2026,
+      "question": "Los trabajadores tienen derecho a hacer huelga.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "El derecho de huelga de los trabajadores está reconocido en la Constitución."
+    },
+    {
+      "id": 2027,
+      "question": "La libertad ideológica está garantizada solo en parte del territorio nacional.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "La libertad ideológica está garantizada en todo el territorio nacional, sin excepciones."
+    },
+    {
+      "id": 2028,
+      "question": "Todos los ciudadanos tienen acceso al sistema de Seguridad Social público, excepto si están desempleados.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "El acceso al sistema público de Seguridad Social no se pierde por estar desempleado; existen prestaciones específicas para esa situación."
+    },
+    {
+      "id": 2029,
+      "question": "Todos tienen derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona, así como el deber de conservarlo.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La Constitución reconoce tanto el derecho a un medio ambiente adecuado como el deber de conservarlo."
+    },
+    {
+      "id": 2030,
+      "question": "En España, los poderes públicos deben proteger la salud y promover el deporte.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La Constitución encomienda a los poderes públicos proteger la salud pública y fomentar la educación física y el deporte."
+    },
+    {
+      "id": 2031,
+      "question": "La enseñanza básica en España es obligatoria y gratuita.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La enseñanza básica es obligatoria y gratuita para toda la población en edad escolar."
+    },
+    {
+      "id": 2032,
+      "question": "La ley prohíbe la discriminación por cualquier circunstancia personal o social.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La Constitución prohíbe la discriminación por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición personal o social."
+    },
+    {
+      "id": 2033,
+      "question": "En España, los ciudadanos pueden desplazarse libremente por todo el territorio nacional.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La libertad de circulación y residencia en todo el territorio nacional está reconocida constitucionalmente."
+    },
+    {
+      "id": 2034,
+      "question": "Los jueces administran la justicia en España según las indicaciones del Gobierno.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "b",
+      "feedback": "Los jueces administran la justicia con independencia, sin recibir indicaciones del Gobierno."
+    },
+    {
+      "id": 2035,
+      "question": "Los españoles deben ayudar en los casos de catástrofe o calamidad pública.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "Es un deber de los ciudadanos colaborar y prestar ayuda en situaciones de catástrofe o calamidad pública."
+    },
+    {
+      "id": 2036,
+      "question": "En España los ciudadanos pueden elegir en qué ciudad quieren vivir.",
+      "options": {
+        "a": "Verdadero.",
+        "b": "Falso."
+      },
+      "correct": "a",
+      "feedback": "La libertad de residencia permite a los ciudadanos elegir libremente dónde vivir dentro del territorio nacional."
+    }
+  ]
+}

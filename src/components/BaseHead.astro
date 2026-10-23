@@ -7,10 +7,26 @@ interface Props {
 	image?: string
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site)
-
 const { title, description, image = `/saral-og.jpg` } = Astro.props
 ---
+
+<!-- Google AdSense -->
+<script
+	is:inline
+	async
+	src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3901329546317828"
+	crossorigin="anonymous"></script>
+
+<!-- Google Consent Mode v2: denegado por defecto hasta que el usuario decida en el banner de cookies -->
+<script is:inline>
+	window.dataLayer = window.dataLayer || []
+	function gtag() {
+		dataLayer.push(arguments)
+	}
+	gtag('consent', 'default', {
+		analytics_storage: 'denied',
+	})
+</script>
 
 <meta name="robots" content="index, follow" />
 <meta name="google-site-verification" content="googlefc9b444cd0ac3afc" />
@@ -27,9 +43,6 @@ const { title, description, image = `/saral-og.jpg` } = Astro.props
 <link rel="apple-touch-icon" sizes="180x180" href={`/apple-touch-icon.png`} />
 <meta name="apple-mobile-web-app-title" content="Saral Theme" />
 <link rel="manifest" href={`/site.webmanifest`} />
-
-<!-- Canonical URL -->
-<link rel="canonical" href={canonicalURL} />
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>

@@ -1,0 +1,33 @@
+---
+import { CATEGORIAS, fechaLarga, fechaISO } from "../utils/novedades";
+const { n } = Astro.props;
+const cat = CATEGORIAS[n.data.category as keyof typeof CATEGORIAS];
+---
+<article class="card">
+  <p class="meta">
+    <a class="etiqueta" href={`/novedades/categoria/${n.data.category}/`}>{cat.nombre}</a>
+    <time datetime={fechaISO(n.data.pubDate)}>{fechaLarga(n.data.pubDate)}</time>
+  </p>
+  <h2><a href={`/novedades/${n.id}/`}>{n.data.title}</a></h2>
+  <p class="resumen">{n.data.description}</p>
+  <p class="fuente">Fuente oficial: {n.data.source}</p>
+</article>
+
+<style>
+  .card {
+    padding: 1.1rem 1.25rem;
+    border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+    border-radius: 12px;
+  }
+  .card:hover { border-color: color-mix(in srgb, currentColor 40%, transparent); }
+  .meta { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; margin: 0 0 0.4rem; font-size: 0.85rem; opacity: 0.85; }
+  .etiqueta {
+    padding: 0.1rem 0.6rem; border-radius: 999px; text-decoration: none; font-weight: 600;
+    background: color-mix(in srgb, currentColor 10%, transparent);
+  }
+  h2 { font-size: 1.2rem; line-height: 1.3; margin: 0 0 0.4rem; }
+  h2 a { text-decoration: none; color: inherit; }
+  h2 a:hover { text-decoration: underline; }
+  .resumen { margin: 0 0 0.5rem; }
+  .fuente { margin: 0; font-size: 0.85rem; opacity: 0.75; }
+</style>

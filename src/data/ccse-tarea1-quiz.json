@@ -1,0 +1,1327 @@
+{
+  "tarea": 1,
+  "titulo": "Tarea 1 – Gobierno, legislación y participación ciudadana",
+  "fuente": "Manual de preparación de la prueba CCSE 2026 (Instituto Cervantes)",
+  "preguntas": [
+    {
+      "id": 1001,
+      "question": "España es…",
+      "options": {
+        "a": "una monarquía parlamentaria.",
+        "b": "una república federal.",
+        "c": "una monarquía federal."
+      },
+      "correct": "a",
+      "feedback": "España es un Estado social y democrático de Derecho, con la forma política de monarquía parlamentaria."
+    },
+    {
+      "id": 1002,
+      "question": "La ley fundamental de España se llama…",
+      "options": {
+        "a": "Constitución.",
+        "b": "Ley básica.",
+        "c": "Ordenamiento esencial."
+      },
+      "correct": "a",
+      "feedback": "La Constitución de 1978 es la «ley de leyes», la norma fundamental de la que se deriva todo el ordenamiento jurídico español."
+    },
+    {
+      "id": 1003,
+      "question": "Según la Constitución española, la soberanía nacional reside en…",
+      "options": {
+        "a": "el pueblo español.",
+        "b": "el Gobierno del Estado.",
+        "c": "el Congreso de los Diputados."
+      },
+      "correct": "a",
+      "feedback": "La soberanía nacional corresponde al pueblo español, y de él emanan todos los poderes del Estado."
+    },
+    {
+      "id": 1004,
+      "question": "El Instituto de las Mujeres es…",
+      "options": {
+        "a": "una institución europea.",
+        "b": "un organismo español.",
+        "c": "una ONG."
+      },
+      "correct": "b",
+      "feedback": "El Instituto de las Mujeres es un organismo público español, adscrito al Ministerio de Igualdad."
+    },
+    {
+      "id": 1005,
+      "question": "¿Cuándo puedo hacer los trámites en la sede electrónica?",
+      "options": {
+        "a": "En cualquier horario.",
+        "b": "Únicamente por la mañana.",
+        "c": "De lunes a viernes."
+      },
+      "correct": "a",
+      "feedback": "Una de las ventajas de la Administración electrónica es que permite hacer gestiones las 24 horas, cualquier día."
+    },
+    {
+      "id": 1006,
+      "question": "El castellano o español es lengua oficial…",
+      "options": {
+        "a": "en toda España.",
+        "b": "solo donde no hay otras lenguas.",
+        "c": "en toda la península ibérica."
+      },
+      "correct": "a",
+      "feedback": "El castellano es la lengua oficial del Estado en todo el territorio español; los españoles tienen el deber de conocerla."
+    },
+    {
+      "id": 1007,
+      "question": "¿Cuál de estas fuerzas de seguridad es de ámbito autonómico?",
+      "options": {
+        "a": "Policía local.",
+        "b": "Guardia Civil.",
+        "c": "Policía Foral de Navarra."
+      },
+      "correct": "c",
+      "feedback": "Algunas comunidades autónomas (País Vasco, Cataluña, Navarra) tienen su propia policía autonómica, como la Policía Foral de Navarra."
+    },
+    {
+      "id": 1008,
+      "question": "¿Qué fuerza de seguridad está en toda España?",
+      "options": {
+        "a": "La Policía Foral de Navarra.",
+        "b": "El Cuerpo Nacional de Policía.",
+        "c": "Los Mossos d'Esquadra."
+      },
+      "correct": "b",
+      "feedback": "El Cuerpo Nacional de Policía y la Guardia Civil son cuerpos de ámbito estatal, presentes en todo el territorio."
+    },
+    {
+      "id": 1009,
+      "question": "En la Constitución se establece la separación de poderes: el poder ejecutivo, el legislativo y el…",
+      "options": {
+        "a": "judicial.",
+        "b": "informativo.",
+        "c": "político."
+      },
+      "correct": "a",
+      "feedback": "La Constitución separa el poder en tres: ejecutivo (Gobierno), legislativo (Cortes Generales) y judicial (jueces y tribunales)."
+    },
+    {
+      "id": 1010,
+      "question": "La bandera de España debe utilizarse…",
+      "options": {
+        "a": "solo los días de fiesta oficial.",
+        "b": "en todos los edificios públicos.",
+        "c": "solo en actos del Gobierno español."
+      },
+      "correct": "b",
+      "feedback": "La bandera española debe ondear en todos los edificios públicos, junto a la de la comunidad autónoma correspondiente."
+    },
+    {
+      "id": 1011,
+      "question": "¿Quién es el jefe del Estado en España?",
+      "options": {
+        "a": "El presidente del Gobierno.",
+        "b": "El rey.",
+        "c": "El ministro de Economía."
+      },
+      "correct": "b",
+      "feedback": "En la monarquía parlamentaria española, el rey es el jefe del Estado y símbolo de su unidad."
+    },
+    {
+      "id": 1012,
+      "question": "La gestión de la sanidad es competencia de…",
+      "options": {
+        "a": "el Estado.",
+        "b": "las comunidades autónomas.",
+        "c": "los ayuntamientos."
+      },
+      "correct": "b",
+      "feedback": "La sanidad está transferida a las comunidades autónomas, que gestionan sus propios servicios de salud."
+    },
+    {
+      "id": 1013,
+      "question": "¿Quién fue el primer presidente del Gobierno de España en democracia?",
+      "options": {
+        "a": "Mariano Rajoy.",
+        "b": "Adolfo Suárez.",
+        "c": "José Luis Rodríguez Zapatero."
+      },
+      "correct": "b",
+      "feedback": "Adolfo Suárez fue el primer presidente del Gobierno tras la restauración de la democracia."
+    },
+    {
+      "id": 1014,
+      "question": "¿Cuál de estos organismos se encarga de interpretar la Constitución?",
+      "options": {
+        "a": "El Poder Constitucional.",
+        "b": "El Tribunal Constitucional.",
+        "c": "El Consejo General del Poder Judicial."
+      },
+      "correct": "b",
+      "feedback": "El Tribunal Constitucional es el máximo intérprete de la Constitución española."
+    },
+    {
+      "id": 1015,
+      "question": "¿Quién modera el funcionamiento de las instituciones españolas?",
+      "options": {
+        "a": "El presidente del Gobierno.",
+        "b": "El rey.",
+        "c": "El director de la Real Academia Española."
+      },
+      "correct": "b",
+      "feedback": "Entre las funciones del rey está la de moderar el funcionamiento regular de las instituciones del Estado."
+    },
+    {
+      "id": 1016,
+      "question": "¿Cómo se llama la cámara de representación territorial en España?",
+      "options": {
+        "a": "Senado.",
+        "b": "Diputación permanente.",
+        "c": "Congreso de los Diputados."
+      },
+      "correct": "a",
+      "feedback": "El Senado es la cámara de representación territorial de las Cortes Generales."
+    },
+    {
+      "id": 1017,
+      "question": "¿Qué se necesita para hacer trámites por internet con la Administración?",
+      "options": {
+        "a": "Un pasaporte válido.",
+        "b": "Una firma electrónica.",
+        "c": "Una firma en papel."
+      },
+      "correct": "b",
+      "feedback": "Para identificarse y firmar trámites en la sede electrónica se necesita un certificado o firma electrónica."
+    },
+    {
+      "id": 1018,
+      "question": "¿Cómo se aprobó la Constitución?",
+      "options": {
+        "a": "Por imposición legal.",
+        "b": "Por referéndum.",
+        "c": "Por el Tribunal Constitucional."
+      },
+      "correct": "b",
+      "feedback": "La Constitución fue aprobada en referéndum por los españoles el 6 de diciembre de 1978."
+    },
+    {
+      "id": 1019,
+      "question": "¿Cómo se llama la ley más importante de cada comunidad autónoma?",
+      "options": {
+        "a": "Estatuto de Autonomía.",
+        "b": "Normativa autonómica.",
+        "c": "Ley de la comunidad."
+      },
+      "correct": "a",
+      "feedback": "El Estatuto de Autonomía es la norma institucional básica de cada comunidad autónoma."
+    },
+    {
+      "id": 1020,
+      "question": "Las instalaciones culturales y deportivas públicas son competencia del…",
+      "options": {
+        "a": "Ayuntamiento.",
+        "b": "Ministerio de Educación, Formación Profesional y Deportes.",
+        "c": "Ministerio de Igualdad."
+      },
+      "correct": "a",
+      "feedback": "Los ayuntamientos gestionan habitualmente las instalaciones culturales y deportivas de su municipio."
+    },
+    {
+      "id": 1021,
+      "question": "¿Quién dirige la administración militar de España?",
+      "options": {
+        "a": "Los ayuntamientos.",
+        "b": "El Gobierno.",
+        "c": "Las Cortes Generales."
+      },
+      "correct": "b",
+      "feedback": "El Gobierno dirige la política de defensa y la administración militar del Estado."
+    },
+    {
+      "id": 1022,
+      "question": "¿Qué hay en las Islas Baleares, en vez de diputaciones?",
+      "options": {
+        "a": "Cabildos.",
+        "b": "Consejos insulares.",
+        "c": "Centros de diputados."
+      },
+      "correct": "b",
+      "feedback": "En las Islas Baleares, los consejos insulares ejercen funciones equivalentes a las diputaciones."
+    },
+    {
+      "id": 1023,
+      "question": "¿Qué ciudad tiene más habitantes?",
+      "options": {
+        "a": "Sevilla.",
+        "b": "Barcelona.",
+        "c": "Zaragoza."
+      },
+      "correct": "b",
+      "feedback": "Barcelona es, de las tres opciones, la ciudad con mayor número de habitantes."
+    },
+    {
+      "id": 1024,
+      "question": "Las Cortes Generales representan…",
+      "options": {
+        "a": "al pueblo español.",
+        "b": "a los partidos políticos.",
+        "c": "a los ministros."
+      },
+      "correct": "a",
+      "feedback": "Las Cortes Generales (Congreso y Senado) representan al pueblo español."
+    },
+    {
+      "id": 1025,
+      "question": "El Congreso de los Diputados y el Senado constituyen el poder…",
+      "options": {
+        "a": "ejecutivo.",
+        "b": "legislativo.",
+        "c": "judicial."
+      },
+      "correct": "b",
+      "feedback": "Las Cortes Generales, formadas por el Congreso y el Senado, ejercen el poder legislativo."
+    },
+    {
+      "id": 1026,
+      "question": "¿Cómo pueden los ciudadanos proponer nuevas leyes al Congreso?",
+      "options": {
+        "a": "Reuniendo 500 000 firmas.",
+        "b": "Solicitándolo al rey.",
+        "c": "Creando una asociación."
+      },
+      "correct": "a",
+      "feedback": "La Iniciativa Legislativa Popular exige reunir al menos 500 000 firmas para presentar una proposición de ley."
+    },
+    {
+      "id": 1027,
+      "question": "¿Cuántas comunidades autónomas hay en España?",
+      "options": {
+        "a": "8.",
+        "b": "17.",
+        "c": "25."
+      },
+      "correct": "b",
+      "feedback": "España se organiza territorialmente en 17 comunidades autónomas (más las ciudades autónomas de Ceuta y Melilla)."
+    },
+    {
+      "id": 1028,
+      "question": "Los colores de la bandera española son…",
+      "options": {
+        "a": "blanco y rojo.",
+        "b": "rojo y amarillo.",
+        "c": "amarillo y blanco."
+      },
+      "correct": "b",
+      "feedback": "La bandera de España tiene tres franjas: roja, amarilla y roja."
+    },
+    {
+      "id": 1029,
+      "question": "¿Dónde está la sede del Gobierno de España?",
+      "options": {
+        "a": "En Madrid.",
+        "b": "En Barcelona.",
+        "c": "En Sevilla."
+      },
+      "correct": "a",
+      "feedback": "Madrid es la capital de España y sede del Gobierno."
+    },
+    {
+      "id": 1030,
+      "question": "La bandera azul con 12 estrellas amarillas en círculo es la bandera de…",
+      "options": {
+        "a": "la Unión Europea.",
+        "b": "el Parlamento Europeo.",
+        "c": "la Comisión de Europa."
+      },
+      "correct": "a",
+      "feedback": "Esa es la bandera oficial de la Unión Europea."
+    },
+    {
+      "id": 1031,
+      "question": "En las elecciones municipales se vota a…",
+      "options": {
+        "a": "alcaldes y concejales.",
+        "b": "ministros y ministras.",
+        "c": "diputados y senadores."
+      },
+      "correct": "a",
+      "feedback": "En las elecciones municipales se eligen a los concejales, que después eligen al alcalde."
+    },
+    {
+      "id": 1032,
+      "question": "¿Qué lengua es oficial en el País Vasco?",
+      "options": {
+        "a": "El bable.",
+        "b": "El aragonés.",
+        "c": "El euskera."
+      },
+      "correct": "c",
+      "feedback": "El euskera es lengua cooficial en el País Vasco junto con el castellano."
+    },
+    {
+      "id": 1033,
+      "question": "Todos los españoles tienen el deber de conocer la lengua…",
+      "options": {
+        "a": "autonómica del Estado.",
+        "b": "oficial del Estado.",
+        "c": "local del Estado."
+      },
+      "correct": "b",
+      "feedback": "La Constitución establece el deber de conocer el castellano, lengua oficial del Estado."
+    },
+    {
+      "id": 1034,
+      "question": "El aranés es una lengua cooficial que se habla en un pequeño territorio de…",
+      "options": {
+        "a": "Cataluña.",
+        "b": "La Rioja.",
+        "c": "Aragón."
+      },
+      "correct": "a",
+      "feedback": "El aranés es cooficial en el Valle de Arán, en Cataluña."
+    },
+    {
+      "id": 1035,
+      "question": "Las instituciones de una comunidad autónoma son: el consejo de gobierno, el presidente y…",
+      "options": {
+        "a": "el ayuntamiento.",
+        "b": "la asamblea legislativa.",
+        "c": "la delegación de gobierno."
+      },
+      "correct": "b",
+      "feedback": "Cada comunidad autónoma se organiza con un presidente, un consejo de gobierno y una asamblea legislativa."
+    },
+    {
+      "id": 1036,
+      "question": "¿Cuál de estas opciones es una lengua cooficial en alguna comunidad autónoma?",
+      "options": {
+        "a": "El gallego.",
+        "b": "El aragonés.",
+        "c": "El murciano."
+      },
+      "correct": "a",
+      "feedback": "El gallego es lengua cooficial en Galicia, junto con el castellano."
+    },
+    {
+      "id": 1037,
+      "question": "¿Qué institución tiene como fin la promoción de la enseñanza de la lengua española y la difusión de la cultura en español?",
+      "options": {
+        "a": "El Instituto Nacional de Administración Pública.",
+        "b": "El Instituto Nacional de Estadística.",
+        "c": "El Instituto Cervantes."
+      },
+      "correct": "c",
+      "feedback": "El Instituto Cervantes se dedica a la enseñanza del español y la difusión de la cultura hispana en el mundo."
+    },
+    {
+      "id": 1038,
+      "question": "¿Cuál de los siguientes organismos trabaja para conseguir la normalización lingüística?",
+      "options": {
+        "a": "El Institut Ramon Llull.",
+        "b": "El Instituto Cervantes.",
+        "c": "La Real Academia Española."
+      },
+      "correct": "c",
+      "feedback": "La Real Academia Española trabaja por la normalización y regulación del castellano."
+    },
+    {
+      "id": 1039,
+      "question": "¿Dónde vive el presidente del Gobierno?",
+      "options": {
+        "a": "En el Palacio Real.",
+        "b": "En el Palacio de la Zarzuela.",
+        "c": "En el Palacio de la Moncloa."
+      },
+      "correct": "c",
+      "feedback": "El presidente del Gobierno reside y despacha en el Palacio de la Moncloa."
+    },
+    {
+      "id": 1040,
+      "question": "¿Cuál de los siguientes cuerpos forma parte de las Fuerzas Armadas de España?",
+      "options": {
+        "a": "La Policía Foral.",
+        "b": "La Guardia Civil.",
+        "c": "El Ejército del Aire."
+      },
+      "correct": "c",
+      "feedback": "El Ejército del Aire (y del Espacio) es una de las ramas de las Fuerzas Armadas, junto al de Tierra y la Armada."
+    },
+    {
+      "id": 1041,
+      "question": "¿Quiénes forman parte del Gobierno?",
+      "options": {
+        "a": "Los ministros.",
+        "b": "Los concejales.",
+        "c": "Los alcaldes."
+      },
+      "correct": "a",
+      "feedback": "El Gobierno está formado por el presidente, los vicepresidentes y los ministros."
+    },
+    {
+      "id": 1042,
+      "question": "España es un…",
+      "options": {
+        "a": "estado social y democrático de Derecho.",
+        "b": "estado libre asociado.",
+        "c": "estado confederado."
+      },
+      "correct": "a",
+      "feedback": "La Constitución define a España como un Estado social y democrático de Derecho."
+    },
+    {
+      "id": 1043,
+      "question": "¿Cuál de las siguientes siglas corresponde a un partido político?",
+      "options": {
+        "a": "PP.",
+        "b": "PIB.",
+        "c": "UE."
+      },
+      "correct": "a",
+      "feedback": "PP (Partido Popular) es una sigla de un partido político español."
+    },
+    {
+      "id": 1044,
+      "question": "¿Qué título tiene la futura reina, hija del rey?",
+      "options": {
+        "a": "Princesa de Asturias.",
+        "b": "Princesa de Aragón.",
+        "c": "Duquesa de Alba."
+      },
+      "correct": "a",
+      "feedback": "La heredera de la Corona ostenta el título de Princesa de Asturias."
+    },
+    {
+      "id": 1045,
+      "question": "¿Con qué rey se restaura la democracia en España después del régimen de Franco?",
+      "options": {
+        "a": "Con Carlos III.",
+        "b": "Con Alfonso XIII.",
+        "c": "Con Juan Carlos I."
+      },
+      "correct": "c",
+      "feedback": "Con Juan Carlos I como rey se llevó a cabo la Transición hacia la democracia."
+    },
+    {
+      "id": 1046,
+      "question": "¿En qué año se aprobó la Constitución española?",
+      "options": {
+        "a": "En 1957.",
+        "b": "En 1978.",
+        "c": "En 2001."
+      },
+      "correct": "b",
+      "feedback": "La Constitución española fue aprobada en referéndum en 1978."
+    },
+    {
+      "id": 1047,
+      "question": "¿Cuántas comunidades autónomas tienen su propia bandera?",
+      "options": {
+        "a": "Ninguna.",
+        "b": "Todas.",
+        "c": "Las que tienen una lengua cooficial."
+      },
+      "correct": "b",
+      "feedback": "Todas las comunidades autónomas tienen su propia bandera, que se usa junto a la española."
+    },
+    {
+      "id": 1048,
+      "question": "¿Qué organismo oficial atiende las quejas de los ciudadanos por el mal funcionamiento de las administraciones?",
+      "options": {
+        "a": "La Oficina de Atención al Consumidor.",
+        "b": "La Policía Nacional.",
+        "c": "El Defensor del Pueblo."
+      },
+      "correct": "c",
+      "feedback": "El Defensor del Pueblo supervisa la actuación de las administraciones y atiende las quejas ciudadanas."
+    },
+    {
+      "id": 1049,
+      "question": "¿Cuántas firmas, como mínimo, deben recoger los ciudadanos para poder presentar una proposición de ley?",
+      "options": {
+        "a": "250 000.",
+        "b": "100 000.",
+        "c": "500 000."
+      },
+      "correct": "c",
+      "feedback": "La Iniciativa Legislativa Popular requiere un mínimo de 500 000 firmas."
+    },
+    {
+      "id": 1050,
+      "question": "¿A cuál de las siguientes organizaciones internacionales pertenece España?",
+      "options": {
+        "a": "Comunidad de Estados Independientes (CEI).",
+        "b": "Fondo Monetario Internacional (FMI).",
+        "c": "Unión Económica Euroasiática (UEE)."
+      },
+      "correct": "b",
+      "feedback": "España es miembro del Fondo Monetario Internacional (FMI)."
+    },
+    {
+      "id": 1051,
+      "question": "En la organización de la Administración se distinguen tres niveles: central, autonómica y…",
+      "options": {
+        "a": "estatal.",
+        "b": "regional.",
+        "c": "local."
+      },
+      "correct": "c",
+      "feedback": "Los tres niveles de la Administración son: central (o estatal), autonómica y local."
+    },
+    {
+      "id": 1052,
+      "question": "El poder legislativo corresponde…",
+      "options": {
+        "a": "al presidente y los ministros.",
+        "b": "a los jueces y magistrados.",
+        "c": "a los diputados y senadores."
+      },
+      "correct": "c",
+      "feedback": "El poder legislativo reside en las Cortes Generales, formadas por diputados y senadores."
+    },
+    {
+      "id": 1053,
+      "question": "¿Dónde vive el rey?",
+      "options": {
+        "a": "En el Palacio de la Moneda.",
+        "b": "En el Palacio de la Zarzuela.",
+        "c": "En el Palacio de la Moncloa."
+      },
+      "correct": "b",
+      "feedback": "El rey reside en el Palacio de la Zarzuela."
+    },
+    {
+      "id": 1054,
+      "question": "El nombre oficial del parlamento español es…",
+      "options": {
+        "a": "Cortes Generales.",
+        "b": "Congreso de los Diputados.",
+        "c": "Senado."
+      },
+      "correct": "a",
+      "feedback": "El parlamento español se denomina oficialmente Cortes Generales, integrado por el Congreso y el Senado."
+    },
+    {
+      "id": 1055,
+      "question": "El Instituto de Comercio Exterior de España, el Instituto de las Mujeres y la Dirección General de Tráfico…",
+      "options": {
+        "a": "son organismos autónomos.",
+        "b": "dependen de ministerios.",
+        "c": "son organismos internacionales."
+      },
+      "correct": "b",
+      "feedback": "Estos organismos son públicos y dependen de los ministerios correspondientes."
+    },
+    {
+      "id": 1056,
+      "question": "¿Quién puede reinar en España?",
+      "options": {
+        "a": "Solo los hombres.",
+        "b": "Solo las mujeres.",
+        "c": "Tanto los hombres como las mujeres."
+      },
+      "correct": "c",
+      "feedback": "La Corona puede ser ostentada tanto por hombres como por mujeres, según el orden de sucesión establecido."
+    },
+    {
+      "id": 1057,
+      "question": "El Tribunal de Cuentas depende de…",
+      "options": {
+        "a": "la Presidencia del Gobierno.",
+        "b": "las Cortes Generales.",
+        "c": "el Ministerio de Hacienda."
+      },
+      "correct": "b",
+      "feedback": "El Tribunal de Cuentas es el órgano fiscalizador de las cuentas públicas y depende de las Cortes Generales."
+    },
+    {
+      "id": 1058,
+      "question": "¿Quién es la tercera autoridad del Estado, después del rey y el presidente del Gobierno?",
+      "options": {
+        "a": "El presidente del Senado.",
+        "b": "El ministro de Economía.",
+        "c": "El presidente del Congreso de los Diputados."
+      },
+      "correct": "c",
+      "feedback": "El presidente del Congreso de los Diputados ocupa el tercer puesto protocolario del Estado."
+    },
+    {
+      "id": 1059,
+      "question": "¿Qué lengua cooficial se habla en las Islas Baleares?",
+      "options": {
+        "a": "Gallego.",
+        "b": "Catalán.",
+        "c": "Euskera."
+      },
+      "correct": "b",
+      "feedback": "En las Islas Baleares el catalán es lengua cooficial junto con el castellano."
+    },
+    {
+      "id": 1060,
+      "question": "La Constitución defiende valores tales como la libertad, la igualdad, el pluralismo político y…",
+      "options": {
+        "a": "la justicia.",
+        "b": "la solidaridad.",
+        "c": "la fraternidad."
+      },
+      "correct": "a",
+      "feedback": "Los valores superiores del ordenamiento español son la libertad, la justicia, la igualdad y el pluralismo político."
+    },
+    {
+      "id": 1061,
+      "question": "Cuando una ley ya está aprobada, ¿qué necesita para poder aplicarse?",
+      "options": {
+        "a": "Nada.",
+        "b": "Normas que la desarrollen.",
+        "c": "Ser revisada por el Parlamento."
+      },
+      "correct": "b",
+      "feedback": "Muchas leyes requieren un reglamento o normas de desarrollo para poder aplicarse en la práctica."
+    },
+    {
+      "id": 1062,
+      "question": "¿Cuántos habitantes hay en España?",
+      "options": {
+        "a": "95 millones.",
+        "b": "49 millones.",
+        "c": "67 millones."
+      },
+      "correct": "b",
+      "feedback": "España cuenta con algo más de 49 millones de habitantes."
+    },
+    {
+      "id": 1063,
+      "question": "¿Cuál de estos es un órgano consultivo del Gobierno de España?",
+      "options": {
+        "a": "El Parlamento Europeo.",
+        "b": "El Consejo de Estado.",
+        "c": "El Tribunal Constitucional."
+      },
+      "correct": "b",
+      "feedback": "El Consejo de Estado es el supremo órgano consultivo del Gobierno."
+    },
+    {
+      "id": 1064,
+      "question": "¿Quién dirige la política interior y exterior de España?",
+      "options": {
+        "a": "El rey.",
+        "b": "El Gobierno.",
+        "c": "El Congreso de los Diputados."
+      },
+      "correct": "b",
+      "feedback": "Dirigir la política interior y exterior es una función que la Constitución atribuye al Gobierno."
+    },
+    {
+      "id": 1065,
+      "question": "El Defensor del Pueblo depende de…",
+      "options": {
+        "a": "el Consejo de Ministros.",
+        "b": "el Tribunal de Cuentas.",
+        "c": "las Cortes Generales."
+      },
+      "correct": "c",
+      "feedback": "El Defensor del Pueblo es un alto comisionado de las Cortes Generales."
+    },
+    {
+      "id": 1066,
+      "question": "El Instituto Etxepare tiene como misión la difusión del…",
+      "options": {
+        "a": "euskera y la cultura vasca.",
+        "b": "bable y la cultura cántabra.",
+        "c": "gallego y la cultura galaica."
+      },
+      "correct": "a",
+      "feedback": "El Instituto Vasco Etxepare promueve el euskera y la cultura vasca."
+    },
+    {
+      "id": 1067,
+      "question": "¿Cuál de estas ciudades se encuentra entre las 10 más pobladas de España?",
+      "options": {
+        "a": "Cádiz.",
+        "b": "Málaga.",
+        "c": "Albacete."
+      },
+      "correct": "b",
+      "feedback": "Málaga se sitúa entre las diez ciudades más pobladas de España."
+    },
+    {
+      "id": 1068,
+      "question": "¿Quién puede realizar trámites en línea ante la Administración Pública?",
+      "options": {
+        "a": "Jueces y magistrados.",
+        "b": "Cualquier ciudadano.",
+        "c": "Abogados colegiados."
+      },
+      "correct": "b",
+      "feedback": "La sede electrónica está abierta a cualquier ciudadano que quiera realizar trámites en línea."
+    },
+    {
+      "id": 1069,
+      "question": "¿Cómo se llama el rey de España?",
+      "options": {
+        "a": "Juan Carlos I.",
+        "b": "Felipe VI.",
+        "c": "Alfonso XIII."
+      },
+      "correct": "b",
+      "feedback": "El actual rey de España es Felipe VI."
+    },
+    {
+      "id": 1070,
+      "question": "¿Cómo se llama el órgano de gobierno de los jueces y magistrados?",
+      "options": {
+        "a": "Tribunal Supremo.",
+        "b": "Consejo General del Poder Judicial.",
+        "c": "Consejo de Estado."
+      },
+      "correct": "b",
+      "feedback": "El Consejo General del Poder Judicial (CGPJ) es el órgano de gobierno de jueces y magistrados."
+    },
+    {
+      "id": 1071,
+      "question": "¿Quién aprueba los presupuestos generales del Estado?",
+      "options": {
+        "a": "Las Cortes Generales.",
+        "b": "El Tribunal de Cuentas.",
+        "c": "El Gobierno de España."
+      },
+      "correct": "a",
+      "feedback": "Los Presupuestos Generales del Estado son elaborados por el Gobierno pero aprobados por las Cortes Generales."
+    },
+    {
+      "id": 1072,
+      "question": "La Constitución española es…",
+      "options": {
+        "a": "la ley fundamental.",
+        "b": "parte de otra ley.",
+        "c": "una ley secundaria."
+      },
+      "correct": "a",
+      "feedback": "La Constitución es la ley fundamental o «ley de leyes» del ordenamiento jurídico español."
+    },
+    {
+      "id": 1073,
+      "question": "Las Cortes Generales están compuestas por el Senado y…",
+      "options": {
+        "a": "el Congreso de los Diputados.",
+        "b": "el Tribunal Supremo.",
+        "c": "el Consejo de Estado."
+      },
+      "correct": "a",
+      "feedback": "Las Cortes Generales son bicamerales: Congreso de los Diputados y Senado."
+    },
+    {
+      "id": 1074,
+      "question": "¿Quién elabora las leyes?",
+      "options": {
+        "a": "El poder ejecutivo.",
+        "b": "El poder legislativo.",
+        "c": "El poder judicial."
+      },
+      "correct": "b",
+      "feedback": "Elaborar y aprobar las leyes es función del poder legislativo (las Cortes Generales)."
+    },
+    {
+      "id": 1075,
+      "question": "La defensa de la integridad territorial de España corresponde a…",
+      "options": {
+        "a": "la Policía Nacional y la Guardia Civil.",
+        "b": "las Fuerzas Armadas.",
+        "c": "la Policía Nacional y las policías autonómicas."
+      },
+      "correct": "b",
+      "feedback": "La Constitución encomienda a las Fuerzas Armadas la defensa del territorio y la soberanía de España."
+    },
+    {
+      "id": 1076,
+      "question": "El Ejército español participa desde 1989 en misiones de paz de la…",
+      "options": {
+        "a": "Organización de Estados Iberoamericanos (OEI).",
+        "b": "Unión Europea Occidental (UEO).",
+        "c": "Organización de las Naciones Unidas (ONU)."
+      },
+      "correct": "c",
+      "feedback": "Desde 1989 las Fuerzas Armadas españolas participan en misiones de paz de la ONU."
+    },
+    {
+      "id": 1077,
+      "question": "¿Quién vigila puertos y aeropuertos, fronteras y costas?",
+      "options": {
+        "a": "La Guardia Civil.",
+        "b": "La Policía local.",
+        "c": "La Policía Nacional."
+      },
+      "correct": "a",
+      "feedback": "La Guardia Civil tiene entre sus funciones la vigilancia de costas, fronteras, puertos y aeropuertos."
+    },
+    {
+      "id": 1078,
+      "question": "¿Quién puede presentar una queja al Defensor del Pueblo?",
+      "options": {
+        "a": "Solo los ciudadanos legalmente residentes.",
+        "b": "Solo los españoles mayores de 18 años.",
+        "c": "Todos los ciudadanos, españoles o extranjeros."
+      },
+      "correct": "c",
+      "feedback": "Cualquier persona, española o extranjera, puede dirigirse al Defensor del Pueblo."
+    },
+    {
+      "id": 1079,
+      "question": "¿Cuál de los siguientes políticos ha sido presidente del Gobierno en España?",
+      "options": {
+        "a": "Manuel Fraga.",
+        "b": "José María Aznar.",
+        "c": "Yolanda Díaz."
+      },
+      "correct": "b",
+      "feedback": "José María Aznar fue presidente del Gobierno de España entre 1996 y 2004."
+    },
+    {
+      "id": 1080,
+      "question": "¿Cómo se llama la policía autonómica de Cataluña?",
+      "options": {
+        "a": "Guardia Civil.",
+        "b": "Ertzaintza.",
+        "c": "Mossos d'Esquadra."
+      },
+      "correct": "c",
+      "feedback": "Los Mossos d'Esquadra son la policía autonómica de Cataluña."
+    },
+    {
+      "id": 1081,
+      "question": "¿Cómo se llama la policía autonómica del País Vasco?",
+      "options": {
+        "a": "Ertzaintza.",
+        "b": "Guardia Civil.",
+        "c": "Mossos d'Esquadra."
+      },
+      "correct": "a",
+      "feedback": "La Ertzaintza es la policía autonómica del País Vasco."
+    },
+    {
+      "id": 1082,
+      "question": "¿Desde qué año es rey Felipe VI?",
+      "options": {
+        "a": "Desde 1975.",
+        "b": "Desde 2014.",
+        "c": "Desde 2020."
+      },
+      "correct": "b",
+      "feedback": "Felipe VI es rey de España desde el año 2014, tras la abdicación de Juan Carlos I."
+    },
+    {
+      "id": 1083,
+      "question": "¿Quién regula el tráfico en los pueblos y ciudades?",
+      "options": {
+        "a": "La Guardia Civil.",
+        "b": "Protección Civil.",
+        "c": "La Policía Local."
+      },
+      "correct": "c",
+      "feedback": "La Policía Local se encarga de regular el tráfico dentro de los núcleos urbanos."
+    },
+    {
+      "id": 1084,
+      "question": "¿Quién puede presentar una queja al Defensor del Pueblo?",
+      "options": {
+        "a": "Solo los ciudadanos legalmente residentes.",
+        "b": "Solo los españoles mayores de 18 años.",
+        "c": "Todos los ciudadanos, españoles o extranjeros."
+      },
+      "correct": "c",
+      "feedback": "El Defensor del Pueblo puede recibir quejas de cualquier ciudadano, español o extranjero."
+    },
+    {
+      "id": 1085,
+      "question": "En España el voto en las elecciones es…",
+      "options": {
+        "a": "un derecho.",
+        "b": "un deber.",
+        "c": "una obligación."
+      },
+      "correct": "a",
+      "feedback": "El voto es un derecho de los ciudadanos, no una obligación legal en España."
+    },
+    {
+      "id": 1086,
+      "question": "¿Quién vigila el tráfico en las carreteras?",
+      "options": {
+        "a": "La Guardia Civil.",
+        "b": "La Policía Nacional.",
+        "c": "El Ejército de Tierra."
+      },
+      "correct": "a",
+      "feedback": "La Guardia Civil de Tráfico vigila y regula la circulación en las carreteras."
+    },
+    {
+      "id": 1087,
+      "question": "¿Qué organismo se encarga de recaudar los impuestos?",
+      "options": {
+        "a": "El Tribunal de Cuentas.",
+        "b": "La Agencia Tributaria.",
+        "c": "El Consejo Económico y Social."
+      },
+      "correct": "b",
+      "feedback": "La Agencia Tributaria es el organismo encargado de la gestión y recaudación de los impuestos."
+    },
+    {
+      "id": 1088,
+      "question": "¿Dónde se publican las leyes nacionales?",
+      "options": {
+        "a": "En el boletín del Instituto Nacional de Estadística (INE).",
+        "b": "En el Portal de la Administración Electrónica (PAe).",
+        "c": "En el Boletín Oficial del Estado (BOE)."
+      },
+      "correct": "c",
+      "feedback": "Las leyes estatales se publican en el Boletín Oficial del Estado (BOE)."
+    },
+    {
+      "id": 1089,
+      "question": "¿Cómo se llaman los órganos de gobierno que solo existen en Canarias?",
+      "options": {
+        "a": "Cabildos.",
+        "b": "Consejos insulares.",
+        "c": "Diputaciones."
+      },
+      "correct": "a",
+      "feedback": "En Canarias, los cabildos insulares son los órganos de gobierno de cada isla."
+    },
+    {
+      "id": 1090,
+      "question": "¿Cuál de estos trámites administrativos puede realizarse en la sede electrónica?",
+      "options": {
+        "a": "Tramitar el DNI.",
+        "b": "Renovar el pasaporte.",
+        "c": "Pagar los impuestos."
+      },
+      "correct": "c",
+      "feedback": "El pago de impuestos es uno de los trámites que se pueden realizar por internet en la sede electrónica."
+    },
+    {
+      "id": 1091,
+      "question": "¿Cuál es el número de teléfono de información de la Administración General del Estado?",
+      "options": {
+        "a": "010.",
+        "b": "060.",
+        "c": "091."
+      },
+      "correct": "b",
+      "feedback": "El 060 es el teléfono de información general de la Administración General del Estado."
+    },
+    {
+      "id": 1092,
+      "question": "España está organizada en…",
+      "options": {
+        "a": "cantones.",
+        "b": "comunidades autónomas.",
+        "c": "estados federales."
+      },
+      "correct": "b",
+      "feedback": "El territorio español se organiza en comunidades autónomas, provincias y municipios."
+    },
+    {
+      "id": 1093,
+      "question": "¿Cuántos partidos políticos hay en España?",
+      "options": {
+        "a": "Ninguno.",
+        "b": "Uno.",
+        "c": "Muchos."
+      },
+      "correct": "c",
+      "feedback": "España es un sistema pluripartidista, con muchos partidos políticos de distinto signo."
+    },
+    {
+      "id": 1094,
+      "question": "¿Dónde tiene lugar la investidura del presidente del Gobierno?",
+      "options": {
+        "a": "En el Palacio de la Moncloa.",
+        "b": "En el Congreso de los Diputados.",
+        "c": "En el Senado."
+      },
+      "correct": "b",
+      "feedback": "La sesión de investidura del presidente del Gobierno se celebra en el Congreso de los Diputados."
+    },
+    {
+      "id": 1095,
+      "question": "¿Quién tiene el mando supremo de las Fuerzas Armadas?",
+      "options": {
+        "a": "El rey.",
+        "b": "El presidente del Gobierno.",
+        "c": "El ministro de Defensa."
+      },
+      "correct": "a",
+      "feedback": "El rey ostenta el mando supremo de las Fuerzas Armadas, según la Constitución."
+    },
+    {
+      "id": 1096,
+      "question": "¿Quién es el representante del Estado en una comunidad autónoma?",
+      "options": {
+        "a": "El presidente de la comunidad autónoma.",
+        "b": "El delegado del Gobierno.",
+        "c": "El presidente de la Asamblea autonómica."
+      },
+      "correct": "b",
+      "feedback": "El delegado del Gobierno representa al Estado en el territorio de cada comunidad autónoma."
+    },
+    {
+      "id": 1097,
+      "question": "¿Cuántas provincias hay en España?",
+      "options": {
+        "a": "45.",
+        "b": "50.",
+        "c": "55."
+      },
+      "correct": "b",
+      "feedback": "España está dividida en 50 provincias."
+    },
+    {
+      "id": 1098,
+      "question": "La enseñanza de las lenguas cooficiales es competencia…",
+      "options": {
+        "a": "del Estado.",
+        "b": "de la comunidad autónoma.",
+        "c": "de la provincia."
+      },
+      "correct": "b",
+      "feedback": "La enseñanza de las lenguas cooficiales es competencia de cada comunidad autónoma, según su Estatuto."
+    },
+    {
+      "id": 1099,
+      "question": "El poder ejecutivo corresponde…",
+      "options": {
+        "a": "al Gobierno del Estado.",
+        "b": "al Congreso y al Senado.",
+        "c": "a los jueces y magistrados."
+      },
+      "correct": "a",
+      "feedback": "El Gobierno ejerce el poder ejecutivo, dirigiendo la política interior y exterior del país."
+    },
+    {
+      "id": 1100,
+      "question": "¿Cuántas cámaras hay en el Parlamento español?",
+      "options": {
+        "a": "Una.",
+        "b": "Dos.",
+        "c": "Tres."
+      },
+      "correct": "b",
+      "feedback": "El Parlamento español (Cortes Generales) es bicameral: Congreso de los Diputados y Senado."
+    },
+    {
+      "id": 1101,
+      "question": "El suministro de agua y el alumbrado de las ciudades es competencia de…",
+      "options": {
+        "a": "el ayuntamiento.",
+        "b": "el Gobierno autonómico.",
+        "c": "el Ministerio de Obras Públicas y Urbanismo."
+      },
+      "correct": "a",
+      "feedback": "Los ayuntamientos son responsables de servicios básicos municipales como el agua y el alumbrado."
+    },
+    {
+      "id": 1102,
+      "question": "En materias como nacionalidad, inmigración, emigración o extranjería solo tiene competencia…",
+      "options": {
+        "a": "el Estado.",
+        "b": "las comunidades autónomas.",
+        "c": "los ayuntamientos."
+      },
+      "correct": "a",
+      "feedback": "Nacionalidad, inmigración, emigración y extranjería son competencias exclusivas del Estado."
+    },
+    {
+      "id": 1103,
+      "question": "¿Cuántas mujeres han sido presidentas de Gobierno en España?",
+      "options": {
+        "a": "Ninguna.",
+        "b": "Una.",
+        "c": "Dos."
+      },
+      "correct": "a",
+      "feedback": "Hasta la fecha, ninguna mujer ha ocupado la presidencia del Gobierno de España."
+    },
+    {
+      "id": 1104,
+      "question": "Las relaciones internacionales son competencia de…",
+      "options": {
+        "a": "el Estado.",
+        "b": "las comunidades autónomas.",
+        "c": "los ayuntamientos."
+      },
+      "correct": "a",
+      "feedback": "Las relaciones internacionales son una competencia exclusiva del Estado."
+    },
+    {
+      "id": 1105,
+      "question": "El Ayuntamiento está formado por el alcalde y…",
+      "options": {
+        "a": "los concejales.",
+        "b": "los diputados.",
+        "c": "los senadores."
+      },
+      "correct": "a",
+      "feedback": "El Ayuntamiento lo forman el alcalde y los concejales, elegidos en las elecciones municipales."
+    },
+    {
+      "id": 1106,
+      "question": "¿Quiénes forman el gobierno de las comunidades autónomas?",
+      "options": {
+        "a": "El presidente y los ministros.",
+        "b": "El alcalde y los concejales.",
+        "c": "El presidente y consejeros."
+      },
+      "correct": "c",
+      "feedback": "El gobierno autonómico está formado por el presidente de la comunidad y sus consejeros."
+    },
+    {
+      "id": 1107,
+      "question": "¿Cuál es el órgano de gobierno en los municipios?",
+      "options": {
+        "a": "El ayuntamiento.",
+        "b": "La diputación.",
+        "c": "El cabildo."
+      },
+      "correct": "a",
+      "feedback": "El ayuntamiento es el órgano de gobierno y administración de cada municipio."
+    },
+    {
+      "id": 1108,
+      "question": "¿Cómo se llaman los órganos de gobierno de las provincias españolas?",
+      "options": {
+        "a": "Cabildos.",
+        "b": "Consejos insulares.",
+        "c": "Diputaciones."
+      },
+      "correct": "c",
+      "feedback": "Las diputaciones provinciales son los órganos de gobierno de las provincias (salvo excepciones insulares)."
+    },
+    {
+      "id": 1109,
+      "question": "¿Cuál es el órgano superior del poder ejecutivo?",
+      "options": {
+        "a": "El Gobierno.",
+        "b": "Las Fuerzas Armadas.",
+        "c": "Las Cortes Generales."
+      },
+      "correct": "a",
+      "feedback": "El Gobierno es el órgano superior que ejerce el poder ejecutivo del Estado."
+    },
+    {
+      "id": 1110,
+      "question": "El idioma español también se llama…",
+      "options": {
+        "a": "aragonés.",
+        "b": "castellano.",
+        "c": "leonés."
+      },
+      "correct": "b",
+      "feedback": "El español y el castellano son dos nombres para la misma lengua oficial del Estado."
+    },
+    {
+      "id": 1111,
+      "question": "¿A quiénes se elige en las elecciones al Parlamento Europeo?",
+      "options": {
+        "a": "A los ministros europeos.",
+        "b": "A los consejeros delegados.",
+        "c": "A los eurodiputados."
+      },
+      "correct": "c",
+      "feedback": "En las elecciones europeas se eligen a los eurodiputados que representan a España en el Parlamento Europeo."
+    },
+    {
+      "id": 1112,
+      "question": "Los españoles pueden votar a partir de los…",
+      "options": {
+        "a": "16 años.",
+        "b": "18 años.",
+        "c": "21 años."
+      },
+      "correct": "b",
+      "feedback": "El derecho al voto en España se adquiere a los 18 años, con la mayoría de edad."
+    },
+    {
+      "id": 1113,
+      "question": "Algunos ciudadanos extranjeros pueden votar en las elecciones…",
+      "options": {
+        "a": "municipales.",
+        "b": "autonómicas.",
+        "c": "generales."
+      },
+      "correct": "a",
+      "feedback": "Bajo ciertos requisitos y acuerdos de reciprocidad, algunos extranjeros pueden votar en elecciones municipales."
+    },
+    {
+      "id": 1114,
+      "question": "¿Quién controla la gestión financiera del Estado?",
+      "options": {
+        "a": "El Banco de España.",
+        "b": "La Agencia Tributaria.",
+        "c": "El Tribunal de Cuentas."
+      },
+      "correct": "c",
+      "feedback": "El Tribunal de Cuentas fiscaliza la actividad económico-financiera del sector público."
+    },
+    {
+      "id": 1115,
+      "question": "¿A quiénes se elige en las elecciones generales?",
+      "options": {
+        "a": "A los senadores y diputados.",
+        "b": "A los eurodiputados.",
+        "c": "A los concejales."
+      },
+      "correct": "a",
+      "feedback": "En las elecciones generales se eligen a los diputados del Congreso y a los senadores."
+    },
+    {
+      "id": 1116,
+      "question": "¿Cuántos miembros tiene el Congreso de los Diputados?",
+      "options": {
+        "a": "300.",
+        "b": "350.",
+        "c": "400."
+      },
+      "correct": "b",
+      "feedback": "El Congreso de los Diputados está compuesto por 350 diputados."
+    },
+    {
+      "id": 1117,
+      "question": "Los municipios y provincias forman parte de la Administración…",
+      "options": {
+        "a": "autonómica.",
+        "b": "local.",
+        "c": "central."
+      },
+      "correct": "b",
+      "feedback": "Municipios y provincias constituyen el nivel de la Administración local."
+    },
+    {
+      "id": 1118,
+      "question": "La comunidad autónoma más poblada de España es…",
+      "options": {
+        "a": "Andalucía.",
+        "b": "Cataluña.",
+        "c": "Castilla y León."
+      },
+      "correct": "a",
+      "feedback": "Andalucía es, de las tres, la comunidad autónoma con mayor número de habitantes."
+    },
+    {
+      "id": 1119,
+      "question": "¿Cómo se llama la organización que defiende los intereses de los trabajadores?",
+      "options": {
+        "a": "Asociación.",
+        "b": "Partido.",
+        "c": "Sindicato."
+      },
+      "correct": "c",
+      "feedback": "Los sindicatos son las organizaciones que defienden los derechos e intereses de los trabajadores."
+    },
+    {
+      "id": 1120,
+      "question": "¿Quién elige al presidente del Gobierno?",
+      "options": {
+        "a": "El Congreso de los Diputados.",
+        "b": "El rey.",
+        "c": "El Tribunal Supremo."
+      },
+      "correct": "a",
+      "feedback": "El presidente del Gobierno es elegido (investido) por el Congreso de los Diputados."
+    }
+  ]
+}

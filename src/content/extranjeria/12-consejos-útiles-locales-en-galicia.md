@@ -24,7 +24,7 @@ tags: ['sede electrónica']
 
 - Según datos oficiales de la **Xunta de Galicia**, el aumento de los flujos migratorios en los últimos años ha incrementado el **volumen de trámites en extranjería**, lo que puede implicar **retrasos administrativos** en la gestión de expedientes.
 
-👉 [Indicadores migratorios – IGE / Xunta de Galicia](https://www.ige.gal/web/mostrar_actividade_estatistica.jsp?codigo=0201008&idioma=es)
+👉 [Indicadores migratorios – IGE / Xunta de Galicia](https://www.ige.gal/web/mostrar_actividade_estatistica.jsp?codigo=0201008&num_pag=1)
 
 ---
 

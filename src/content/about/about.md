@@ -1,91 +1,74 @@
 ---
-title: 'Sobre este proyecto — Vivir sin privilegios'
-description: 'Por qué existe este espacio y desde qué experiencia se construyen estas guías sobre extranjería, residencia y defensa de derechos.'
+title: 'De esto va este proyecto'
+description: 'Discriminación en la administración, en el trabajo y en el procedimiento de nacionalidad. Este proyecto existe para documentarla con casos reales y no normalizarla.'
 author: 'Rosana'
 pubDate: 2026-01-08
 category: 'Guía Extranjería'
 tags:
   [
     'extranjería',
-    'residencia',
+    'nacionalidad',
+    'discriminación',
+    'racismo institucional',
+    'burnout',
     'derechos',
-    'quejas administrativas',
-    'migración',
   ]
 ---
 
-### Por qué existe este proyecto
+### ¿Sabes cuántas veces?
 
-Soy Rosana. Mujer afrodescendiente, extranjera y superviviente de violencia de género.  
-Mi experiencia con la administración pública, el sistema de extranjería y el mundo laboral **no nace de la teoría**, sino de años enfrentando trámites, retrasos, silencios administrativos y situaciones de discriminación estructural.
+¿Sabes cuántas veces he sufrido discriminación en una oficina pública para hacer el trámite más trivial? Y no por parte de cualquiera: por parte de funcionarios cuyo sueldo se paga también con mis cotizaciones.
 
-Este proyecto no surge de una inquietud académica ni de una marca personal.  
-Nace de una realidad compartida por miles de personas migrantes que **cumplen la ley, trabajan, cotizan y aun así viven en permanente inseguridad administrativa**.
+¿Sabes cuántas veces he llegado agotada a casa de un trabajo en el que nunca era suficiente? Un trabajo donde, además, personas blancas se apropiaban de mis ideas. Acabé con burnout. Y lo denuncié.
 
----
+¿Sabes cuántas veces tienes que tragar discriminación en un procedimiento de nacionalidad? Yo hice y tramité todo. Y el Ministerio, en Madrid, estuvo tres años sin revisar mi expediente. Cuando me quejé, llegó una notificación diciendo que los documentos que subí, vigentes en su momento, estaban caducados. Tres años después.
 
-### Desde qué experiencia se construye esta información
-
-He vivido en primera persona:
-
-- Procesos de extranjería largos y opacos
-- Falta de información clara por parte de las administraciones
-- Trato desigual y racismo institucional normalizado
-- Mobbing laboral hacia personas racializadas y extranjeras
-- El impacto real que una resolución administrativa tiene en la vida cotidiana
-
-Con el tiempo entendí algo esencial: **el mayor poder de la administración es el desconocimiento de quienes dependen de ella**.
-
-Por eso este espacio se basa en:
-
-- Experiencia real con trámites y procedimientos
-- Análisis comprensible de requisitos, plazos y derechos
-- Lenguaje claro, sin tecnicismos innecesarios
-- Referencias oficiales explicadas, no copiadas
+Pagué 200 euros a una abogada para reclamar mis derechos. Acabó defendiendo al funcionario, porque "tiene mucho trabajo".
 
 ---
 
-### Qué encontrarás en esta web
+### Basta de mentiras
 
-Aquí no encontrarás promesas mágicas ni atajos ilegales.  
-Encontrarás **guías prácticas**, estructuradas para que cualquier persona pueda:
+Se repite una narrativa falsa, alimentada por el nuevo fascismo: que las personas extranjeras no trabajamos.
 
-- Entender un trámite de extranjería paso a paso
-- Saber qué documentos son obligatorios y cuáles no
-- Conocer los plazos legales reales
-- Saber qué hacer ante retrasos, silencios o denegaciones
-- Acceder a modelos de escritos y quejas administrativas
+Trabajamos. Cotizamos. Pagamos impuestos en las mismas condiciones que cualquier persona española. Y aun así hay un sistema entero que nos bloquea, nos retrasa y nos desgasta.
 
-El objetivo es que **nadie tenga que enfrentarse sola a la burocracia por falta de información**.
+De eso va este proyecto.
 
 ---
 
-### A quién va dirigido este espacio
+### Lo que dice la ley, y lo que se hace
 
-Este proyecto está pensado para:
+El artículo 14 de la Constitución Española establece que no puede prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.
 
-- Personas migrantes en España
-- Familias en procesos de residencia o regularización
-- Personas que sufren retrasos o bloqueos administrativos
-- Quienes necesitan reclamar o presentar quejas ante la administración
-- Comunidades racializadas que viven discriminación institucional
+La pregunta es cuántas veces se quebranta. Cuántas veces, en cuántas oficinas, ante cuántas personas que no saben que pueden reclamar, o que ya lo han normalizado.
 
-Especialmente para quienes **no tienen acceso a asesoramiento legal constante** y necesitan información clara para defender sus derechos.
+Yo no lo normalizo.
 
 ---
 
-### Mi compromiso
+### Qué voy a hacer
 
-Actualizar la información.  
-Hablar con honestidad.  
-No simplificar lo que es complejo, pero **hacerlo comprensible**.
+Voy a dar visibilidad con casos reales. Voy a documentar, a conservar pruebas y a denunciar donde haga falta. Tiene que quedar escrito en algún sitio cómo se vulnera una y otra vez lo que la ley dice que no se puede vulnerar.
 
-Este no es un espacio neutral:  
-es un espacio comprometido con la dignidad, el derecho a la información y la defensa frente al abuso administrativo.
+No voy a ir de víctima. Ese papel solo sirve para que la sociedad te aparte. Lo que hace falta es unión: que las personas que sufrimos esto dejemos de estar separadas.
 
-Si tu historia pasa por extranjería, residencia, arraigo, quejas o silencios administrativos, **no estás sola**.  
-La información también es una forma de resistencia.
+Aquí encontrarás guías prácticas sobre extranjería, nacionalidad, plazos, silencios administrativos y modelos de escritos para reclamar. Con lenguaje claro y con experiencia real detrás.
 
 ---
 
-> _“No podemos controlar todo lo que nos sucede, pero sí podemos decidir no ser reducidas por ello.”_
+### Cuéntame tu caso
+
+Si has sufrido burnout, discriminación laboral, trato racista en una oficina o abusos en un trámite de extranjería o nacionalidad, quiero saberlo. Voy a publicarlo.
+
+Escríbeme a rllilart@gmail.com y cuéntame qué pasó. Dime si prefieres que aparezca tu nombre o que se publique de forma anónima.
+
+---
+
+### Mi postura
+
+Soy Rosana. Mujer afrodescendiente, extranjera y superviviente de violencia de género.
+
+Este no es un espacio neutral. No podemos vivir en un mundo que se presenta como de todos mientras los privilegios son de unos pocos.
+
+> _"No podemos controlar todo lo que nos sucede, pero sí podemos decidir no ser reducidas por ello."_
