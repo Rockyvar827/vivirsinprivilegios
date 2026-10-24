@@ -47,7 +47,10 @@ const lastModified = dayjs(remarkPluginFrontmatter.lastModified)
 const postUrl = `${Astro.site}/blog/${slug}/`
 ---
 
-<BaseLayout title={seoTitle ?? title} description={description}>
+<BaseLayout
+title={seoTitle ?? title}
+description={description}
+article={{ datePublished: pubDate, dateModified: updatedDate }}>
 	<main>
 		<article>
 			<div

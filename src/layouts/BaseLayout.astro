@@ -12,9 +12,10 @@ interface Props {
 	title: string
 	description: string
 	image?: string
+	article?: { datePublished: Date; dateModified?: Date }
 }
 
-const { title, description, image } = Astro.props
+const { title, description, image, article } = Astro.props
 ---
 
 <!doctype html>
@@ -24,6 +25,7 @@ const { title, description, image } = Astro.props
 			title={title || SITE_TITLE}
 			description={description || SITE_DESCRIPTION}
 			image={image}
+			article={article}
 		/>
 	</head>
 	<body

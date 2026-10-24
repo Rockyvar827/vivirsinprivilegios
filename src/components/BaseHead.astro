@@ -6,9 +6,9 @@ interface Props {
 	title: string
 	description: string
 	image?: string
+	article?: { datePublished: Date; dateModified?: Date }
 }
-
-const { title, description, image = '/og-vivir-sin-privilegios.jpg' } = Astro.props
+const { title, description, image = '/og-vivir-sin-privilegios.jpg', article } = Astro.props
 
 const SITE = Astro.site?.origin ?? 'https://www.vivirsinprivilegios.org'
 // URL canónica: siempre el dominio de `site` (con www) y la ruta actual
@@ -29,7 +29,7 @@ const jsonLd = {
 			inLanguage: 'es',
 			publisher: { '@id': `${SITE}/#organization` },
 		},
-		{
+				{
 			'@type': 'Organization',
 			'@id': `${SITE}/#organization`,
 			name: SITE_TITLE,
@@ -43,6 +43,27 @@ const jsonLd = {
 	],
 }
 const jsonLdSeguro = JSON.stringify(jsonLd).replace(/</g, '\\u003c')
+const articleLd = article && {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  description,
+  image: [ogImage.href],
+  datePublished: article.datePublished.toISOString(),
+  dateModified: (article.dateModified ?? article.datePublished).toISOString(),
+  mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalURL.href },
+  inLanguage: 'es',
+  author: { '@type': 'Organization', name: SITE_TITLE, url: SITE + '/' },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_TITLE,
+    url: SITE + '/',
+    logo: { '@type': 'ImageObject', url: SITE + '/apple-touch-icon.png' },
+  },
+}
+const articleLdSeguro = articleLd
+  ? JSON.stringify(articleLd).replace(/</g, '\\u003c')
+  : ''
 ---
 
 <!-- Codificación y viewport primero: el charset debe estar en los primeros 1024 bytes -->
@@ -108,5 +129,11 @@ const jsonLdSeguro = JSON.stringify(jsonLd).replace(/</g, '\\u003c')
 {
 	esPortada && (
 		<script is:inline type="application/ld+json" set:html={jsonLdSeguro} />
+	)
+}
+
+{
+article && (
+		<script is:inline type="application/ld+json" set:html={articleLdSeguro} />
 	)
 }
