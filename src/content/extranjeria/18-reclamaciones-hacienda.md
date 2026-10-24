@@ -1,5 +1,6 @@
 ---
 title: 'Reclamar a Hacienda en 2026: recurso de reposición, devoluciones y plazos'
+seoTitle: "Reclamar a Hacienda en 2026: reposición y devoluciones"
 description: 'Cómo reclamar ante la Agencia Tributaria (AEAT): recurso de reposición, reclamación económico-administrativa, devolución de ingresos indebidos y plazos. Enlaces oficiales y tabla comparativa.'
 pubDate: 2026-01-23
 updatedDate: 2026-09-01

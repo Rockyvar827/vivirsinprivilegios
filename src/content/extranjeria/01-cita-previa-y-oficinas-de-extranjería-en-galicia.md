@@ -1,5 +1,6 @@
 ---
 title: 'Cita previa en extranjería en Galicia: cómo pedirla y qué hacer si no hay citas'
+seoTitle: "Cita previa de extranjería en Galicia: qué hacer sin citas"
 description: 'Guía práctica para solicitar cita previa en extranjería en Galicia. Oficinas por provincia, pasos para pedir cita y qué hacer si no hay disponibilidad.'
 pubDate: 2025-10-13
 updatedDate: 2026-01-09

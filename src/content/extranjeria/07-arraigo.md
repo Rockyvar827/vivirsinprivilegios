@@ -1,5 +1,6 @@
 ---
 title: 'Arraigo'
+seoTitle: "Arraigo en España: tipos, requisitos y cómo solicitarlo"
 description: 'Tipos de arraigo y requisitos para regularizar tu situación en Galicia.'
 pubDate: 2025-10-13
 category: 'Guía Extranjería Galicia'

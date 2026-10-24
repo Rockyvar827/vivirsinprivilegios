@@ -1,5 +1,6 @@
 ---
 title: 'Recursos y plazos en extranjería: qué hacer ante una resolución negativa'
+seoTitle: "Resolución negativa de extranjería: recursos y plazos"
 description: 'Cómo presentar recursos y conocer los plazos en trámites de extranjería.'
 pubDate: 2025-10-13
 category: 'Guía Extranjería Galicia'

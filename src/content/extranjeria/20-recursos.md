@@ -1,5 +1,6 @@
 ---
 title: 'Tasas de Extranjería en España 2026: precios NIE, TIE y visados actualizados'
+seoTitle: "Tasas de Extranjería 2026: precios de NIE, TIE y visados"
 description: 'Cuánto cuesta el NIE, la TIE, la renovación de residencia y el visado Schengen en 2026. Tabla oficial con los modelos 790 y enlaces directos a Policía Nacional e Interior.'
 pubDate: 2025-10-13
 updatedDate: 2026-09-01

@@ -1,5 +1,6 @@
 ---
 title: 'Protección internacional en España: asilo, protección subsidiaria y apatridia'
+seoTitle: "Asilo y protección internacional en España: guía"
 description: 'Información sobre solicitudes de asilo y protección internacional en Galicia.'
 pubDate: 2025-10-13
 category: 'Guía Extranjería Galicia'

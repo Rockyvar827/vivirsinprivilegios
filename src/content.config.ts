@@ -35,10 +35,11 @@ const blog = defineCollection({
 const extranjeria = defineCollection({
 	loader: cargar('extranjeria'),
 	schema: z.object({
-		title: z.string(),
-		description: z.string(),
-		pubDate: z.coerce.date(),
-		category: z.string().optional(),
+	title: z.string(),
+	seoTitle: z.string().optional(),
+	description: z.string(),
+	pubDate: z.coerce.date(),
+	category: z.string().optional(),
 		tags: z.array(z.string()).optional(),
 	}),
 })

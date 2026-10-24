@@ -27,7 +27,7 @@ const { post } = Astro.props
 const { Content } = await render(post)
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description}>
+<BaseLayout title={post.data.seoTitle ?? post.data.title} description={post.data.description}>
 	<div class="flex justify-center px-4 pt-20">
 		<main class="prose prose-lg dark:prose-invert w-full max-w-4xl">
 			<h1 class="text-4xl font-bold mb-6">{post.data.title}</h1>

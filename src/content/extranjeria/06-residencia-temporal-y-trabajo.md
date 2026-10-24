@@ -1,5 +1,6 @@
 ---
 title: 'Residencia temporal y trabajo en España (por cuenta ajena y por cuenta propia)'
+seoTitle: "Residencia y trabajo en España: cuenta ajena y propia"
 description: 'Requisitos para residir y trabajar en Galicia como extranjero.'
 pubDate: 2025-10-13
 category: 'Guía Extranjería Galicia'

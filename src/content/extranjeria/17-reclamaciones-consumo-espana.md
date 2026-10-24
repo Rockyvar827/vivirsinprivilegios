@@ -1,5 +1,6 @@
 ---
 title: 'Reclamaciones de consumo en España 2026: cómo reclamar a una empresa paso a paso'
+seoTitle: "Reclamar a una empresa en España 2026: consumo paso a paso"
 description: 'Guía con enlaces oficiales para reclamar como consumidor en España: hoja de reclamaciones, arbitraje de consumo, denuncias y reclamaciones transfronterizas UE. Incluye recursos para Galicia y Madrid.'
 pubDate: 2025-11-22
 updatedDate: 2026-09-01

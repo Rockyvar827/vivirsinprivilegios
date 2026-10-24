@@ -1,5 +1,6 @@
 ---
 title: 'Países no comunitarios: qué significa y cómo afecta a la extranjería en España'
+seoTitle: "Países no comunitarios: qué significa en extranjería"
 description: 'Listado actualizado de países latinoamericanos que no forman parte de la UE y cuyos ciudadanos son considerados extranjeros no comunitarios.'
 pubDate: 2025-10-23
 author: 'Equipo de Redacción'

@@ -1,5 +1,6 @@
 ---
 title: 'Tarjeta de Identidad de Extranjero (TIE): qué es y cómo obtenerla'
+seoTitle: "Tarjeta TIE en España: qué es y cómo obtenerla"
 description: 'Guía sobre la TIE y los pasos para obtenerla o renovarla.'
 pubDate: 2025-10-13
 category: 'Guía Extranjería Galicia'

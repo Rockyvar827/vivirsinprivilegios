@@ -1,5 +1,6 @@
 ---
 title: 'Cédula de inscripción en España: documento para personas indocumentadas'
+seoTitle: "Cédula de inscripción para personas indocumentadas"
 description: 'Qué es la cédula de inscripción y cómo solicitarla.'
 pubDate: 2025-10-13
 category: 'Guía Extranjería Galicia'
