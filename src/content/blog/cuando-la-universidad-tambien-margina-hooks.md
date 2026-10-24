@@ -1,5 +1,6 @@
 ---
 title: 'Cuando la universidad también te pone en el margen: bell hooks, el racismo académico y la impunidad institucional'
+seoTitle: "Racismo académico y impunidad institucional: bell hooks"
 description: |
   bell hooks escribió hace más de tres décadas que el feminismo mainstream
   se construyó mirando solo desde el centro, dejando fuera a las mujeres

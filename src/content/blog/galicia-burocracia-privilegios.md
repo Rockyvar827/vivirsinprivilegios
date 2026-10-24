@@ -1,5 +1,6 @@
 ---
 title: 'Bienvenido a Galicia S.A.: manual de operaciones del cortijo institucional'
+seoTitle: "Burocracia en Galicia: manual de operaciones del cortijo"
 description: |
   Un texto irónico, sarcástico y deliberadamente incómodo sobre la gestión pública en
   Galicia: clientelismo, burocracia ornamental, dinero público como patrimonio privado

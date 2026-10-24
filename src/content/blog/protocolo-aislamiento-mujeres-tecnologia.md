@@ -1,5 +1,6 @@
 ---
 title: 'El protocolo del aislamiento: cuando la empresa que se llama "familia" te quita la voz'
+seoTitle: "Protocolo del aislamiento: cuando la empresa te quita la voz"
 description: |
   El sesgo "prove it again" tiene nombre, estadísticas y décadas de estudio
   detrás. Aquí lo cuento con dos escenas concretas: un compañero al que nunca

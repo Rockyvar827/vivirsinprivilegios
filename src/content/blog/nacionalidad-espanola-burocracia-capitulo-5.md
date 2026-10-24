@@ -1,5 +1,6 @@
 ---
 title: 'Funcionarios y microracismos: el cóctel perfecto'
+seoTitle: "Microracismos en la administración: funcionarios en España"
 description: |
   En muchas oficinas españolas, la atención al extranjero es una prueba de paciencia 
   ante microracismos y una burocracia sin alma.

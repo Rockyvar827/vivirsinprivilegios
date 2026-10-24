@@ -1,5 +1,6 @@
 ---
 title: 'El certificado digital: tu nuevo grillete tecnológico'
+seoTitle: "Certificado digital en España: el nuevo grillete tecnológico"
 description: |
   El certificado digital prometía agilidad y modernidad. 
   En la práctica, se ha convertido en el nuevo obstáculo burocrático para los extranjeros.

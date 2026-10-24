@@ -1,5 +1,6 @@
 ---
 title: 'España: no es un país para negros (ni para impacientes)'
+seoTitle: "Nacionalidad española: no es un país para negros (cap. 2)"
 description: |
   Racismo, burocracia y paciencia infinita. 
   La realidad de muchos extranjeros que buscan nacionalidad en España.

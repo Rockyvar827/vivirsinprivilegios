@@ -1,5 +1,6 @@
 ---
 title: '18 años después de Kilomba, seguimos siendo lo "Otro": el racismo cotidiano en la España de 2026'
+seoTitle: "Racismo cotidiano en España: Kilomba 18 años después"
 description: |
   Grada Kilomba escribió sobre el racismo cotidiano hace casi dos décadas
   y en España seguimos reconociéndonos en cada línea. Del "¿de dónde eres

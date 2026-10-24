@@ -1,5 +1,6 @@
 ---
 title: 'El eslabón que no elegiste: mujer afrodescendiente frente al racismo estructural'
+seoTitle: "Racismo estructural y mujer afrodescendiente en España"
 description: |
   No es una metáfora ni una exageración: el racismo estructural sitúa a la
   mujer afrodescendiente en el lugar más precario de la cadena colonial.

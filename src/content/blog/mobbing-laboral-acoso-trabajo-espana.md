@@ -1,5 +1,6 @@
 ---
 title: 'Mobbing laboral: el método silencioso para empujarte al abismo'
+seoTitle: "Mobbing laboral en España: el método silencioso del acoso"
 description: |
   Un grito radical contra el acoso laboral silencioso que intenta expulsar a profesionales
   con experiencia para reemplazarlos por “esclavos corporativos” dispuestos a todo.

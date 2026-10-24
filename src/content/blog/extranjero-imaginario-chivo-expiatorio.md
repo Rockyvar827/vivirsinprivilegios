@@ -1,5 +1,6 @@
 ---
 title: 'El extranjero imaginario: manual básico del chivo expiatorio'
+seoTitle: "El extranjero imaginario: el chivo expiatorio en España"
 description: |
   Un texto incómodo, irónico y deliberadamente sarcástico contra el discurso neofascista
   que culpa a la inmigración de todos los males estructurales de España.

@@ -1,5 +1,6 @@
 ---
 title: 'El laberinto migratorio español'
+seoTitle: "El laberinto migratorio español: trámites de extranjería"
 description: |
   Una reflexión satírica sobre los múltiples muros burocráticos que enfrentan las personas migrantes en España,  
   desde el empadronamiento hasta el silencio administrativo.  

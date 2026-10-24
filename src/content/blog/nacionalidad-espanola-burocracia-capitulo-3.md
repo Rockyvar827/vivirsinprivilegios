@@ -1,5 +1,6 @@
 ---
 title: 'Nacionalidad española: el trámite que envejece'
+seoTitle: "Nacionalidad española: el trámite burocrático que envejece"
 description: |
   Solicitar la nacionalidad española puede tardar años. 
   Entre papeles, leyes y silencio administrativo, la paciencia se agota.

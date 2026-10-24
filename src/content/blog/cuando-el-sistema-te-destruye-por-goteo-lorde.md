@@ -1,5 +1,6 @@
 ---
 title: 'Acoso laboral y discriminación racial: así es como el sistema te destruye por goteo con Audre Lorde'
+seoTitle: "Acoso laboral y discriminación racial con Audre Lorde"
 description: |
   Un informe de la Inspección de Trabajo confirma acoso laboral e
   incumplimiento grave de la dignidad de la trabajadora. Meses antes,

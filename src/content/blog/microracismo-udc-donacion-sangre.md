@@ -1,5 +1,6 @@
 ---
 title: 'Le saltaron en la fila de los boletos de donación de sangre. Su único delito: ser negra en la UDC'
+seoTitle: "Racismo en la UDC: la fila de donación de sangre"
 description: |
   En plena aula universitaria, una señora repartió boletos de donación de sangre
   a todos los estudiantes... menos a Odette. ¿La diferencia? Su color de piel.

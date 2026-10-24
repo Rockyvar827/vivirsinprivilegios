@@ -1,5 +1,6 @@
 ---
 title: 'Galanes con privilegios: cuando el disfraz oculta violencia'
+seoTitle: "Galanes con privilegios: abuso hacia mujeres migrantes"
 description: |
   Un análisis claro y directo sobre un patrón de abuso que afecta especialmente a mujeres
   migrantes: relaciones donde el privilegio, la desigualdad y el falso “romanticismo”

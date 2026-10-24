@@ -1,5 +1,6 @@
 ---
 title: 'El gran plot twist: la nacionalidad como estafa moral'
+seoTitle: "Nacionalidad española: la estafa moral del trámite"
 description: |
   Después de años de trámites y espera, la nacionalidad española se convierte en una ironía: 
   pagar por un derecho que el sistema niega con indiferencia.

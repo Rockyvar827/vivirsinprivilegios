@@ -1,5 +1,6 @@
 ---
 title: '"Poco femeninas": lo que Angela Davis ya explicó sobre las mujeres negras y el trabajo doméstico'
+seoTitle: "Angela Davis: mujeres negras y trabajo doméstico"
 description: |
   Angela Davis lo escribió en 1981 y todavía nos lo dicen a la cara:
   que somos "poco femeninas", que mandamos demasiado, que somos duras.

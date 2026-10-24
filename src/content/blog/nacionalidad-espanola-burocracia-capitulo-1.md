@@ -1,5 +1,6 @@
 ---
 title: 'El sistema no te protege: bienvenida a la odisea burocrática española'
+seoTitle: "Nacionalidad española: la odisea burocrática (capítulo 1)"
 description: |
   Parte I: La realidad invisible.
   Solicitar la nacionalidad española es una maratón de papeles, plazos incumplidos y silencio administrativo.

@@ -1,5 +1,6 @@
 ---
 title: 'Le ganamos a Correos: así reclamamos (sin abogados) los 29,50€ que cobran de más por tus documentos oficiales de Cuba'
+seoTitle: "Reclamación a Correos: 29,50 € de más por documentos de Cuba"
 description: |
   Correos cobra "gastos de gestión aduanera" a la documentación oficial que llega desde Cuba, muchas veces sin avisar y sin justificar el importe.
   Esa documentación es la que necesitas para tus trámites de extranjería en España, y el cobro es indebido.

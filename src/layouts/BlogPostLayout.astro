@@ -20,6 +20,7 @@ type Props = CollectionEntry<'blog'>['data'] & {
 
 const {
 	title,
+	seoTitle,
 	description,
 	pubDate,
 	updatedDate,
@@ -46,7 +47,7 @@ const lastModified = dayjs(remarkPluginFrontmatter.lastModified)
 const postUrl = `${Astro.site}/blog/${slug}/`
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={seoTitle ?? title} description={description}>
 	<main>
 		<article>
 			<div
