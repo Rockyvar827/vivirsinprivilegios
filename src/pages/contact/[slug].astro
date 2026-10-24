@@ -4,7 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro'
 import type { MarkdownHeading } from 'astro'
 
 export async function getStaticPaths() {
-	const contacts = await getCollection('contact')
+	const contacts = (await getCollection('contact')).filter((contact) => contact.id !== 'contact')
 	const headings = await Promise.all(
 		contacts.map(async (contact) => {
 			const rendered = await render(contact)
