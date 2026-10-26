@@ -34,6 +34,34 @@ PAGINAS = [
         "url": "https://inclusion.gob.es/web/migraciones/consulta-sobre-el-estado-de-su-autorizacion-de-extranjeria",
         "categoria": "residencia",
     },
+    {
+        "id": "educacion-becas-universidad",
+        "nombre": "Becas del Ministerio de Educación para grado y máster",
+        "organismo": "Ministerio de Educación, Formación Profesional y Deportes",
+        "url": "https://www.becaseducacion.gob.es/becas-y-ayudas/universidad-grado-master/tipos-de-becas.html",
+        "categoria": "estudiantes",
+    },
+    {
+        "id": "educacion-becas-fp-bachillerato",
+        "nombre": "Becas del Ministerio de Educación para FP, Bachillerato y otros estudios",
+        "organismo": "Ministerio de Educación, Formación Profesional y Deportes",
+        "url": "https://www.becaseducacion.gob.es/becas-y-ayudas/fp-bachillerato-otros/tipos-de-becas.html",
+        "categoria": "estudiantes",
+    },
+    {
+        "id": "cooperacion-espanola-becas",
+        "nombre": "Becas de la Cooperación Española para extranjeros",
+        "organismo": "Ministerio de Asuntos Exteriores (AECID)",
+        "url": "https://becascooperacionespanola.es",
+        "categoria": "estudiantes",
+    },
+    {
+        "id": "interior-oficina-asilo-refugio",
+        "nombre": "Oficina de Asilo y Refugio",
+        "organismo": "Ministerio del Interior",
+        "url": "https://www.interior.gob.es/opencms/eu/servicios-al-ciudadano/tramites-y-gestiones/oficina-de-asilo-y-refugio/",
+        "categoria": "asilo",
+    },
 ]
 
 

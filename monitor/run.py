@@ -34,6 +34,13 @@ CLAVES_FUERTES = (
 # Palabras mas genericas: solo cuentan si viene de uno de los departamentos de arriba
 CLAVES_DEBILES = ("residencia", "estancia", "nacionalidad", "estudiantes extranjeros")
 
+# Becas: solo cuentan si vienen de estos departamentos
+DEPARTAMENTOS_BECAS = (
+    "ministerio de educación",
+    "ministerio de asuntos exteriores",
+)
+CLAVES_BECAS = ("becas", "ayudas al estudio", "ayudas para estudiantes")
+
 # Secciones del BOE que miramos (I disposiciones generales, III otras disposiciones, T Tribunal Constitucional)
 SECCIONES = ("i.", "iii.", "t.")
 
@@ -98,6 +105,8 @@ def es_relevante(seccion, departamento, titulo):
     if any(c in t for c in CLAVES_FUERTES):
         return True
     vigilado = any(d in departamento.lower() for d in DEPARTAMENTOS)
+    if any(d in departamento.lower() for d in DEPARTAMENTOS_BECAS) and any(c in t for c in CLAVES_BECAS):
+        return True
     return vigilado and any(c in t for c in CLAVES_DEBILES)
 
 

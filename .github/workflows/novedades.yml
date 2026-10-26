@@ -42,7 +42,8 @@ jobs:
           BASE: ${{ github.event.repository.default_branch }}
           LISTA: ${{ runner.temp }}/nuevos.txt
         run: |
-          if [ -z "$(git status --porcelain src/content/novedades)" ]; then
+          NUEVAS_BASES=$(git ls-files --others --exclude-standard monitor/state/paginas)
+          if [ -z "$(git status --porcelain src/content/novedades)" ] && [ -z "$NUEVAS_BASES" ]; then
             echo "Sin novedades hoy. No se abre Pull Request."
             exit 0
           fi
