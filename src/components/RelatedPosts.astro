@@ -1,0 +1,40 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content'
+
+type Props = {
+	current: CollectionEntry<'blog'>
+}
+
+const { current } = Astro.props
+const actuales = current.data.tags ?? []
+const todos = await getCollection('blog')
+
+const relacionados = todos
+	.filter((p) => p.id !== current.id)
+	.map((p) => ({
+		post: p,
+		puntos: (p.data.tags ?? []).filter((t) => actuales.includes(t)).length,
+	}))
+	.sort(
+		(a, b) =>
+			b.puntos - a.puntos ||
+			b.post.data.pubDate.valueOf() - a.post.data.pubDate.valueOf()
+	)
+	.slice(0, 3)
+	.map((x) => x.post)
+---
+
+{
+	relacionados.length > 0 && (
+		<aside class="related-posts">
+			<h2>Sigue leyendo</h2>
+			<ul>
+				{relacionados.map((p) => (
+					<li>
+						<a href={'/blog/' + p.id + '/'}>{p.data.title}</a>
+					</li>
+				))}
+			</ul>
+		</aside>
+	)
+}

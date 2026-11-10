@@ -1,0 +1,38 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content'
+
+type Props = {
+	current: CollectionEntry<'extranjeria'>
+}
+
+const { current } = Astro.props
+const actuales = current.data.tags ?? []
+const todas = (await getCollection('extranjeria')).sort((a, b) =>
+	a.id.localeCompare(b.id)
+)
+
+const relacionadas = todas
+	.filter((g) => g.id !== current.id)
+	.map((g) => ({
+		guia: g,
+		puntos: (g.data.tags ?? []).filter((t) => actuales.includes(t)).length,
+	}))
+	.sort((a, b) => b.puntos - a.puntos || a.guia.id.localeCompare(b.guia.id))
+	.slice(0, 3)
+	.map((x) => x.guia)
+---
+
+{
+	relacionadas.length > 0 && (
+		<aside class="related-guides">
+			<h2>Otras guías de extranjería</h2>
+			<ul>
+				{relacionadas.map((g) => (
+					<li>
+						<a href={'/extranjeria/' + g.id + '/'}>{g.data.title}</a>
+					</li>
+				))}
+			</ul>
+		</aside>
+	)
+}

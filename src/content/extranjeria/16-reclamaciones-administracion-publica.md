@@ -21,7 +21,7 @@ Existen distintas vías para reclamar ante la Administración, en función del o
 
 - **Quejas**: dirigidas a poner de manifiesto el mal funcionamiento de un servicio público.
 - **Sugerencias**: orientadas a proponer mejoras en la actuación administrativa.
-- **Recursos administrativos**: contra resoluciones expresas o presuntas.
+- [**Recursos administrativos**](/extranjeria/11-recursos-y-plazos/): contra resoluciones expresas o presuntas.
 - **Reclamaciones por inactividad**: cuando la Administración no actúa dentro de los plazos legales.
 - **Responsabilidad patrimonial**: cuando se han producido daños como consecuencia del funcionamiento de los servicios públicos.
 
@@ -39,7 +39,7 @@ Es aconsejable presentar una reclamación cuando:
 
 Los plazos para resolver una reclamación varían según el tipo de procedimiento, pero la normativa administrativa establece **plazos máximos obligatorios**.
 
-La falta de respuesta dentro del plazo legal puede dar lugar al **silencio administrativo**, que en muchos procedimientos tiene **carácter desestimatorio**, habilitando la interposición de los recursos correspondientes.
+La falta de respuesta dentro del plazo legal puede dar lugar al **silencio administrativo**, que en muchos procedimientos tiene **carácter desestimatorio**, habilitando la interposición de los [recursos correspondientes](/extranjeria/11-recursos-y-plazos/).
 
 ## Marco normativo aplicable
 
@@ -102,7 +102,7 @@ No. Las quejas y reclamaciones ante el Defensor del Pueblo, el Valedor do Pobo o
 Si no hay respuesta dentro del plazo legal, se produce **silencio administrativo**, que en la mayoría de los procedimientos se considera desestimatorio y te permite interponer el recurso correspondiente.
 
 **¿Pueden las personas extranjeras residentes presentar estas reclamaciones?**
-Sí. Estas vías son accesibles tanto para ciudadanos españoles como para personas extranjeras residentes, incluidos los procedimientos relacionados con extranjería.
+Sí. Estas vías son accesibles tanto para ciudadanos españoles como para personas extranjeras residentes, incluidos los procedimientos relacionados con [extranjería](/extranjeria/12-consejos-utiles-locales-en-galicia/).
 
 **¿Es lo mismo una queja que un recurso administrativo?**
 No. Una queja señala un mal funcionamiento del servicio, mientras que un recurso administrativo impugna formalmente una resolución expresa o presunta y tiene efectos jurídicos distintos.

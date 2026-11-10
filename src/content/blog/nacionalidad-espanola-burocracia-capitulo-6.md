@@ -18,6 +18,10 @@ tags:
 slug: nacionalidad-espanola-burocracia-capitulo-6
 ---
 
+⬅️ [Volver al Capítulo 5: Funcionarios y microracismos](/blog/nacionalidad-espanola-burocracia-capitulo-5/)
+
+---
+
 Después de años, pagos y paciencia, la nacionalidad española termina siendo una ironía:  
 Pagas para pertenecer a un sistema que te trata como si no existieras.
 
@@ -30,3 +34,8 @@ Y yo ya no sé si quiero el pasaporte o un aplauso por aguantar tanto.
 
 💬 Gracias por leer esta serie.  
 Si te identificas, comparte tu historia y que nadie más caiga en _“La gran estafa de la nacionalidad española”_.
+
+---
+
+📚 **¿Buscas guías prácticas para tus trámites?**  
+- [Consulta nuestras Guías paso a paso de Extranjería y Trámites](/extranjeria/)

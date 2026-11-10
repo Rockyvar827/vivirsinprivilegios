@@ -69,6 +69,13 @@ Spoiler: no hay salida de emergencia.
 
 ---
 
+> 📋 **Recursos útiles si estás atascado en este laberinto:**
+> - [Guía completa para tramitar el Arraigo Sociolaboral o Social](/extranjeria/14-arraigo-social-sociolaboral/)
+> - [Cómo obtener la asignación del NIE](/extranjeria/02-nie-asignacion-y-certificados/)
+> - [Guía paso a paso para la cita previa de Extranjería](/extranjeria/01-cita-previa-extranjeria/)
+
+---
+
 Mientras tanto, tu familiar paga sus impuestos, los tuyos,  
 y los de media familia…  
 pero claro, **privilegios no, que luego se acostumbran.** 🙃

@@ -96,6 +96,12 @@ Facturas, capturas de pantalla, el número de incidencia que te dé el operador 
 
 ---
 
+## Otras guías que te pueden interesar
+
+- [Cómo solicitar cita previa en Extranjería](/extranjeria/01-cita-previa-extranjeria/)
+- [Guía para tramitar la nacionalidad española](/blog/nacionalidad-espanola-paso-a-paso/)
+- [Derechos laborales y cómo actuar ante el mobbing](/blog/mobbing-microracismo-trabajo/)
+
 Reclamar en materia de telecomunicaciones es un **derecho de las personas usuarias** y una herramienta habitual para corregir errores y exigir el cumplimiento de las condiciones contractuales.
 
 *Actualización: septiembre de 2026.*

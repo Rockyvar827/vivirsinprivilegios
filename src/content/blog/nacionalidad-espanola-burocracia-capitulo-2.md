@@ -18,6 +18,10 @@ tags:
 slug: nacionalidad-espanola-burocracia-capitulo-2
 ---
 
+⬅️ [Capítulo 1: La odisea burocrática española](/blog/nacionalidad-espanola-burocracia-capitulo-1/)
+
+---
+
 Voy a ser sincera: si estás pensando en hacer de España tu hogar, piénsalo dos veces.  
 Aquí el racismo no siempre grita, pero se siente. Está en la mirada del vecino,  
 en el funcionario que te ignora y en el _“vuelva mañana”_ que se repite como mantra.
@@ -29,4 +33,6 @@ O luchas cada día contra el sistema… o te adaptas y sobrevives.
 Yo elegí sobrevivir, pero con una sonrisa sarcástica  
 y un dedo preparado para escribir mi historia.
 
-👉 **Sigue leyendo:** [Nacionalidad española: el trámite que envejece](/blog/nacionalidad-espanola-burocracia-capitulo-3/)
+---
+
+👉 **Siguiente capítulo:** [Capítulo 3: Nacionalidad española: el trámite que envejece](/blog/nacionalidad-espanola-burocracia-capitulo-3/)

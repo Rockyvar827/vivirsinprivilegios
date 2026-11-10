@@ -1,5 +1,5 @@
 ---
-title: 'Arraigo'
+title: 'Arraigo en España: tipos, requisitos y tasas actualizadas'
 seoTitle: "Arraigo en España: tipos, requisitos y cómo solicitarlo"
 description: 'Tipos de arraigo y requisitos para regularizar tu situación en Galicia.'
 pubDate: 2025-10-13
@@ -7,22 +7,23 @@ category: 'Guía Extranjería Galicia'
 tags: ['arraigo', 'extranjería', 'Galicia']
 ---
 
-# Arraigo en España: tipos, requisitos y tasas actualizadas
-
 El **arraigo en España** es una **autorización de residencia por circunstancias excepcionales**, regulada por la normativa de extranjería, que permite regularizar la situación administrativa de personas extranjeras que se encuentran en el país sin autorización de residencia, siempre que acrediten un determinado grado de **vinculación social, laboral, familiar o formativa**.
 
-Esta figura forma parte del régimen excepcional previsto en el **Reglamento de la Ley Orgánica 4/2000**, actualizado en el marco de la reforma de extranjería en vigor desde **mayo de 2025**, y se aplica cuando concurren circunstancias personales que justifican la concesión de una autorización de residencia, aun sin cumplir los requisitos ordinarios de entrada o estancia. :contentReference[oaicite:1]{index=1}
+Esta figura forma parte del régimen excepcional previsto en el **Reglamento de la Ley Orgánica 4/2000** (Real Decreto 1155/2024), y se aplica cuando concurren circunstancias personales que justifican la concesión de una autorización de residencia, aun sin cumplir los requisitos ordinarios de entrada o estancia.
 
 Elegir correctamente el **tipo de arraigo** y presentar la documentación adecuada es fundamental, ya que una parte importante de las solicitudes son **denegadas por errores evitables** en la acreditación del tiempo de permanencia, la documentación o las tasas.
 
-### Tipos de arraigo más comunes en España
+### Tipos de arraigo en España (Reglamento de Extranjería)
 
-A partir de la reforma de **extranjería vigente desde mayo de 2025**, el arraigo se articula en varias modalidades aplicadas de forma uniforme en todo el territorio español, con requisitos y efectos específicos para cada una, reflejando la voluntad del ordenamiento de facilitar la integración y la regularización bajo criterios claros y homogéneos.
+A partir de la reforma del Reglamento de Extranjería, el arraigo se articula en **5 modalidades oficiales** aplicadas de forma uniforme en todo el territorio español:
 
-- **Arraigo social**: para personas que acreditan integración social y medios de vida.
-- **Arraigo laboral**: para quienes han trabajado en España de forma demostrable.
-- **Arraigo familiar**: vinculado a familiares españoles o comunitarios.
-- **Arraigo para la formación**: orientado a la realización de estudios o formación reglada.
+- [**Arraigo sociolaboral**](/extranjeria/14-arraigo-social-sociolaboral/): para personas con al menos 2 años de estancia en España que cuenten con una o varias ofertas de trabajo (mínimo 20 horas semanales).
+- [**Arraigo social**](/extranjeria/14-arraigo-social-sociolaboral/): para personas con 2 años de estancia que cuenten con vínculos familiares directos o informe de inserción social emitido por su comunidad autónoma o ayuntamiento.
+- **Arraigo socioformativo**: orientada a personas con 2 años de permanencia en España que se matriculen o estén cursando una formación reglada o acreditada, autorizando a trabajar hasta 30 horas semanales.
+- **Arraigo de segunda oportunidad**: para quienes tuvieron una autorización de residencia previa no basada en circunstancias excepcionales en los últimos dos años y no pudieron renovarla.
+- **Arraigo familiar**: vinculado a padres, madres, tutores o familiares de menores o personas con discapacidad de nacionalidad española o comunitaria.
+
+> 💡 **Nota sobre reformas normativas:** Con el Reglamento vigente (RD 1155/2024), las antiguas denominaciones de *arraigo laboral* y *arraigo para la formación* fueron sustituidas e integradas principalmente en las figuras del **arraigo sociolaboral**, **socioformativo** y de **segunda oportunidad**.
 
 ---
 
@@ -30,16 +31,16 @@ A partir de la reforma de **extranjería vigente desde mayo de 2025**, el arraig
 
 **Documentación general:**
 
-- Certificado de antecedentes penales (legalizado/apostillado y traducido).
-- Empadronamiento.
-- Documentación que acredite la permanencia en España.
-- Pago de tasas correspondientes.
+- Certificado de antecedentes penales del país de origen (legalizado/apostillado y traducido en su caso).
+- Empadronamiento histórico que acredite la permanencia continuada en España.
+- Pasaporte completo y en vigor.
+- Pago de la tasa 790-052 correspondiente.
 
-**Según el tipo de arraigo:**
+**Según la modalidad de arraigo:**
 
-- Contrato de trabajo o informe de integración social.
-- Medios económicos o proyecto de formación.
-- Documentación específica según la modalidad solicitada.
+- Contrato de trabajo (arraigo sociolaboral) o informe de integración social (arraigo social).
+- Matrícula o compromiso de formación (arraigo socioformativo).
+- Documentación acreditativa de los vínculos familiares (arraigo familiar).
 
 ---
 
@@ -51,7 +52,7 @@ Un error frecuente es pagar una tasa incorrecta o hacerlo fuera de plazo.
 | Código      | Nombre de la tasa                                                                           | ¿Cuándo se aplica?                                                                                                       | Enlace oficial                                                   |
 | ----------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
 | **790-052** | “Tramitación de autorizaciones de residencia y otra documentación a ciudadanos extranjeros” | Se paga al presentar la solicitud de la autorización inicial por circunstancias excepcionales (arraigo) o su renovación. | 🔽 Ver enlaces por provincia (Galicia) ⬇️                        |
-| **790-012** | “Reconocimientos, Autorizaciones y Concursos” – expedición de TIE                           | Se paga para la expedición de la **Tarjeta de Identidad de Extranjero (TIE)** tras resolución favorable de arraigo.      | [Impreso Tasa 790-012](https://sede.policia.gob.es/Tasa790_012/) |
+| **790-012** | “Reconocimientos, Autorizaciones y Concursos” – expedición de TIE                           | Se paga para la expedición de la [**Tarjeta de Identidad de Extranjero (TIE)**](/extranjeria/04-tarjeta-de-identidad-de-extranjero-tie/) tras resolución favorable de arraigo.      | [Impreso Tasa 790-012](https://sede.policia.gob.es/Tasa790_012/) |
 
 ---
 
@@ -71,22 +72,21 @@ Un error frecuente es pagar una tasa incorrecta o hacerlo fuera de plazo.
 
 ### Plazo
 
-## La legislación prevé un plazo máximo de **3 meses para resolver**, aunque en la práctica puede variar según la carga de trabajo de la oficina.
+La legislación prevé un plazo máximo de **3 meses para resolver**, aunque en la práctica puede variar según la carga de trabajo de cada Oficina de Extranjería.
 
 ### Dónde presentarlo
 
-En la **oficina de extranjería correspondiente**, con cita previa. Parte del trámite puede hacerse electrónicamente si se presenta con certificado digital o representante.
+En la [**oficina de extranjería correspondiente**](/extranjeria/01-cita-previa-y-oficinas-de-extranjeria-en-galicia/), mediante cita previa o telemáticamente mediante la plataforma Mercurio si se cuenta con certificado digital o representante legal.
 
 ---
+### 📄 Modelos EX para descarga oficial
 
-### 📄 Modelos EX para Arraigo (descarga oficial)
-
-| Modelo    | Trámite asociado                                                                                            | Enlace oficial                                                                                             |
-| --------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **EX-10** | Autorización de residencia por circunstancias excepcionales (arraigo social, laboral, familiar y formación) | [Descargar EX-10](https://www.inclusion.gob.es/documents/410169/2156472/10-Formulario_CCEE_Imprimible.pdf) |
-| **EX-03** | Residencia temporal y trabajo por cuenta ajena (posible tras arraigo con contrato)                          | [Descargar EX-03](https://www.inclusion.gob.es/documents/d/migraciones/03-formulario_cta_ajena)            |
-| **EX-07** | Residencia temporal y trabajo por cuenta propia (autónomos tras arraigo)                                    | [Descargar EX-07](https://www.inclusion.gob.es/documents/d/migraciones/07-formulario_cta_propia)           |
-| **EX-11** | Residencia de larga duración o larga duración-UE (posible tras años de residencia tras el arraigo)          | [Descargar EX-11](https://www.inclusion.gob.es/documents/410169/2156469/11-Formulario_larga_duracixn.pdf)  |
+| Modelo    | Trámite asociado                                    | Enlace oficial de descarga |
+| --------- | -------------------------------------------------- | -------------------------- |
+| **EX-03** | Residencia temporal y trabajo por cuenta ajena     | [Descargar EX-03 (PDF)](https://www.inclusion.gob.es/documents/410169/2156472/03-Formulario_cta_ajena_Imprimible.pdf) |
+| **EX-07** | Residencia temporal y trabajo por cuenta propia    | [Descargar EX-07 (PDF)](https://www.inclusion.gob.es/documents/410169/2156472/07-Formulario_cta_propia_Imprimible.pdf) |
+| **EX-10** | Residencia por circunstancias excepcionales (Arraigo)| [Descargar EX-10 (PDF)](https://www.inclusion.gob.es/documents/410169/2156472/10-Formulario_CCEE_Imprimible.pdf) |
+| **EX-11** | Residencia de larga duración / larga duración-UE   | [Descargar EX-11 (PDF)](https://www.inclusion.gob.es/documents/410169/2156469/11-Formulario_larga_duracixn.pdf) |
 
 ---
 
@@ -94,12 +94,12 @@ En la **oficina de extranjería correspondiente**, con cita previa. Parte del tr
 
 Algunos de los motivos más habituales de denegación son:
 
-- No acreditar correctamente el tiempo de permanencia en España.
-- Presentar antecedentes penales no legalizados o caducados.
-- Aportar contratos o documentos que no cumplen los requisitos exigidos.
-- Errores en el pago o presentación de las tasas.
+- No acreditar la permanencia continuada requerida en España (2 años).
+- Presentar antecedentes penales no legalizados, sin apostilla o caducados.
+- Aportar contratos o compromisos de formación que no cumplen las exigencias legales.
+- Errores en la selección o justificante de pago de la Tasa 790-052.
 
-## Si tu solicitud es denegada, es posible **presentar alegaciones o una queja administrativa**, según el caso.
+Si tu solicitud es denegada, es posible **presentar recurso de reposición o recurso contencioso-administrativo**, según el caso.
 
 👉 Consulta también nuestra guía sobre
 [qué hacer ante una denegación en extranjería](/extranjeria/11-recursos-y-plazos/)

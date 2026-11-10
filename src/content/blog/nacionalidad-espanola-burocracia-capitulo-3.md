@@ -17,6 +17,10 @@ tags:
 slug: nacionalidad-espanola-burocracia-capitulo-3
 ---
 
+⬅️ [Capítulo 2: No es un país para negros](/blog/nacionalidad-espanola-burocracia-capitulo-2/)
+
+---
+
 2017: presento mi solicitud.  
 2020: recibo un requerimiento.  
 2025: sigo esperando que alguien lea mi expediente.
@@ -30,4 +34,6 @@ pero el sistema te contesta con un rotundo _“Ya si eso te avisamos”_.
 Lo mejor es cuando descubres que por ley pueden no responderte y seguir tan tranquilos.  
 Y tú, con la vida en pausa, sin saber si reír, llorar o abrir un podcast sobre el tema.
 
-👉 **Sigue leyendo:** [El certificado digital: tu nuevo grillete tecnológico](/blog/nacionalidad-espanola-burocracia-capitulo-4/)
+---
+
+👉 **Siguiente capítulo:** [Capítulo 4: El certificado digital: tu nuevo grillete tecnológico](/blog/nacionalidad-espanola-burocracia-capitulo-4/)

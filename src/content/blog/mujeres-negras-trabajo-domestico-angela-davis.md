@@ -34,6 +34,8 @@ Angela Davis ya había puesto nombre a esto en _Mujeres, raza y clase_, publicad
 
 Hoy te cuento lo que Davis dice al respecto, con mis palabras y con mi cabreo.
 
+> ✊ **Para seguir reflexionando:** Puedes complementar esta lectura con nuestro artículo sobre [afrodescendencia, memoria e identidad](/blog/afrodescendientes-memoria-resistencia/), donde abordamos el marco normativo y social de la comunidad negra en España.
+
 ## ¿Quiénes fueron las mujeres que trabajaron fuera de casa?
 
 Nos enseñaron una historia en la que "la mujer" estaba en casa, cuidando, esperando, y en algún momento del siglo XX salió a trabajar gracias al feminismo. Davis desmonta esa versión desde la primera página.

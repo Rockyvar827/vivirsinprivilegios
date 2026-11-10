@@ -13,10 +13,10 @@ En Galicia existen varias **organizaciones no gubernamentales (ONGs)** y entidad
 
 ## Índice rápido: ¿qué tipo de ayuda necesitas?
 
-- ¿Trámites de extranjería o renovación de NIE/TIE? → Accem, Ecos do Sur, Cáritas
-- ¿Solicitud de protección internacional / asilo? → Accem
+- ¿Trámites de extranjería o renovación de [NIE](/extranjeria/02-nie-numero-de-identidad-de-extranjero-ex-15/)/[TIE](/extranjeria/04-tarjeta-de-identidad-de-extranjero-tie/)? → Accem, Ecos do Sur, Cáritas
+- ¿Solicitud de [protección internacional / asilo](/extranjeria/10-proteccion-internacional-asilo-refugiado/)? → Accem
 - ¿Inserción sociolaboral o formación? → AMIGA, Mestura, SIG
-- ¿Retorno o reagrupación familiar? → Galicia Terra de Acollida
+- ¿Retorno o [reagrupación familiar](/extranjeria/08-reagrupacion-familiar/)? → Galicia Terra de Acollida
 
 ## Listado de ONGs de apoyo a migrantes en Galicia
 
@@ -34,9 +34,9 @@ En Galicia existen varias **organizaciones no gubernamentales (ONGs)** y entidad
 
 Según el caso, estas entidades pueden ayudarte con:
 
-- Información básica sobre **trámites de extranjería** (NIE, TIE, arraigo, renovaciones)
+- Información básica sobre **trámites de extranjería** ([NIE](/extranjeria/02-nie-numero-de-identidad-de-extranjero-ex-15/), [TIE](/extranjeria/04-tarjeta-de-identidad-de-extranjero-tie/), [arraigo](/extranjeria/07-arraigo/), renovaciones)
 - Acompañamiento social y comunitario
-- Apoyo a solicitantes de **protección internacional y asilo**
+- Apoyo a solicitantes de [**protección internacional y asilo**](/extranjeria/10-proteccion-internacional-asilo-refugiado/)
 - Orientación en situaciones de **vulnerabilidad administrativa**
 - Acceso a recursos sociales y humanitarios (alimentación, vivienda, empleo)
 

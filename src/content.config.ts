@@ -29,6 +29,7 @@ const blog = defineCollection({
 		updatedDate: z.coerce.date().optional(),
 		coverImageCredit: z.string().optional(),
 		seoTitle: z.string().optional(),
+		tags: z.array(z.string()).optional(),
 	}),
 })
 
@@ -40,7 +41,7 @@ const extranjeria = defineCollection({
 	description: z.string(),
 	pubDate: z.coerce.date(),
 	category: z.string().optional(),
-		tags: z.array(z.string()).optional(),
+	tags: z.array(z.string()).optional(),
 	}),
 })
 

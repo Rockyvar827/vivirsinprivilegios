@@ -17,6 +17,10 @@ tags:
 slug: nacionalidad-espanola-burocracia-capitulo-4
 ---
 
+⬅️ [Capítulo 3: El trámite que envejece](/blog/nacionalidad-espanola-burocracia-capitulo-3/)
+
+---
+
 Me dijeron: “hazlo todo online, es más rápido”.  
 Spoiler: más rápido… para perder la paciencia.
 
@@ -27,4 +31,6 @@ No hay funcionario que te grite,
 pero sí pantallas que te dicen _“error de servidor”_.  
 Y así, la tecnología se convierte en el guardián perfecto de la ineficiencia.
 
-👉 **Sigue leyendo:** [Funcionarios y microracismos: el cóctel perfecto](/blog/nacionalidad-espanola-burocracia-capitulo-5/)
+---
+
+👉 **Siguiente capítulo:** [Capítulo 5: Funcionarios y microracismos: el cóctel perfecto](/blog/nacionalidad-espanola-burocracia-capitulo-5/)

@@ -1,9 +1,9 @@
 ---
-title: 'Reclamar a Hacienda en 2026: recurso de reposición, devoluciones y plazos'
+title: 'Reclamar a Hacienda en 2026: reposición, devoluciones y plazos'
 seoTitle: "Reclamar a Hacienda en 2026: reposición y devoluciones"
-description: 'Cómo reclamar ante la Agencia Tributaria (AEAT): recurso de reposición, reclamación económico-administrativa, devolución de ingresos indebidos y plazos. Enlaces oficiales y tabla comparativa.'
+description: 'Cómo reclamar a la Agencia Tributaria: recurso de reposición, reclamación económico-administrativa, devolución de ingresos indebidos y plazos.'
 pubDate: 2026-01-23
-updatedDate: 2026-09-01
+updatedDate: 2026-11-10
 tags: ['Hacienda', 'AEAT', 'recurso de reposición', 'reclamación económico-administrativa', 'devolución ingresos indebidos', 'Ley General Tributaria']
 ---
 
@@ -56,6 +56,14 @@ La presentación electrónica permite dejar **constancia fehaciente** de la fech
 
 Los plazos varían según el tipo de recurso o reclamación presentada. La falta de resolución expresa dentro del plazo puede dar lugar a los efectos previstos en la normativa tributaria y administrativa aplicable.
 
+Con carácter general:
+
+- El **recurso de reposición** y la **reclamación económico-administrativa** deben presentarse en el plazo de **un mes** desde el día siguiente a la notificación del acto.
+- Si Hacienda no resuelve en plazo, se entiende **desestimada** la reclamación por silencio administrativo y puedes continuar con la siguiente vía.
+- Agotada la vía administrativa, el siguiente paso es el recurso **contencioso-administrativo**, con un plazo general de **dos meses**.
+
+Son plazos orientativos: comprueba siempre el que figura en la propia notificación.
+
 El agotamiento de la vía administrativa permite, en su caso, el acceso a la **jurisdicción contencioso-administrativa**.
 
 ## Tabla comparativa: qué procedimiento usar según tu caso
@@ -65,10 +73,10 @@ El agotamiento de la vía administrativa permite, en su caso, el acceso a la **j
 | **Rectificación de autoliquidación** | Errores del contribuyente (IRPF, IVA, etc.) | 4 años | AEAT |
 | **Devolución de ingresos indebidos** | Hacienda cobró de más o por error | 4 años | AEAT |
 | **Recurso de reposición** | Contra liquidaciones o actos que ponen fin a vía administrativa | 1 mes | AEAT |
-| **Reclamación económico-administrativa** | Contra actos tributarios (sin necesidad de reposición previa) | 1 mes | Tribunal Económico-Administrativo (TEAR/TEAC) |
+| **Reclamación económico-administrativa** | Contra actos tributarios (sin necesidad de reposición previa) | 1 mes | Órgano que dictó el acto o Tribunal Económico-Administrativo (TEAR/TEAC) |
 | **Suspensión de la deuda** | Para evitar embargo mientras se recurre | Variable | AEAT / TEAR |
 
-El recurso de reposición es opcional: en la mayoría de los casos puedes ir **directamente a la reclamación económico-administrativa**, salvo excepciones.
+El recurso de reposición es opcional: en la mayoría de los casos puedes ir **directamente a la reclamación económico-administrativa**, salvo excepciones. Si presentas reposición, no puedes acudir a la vía económico-administrativa hasta que se resuelva.
 
 ## Marco normativo aplicable
 
@@ -77,7 +85,6 @@ Las reclamaciones ante Hacienda se regulan principalmente por:
 - **Ley 58/2003, General Tributaria**.
 - **Ley 39/2015**, del Procedimiento Administrativo Común.
 - Normativa tributaria específica aplicable a cada impuesto.
-- Marco normativo actualizado conforme a las reformas vigentes en 2025, según lo dispuesto en el [BOE-A-2025-27014](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27014).
 
 ## Consejos prácticos antes de reclamar ante Hacienda
 
@@ -89,7 +96,7 @@ Las reclamaciones ante Hacienda se regulan principalmente por:
 ## Preguntas frecuentes
 
 **¿Cuál es la diferencia entre recurso de reposición y reclamación económico-administrativa?**
-El recurso de reposición se presenta ante la propia AEAT y es opcional. La reclamación económico-administrativa se presenta directamente ante el Tribunal Económico-Administrativo correspondiente (TEAR/TEAC), sin necesidad de pasar antes por el recurso de reposición.
+El recurso de reposición se resuelve por la propia AEAT y es opcional. La reclamación económico-administrativa la resuelve un Tribunal Económico-Administrativo (TEAR/TEAC), independiente del órgano que dictó el acto, y puedes presentarla sin pasar antes por reposición. El escrito puede presentarse en el registro del órgano que dictó el acto o en el del propio tribunal.
 
 **¿Cuánto tiempo tengo para pedir la devolución de ingresos indebidos?**
 El plazo general es de **4 años** desde que se realizó el ingreso indebido o desde que finalizó el plazo para efectuar la devolución.
@@ -98,10 +105,19 @@ El plazo general es de **4 años** desde que se realizó el ingreso indebido o d
 La falta de resolución expresa dentro de plazo tiene los efectos previstos en la normativa tributaria y administrativa aplicable a cada procedimiento, y en general habilita para continuar con la siguiente vía de recurso.
 
 **¿Puedo pedir la suspensión de la deuda mientras reclamo?**
-Sí. Existe un procedimiento específico de **suspensión de la deuda** para evitar el embargo mientras se resuelve el recurso o la reclamación, ante la AEAT o el TEAR según el caso.
+Sí. Existe un procedimiento específico de **suspensión de la deuda** para evitar el embargo mientras se resuelve el recurso o la reclamación, ante la AEAT o el TEAR según el caso. Suele exigir aportar una garantía, aunque hay supuestos en los que se concede sin ella.
+
+**¿Puedo reclamar a Hacienda si soy extranjero?**
+Sí. Los recursos y reclamaciones tributarias están abiertos a cualquier persona contribuyente, con independencia de su nacionalidad. Para operar con la AEAT necesitarás tu NIE y un medio de identificación electrónica (certificado digital o Cl@ve). Si tu duda es de consumo y no tributaria, mira nuestra [guía de reclamaciones de consumo](/extranjeria/17-reclamaciones-consumo-espana/) o [escríbenos](/contacto/).
+
+## Otras guías de reclamaciones
+
+- [Reclamaciones a la Administración pública](/extranjeria/16-reclamaciones-administracion-publica/)
+- [Reclamaciones de consumo](/extranjeria/17-reclamaciones-consumo-espana/)
+- [Reclamaciones de telecomunicaciones](/extranjeria/19-reclamaciones-telecomunicaciones/)
 
 ---
 
 La posibilidad de reclamar ante Hacienda constituye un **derecho del contribuyente** y forma parte del funcionamiento normal del sistema tributario. Ejercerlo de forma adecuada permite corregir errores y garantizar una correcta aplicación de la normativa fiscal.
 
-*Actualización: septiembre de 2026.*
+*Actualización: noviembre de 2026.*

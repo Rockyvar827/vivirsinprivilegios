@@ -89,6 +89,10 @@ Eso significa: **la Seguridad Social paga y la empresa queda retratada.**
 
 ---
 
+> 💡 **Lectura recomendada:** Para profundizar en cómo el racismo estructural opera en el ámbito laboral y la vida cotidiana mediante agresiones invisibles, te invitamos a leer nuestro análisis sobre [goteo constante y violencia cotidiana](/blog/goteo-lorde-resistencia/) y la obra de Grada Kilomba en [espacios de dominación y microracismos](/blog/mujeres-negras-trabajo-domestico/).
+
+---
+
 ## 🥊 Tu valor no se negocia con basura corporativa
 
 Si te minimizan, si te silencian, si quieren reemplazarte por quien **vende su vida a la empresa**,  

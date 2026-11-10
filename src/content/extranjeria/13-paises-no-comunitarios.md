@@ -24,8 +24,6 @@ Esta diferencia determina **qué trámites son necesarios**, **qué derechos se 
 
 ---
 
----
-
 ### Qué implica ser ciudadano de un país no comunitario
 
 Las personas procedentes de países no comunitarios deben, con carácter general:
@@ -91,6 +89,6 @@ La situación administrativa de las personas nacionales de países no comunitari
 
 ## 🧭 Conclusión
 
-Los nacionales de países no comunitarios pueden acceder, según su situación, a distintas figuras previstas en la normativa de extranjería, como el **arraigo**, la **residencia temporal**, la **reagrupación familiar** o la **protección internacional**.
+Los nacionales de países no comunitarios pueden acceder, según su situación, a distintas figuras previstas en la normativa de extranjería, como el [**arraigo**](/extranjeria/07-arraigo/), la [**residencia temporal**](/extranjeria/06-residencia-temporal-y-trabajo/), la [**reagrupación familiar**](/extranjeria/08-reagrupacion-familiar/) o la [**protección internacional**](/extranjeria/10-proteccion-internacional-asilo-refugiado/).
 
 ---

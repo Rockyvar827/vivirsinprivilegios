@@ -11,19 +11,18 @@ La **residencia temporal y trabajo en España** es una autorización administrat
 
 Este tipo de autorización comprende distintas modalidades (trabajo por cuenta ajena, por cuenta propia, investigación, prestación de servicios transnacionales, entre otras) y se regula por la **normativa de extranjería vigente**, actualizada tras la reforma aplicable desde **mayo de 2025**, conforme al marco publicado en el BOE.
 
-En Galicia, estos trámites son gestionados por distintas oficinas de extranjería, entre ellas la **oficina de Ourense**, según la modalidad y el tipo de solicitud.
+En Galicia, estos trámites son gestionados por distintas [oficinas de extranjería](/extranjeria/01-cita-previa-y-oficinas-de-extranjeria-en-galicia/), entre ellas la **oficina de Ourense**, según la modalidad y el tipo de solicitud.
 
 ## 📄 Modelos oficiales según la modalidad
 
 Cada modalidad de residencia y trabajo dispone de un **modelo oficial específico**, que debe utilizarse en función del tipo de actividad que se vaya a desarrollar y de la situación administrativa de la persona solicitante.
 
-| Modalidad                                                            | Modelo | Enlace                                                                                                                       |
-| -------------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| **Trabajo por cuenta ajena (inicial)**                               | EX-03  | [Descargar EX-03](https://www.inclusion.gob.es/documents/410169/2156469/03-Formulario_cta_ajena.pdf)                         |
-| **Trabajo por cuenta propia**                                        | EX-07  | [Descargar EX-07](https://www.inclusion.gob.es/documents/410169/2156469/07-Formulario_cta_propia.pdf)                        |
-| **Investigadores / trabajo para actividades específicas**            | EX-06  | [Descargar EX-06](https://www.inclusion.gob.es/web/migraciones/modelos-generales) _(ver listado oficial)_                    |
-| **Prestación de servicios transnacionales / altamente cualificados** | EX-05  | [Descargar EX-05](https://www.inclusion.gob.es/documents/410169/2156472/05-Formulario_altamente_cualificados_Imprimible.pdf) |
-
+| Modalidad | Modelo | Enlace |
+| --- | --- | --- |
+| **Trabajo por cuenta ajena (inicial)** | EX-03 | [Descargar EX-03](https://www.inclusion.gob.es/documents/410169/2156472/03-Formulario_cta_ajena_Imprimible.pdf) |
+| **Trabajo por cuenta propia** | EX-07 | [Descargar EX-07](https://www.inclusion.gob.es/documents/410169/2156472/07-Formulario_cta_propia_Imprimible.pdf) |
+| **Investigadores / trabajo para actividades específicas** | EX-06 | [Descargar EX-06](https://www.inclusion.gob.es/web/migraciones/modelos-generales) *(ver listado oficial)* |
+| **Prestación de servicios transnacionales / altamente cualificados** | EX-05 | [Descargar EX-05](https://www.inclusion.gob.es/documents/410169/2156472/05-Formulario_altamente_cualificados_Imprimible.pdf) |
 ---
 
 ### Requisitos y documentación (según la modalidad)
@@ -50,7 +49,7 @@ Las solicitudes de residencia temporal y trabajo están sujetas al pago de tasas
 
 | Tipo de trámite                                                                          | Tasa        | Enlace oficial                                                                                         |
 | ---------------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------ |
-| **Autorización de residencia y trabajo (incluye arraigo y otras solicitudes iniciales)** | **790-052** | 🔽 Seleccionar provincia según el lugar donde se tramita                                               |
+| **Autorización de residencia y trabajo (incluye [arraigo](/extranjeria/07-arraigo/) y otras solicitudes iniciales)** | **790-052** | 🔽 Seleccionar provincia según el lugar donde se tramita                                               |
 | **Presentación de autorización por cuenta ajena (empresa/empleador)**                    | **790-062** | [Generar / pagar tasa 790-062](https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G414.shtml) |
 
 ---
@@ -78,7 +77,7 @@ La normativa de extranjería establece un **plazo máximo general de tres meses*
 
 La solicitud puede presentarse:
 
-- **Presencialmente**, en la oficina de extranjería competente, con cita previa.
+- **Presencialmente**, en la [oficina de extranjería competente, con cita previa](/extranjeria/01-cita-previa-y-oficinas-de-extranjeria-en-galicia/).
 - **Por vía electrónica**, en aquellos supuestos en que la normativa lo permite, especialmente cuando la solicitud es presentada por la empresa o por un representante autorizado.
 
 En Galicia, la **oficina de extranjería de Ourense** es uno de los órganos que gestionan este tipo de autorizaciones, entre otros. ([mpt.gob.es](https://mptmd.gob.es/))

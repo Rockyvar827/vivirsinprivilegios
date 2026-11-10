@@ -15,7 +15,7 @@ La TIE **no concede por sí misma derechos**, sino que refleja una **autorizaci�
 
 ### Requisitos y documentación habitual para la TIE
 
-Los requisitos pueden variar según el tipo de autorización concedida (residencia, trabajo, estudios, reagrupación familiar, etc.), pero habitualmente se exige:
+Los requisitos pueden variar según el tipo de autorización concedida ([residencia](/extranjeria/06-residencia-temporal-y-trabajo/), trabajo, estudios, [reagrupación familiar](/extranjeria/08-reagrupacion-familiar/), etc.), pero habitualmente se exige:
 
 - **Resolución favorable** de la autorización de residencia o del visado correspondiente.
 - **Formulario de toma de huellas (Modelo EX-17)** debidamente cumplimentado.  
@@ -47,7 +47,7 @@ Una vez concedida la autorización de residencia o el visado, la persona interes
 1. Realizar la **toma de huellas** (entrega de documentación, firma y fotografía).
 2. **Recoger la TIE** cuando esté disponible.
 
-📌 La **cita previa es obligatoria** para la toma de huellas y la expedición de la TIE:  
+📌 La [**cita previa es obligatoria**](/extranjeria/01-cita-previa-y-oficinas-de-extranjeria-en-galicia/) para la toma de huellas y la expedición de la TIE:  
 🔗 [Solicitar cita para Toma de Huellas (TIE)](https://icp.administracionelectronica.gob.es/icpplus/icpplus?appVersion=V+7.42.3)
 
 > ⚠️ En algunas provincias el procedimiento puede dividirse en dos citas: una para la toma de huellas y otra para la recogida de la tarjeta.

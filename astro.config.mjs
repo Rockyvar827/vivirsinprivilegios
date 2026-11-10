@@ -8,6 +8,7 @@ import rehypeFigureTitle from 'rehype-figure-title'
 import { rehypeAccessibleEmojis } from 'rehype-accessible-emojis'
 import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 import { remarkModifiedTime } from './src/plugins/remark-modified-time.mjs'
+import rehypeExternalLinks from 'rehype-external-links';
 
 // https://astro.build/config
 
@@ -42,4 +43,15 @@ export default defineConfig({
 			prefixDefaultLocale: false,
 		},
 	},
+	markdown: {
+    rehypePlugins: [
+      [
+        rehypeExternalLinks,
+        {
+          target: '_blank',
+          rel: ['noopener', 'noreferrer'],
+        },
+      ],
+    ],
+  },
 })

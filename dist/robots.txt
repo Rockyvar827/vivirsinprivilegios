@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.vivirsinprivilegios.org/sitemap-index.xml
 Disallow: /cdn-cgi/
 Disallow: /~partytown/
+
+Sitemap: https://www.vivirsinprivilegios.org/sitemap-index.xml

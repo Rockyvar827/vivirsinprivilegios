@@ -15,6 +15,14 @@ const novedades = (
 )
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
 	.slice(0, 3)
+
+const guias = (await getCollection('extranjeria')).sort((a, b) =>
+a.id.localeCompare(b.id)
+)
+const guia = (prefijo: string) => guias.find((g) => g.id.startsWith(prefijo))
+const guiaCita = guia('01-')
+const guiaNie = guia('02-')
+const guiaArraigo = guia('07-')	
 ---
 
 <BaseLayout
@@ -23,263 +31,285 @@ const novedades = (
 >
 	<!-- HERO IMPACTO -->
 	<section
-		class="app-container py-16 md:py-24 flex flex-col items-center gap-10 text-center"
-	>
-		<div class="max-w-3xl mx-auto">
-			<h1
-				class="text-4xl md:text-6xl font-extrabold leading-tight text-primary dark:text-primary-dark"
-			>
-				Vivir sin privilegios <span class="text-red-500"
-					>no debería ser un acto de resistencia.</span
-				>
-			</h1>
-
-			<p
-				class="mt-5 text-lg md:text-xl text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
-			>
-				Hablamos claro sobre mobbing laboral, racismo institucional y violencia
-				burocrática en España. No para que quede bonito. Para que se entienda y
-				se combata.
-			</p>
-
-			<p
-				class="mt-3 text-base md:text-lg text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
-			>
-				Guías y novedades de extranjería para personas hispanohablantes de
-				cualquier país: NIE, cita previa, arraigo, residencia y nacionalidad.
-			</p>
-		</div>
-
-		<!-- Botones CTA -->
-		<div class="flex flex-wrap justify-center gap-4">
-			<a
-				href="/blog"
-				class="px-6 py-3 text-sm font-bold tracking-wide rounded-full bg-red-600 text-white hover:bg-red-500"
-			>
-				Leer historias reales
-			</a>
-			<a
-				href="/manifiesto"
-				class="px-6 py-3 text-sm font-bold tracking-wide rounded-full border border-gray-500 text-gray-700 dark:text-gray-200 hover:border-red-400 hover:text-red-300"
-			>
-				Leer manifiesto
-			</a>
-		</div>
-	</section>
-
-	<section
-		class="app-container py-16 md:py-24 flex flex-col items-center gap-10 text-center"
-	>
-		<div class="max-w-3xl mx-auto">
-			<h2
-				class="text-4xl md:text-6xl font-extrabold leading-tight text-primary dark:text-primary-dark"
-			>
-				Vivir sin privilegios <span class="text-yellow-500"
-					>no debería costar dignidad.</span
-				>
-			</h2>
-
-			<p
-				class="mt-5 text-lg md:text-xl text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
-			>
-				Significa cumplir con todo —trabajar, estudiar, pagar impuestos, cuidar
-				de la familia y respetar la ley— y aun así enfrentar controles,
-				sospechas y burocracia discriminatoria que otros no viven.
-			</p>
-
-			<p
-				class="mt-3 text-lg md:text-xl text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
-			>
-				Es saber que tu <strong>color de piel, acento o pasaporte</strong> pueden
-				complicar tu vida en Extranjería, en el trabajo o en el acceso a vivienda
-				pública. Eso es <strong>racismo institucional.</strong>
-			</p>
-		</div>
-	</section>
-
-	<section class="app-container pb-16 md:pb-24">
-		<div class="max-w-4xl mx-auto space-y-8 text-center">
-			<h2
-				class="text-xl md:text-2xl font-bold text-primary dark:text-primary-dark"
-			>
-				🏛 ¿Qué es el racismo institucional en España?
-			</h2>
-
-			<p
-				class="text-sm md:text-base text-gray-800 dark:text-gray-300 max-w-2xl mx-auto"
-			>
-				El racismo institucional no grita.
-				<strong
-					>Se sella y se tramita por oficinas y plataformas digitales.</strong
-				>
-			</p>
-		</div>
-
-		<!-- Mapa mental -->
-		<div
-			class="relative rounded-3xl border border-gray-300 bg-gray-100 text-gray-900 px-6 py-8 md:px-10 md:py-10 shadow-sm"
+	class="app-container py-16 md:py-24 flex flex-col items-center gap-10 text-center"
+>
+	<div class="max-w-3xl mx-auto">
+		<h1
+			class="text-4xl md:text-6xl font-extrabold leading-tight text-primary dark:text-primary-dark"
 		>
-			<!-- Nodo central -->
-			<div class="mx-auto mb-8 flex items-center justify-center">
-				<div
-					class="inline-flex flex-col items-center justify-center rounded-full px-6 py-4 bg-red-600 text-center shadow-lg text-white"
-				>
-					<span
-						class="text-[0.65rem] uppercase tracking-[0.25em] text-red-100/90"
-					>
-						núcleo
-					</span>
-					<span class="mt-1 text-sm md:text-base font-semibold">
-						Racismo institucional · 2025
-					</span>
-				</div>
-			</div>
-
-			<!-- Nodos satélite -->
-			<div class="grid gap-4 md:grid-cols-2">
-				<div class="rounded-2xl bg-red-50 border border-red-400/70 px-4 py-3">
-					<p class="text-xs uppercase tracking-[0.2em] text-red-600">
-						trámites
-					</p>
-					<p class="text-sm md:text-base font-semibold text-gray-900">
-						Formularios que exigen lo imposible
-					</p>
-				</div>
-
-				<div
-					class="rounded-2xl bg-indigo-50 border border-indigo-400/70 px-4 py-3"
-				>
-					<p class="text-xs uppercase tracking-[0.2em] text-indigo-600">
-						silencio
-					</p>
-					<p class="text-sm md:text-base font-semibold text-gray-900">
-						Silencio administrativo que te deja sin derechos
-					</p>
-				</div>
-
-				<div
-					class="rounded-2xl bg-amber-50 border border-amber-400/70 px-4 py-3"
-				>
-					<p class="text-xs uppercase tracking-[0.2em] text-amber-600">
-						tiempo
-					</p>
-					<p class="text-sm md:text-base font-semibold text-gray-900">
-						Plazos eternos para renovar residencia
-					</p>
-				</div>
-
-				<div
-					class="rounded-2xl bg-fuchsia-50 border border-fuchsia-400/70 px-4 py-3"
-				>
-					<p class="text-xs uppercase tracking-[0.2em] text-fuchsia-600">
-						confusión
-					</p>
-					<p class="text-sm md:text-base font-semibold text-gray-900">
-						Información confusa que te hace fallar a propósito
-					</p>
-				</div>
-
-				<div
-					class="md:col-span-2 rounded-2xl bg-emerald-50 border border-emerald-400/70 px-4 py-3"
-				>
-					<p class="text-xs uppercase tracking-[0.2em] text-emerald-600">
-						desigualdad
-					</p>
-					<p class="text-sm md:text-base font-semibold text-gray-900">
-						Trato desigual en empleo, vivienda y servicios públicos
-					</p>
-				</div>
-			</div>
-
-			<p class="mt-6 text-[0.80rem] text-gray-700 text-center md:text-left">
-				No es un insulto. Es un <strong>procedimiento que excluye</strong>. No
-				se ve en la calle,
-				<strong>se vive en la administración.</strong>
-			</p>
-		</div>
-	</section>
-
-	<!-- BLOQUES ACTIVISTAS -->
-	<section class="app-container grid md:grid-cols-3 gap-8 py-20">
-		<div class="rounded-3xl border border-red-400 p-6 bg-red-500/10">
-			<h3 class="text-lg font-bold text-red-600">NIE</h3>
-			<p class="text-sm mt-2 text-gray-700 dark:text-gray-300">
-				NIE / Número de Identidad de Extranjero
-			</p>
-			<a
-				href="/extranjeria/02-nie---número-de-identidad-de-extranjero-asignación-ex-15/"
-				class="text-xs inline-block mt-4 font-semibold underline underline-offset-2 text-red-400"
+			Vivir sin privilegios <span class="text-red-500"
+				>no debería ser un acto de resistencia.</span
 			>
-				Ver Asignación de NIE →
-			</a>
-		</div>
+		</h1>
 
-		<div class="rounded-3xl border border-yellow-400 p-6 bg-yellow-500/10">
-			<h3 class="text-lg font-bold text-yellow-600">Cita Previa</h3>
-			<p class="text-sm mt-2 text-gray-700 dark:text-gray-300">
-				Cita previa y oficinas de extranjería en Galicia.
-			</p>
-			<a
-				href="/extranjeria/01-cita-previa-y-oficinas-de-extranjería-en-galicia/"
-				class="text-xs inline-block mt-4 font-semibold underline underline-offset-2 text-yellow-500"
-			>
-				Cómo sacar cita previa →
-			</a>
-		</div>
+		<p
+			class="mt-5 text-lg md:text-xl text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
+		>
+			Hablamos claro sobre mobbing laboral, racismo institucional y violencia
+			burocrática en España. No para que quede bonito. Para que se entienda y
+			se combata.
+		</p>
 
-		<div class="rounded-3xl border border-green-400 p-6 bg-green-500/10">
-			<h3 class="text-lg font-bold text-green-600">Arraigos</h3>
-			<p class="text-sm mt-2 text-gray-700 dark:text-gray-300">
-				Guías y herramientas para la solicitud de arraigo en España.
-			</p>
-			<a
-				href="/extranjeria/07-arraigo/"
-				class="text-xs inline-block mt-4 font-semibold underline underline-offset-2 text-green-500"
-			>
-				Guía de arraigo en España →
-			</a>
-		</div>
-	</section>
+		<p
+			class="mt-3 text-base md:text-lg text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
+		>
+			Guías y novedades de extranjería para personas hispanohablantes de
+			cualquier país: NIE, cita previa, arraigo, residencia y nacionalidad.
+		</p>
+	</div>
 
-	<!-- NOVEDADES DE EXTRANJERÍA -->
-	{
-		novedades.length > 0 && (
-			<section class="app-container pb-16 md:pb-24">
-				<h2 class="section-title text-2xl md:text-3xl font-bold">
-					Últimas novedades de extranjería
-				</h2>
-				<p class="mt-3 max-w-2xl text-gray-800 dark:text-gray-300">
-					Cambios en trámites y legislación, siempre con fuente oficial y
-					fecha de comprobación.
-				</p>
-				<div class="mt-8 grid gap-4 md:grid-cols-3">
-					{novedades.map((n) => (
-						<NovedadCard n={n} />
-					))}
-				</div>
-				<a
-					class="btn-secondary mt-8 inline-flex items-center gap-2"
-					href="/novedades/"
-				>
-					Ver todas las novedades <Icon size={20} name="mdi:arrow-right" />
-				</a>
-			</section>
-		)
-	}
-
-	<!-- POSTS RECIENTES -->
-	<section class="app-container">
-		<h2 class="section-title text-2xl md:text-3xl font-bold">
-			Posts recientes
-		</h2>
-		<div class="posts-grid-container mt-8">
-			{posts.map((post) => <BlogCard post={post} />)}
-		</div>
-		<a class="btn-secondary mt-8 inline-flex items-center gap-2" href="/blog">
-			Leer todos <Icon size={20} name="mdi:arrow-right" />
+	<!-- Botones CTA -->
+	<div class="flex flex-wrap justify-center gap-4">
+		<a
+			href="/blog/"
+			class="px-6 py-3 text-sm font-bold tracking-wide rounded-full bg-red-600 text-white hover:bg-red-500"
+		>
+			Leer historias reales
 		</a>
-	</section>
-	<SocialLinks />
-	<BizumDonationPopup />
+		<a
+			href="/manifiesto/"
+			class="px-6 py-3 text-sm font-bold tracking-wide rounded-full border border-gray-500 text-gray-700 dark:text-gray-200 hover:border-red-400 hover:text-red-300"
+		>
+			Leer manifiesto
+		</a>
+	</div>
+</section>
 
+<section
+	class="app-container py-16 md:py-24 flex flex-col items-center gap-10 text-center"
+>
+	<div class="max-w-3xl mx-auto">
+		<h2
+			class="text-4xl md:text-6xl font-extrabold leading-tight text-primary dark:text-primary-dark"
+		>
+			Vivir sin privilegios <span class="text-yellow-500"
+				>no debería costar dignidad.</span
+			>
+		</h2>
+
+		<p
+			class="mt-5 text-lg md:text-xl text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
+		>
+			Significa cumplir con todo —trabajar, estudiar, pagar impuestos, cuidar
+			de la familia y respetar la ley— y aun así enfrentar controles,
+			sospechas y burocracia discriminatoria que otros no viven.
+		</p>
+
+		<p
+			class="mt-3 text-lg md:text-xl text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
+		>
+			Es saber que tu <strong>color de piel, acento o pasaporte</strong> pueden
+			complicar tu vida en Extranjería, en el trabajo o en el acceso a vivienda
+			pública. Eso es <strong>racismo institucional.</strong>
+		</p>
+	</div>
+</section>
+
+<section class="app-container pb-16 md:pb-24">
+	<div class="max-w-4xl mx-auto space-y-8 text-center">
+		<h2
+			class="text-xl md:text-2xl font-bold text-primary dark:text-primary-dark"
+		>
+			🏛 ¿Qué es el racismo institucional en España?
+		</h2>
+
+		<p
+			class="text-sm md:text-base text-gray-800 dark:text-gray-300 max-w-2xl mx-auto"
+		>
+			El racismo institucional no grita.
+			<strong
+				>Se sella y se tramita por oficinas y plataformas digitales.</strong
+			>
+		</p>
+	</div>
+
+	<!-- Mapa mental -->
+	<div
+		class="relative rounded-3xl border border-gray-300 bg-gray-100 text-gray-900 px-6 py-8 md:px-10 md:py-10 shadow-sm"
+	>
+		<!-- Nodo central -->
+		<div class="mx-auto mb-8 flex items-center justify-center">
+			<div
+				class="inline-flex flex-col items-center justify-center rounded-full px-6 py-4 bg-red-600 text-center shadow-lg text-white"
+			>
+				<span
+					class="text-[0.65rem] uppercase tracking-[0.25em] text-red-100/90"
+				>
+					núcleo
+				</span>
+				<span class="mt-1 text-sm md:text-base font-semibold">
+					Racismo institucional · 2025
+				</span>
+			</div>
+		</div>
+
+		<!-- Nodos satélite -->
+		<div class="grid gap-4 md:grid-cols-2">
+			<div class="rounded-2xl bg-red-50 border border-red-400/70 px-4 py-3">
+				<p class="text-xs uppercase tracking-[0.2em] text-red-600">
+					trámites
+				</p>
+				<p class="text-sm md:text-base font-semibold text-gray-900">
+					Formularios que exigen lo imposible
+				</p>
+			</div>
+
+			<div
+				class="rounded-2xl bg-indigo-50 border border-indigo-400/70 px-4 py-3"
+			>
+				<p class="text-xs uppercase tracking-[0.2em] text-indigo-600">
+					silencio
+				</p>
+				<p class="text-sm md:text-base font-semibold text-gray-900">
+					Silencio administrativo que te deja sin derechos
+				</p>
+			</div>
+
+			<div
+				class="rounded-2xl bg-amber-50 border border-amber-400/70 px-4 py-3"
+			>
+				<p class="text-xs uppercase tracking-[0.2em] text-amber-600">
+					tiempo
+				</p>
+				<p class="text-sm md:text-base font-semibold text-gray-900">
+					Plazos eternos para renovar residencia
+				</p>
+			</div>
+
+			<div
+				class="rounded-2xl bg-fuchsia-50 border border-fuchsia-400/70 px-4 py-3"
+			>
+				<p class="text-xs uppercase tracking-[0.2em] text-fuchsia-600">
+					confusión
+				</p>
+				<p class="text-sm md:text-base font-semibold text-gray-900">
+					Información confusa que te hace fallar a propósito
+				</p>
+			</div>
+
+			<div
+				class="md:col-span-2 rounded-2xl bg-emerald-50 border border-emerald-400/70 px-4 py-3"
+			>
+				<p class="text-xs uppercase tracking-[0.2em] text-emerald-600">
+					desigualdad
+				</p>
+				<p class="text-sm md:text-base font-semibold text-gray-900">
+					Trato desigual en empleo, vivienda y servicios públicos
+				</p>
+			</div>
+		</div>
+
+		<p class="mt-6 text-[0.80rem] text-gray-700 text-center md:text-left">
+			No es un insulto. Es un <strong>procedimiento que excluye</strong>. No
+			se ve en la calle,
+			<strong>se vive en la administración.</strong>
+		</p>
+	</div>
+</section>
+
+<!-- BLOQUES ACTIVISTAS -->
+<section class="app-container grid md:grid-cols-3 gap-8 py-20">
+	<div class="rounded-3xl border border-red-400 p-6 bg-red-500/10">
+		<h3 class="text-lg font-bold text-red-600">NIE</h3>
+		<p class="text-sm mt-2 text-gray-700 dark:text-gray-300">
+			NIE / Número de Identidad de Extranjero
+		</p>
+		<a
+			href={`/extranjeria/${guiaNie?.id}/`}
+			class="text-xs inline-block mt-4 font-semibold underline underline-offset-2 text-red-400"
+		>
+			Ver Asignación de NIE →
+		</a>
+	</div>
+
+	<div class="rounded-3xl border border-yellow-400 p-6 bg-yellow-500/10">
+		<h3 class="text-lg font-bold text-yellow-600">Cita Previa</h3>
+		<p class="text-sm mt-2 text-gray-700 dark:text-gray-300">
+			Cita previa y oficinas de extranjería en Galicia.
+		</p>
+		<a
+			href={`/extranjeria/${guiaCita?.id}/`}
+			class="text-xs inline-block mt-4 font-semibold underline underline-offset-2 text-yellow-500"
+		>
+			Cómo sacar cita previa →
+		</a>
+	</div>
+
+	<div class="rounded-3xl border border-green-400 p-6 bg-green-500/10">
+		<h3 class="text-lg font-bold text-green-600">Arraigos</h3>
+		<p class="text-sm mt-2 text-gray-700 dark:text-gray-300">
+			Guías y herramientas para la solicitud de arraigo en España.
+		</p>
+		<a
+			href={`/extranjeria/${guiaArraigo?.id}/`}
+			class="text-xs inline-block mt-4 font-semibold underline underline-offset-2 text-green-500"
+		>
+			Guía de arraigo en España →
+		</a>
+	</div>
+</section>
+
+<!-- TODAS LAS GUÍAS DE EXTRANJERÍA -->
+{
+	guias.length > 0 && (
+		<section class="app-container pb-16 md:pb-24">
+			<h2 class="section-title text-2xl md:text-3xl font-bold">
+				Guías de extranjería
+			</h2>
+			<ul class="mt-6 grid gap-2 md:grid-cols-2">
+				{guias.map((g) => (
+					<li>
+						<a
+							class="underline underline-offset-2 hover:text-primary dark:hover:text-primary-dark"
+							href={`/extranjeria/${g.id}/`}
+						>
+							{g.data.title}
+						</a>
+					</li>
+				))}
+			</ul>
+		</section>
+	)
+}
+
+<!-- NOVEDADES DE EXTRANJERÍA -->
+{
+	novedades.length > 0 && (
+		<section class="app-container pb-16 md:pb-24">
+			<h2 class="section-title text-2xl md:text-3xl font-bold">
+				Últimas novedades de extranjería
+			</h2>
+			<p class="mt-3 max-w-2xl text-gray-800 dark:text-gray-300">
+				Cambios en trámites y legislación, siempre con fuente oficial y
+				fecha de comprobación.
+			</p>
+			<div class="mt-8 grid gap-4 md:grid-cols-3">
+				{novedades.map((n) => (
+					<NovedadCard n={n} />
+				))}
+			</div>
+			<a
+				class="btn-secondary mt-8 inline-flex items-center gap-2"
+				href="/novedades/"
+			>
+				Ver todas las novedades <Icon size={20} name="mdi:arrow-right" />
+			</a>
+		</section>
+	)
+}
+
+<!-- POSTS RECIENTES -->
+<section class="app-container">
+	<h2 class="section-title text-2xl md:text-3xl font-bold">
+		Posts recientes
+	</h2>
+	<div class="posts-grid-container mt-8">
+		{posts.map((post) => <BlogCard post={post} />)}
+	</div>
+	<a class="btn-secondary mt-8 inline-flex items-center gap-2" href="/blog/">
+		Leer todos <Icon size={20} name="mdi:arrow-right" />
+	</a>
+</section>
+<SocialLinks />
+<BizumDonationPopup />
 </BaseLayout>

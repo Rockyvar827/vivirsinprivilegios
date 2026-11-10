@@ -15,10 +15,10 @@ El régimen general de recursos y plazos se regula por la **Ley 39/2015, del Pro
 
 👉 [Ley 39/2015 (BOE)](https://www.boe.es/eli/es/l/2015/10/01/39)
 
-- En **protección internacional (asilo)** también existen recursos específicos regulados por normativa propia.  
+- En [**protección internacional (asilo)**](/extranjeria/10-proteccion-internacional-asilo-refugiado/) también existen recursos específicos regulados por normativa propia.  
   👉 [Recursos administrativos y judiciales en asilo – Ministerio del Interior](https://proteccion-asilo.interior.gob.es/es/proteccion-temporal/recursos-administrativos-y-judiciales/)
 
-- Aunque la normativa fija plazos, la práctica suele implicar **retrasos** por carga administrativa en oficinas de extranjería.
+- Aunque la normativa fija plazos, la práctica suele implicar **retrasos** por carga administrativa en [oficinas de extranjería](/extranjeria/01-cita-previa-y-oficinas-de-extranjeria-en-galicia/).
 
 ---
 

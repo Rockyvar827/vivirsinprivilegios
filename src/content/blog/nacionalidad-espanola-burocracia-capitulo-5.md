@@ -17,6 +17,10 @@ tags:
 slug: nacionalidad-espanola-burocracia-capitulo-5
 ---
 
+⬅️ [Capítulo 4: El certificado digital](/blog/nacionalidad-espanola-burocracia-capitulo-4/)
+
+---
+
 En las oficinas de empleo o extranjería, algunos funcionarios parecen entrenados para mirarte con superioridad.  
 El saludo no se devuelve, la sonrisa no existe y el trato… depende de tu acento o color de piel.
 
@@ -27,4 +31,6 @@ Cada trámite se convierte en un examen psicológico que ni Freud aprobaría.
 No pido privilegios, solo humanidad.  
 Pero parece que eso, en ciertos mostradores, sigue fuera del presupuesto.
 
-👉 **Sigue leyendo:** [El gran plot twist: la nacionalidad como estafa moral](/blog/nacionalidad-espanola-burocracia-capitulo-6/)
+---
+
+👉 **Siguiente capítulo:** [Capítulo 6: El gran plot twist: la nacionalidad como estafa moral](/blog/nacionalidad-espanola-burocracia-capitulo-6/)
