@@ -3,6 +3,7 @@ title: 'Reclamaciones de consumo en España 2026: guía paso a paso'
 seoTitle: "Reclamar a una empresa en España 2026: consumo paso a paso"
 description: 'Cómo reclamar a una empresa en España: hoja de reclamaciones, OMIC, arbitraje de consumo y reclamaciones en la UE, con enlaces oficiales.'
 pubDate: 2025-11-22
+category: 'reclamaciones'
 updatedDate: 2026-11-10
 tags: ['consumo', 'reclamaciones', 'arbitraje de consumo', 'OMIC', 'derechos del consumidor', 'Galicia', 'Madrid']
 ---

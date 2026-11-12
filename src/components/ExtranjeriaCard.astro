@@ -1,20 +1,41 @@
 ---
-const { post } = Astro.props
+const { post } = Astro.props;
+const categoria = post.data.category ?? "General";
 ---
 
-<div
-	class="border-2 border-yellow-600 rounded-xl p-6 transition-colors hover:border-primary dark:hover:border-primary-dark h-full"
+<article
+  data-categoria={categoria}
+  class="post-extranjeria border-2 border-yellow-600 rounded-xl p-1.5 transition-colors hover:border-primary dark:hover:border-primary-dark h-full"
 >
-	<a
-		href={`/extranjeria/${post.id}/`}
-		class="block rounded-2xl shadow-md hover:shadow-lg p-6 bg-white dark:bg-zinc-900 transition-all duration-200"
-	>
-		<h2 class="text-xl font-semibold mb-2">{post.data.title}</h2>
-		<p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
-			{post.data.description}
-		</p>
-		<time class="text-xs text-gray-400"
-			>{post.data.pubDate.toLocaleDateString()}</time
-		>
-	</a>
-</div>
+  <a
+    href={`/extranjeria/${post.id}/`}
+    class="flex flex-col justify-between h-full rounded-lg shadow-sm hover:shadow-md p-5 bg-white dark:bg-zinc-900 transition-all duration-200"
+  >
+    <div>
+      <div class="flex items-center justify-between gap-2 mb-3">
+        <span class="inline-block px-2.5 py-0.5 text-xs font-semibold rounded-full bg-yellow-100 text-yellow-900 dark:bg-yellow-900/40 dark:text-yellow-300">
+          {categoria}
+        </span>
+        <time class="text-xs text-gray-500 dark:text-gray-400">
+          {post.data.pubDate.toLocaleDateString("es-ES", {
+            day: "numeric",
+            month: "short",
+            year: "numeric",
+          })}
+        </time>
+      </div>
+
+      <h2 class="text-xl font-semibold mb-2 text-zinc-900 dark:text-zinc-100 leading-snug">
+        {post.data.title}
+      </h2>
+
+      <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">
+        {post.data.description}
+      </p>
+    </div>
+
+    <span class="text-xs font-semibold text-yellow-700 dark:text-yellow-400">
+      Leer guía →
+    </span>
+  </a>
+</article>

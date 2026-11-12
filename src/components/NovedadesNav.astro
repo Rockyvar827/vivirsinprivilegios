@@ -8,26 +8,91 @@ interface Props {
 
 const { categorias, activa } = Astro.props;
 ---
-<nav class="chips" aria-label="Filtrar novedades por tema">
-  <a href="/novedades/" aria-current={!activa ? "page" : undefined}>Todas</a>
+
+<nav class="chips-bar" aria-label="Filtrar novedades por tema">
+  <a href="/novedades/" class="chip" aria-current={!activa ? "page" : undefined}>
+    Todas
+  </a>
   {categorias.map((c) => (
-    <a href={`/novedades/categoria/${c.slug}/`} aria-current={activa === c.slug ? "page" : undefined}>
-      {c.nombre} <span>({c.total})</span>
+    <a
+      href={`/novedades/categoria/${c.slug}/`}
+      class="chip"
+      aria-current={activa === c.slug ? "page" : undefined}
+    >
+      <span>{c.nombre}</span>
+      <span class="chip-count">{c.total}</span>
     </a>
   ))}
 </nav>
 
 <style>
-  .chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.25rem 0 1.75rem; }
-  .chips a {
-    padding: 0.35rem 0.85rem; border-radius: 999px; text-decoration: none; font-size: 0.9rem;
-    border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  .chips-bar {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.5rem 0 2rem;
+    padding-top: 0.25rem;
   }
-  .chips a:hover { background: color-mix(in srgb, currentColor 8%, transparent); }
-  .chips a[aria-current="page"] {
-    background: color-mix(in srgb, currentColor 18%, transparent);
+
+  .chips-bar .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    border: 1.5px solid color-mix(in srgb, currentColor 28%, transparent);
+    background: transparent;
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .chips-bar .chip:hover {
     border-color: currentColor;
-    font-weight: 700;
+    background: color-mix(in srgb, currentColor 8%, transparent);
   }
-  .chips span { opacity: 0.7; }
+
+  .chips-bar .chip:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+
+  /* Estado activo: contraste garantizado sin depender de variables externas */
+  .chips-bar .chip[aria-current="page"] {
+    background: #18181b;
+    border-color: #18181b;
+    color: #ffffff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .chips-bar .chip[aria-current="page"] {
+      background: #f4f4f5;
+      border-color: #f4f4f5;
+      color: #18181b;
+    }
+  }
+
+  .chip-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.35rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    background: color-mix(in srgb, currentColor 12%, transparent);
+  }
+
+  .chips-bar .chip[aria-current="page"] .chip-count {
+    background: color-mix(in srgb, currentColor 20%, transparent);
+  }
 </style>

@@ -3,6 +3,7 @@ title: 'Reclamar a tu operador de telefonía o internet en España (2026): guía
 seoTitle: "Reclamar a tu operador de telefonía o internet en España"
 description: 'Cómo reclamar a Movistar, Vodafone, Orange u otro operador por facturación incorrecta, bajas no tramitadas o mala cobertura: pasos, plazos y cómo acudir a SETELECO si el operador no responde.'
 pubDate: 2025-10-16
+category: 'reclamaciones'
 updatedDate: 2026-09-01
 tags: ['telecomunicaciones', 'SETELECO', 'reclamaciones', 'operadores', 'facturación', 'portabilidad']
 ---

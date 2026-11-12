@@ -2,7 +2,7 @@
 title: 'NIE en España: qué es, para qué sirve y cómo solicitarlo (EX-15)'
 description: 'Cómo solicitar el NIE (EX-15) y qué documentos necesitas.'
 pubDate: 2025-10-13
-category: 'Guía Extranjería Galicia'
+category: 'documentacion'
 tags: ['extranjería', 'Galicia']
 ---
 

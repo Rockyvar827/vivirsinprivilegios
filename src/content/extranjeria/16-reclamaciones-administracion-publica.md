@@ -3,6 +3,7 @@ title: 'Cómo reclamar ante la Administración Pública en España (2026): guía
 seoTitle: "Reclamar a la Administración Pública en España: guía 2026"
 description: 'Guía práctica para presentar quejas, recursos y reclamaciones contra la Administración Pública española: plazos, silencio administrativo, Defensor del Pueblo y enlaces oficiales. Válida para ciudadanos y extranjeros residentes.'
 pubDate: 2026-01-23
+category: 'reclamaciones'
 updatedDate: 2026-09-01
 tags: ['administración pública', 'reclamaciones', 'Ley 39/2015', 'Defensor del Pueblo', 'silencio administrativo', 'extranjería']
 ---

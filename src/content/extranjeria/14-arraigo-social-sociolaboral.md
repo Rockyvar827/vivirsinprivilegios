@@ -2,7 +2,7 @@
 title: 'Arraigo social y sociolaboral en España: guía completa 2026'
 description: 'Requisitos, documentos, tasas y pasos para regularizar tu situación en España por arraigo social o sociolaboral tras la reforma del Reglamento de Extranjería.'
 pubDate: 2025-05-10
-category: 'Guía Extranjería Galicia'
+category: 'residencia'
 tags:
   [
     'arraigo',

@@ -2,7 +2,7 @@
 title: 'Prórroga de estancia de corta duración (EX-29)'
 description: 'Cómo solicitar la prórroga de estancia de corta duración con el modelo EX-29.'
 pubDate: 2025-10-13
-category: 'Guía Extranjería Galicia'
+category: 'documentacion'
 tags: ['extranjería', 'Galicia']
 ---
 

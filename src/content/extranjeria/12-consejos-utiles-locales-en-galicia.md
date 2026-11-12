@@ -2,7 +2,7 @@
 title: 'Consejos específicos para trámites de extranjería en Galicia'
 description: 'Recomendaciones prácticas para tus trámites de extranjería en Galicia.'
 pubDate: 2025-10-13
-category: 'Guía Extranjería Galicia'
+category: 'galicia'
 tags: ['sede electrónica']
 ---
 

@@ -32,17 +32,22 @@ const blog = defineCollection({
 		tags: z.array(z.string()).optional(),
 	}),
 })
-
 const extranjeria = defineCollection({
-	loader: cargar('extranjeria'),
-	schema: z.object({
-	title: z.string(),
-	seoTitle: z.string().optional(),
-	description: z.string(),
-	pubDate: z.coerce.date(),
-	category: z.string().optional(),
-	tags: z.array(z.string()).optional(),
-	}),
+  loader: glob({ pattern: '**/*.md', base: './src/content/extranjeria' }),
+  schema: z.object({
+    title: z.string(),
+    seoTitle: z.string().optional(),
+    description: z.string(),
+    pubDate: z.coerce.date(),
+    tags: z.array(z.string()).optional(),
+    category: z.enum([
+      'documentacion',
+      'residencia',
+      'asilo',
+      'reclamaciones',
+      'galicia',
+    ]).optional().default('residencia'),
+  }),
 })
 
 const about = defineCollection({ loader: cargar('about'), schema: paginaSchema })

@@ -3,6 +3,7 @@ title: 'ONGs en Galicia para personas extranjeras y migrantes: listado 2025 con 
 seoTitle: "ONGs en Galicia para personas migrantes: listado y contactos"
 description: 'Directorio actualizado de ONGs y asociaciones en Galicia (A Coruña, Santiago, Pontevedra, Ourense) que ayudan a personas extranjeras, migrantes y solicitantes de asilo: extranjería, asesoría legal y acompañamiento social.'
 pubDate: 2025-10-26
+category: 'galicia'
 updatedDate: 2026-09-01
 tags: ['extranjería', 'migración', 'Galicia', 'ONGs', 'asilo', 'racismo institucional']
 ---

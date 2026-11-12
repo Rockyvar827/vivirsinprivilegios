@@ -2,7 +2,7 @@
 title: 'Reagrupación familiar en España: requisitos, tasas y trámite'
 description: 'Cómo traer a tus familiares a vivir contigo legalmente.'
 pubDate: 2025-10-13
-category: 'Guía Extranjería Galicia'
+category: 'residencia'
 tags: ['reagrupacion', 'Galicia']
 ---
 
