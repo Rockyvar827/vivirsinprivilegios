@@ -62,6 +62,42 @@ PAGINAS = [
         "url": "https://www.interior.gob.es/opencms/eu/servicios-al-ciudadano/tramites-y-gestiones/oficina-de-asilo-y-refugio/",
         "categoria": "asilo",
     },
+        {
+        "id": "boe-reglamento-extranjeria",
+        "nombre": "Reglamento de Extranjería (Real Decreto 1155/2024), texto consolidado",
+        "organismo": "Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099",
+        "categoria": "legislacion",
+    },
+    {
+        "id": "boe-ley-extranjeria",
+        "nombre": "Ley Orgánica 4/2000 sobre derechos y libertades de los extranjeros, texto consolidado",
+        "organismo": "Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544",
+        "categoria": "legislacion",
+    },
+    {
+        "id": "boe-ley-asilo",
+        "nombre": "Ley 12/2009 reguladora del derecho de asilo y de la protección subsidiaria, texto consolidado",
+        "organismo": "Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-17242",
+        "categoria": "asilo",
+    },
+    {
+        "id": "boe-codigo-civil",
+        "nombre": "Código Civil (incluye los artículos de nacionalidad), texto consolidado",
+        "organismo": "Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+        "categoria": "nacionalidad",
+    },
+
+        {
+        "id": "boe-rdl-35-2026-monoparentales",
+        "nombre": "Real Decreto-ley 35/2026 de medidas urgentes para las familias monoparentales, texto consolidado",
+        "organismo": "Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-23604",
+        "categoria": "otros",
+    },
 ]
 
 
