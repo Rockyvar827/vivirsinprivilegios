@@ -6,6 +6,7 @@ import { getCollection } from 'astro:content'
 import SocialLinks from "../components/SocialLinks.astro";
 import BizumDonationPopup from '../components/BizumDonationPopup.astro'
 import NovedadCard from '../components/NovedadCard.astro'
+
 const posts = (await getCollection('blog'))
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
 	.slice(0, 4)
@@ -17,299 +18,564 @@ const novedades = (
 	.slice(0, 3)
 
 const guias = (await getCollection('extranjeria')).sort((a, b) =>
-a.id.localeCompare(b.id)
+	a.id.localeCompare(b.id)
 )
 const guia = (prefijo: string) => guias.find((g) => g.id.startsWith(prefijo))
 const guiaCita = guia('01-')
 const guiaNie = guia('02-')
-const guiaArraigo = guia('07-')	
+const guiaArraigo = guia('07-')
+// Agrupación temática según prefijos de archivo (01-, 02-, etc.)
+const gruposGuias = [
+	{
+		titulo: '1. Primeros pasos, citas e identificación',
+		subtitulo: 'Cita previa, asignación de NIE, TIE, empadronamiento y certificado digital.',
+		items: guias.filter((g) => /^(01|02|03|04|05|06)-/.test(g.id)),
+	},
+	{
+		titulo: '2. Residencia, arraigos y estudios',
+		subtitulo: 'Modalidades de arraigo, estancia por estudios, homologación y modificaciones.',
+		items: guias.filter((g) => /^(07|08|09|10|11|12|13|14)-/.test(g.id)),
+	},
+	{
+		titulo: '3. Nacionalidad, recursos y derechos',
+		subtitulo: 'Nacionalidad española por residencia, silencio administrativo y reclamaciones.',
+		items: guias.filter((g) => !/^(01|02|03|04|05|06|07|08|09|10|11|12|13|14)-/.test(g.id)),
+	},
+].filter((grupo) => grupo.items.length > 0)
+const currentYear = new Date().getFullYear()
+const jsonLd = {
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": [
+				{
+					"@type": "Question",
+					"name": "¿Puedo solicitar el NIE desde fuera de España?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Sí. Si necesitas un NIE por motivos económicos, profesionales o académicos antes de viajar, puedes solicitar la asignación de NIE en el Consulado de España de tu país de residencia acreditando el motivo."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "¿Qué hago si no hay citas disponibles en Extranjería?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Con certificado digital o Cl@ve puedes presentar tu solicitud telemáticamente a través de la sede electrónica Mercurio sin esperar cita presencial."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "¿Cuánto tiempo de residencia necesito para pedir la nacionalidad española?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "El plazo general es de 10 años, pero se reduce a 2 años para nacionales de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial, Portugal o de origen sefardí, y a 1 año por matrimonio con español/a o nacimiento en España."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "¿Qué ocurre si Extranjería tarda más del plazo legal en resolver mi expediente?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Dependiendo del trámite (autorización inicial frente a renovación o residencia de larga duración), opera el silencio administrativo negativo o positivo. Mientras tu renovación esté en trámite, tu autorización anterior queda prorrogada automáticamente hasta que exista resolución expresa."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "¿Cómo homologar mis estudios o título universitario para estudiar en España?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Para estudios no universitarios (ESO o Bachillerato), la convalidación se tramita ante el Ministerio de Educación o comunidades autónomas con competencias transferidas (Galicia, Cataluña o País Vasco). Para títulos universitarios extranjeros se solicita homologación o declaración de equivalencia, previa apostilla y traducción oficial si procede."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "¿Puedo tramitar el visado o estancia por estudios desde España?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Para estudios superiores (universidad, máster oficial o títulos propios inscritos), puedes solicitar la autorización de estancia directamente desde España por vía telemática estando en situación regular y dentro del plazo legal previo al inicio del curso."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "¿Puedo trabajar en España mientras estudio con autorización de estancia?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Sí, en estudios superiores, formación reglada para el empleo o certificados de profesionalidad se autoriza a trabajar hasta 30 horas semanales siempre que sea compatible con los estudios."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "¿Cómo cambiar de estancia por estudios a permiso de residencia y trabajo?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Tras superar los estudios y obtener el título o certificado, puedes solicitar la modificación de estancia por estudios a residencia y trabajo por cuenta ajena o propia sin regresar a tu país ni aplicar la situación nacional de empleo."
+					}
+				}
+			]
+		}
 ---
 
 <BaseLayout
-	title="Vivir sin Privilegios | Extranjería, arraigo y nacionalidad"
-	description="Guías claras y novedades oficiales sobre extranjería en España: arraigo, NIE, cita previa y nacionalidad. Contra el racismo institucional y la burocracia."
+	title="Vivir sin Privilegios | Guías de Extranjería en España, Arraigo y Nacionalidad"
+	description="Guías actualizadas sobre trámites de extranjería en España: cita previa, NIE, arraigo, visados y nacionalidad española. Denuncia contra el racismo institucional y la burocracia."
+  
 >
 	<!-- HERO IMPACTO -->
 	<section
-	class="app-container py-16 md:py-24 flex flex-col items-center gap-10 text-center"
->
-	<div class="max-w-3xl mx-auto">
-		<h1
-			class="text-4xl md:text-6xl font-extrabold leading-tight text-primary dark:text-primary-dark"
-		>
-			Vivir sin privilegios <span class="text-red-500"
-				>no debería ser un acto de resistencia.</span
-			>
-		</h1>
-
-		<p
-			class="mt-5 text-lg md:text-xl text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
-		>
-			Hablamos claro sobre mobbing laboral, racismo institucional y violencia
-			burocrática en España. No para que quede bonito. Para que se entienda y
-			se combata.
-		</p>
-
-		<p
-			class="mt-3 text-base md:text-lg text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
-		>
-			Guías y novedades de extranjería para personas hispanohablantes de
-			cualquier país: NIE, cita previa, arraigo, residencia y nacionalidad.
-		</p>
-	</div>
-
-	<!-- Botones CTA -->
-	<div class="flex flex-wrap justify-center gap-4">
-		<a
-			href="/blog/"
-			class="px-6 py-3 text-sm font-bold tracking-wide rounded-full bg-red-600 text-white hover:bg-red-500"
-		>
-			Leer historias reales
-		</a>
-		<a
-			href="/manifiesto/"
-			class="px-6 py-3 text-sm font-bold tracking-wide rounded-full border border-gray-500 text-gray-700 dark:text-gray-200 hover:border-red-400 hover:text-red-300"
-		>
-			Leer manifiesto
-		</a>
-	</div>
-</section>
-
-<section
-	class="app-container py-16 md:py-24 flex flex-col items-center gap-10 text-center"
->
-	<div class="max-w-3xl mx-auto">
-		<h2
-			class="text-4xl md:text-6xl font-extrabold leading-tight text-primary dark:text-primary-dark"
-		>
-			Vivir sin privilegios <span class="text-yellow-500"
-				>no debería costar dignidad.</span
-			>
-		</h2>
-
-		<p
-			class="mt-5 text-lg md:text-xl text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
-		>
-			Significa cumplir con todo —trabajar, estudiar, pagar impuestos, cuidar
-			de la familia y respetar la ley— y aun así enfrentar controles,
-			sospechas y burocracia discriminatoria que otros no viven.
-		</p>
-
-		<p
-			class="mt-3 text-lg md:text-xl text-gray-800 dark:text-gray-300 max-w-xl mx-auto"
-		>
-			Es saber que tu <strong>color de piel, acento o pasaporte</strong> pueden
-			complicar tu vida en Extranjería, en el trabajo o en el acceso a vivienda
-			pública. Eso es <strong>racismo institucional.</strong>
-		</p>
-	</div>
-</section>
-
-<section class="app-container pb-16 md:pb-24">
-	<div class="max-w-4xl mx-auto space-y-8 text-center">
-		<h2
-			class="text-xl md:text-2xl font-bold text-primary dark:text-primary-dark"
-		>
-			🏛 ¿Qué es el racismo institucional en España?
-		</h2>
-
-		<p
-			class="text-sm md:text-base text-gray-800 dark:text-gray-300 max-w-2xl mx-auto"
-		>
-			El racismo institucional no grita.
-			<strong
-				>Se sella y se tramita por oficinas y plataformas digitales.</strong
-			>
-		</p>
-	</div>
-
-	<!-- Mapa mental -->
-	<div
-		class="relative rounded-3xl border border-gray-300 bg-gray-100 text-gray-900 px-6 py-8 md:px-10 md:py-10 shadow-sm"
+		class="app-container py-16 md:py-24 flex flex-col items-center gap-10 text-center"
 	>
-		<!-- Nodo central -->
-		<div class="mx-auto mb-8 flex items-center justify-center">
-			<div
-				class="inline-flex flex-col items-center justify-center rounded-full px-6 py-4 bg-red-600 text-center shadow-lg text-white"
+		<div class="max-w-3xl mx-auto">
+			<h1
+				class="text-4xl md:text-6xl font-extrabold leading-tight text-primary dark:text-primary-dark"
 			>
-				<span
-					class="text-[0.65rem] uppercase tracking-[0.25em] text-red-100/90"
+				Vivir sin privilegios <span class="text-red-500"
+					>no debería ser un acto de resistencia.</span
 				>
-					núcleo
-				</span>
-				<span class="mt-1 text-sm md:text-base font-semibold">
-					Racismo institucional · 2025
-				</span>
-			</div>
-		</div>
+			</h1>
 
-		<!-- Nodos satélite -->
-		<div class="grid gap-4 md:grid-cols-2">
-			<div class="rounded-2xl bg-red-50 border border-red-400/70 px-4 py-3">
-				<p class="text-xs uppercase tracking-[0.2em] text-red-600">
-					trámites
-				</p>
-				<p class="text-sm md:text-base font-semibold text-gray-900">
-					Formularios que exigen lo imposible
-				</p>
-			</div>
-
-			<div
-				class="rounded-2xl bg-indigo-50 border border-indigo-400/70 px-4 py-3"
+			<h2
+				class="mt-5 text-lg md:text-xl font-medium text-gray-800 dark:text-gray-200 max-w-2xl mx-auto"
 			>
-				<p class="text-xs uppercase tracking-[0.2em] text-indigo-600">
-					silencio
-				</p>
-				<p class="text-sm md:text-base font-semibold text-gray-900">
-					Silencio administrativo que te deja sin derechos
-				</p>
-			</div>
-
-			<div
-				class="rounded-2xl bg-amber-50 border border-amber-400/70 px-4 py-3"
-			>
-				<p class="text-xs uppercase tracking-[0.2em] text-amber-600">
-					tiempo
-				</p>
-				<p class="text-sm md:text-base font-semibold text-gray-900">
-					Plazos eternos para renovar residencia
-				</p>
-			</div>
-
-			<div
-				class="rounded-2xl bg-fuchsia-50 border border-fuchsia-400/70 px-4 py-3"
-			>
-				<p class="text-xs uppercase tracking-[0.2em] text-fuchsia-600">
-					confusión
-				</p>
-				<p class="text-sm md:text-base font-semibold text-gray-900">
-					Información confusa que te hace fallar a propósito
-				</p>
-			</div>
-
-			<div
-				class="md:col-span-2 rounded-2xl bg-emerald-50 border border-emerald-400/70 px-4 py-3"
-			>
-				<p class="text-xs uppercase tracking-[0.2em] text-emerald-600">
-					desigualdad
-				</p>
-				<p class="text-sm md:text-base font-semibold text-gray-900">
-					Trato desigual en empleo, vivienda y servicios públicos
-				</p>
-			</div>
-		</div>
-
-		<p class="mt-6 text-[0.80rem] text-gray-700 text-center md:text-left">
-			No es un insulto. Es un <strong>procedimiento que excluye</strong>. No
-			se ve en la calle,
-			<strong>se vive en la administración.</strong>
-		</p>
-	</div>
-</section>
-
-<!-- BLOQUES ACTIVISTAS -->
-<section class="app-container grid md:grid-cols-3 gap-8 py-20">
-	<div class="rounded-3xl border border-red-400 p-6 bg-red-500/10">
-		<h3 class="text-lg font-bold text-red-600">NIE</h3>
-		<p class="text-sm mt-2 text-gray-700 dark:text-gray-300">
-			NIE / Número de Identidad de Extranjero
-		</p>
-		<a
-			href={`/extranjeria/${guiaNie?.id}/`}
-			class="text-xs inline-block mt-4 font-semibold underline underline-offset-2 text-red-400"
-		>
-			Ver Asignación de NIE →
-		</a>
-	</div>
-
-	<div class="rounded-3xl border border-yellow-400 p-6 bg-yellow-500/10">
-		<h3 class="text-lg font-bold text-yellow-600">Cita Previa</h3>
-		<p class="text-sm mt-2 text-gray-700 dark:text-gray-300">
-			Cita previa y oficinas de extranjería en Galicia.
-		</p>
-		<a
-			href={`/extranjeria/${guiaCita?.id}/`}
-			class="text-xs inline-block mt-4 font-semibold underline underline-offset-2 text-yellow-500"
-		>
-			Cómo sacar cita previa →
-		</a>
-	</div>
-
-	<div class="rounded-3xl border border-green-400 p-6 bg-green-500/10">
-		<h3 class="text-lg font-bold text-green-600">Arraigos</h3>
-		<p class="text-sm mt-2 text-gray-700 dark:text-gray-300">
-			Guías y herramientas para la solicitud de arraigo en España.
-		</p>
-		<a
-			href={`/extranjeria/${guiaArraigo?.id}/`}
-			class="text-xs inline-block mt-4 font-semibold underline underline-offset-2 text-green-500"
-		>
-			Guía de arraigo en España →
-		</a>
-	</div>
-</section>
-
-<!-- TODAS LAS GUÍAS DE EXTRANJERÍA -->
-{
-	guias.length > 0 && (
-		<section class="app-container pb-16 md:pb-24">
-			<h2 class="section-title text-2xl md:text-3xl font-bold">
-				Guías de extranjería
+				Guías claras y actualizadas sobre <strong>trámites de extranjería en España</strong>: cita previa, NIE, arraigo, visados, homologación de estudios y nacionalidad española.
 			</h2>
-			<ul class="mt-6 grid gap-2 md:grid-cols-2">
-				{guias.map((g) => (
-					<li>
-						<a
-							class="underline underline-offset-2 hover:text-primary dark:hover:text-primary-dark"
-							href={`/extranjeria/${g.id}/`}
-						>
-							{g.data.title}
-						</a>
-					</li>
-				))}
-			</ul>
-		</section>
-	)
-}
 
-<!-- NOVEDADES DE EXTRANJERÍA -->
-{
-	novedades.length > 0 && (
-		<section class="app-container pb-16 md:pb-24">
-			<h2 class="section-title text-2xl md:text-3xl font-bold">
-				Últimas novedades de extranjería
-			</h2>
-			<p class="mt-3 max-w-2xl text-gray-800 dark:text-gray-300">
-				Cambios en trámites y legislación, siempre con fuente oficial y
-				fecha de comprobación.
+			<p
+				class="mt-3 text-base md:text-lg text-gray-700 dark:text-gray-300 max-w-xl mx-auto"
+			>
+				Información verificada con fuentes oficiales para personas hispanohablantes dentro y fuera de España, frente al mobbing laboral, el racismo institucional y la violencia burocrática.
 			</p>
-			<div class="mt-8 grid gap-4 md:grid-cols-3">
-				{novedades.map((n) => (
-					<NovedadCard n={n} />
-				))}
+		</div>
+
+		<!-- Botones CTA -->
+		<div class="flex flex-wrap justify-center gap-4">
+			<a
+				href="#guias-extranjeria"
+				class="px-6 py-3 text-sm font-bold tracking-wide rounded-full bg-red-600 text-white hover:bg-red-500 transition-colors"
+			>
+				Explorar guías de extranjería
+			</a>
+			<a
+				href="/blog/"
+				class="px-6 py-3 text-sm font-bold tracking-wide rounded-full border border-gray-500 text-gray-800 dark:text-gray-200 hover:border-red-500 hover:text-red-500 dark:hover:text-red-400 transition-colors"
+			>
+				Leer historias reales
+			</a>
+			<a
+				href="/manifiesto/"
+				class="px-6 py-3 text-sm font-bold tracking-wide rounded-full border border-gray-500 text-gray-800 dark:text-gray-200 hover:border-red-500 hover:text-red-500 dark:hover:text-red-400 transition-colors"
+			>
+				Leer manifiesto
+			</a>
+		</div>
+	</section>
+
+	<!-- BLOQUES DE ACCESO RÁPIDO SEO -->
+	<section class="app-container grid sm:grid-cols-2 lg:grid-cols-4 gap-6 pb-16">
+		<div class="rounded-3xl border border-red-400 p-6 bg-red-500/10 flex flex-col justify-between">
+			<div>
+				<h3 class="text-lg font-bold text-red-700 dark:text-red-400">Asignación de NIE y TIE</h3>
+				<p class="text-sm mt-2 text-gray-800 dark:text-gray-300">
+					Cómo solicitar el Número de Identidad de Extranjero desde España o mediante consulado, tasas y formularios oficiales.
+				</p>
 			</div>
 			<a
-				class="btn-secondary mt-8 inline-flex items-center gap-2"
-				href="/novedades/"
+				href={`/extranjeria/${guiaNie?.id}/`}
+				class="text-xs inline-block mt-4 font-bold underline underline-offset-2 text-red-700 dark:text-red-400 hover:opacity-80"
 			>
-				Ver todas las novedades <Icon size={20} name="mdi:arrow-right" />
+				Ver guía de NIE y TIE →
 			</a>
+		</div>
+
+		<div class="rounded-3xl border border-yellow-500 p-6 bg-yellow-500/10 flex flex-col justify-between">
+			<div>
+				<h3 class="text-lg font-bold text-yellow-800 dark:text-yellow-400">Cita Previa Extranjería</h3>
+				<p class="text-sm mt-2 text-gray-800 dark:text-gray-300">
+					Pasos para conseguir cita previa en oficinas de extranjería y comisarías de policía en toda España sin intermediarios.
+				</p>
+			</div>
+			<a
+				href={`/extranjeria/${guiaCita?.id}/`}
+				class="text-xs inline-block mt-4 font-bold underline underline-offset-2 text-yellow-800 dark:text-yellow-400 hover:opacity-80"
+			>
+				Cómo sacar cita previa →
+			</a>
+		</div>
+
+		<div class="rounded-3xl border border-green-500 p-6 bg-green-500/10 flex flex-col justify-between">
+			<div>
+				<h3 class="text-lg font-bold text-green-800 dark:text-green-400">Arraigo en España</h3>
+				<p class="text-sm mt-2 text-gray-800 dark:text-gray-300">
+					Requisitos y documentación para arraigo social, socioformativo, sociolaboral y familiar tras el reglamento de extranjería.
+				</p>
+			</div>
+			<a
+				href={`/extranjeria/${guiaArraigo?.id}/`}
+				class="text-xs inline-block mt-4 font-bold underline underline-offset-2 text-green-800 dark:text-green-400 hover:opacity-80"
+			>
+				Guía de arraigo en España →
+			</a>
+		</div>
+
+		<div class="rounded-3xl border border-indigo-400 p-6 bg-indigo-500/10 flex flex-col justify-between">
+			<div>
+				<h3 class="text-lg font-bold text-indigo-700 dark:text-indigo-400">Nacionalidad y Visados</h3>
+				<p class="text-sm mt-2 text-gray-800 dark:text-gray-300">
+					Trámites de nacionalidad española por residencia, plazos para países iberoamericanos y gestión desde el extranjero.
+				</p>
+			</div>
+			<a
+				href="#guias-extranjeria"
+				class="text-xs inline-block mt-4 font-bold underline underline-offset-2 text-indigo-700 dark:text-indigo-400 hover:opacity-80"
+			>
+				Ver todas las guías →
+			</a>
+		</div>
+	</section>
+
+	<!-- MAPA MENTAL RACISMO INSTITUCIONAL -->
+	<section class="app-container pb-16 md:pb-24">
+		<div class="max-w-4xl mx-auto space-y-6 text-center mb-8">
+			<h2
+				class="text-2xl md:text-3xl font-bold text-primary dark:text-primary-dark"
+			>
+				🏛 ¿Qué es el racismo institucional en España?
+			</h2>
+
+			<p
+				class="text-base md:text-lg text-gray-800 dark:text-gray-300 max-w-2xl mx-auto"
+			>
+				El racismo institucional no grita.
+				<strong
+					>Se sella y se tramita por oficinas y plataformas digitales.</strong
+				>
+			</p>
+		</div>
+
+		<!-- Mapa mental -->
+		<div
+			class="relative rounded-3xl border border-gray-300 bg-gray-100 text-gray-900 px-6 py-8 md:px-10 md:py-10 shadow-sm"
+		>
+			<!-- Nodo central -->
+			<div class="mx-auto mb-8 flex items-center justify-center">
+				<div
+					class="inline-flex flex-col items-center justify-center rounded-full px-6 py-4 bg-red-600 text-center shadow-lg text-white"
+				>
+					<span
+						class="text-[0.65rem] uppercase tracking-[0.25em] text-red-100/90"
+					>
+						núcleo
+					</span>
+					<span class="mt-1 text-sm md:text-base font-semibold">
+						Racismo institucional · {currentYear}
+					</span>
+				</div>
+			</div>
+
+			<!-- Nodos satélite -->
+			<div class="grid gap-4 md:grid-cols-2">
+				<div class="rounded-2xl bg-red-50 border border-red-400/70 px-4 py-3">
+					<p class="text-xs uppercase tracking-[0.2em] text-red-700 font-semibold">
+						trámites
+					</p>
+					<p class="text-sm md:text-base font-semibold text-gray-900">
+						Formularios que exigen lo imposible
+					</p>
+				</div>
+
+				<div
+					class="rounded-2xl bg-indigo-50 border border-indigo-400/70 px-4 py-3"
+				>
+					<p class="text-xs uppercase tracking-[0.2em] text-indigo-700 font-semibold">
+						silencio
+					</p>
+					<p class="text-sm md:text-base font-semibold text-gray-900">
+						Silencio administrativo que te deja sin derechos
+					</p>
+				</div>
+
+				<div
+					class="rounded-2xl bg-amber-50 border border-amber-400/70 px-4 py-3"
+				>
+					<p class="text-xs uppercase tracking-[0.2em] text-amber-800 font-semibold">
+						tiempo
+					</p>
+					<p class="text-sm md:text-base font-semibold text-gray-900">
+						Plazos eternos para renovar residencia
+					</p>
+				</div>
+
+				<div
+					class="rounded-2xl bg-fuchsia-50 border border-fuchsia-400/70 px-4 py-3"
+				>
+					<p class="text-xs uppercase tracking-[0.2em] text-fuchsia-700 font-semibold">
+						confusión
+					</p>
+					<p class="text-sm md:text-base font-semibold text-gray-900">
+						Información confusa que te hace fallar a propósito
+					</p>
+				</div>
+
+				<div
+					class="md:col-span-2 rounded-2xl bg-emerald-50 border border-emerald-400/70 px-4 py-3"
+				>
+					<p class="text-xs uppercase tracking-[0.2em] text-emerald-800 font-semibold">
+						desigualdad
+					</p>
+					<p class="text-sm md:text-base font-semibold text-gray-900">
+						Trato desigual en empleo, vivienda y servicios públicos
+					</p>
+				</div>
+			</div>
+
+			<p class="mt-6 text-sm text-gray-700 text-center md:text-left">
+				No es un insulto. Es un <strong>procedimiento que excluye</strong>. No
+				se ve en la calle,
+				<strong>se vive en la administración.</strong>
+			</p>
+		</div>
+	</section>
+<!-- TODAS LAS GUÍAS DE EXTRANJERÍA CON BUSCADOR Y AGRUPACIÓN -->
+{
+	guias.length > 0 && (
+		<section id="guias-extranjeria" class="app-container pb-16 md:pb-24 scroll-mt-20">
+			<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+				<div>
+					<h2 class="section-title text-2xl md:text-3xl font-bold">
+						Guías prácticas de extranjería en España
+					</h2>
+					<p class="mt-3 max-w-2xl text-gray-800 dark:text-gray-300">
+						Manuales paso a paso con enlaces a modelos oficiales (EX), tasas y normativa vigente para tramitar tu residencia o estancia sin pagar gestores innecesarios.
+					</p>
+				</div>
+
+				<!-- Buscador instantáneo -->
+				<div class="w-full md:w-80">
+					<label for="buscador-guias" class="sr-only">
+						Buscar guía o modelo EX
+					</label>
+					<div class="relative">
+						<input
+							id="buscador-guias"
+							type="search"
+							placeholder="Buscar trámite o modelo (ej. EX-03, NIE, arraigo)..."
+							class="w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-4 py-2.5 text-sm text-gray-900 dark:text-gray-100 placeholder-gray-500 focus:border-red-500 focus:outline-none"
+						/>
+					</div>
+				</div>
+			</div>
+
+			<p id="sin-resultados-guias" class="hidden mt-6 text-sm text-red-600 dark:text-red-400 font-medium">
+				No se encontraron guías con ese término. Prueba con "NIE", "arraigo", "cita", "estudios" o "EX".
+			</p>
+
+			<div class="mt-8 space-y-10" id="contenedor-grupos-guias">
+				{gruposGuias.map((grupo) => (
+					<div class="grupo-guias">
+						<div class="border-b border-gray-200 dark:border-gray-800 pb-2 mb-4">
+							<h3 class="text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100">
+								{grupo.titulo}
+							</h3>
+							<p class="text-xs md:text-sm text-gray-600 dark:text-gray-400">
+								{grupo.subtitulo}
+							</p>
+						</div>
+
+						<ul class="grid gap-3 md:grid-cols-2">
+							{grupo.items.map((g) => (
+								<li
+									class="item-guia rounded-xl border border-gray-200 dark:border-gray-800 p-3.5 hover:border-red-400 transition-colors"
+									data-search={`${g.data.title} ${g.data.description ?? ''} ${g.id}`.toLowerCase()}
+								>
+									<a
+										class="font-medium underline underline-offset-4 hover:text-red-600 dark:hover:text-red-400 block"
+										href={`/extranjeria/${g.id}/`}
+									>
+										{g.data.title}
+									</a>
+									{g.data.description && (
+										<p class="text-xs text-gray-600 dark:text-gray-400 mt-1 line-clamp-2">
+											{g.data.description}
+										</p>
+									)}
+								</li>
+							))}
+						</ul>
+					</div>
+				))}
+			</div>
 		</section>
 	)
 }
 
-<!-- POSTS RECIENTES -->
-<section class="app-container">
-	<h2 class="section-title text-2xl md:text-3xl font-bold">
-		Posts recientes
-	</h2>
-	<div class="posts-grid-container mt-8">
-		{posts.map((post) => <BlogCard post={post} />)}
-	</div>
-	<a class="btn-secondary mt-8 inline-flex items-center gap-2" href="/blog/">
-		Leer todos <Icon size={20} name="mdi:arrow-right" />
-	</a>
-</section>
-<SocialLinks />
-<BizumDonationPopup />
+	<!-- NOVEDADES DE EXTRANJERÍA -->
+	{
+		novedades.length > 0 && (
+			<section class="app-container pb-16 md:pb-24">
+				<h2 class="section-title text-2xl md:text-3xl font-bold">
+					Últimas novedades de extranjería
+				</h2>
+				<p class="mt-3 max-w-2xl text-gray-800 dark:text-gray-300">
+					Cambios en trámites, BOE y legislación migratoria, siempre con fuente oficial y fecha de comprobación.
+				</p>
+				<div class="mt-8 grid gap-4 md:grid-cols-3">
+					{novedades.map((n) => (
+						<NovedadCard n={n} />
+					))}
+				</div>
+				<a
+					class="btn-secondary mt-8 inline-flex items-center gap-2"
+					href="/novedades/"
+				>
+					Ver todas las novedades <Icon size={20} name="mdi:arrow-right" />
+				</a>
+			</section>
+		)
+	}
+
+	<!-- POSTS RECIENTES -->
+	<section class="app-container pb-16 md:pb-24">
+		<h2 class="section-title text-2xl md:text-3xl font-bold">
+			Posts recientes y denuncias
+		</h2>
+		<div class="posts-grid-container mt-8">
+			{posts.map((post) => <BlogCard post={post} />)}
+		</div>
+		<a class="btn-secondary mt-8 inline-flex items-center gap-2" href="/blog/">
+			Leer todos <Icon size={20} name="mdi:arrow-right" />
+		</a>
+	</section>
+
+	<!-- PREGUNTAS FRECUENTES (SEO INTERNACIONAL Y NACIONAL) -->
+	<section class="app-container pb-16 md:pb-24">
+		<div class="max-w-3xl mx-auto">
+			<h2 class="section-title text-2xl md:text-3xl font-bold">
+				Preguntas frecuentes sobre extranjería en España
+			</h2>
+			<p class="mt-3 text-gray-800 dark:text-gray-300">
+				Respuestas directas a las dudas más habituales tanto si ya resides en España como si planeas emigrar o estudiar desde otro país.
+			</p>
+		<div class="mt-6 space-y-4">
+			<details class="group rounded-2xl border border-gray-300 dark:border-gray-700 p-5 bg-white/50 dark:bg-gray-900/40">
+				<summary class="font-bold text-base md:text-lg cursor-pointer list-none flex justify-between items-center text-gray-900 dark:text-gray-100">
+					<span>¿Puedo solicitar el NIE desde fuera de España?</span>
+					<span class="text-red-500 font-bold group-open:rotate-45 transition-transform">+</span>
+				</summary>
+				<p class="mt-3 text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+					Sí. Si necesitas un NIE por motivos económicos, profesionales o académicos antes de viajar, puedes solicitar la asignación de NIE en el Consulado de España de tu país de residencia acreditando el motivo. Consulta los pasos detallados en nuestra <a href={`/extranjeria/${guiaNie?.id}/`} class="underline font-semibold text-red-600 dark:text-red-400">guía de asignación de NIE</a>.
+				</p>
+			</details>
+
+			<details class="group rounded-2xl border border-gray-300 dark:border-gray-700 p-5 bg-white/50 dark:bg-gray-900/40">
+				<summary class="font-bold text-base md:text-lg cursor-pointer list-none flex justify-between items-center text-gray-900 dark:text-gray-100">
+					<span>¿Qué hago si no hay citas disponibles en Extranjería?</span>
+					<span class="text-red-500 font-bold group-open:rotate-45 transition-transform">+</span>
+				</summary>
+				<p class="mt-3 text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+					Siempre que dispongas de certificado digital o Cl@ve, la vía más rápida y segura es presentar tu solicitud telemáticamente a través de la sede electrónica Mercurio, sin esperar cita presencial. Revisa las franjas horarias y alternativas en la <a href={`/extranjeria/${guiaCita?.id}/`} class="underline font-semibold text-red-600 dark:text-red-400">guía de cita previa</a>.
+				</p>
+			</details>
+
+			<details class="group rounded-2xl border border-gray-300 dark:border-gray-700 p-5 bg-white/50 dark:bg-gray-900/40">
+				<summary class="font-bold text-base md:text-lg cursor-pointer list-none flex justify-between items-center text-gray-900 dark:text-gray-100">
+					<span>¿Cuánto tiempo de residencia necesito para pedir la nacionalidad española?</span>
+					<span class="text-red-500 font-bold group-open:rotate-45 transition-transform">+</span>
+				</summary>
+				<p class="mt-3 text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+					El plazo general es de 10 años de residencia legal y continuada, pero se reduce a <strong>2 años</strong> para personas nacionales de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial, Portugal o de origen sefardí, y a <strong>1 año</strong> en casos como matrimonio con español/a o nacimiento en España.
+				</p>
+			</details>
+
+			<details class="group rounded-2xl border border-gray-300 dark:border-gray-700 p-5 bg-white/50 dark:bg-gray-900/40">
+				<summary class="font-bold text-base md:text-lg cursor-pointer list-none flex justify-between items-center text-gray-900 dark:text-gray-100">
+					<span>¿Qué ocurre si Extranjería tarda más del plazo legal en resolver mi expediente?</span>
+					<span class="text-red-500 font-bold group-open:rotate-45 transition-transform">+</span>
+				</summary>
+				<p class="mt-3 text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+					Dependiendo del trámite (autorización inicial frente a renovación o residencia de larga duración), opera el silencio administrativo negativo o positivo. Mientras tu renovación esté en trámite, tu autorización anterior queda prorrogada automáticamente hasta que exista resolución expresa.
+				</p>
+			</details>
+
+			<details class="group rounded-2xl border border-gray-300 dark:border-gray-700 p-5 bg-white/50 dark:bg-gray-900/40">
+				<summary class="font-bold text-base md:text-lg cursor-pointer list-none flex justify-between items-center text-gray-900 dark:text-gray-100">
+					<span>¿Cómo homologar mis estudios o título universitario para estudiar en España?</span>
+					<span class="text-red-500 font-bold group-open:rotate-45 transition-transform">+</span>
+				</summary>
+				<p class="mt-3 text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+					Para acceder a estudios universitarios, másteres o Formación Profesional necesitarás tu título apostillado (Apostilla de La Haya) y traducido si no está en español. Para estudios no universitarios (ESO o Bachillerato), la convalidación se tramita ante el Ministerio de Educación o en las comunidades autónomas con competencias transferidas (como Galicia, Cataluña o País Vasco); para títulos universitarios extranjeros, debes solicitar la <strong>homologación</strong> (profesiones reguladas) o la <strong>declaración de equivalencia</strong>.
+				</p>
+			</details>
+
+			<details class="group rounded-2xl border border-gray-300 dark:border-gray-700 p-5 bg-white/50 dark:bg-gray-900/40">
+				<summary class="font-bold text-base md:text-lg cursor-pointer list-none flex justify-between items-center text-gray-900 dark:text-gray-100">
+					<span>¿Puedo tramitar el visado o estancia por estudios desde España?</span>
+					<span class="text-red-500 font-bold group-open:rotate-45 transition-transform">+</span>
+				</summary>
+				<p class="mt-3 text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+					Depende del tipo de formación. Para estudios superiores (universidad, máster oficial o títulos propios inscritos), puedes presentar la solicitud de autorización de estancia directamente desde España por vía telemática si te encuentras en situación regular y cumples el plazo mínimo de antelación antes del inicio de las clases. Para otros estudios o cursos, el trámite debe iniciarse mediante visado en el Consulado de España de tu país de residencia.
+				</p>
+			</details>
+
+			<details class="group rounded-2xl border border-gray-300 dark:border-gray-700 p-5 bg-white/50 dark:bg-gray-900/40">
+				<summary class="font-bold text-base md:text-lg cursor-pointer list-none flex justify-between items-center text-gray-900 dark:text-gray-100">
+					<span>¿Puedo trabajar en España mientras estudio con autorización de estancia?</span>
+					<span class="text-red-500 font-bold group-open:rotate-45 transition-transform">+</span>
+				</summary>
+				<p class="mt-3 text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+					Sí. Si cursas estudios superiores, formación reglada para el empleo o formación destinada a obtener certificados de profesionalidad, tu autorización de estancia por estudios lleva incorporada la autorización para trabajar por cuenta ajena o propia hasta un máximo de <strong>30 horas semanales</strong>, siempre que los horarios sean compatibles con tus clases.
+				</p>
+			</details>
+
+			<details class="group rounded-2xl border border-gray-300 dark:border-gray-700 p-5 bg-white/50 dark:bg-gray-900/40">
+				<summary class="font-bold text-base md:text-lg cursor-pointer list-none flex justify-between items-center text-gray-900 dark:text-gray-100">
+					<span>¿Cómo cambiar de estancia por estudios a permiso de residencia y trabajo?</span>
+					<span class="text-red-500 font-bold group-open:rotate-45 transition-transform">+</span>
+				</summary>
+				<p class="mt-3 text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+					Una vez superados tus estudios y obtenido el título o certificado correspondiente, puedes solicitar la <strong>modificación de estancia por estudios a residencia y trabajo</strong> (por cuenta ajena o propia) sin necesidad de volver a tu país de origen ni aplicar la situación nacional de empleo, o bien optar por la autorización de residencia para búsqueda de empleo o prácticas.
+				</p>
+			</details>
+			</div>
+		</div>
+	</section>
+
+	<SocialLinks />
+	<BizumDonationPopup />
+
+	<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+	<script>
+		const inputBuscador = document.getElementById('buscador-guias') as HTMLInputElement | null;
+		const grupos = document.querySelectorAll('.grupo-guias');
+		const mensajeVacio = document.getElementById('sin-resultados-guias');
+
+		const normalizar = (texto: string) =>
+			texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+		inputBuscador?.addEventListener('input', () => {
+			const termino = normalizar(inputBuscador.value.trim());
+			let totalVisibles = 0;
+
+			grupos.forEach((grupo) => {
+				const items = grupo.querySelectorAll('.item-guia');
+				let visiblesEnGrupo = 0;
+
+				items.forEach((item) => {
+					const contenido = normalizar(item.getAttribute('data-search') || '');
+					const coincide = contenido.includes(termino);
+					(item as HTMLElement).style.display = coincide ? '' : 'none';
+					if (coincide) {
+						visiblesEnGrupo++;
+						totalVisibles++;
+					}
+				});
+
+				(grupo as HTMLElement).style.display = visiblesEnGrupo > 0 ? '' : 'none';
+			});
+
+			if (mensajeVacio) {
+				mensajeVacio.classList.toggle('hidden', totalVisibles > 0);
+			}
+		});
+	</script>
 </BaseLayout>
+		</div>
