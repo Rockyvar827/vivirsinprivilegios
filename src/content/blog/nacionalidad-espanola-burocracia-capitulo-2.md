@@ -5,6 +5,7 @@ description: |
   Racismo, burocracia y paciencia infinita. 
   La realidad de muchos extranjeros que buscan nacionalidad en España.
 pubDate: 'Oct 10 2025'
+category: 'burocracia'
 coverImage: '/images/burocracia-espana.jpg'
 coverImageCredit: 'Foto: Unsplash'
 author: 'Rosana'

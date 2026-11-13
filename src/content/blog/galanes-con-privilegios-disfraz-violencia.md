@@ -6,6 +6,7 @@ description: |
   migrantes: relaciones donde el privilegio, la desigualdad y el falso “romanticismo”
   encubren violencia de género, explotación y control.
 pubDate: 'Feb 10 2026'
+category: 'feminismo'
 coverImage: '/images/privilegio-oculta.jpg'
 coverImageCredit: 'Ilustración generada con IA – Derechos reservados'
 lastModified: '10-02-2026'

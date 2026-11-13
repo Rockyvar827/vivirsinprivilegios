@@ -9,6 +9,7 @@ description: |
   demuestra que esa lógica del margen sigue intacta, ahora también dentro
   de las aulas.
 pubDate: 'Aug 16 2026'
+category: 'universidad'
 coverImage: '/images/cuando-la-universidad-tambien-margina-hooks.jpg'
 coverImageCredit: 'Ilustración generada con IA – Derechos reservados'
 lastModified: '16-08-2026'

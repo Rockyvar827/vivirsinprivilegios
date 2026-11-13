@@ -8,6 +8,7 @@ description: |
   por qué el trabajo doméstico nunca fue un destino natural para las mujeres
   negras y por qué estamos cansadas de cargar con todo.
 pubDate: 'Oct 15 2026'
+category: 'trabajo'
 coverImage: '/images/mujeres-negras-trabajo-domestico.jpg'
 coverImageCredit: 'Ilustración generada con IA – Derechos reservados'
 lastModified: '15-10-2026'

@@ -1,11 +1,15 @@
 ---
 import { getCollection } from 'astro:content'
 import BlogCard from '../../components/BlogCard.astro'
+import BlogNav from '../../components/BlogNav.astro'
 import BaseLayout from '../../layouts/BaseLayout.astro'
+import { resumenCategoriasBlog } from '../../utils/blog'
 
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 )
+
+const categorias = resumenCategoriasBlog(posts)
 ---
 
 <BaseLayout
@@ -22,6 +26,7 @@ const posts = (await getCollection('blog')).sort(
 			encuentres algo que te toque, que te haga pensar o simplemente te acompañe
 			en tu propio camino.
 		</p>
+		<BlogNav categorias={categorias} />
 	</main>
 	<section class="app-container py-12">
 		<ul class="posts-grid-container">

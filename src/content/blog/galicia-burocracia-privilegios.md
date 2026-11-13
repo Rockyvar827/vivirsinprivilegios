@@ -7,6 +7,7 @@ description: |
   y la perfecta maquinaria de reproducción del poder de siempre. Datos, memoria y
   pensamiento adulto frente a la resignación colectiva.
 pubDate: 'Mar 15 2026'
+category: 'burocracia'
 coverImage: '/images/galicia-burocracia-privilegios.jpg'
 coverImageCredit: 'Ilustración generada con IA – Derechos reservados'
 lastModified: '15-03-2026'

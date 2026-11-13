@@ -5,6 +5,7 @@ description: |
   En muchas oficinas españolas, la atención al extranjero es una prueba de paciencia 
   ante microracismos y una burocracia sin alma.
 pubDate: 'Oct 13 2025'
+category: 'burocracia'
 coverImage: '/images/burocracia-espana.jpg'
 coverImageCredit: 'Foto: Unsplash'
 author: 'Rosana'

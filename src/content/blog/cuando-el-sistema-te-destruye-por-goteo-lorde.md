@@ -8,6 +8,7 @@ description: |
   membrete. Entre medias, Audre Lorde lleva cuarenta años explicando
   por qué esto no es casualidad, ni es solo mío.
 pubDate: 'Aug 16 2026'
+category: 'feminismo'
 coverImage: '/images/cuando-el-sistema-te-destruye-por-goteo-lorde.jpg'
 coverImageCredit: 'Ilustración generada con IA – Derechos reservados'
 lastModified: '16-08-2026'

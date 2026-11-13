@@ -7,6 +7,7 @@ description: |
   realmente?" a las cifras récord de delitos de odio de 2025, repasamos
   por qué el racismo aquí no es un incidente aislado, sino un patrón.
 pubDate: 'Jul 13 2026'
+category: 'racismo'
 coverImage: '/images/racismo-cotidiano-kilomba-espana.jpg'
 coverImageCredit: 'Ilustración generada con IA – Derechos reservados'
 lastModified: '13-07-2026'

@@ -8,6 +8,7 @@ description: |
   hablamos claro sobre lo que no podemos cambiar del pasado y lo que sí
   podemos hacer, hoy, con nuestra energía.
 pubDate: 'Jul 21 2026'
+category: 'racismo'
 coverImage: '/images/mujer-afrodescendiente-racismo-estructural.jpg'
 coverImageCredit: 'Collage generado con Paint – Derechos reservados'
 lastModified: '21-07-2026'

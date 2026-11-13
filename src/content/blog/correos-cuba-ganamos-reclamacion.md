@@ -6,6 +6,7 @@ description: |
   Esa documentación es la que necesitas para tus trámites de extranjería en España, y el cobro es indebido.
   Reclamamos ante la Xunta Arbitral de Consumo de Galicia, sin abogados, y el laudo nos dio la razón. Aquí está la resolución completa y la guía para reclamar.
 pubDate: 'Jul 25 2026'
+category: 'burocracia'
 coverImage: '/images/correos-cuba-ganamos-reclamacion.jpg'
 coverImageCredit: 'Foto: Unsplash'
 author: 'Equipo de Redacción'

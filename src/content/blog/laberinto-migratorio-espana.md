@@ -6,6 +6,7 @@ description: |
   desde el empadronamiento hasta el silencio administrativo.  
   Un recorrido sin salida por el sistema que promete integración, pero entrega resistencia.
 pubDate: 'Oct 25 2025'
+category: 'burocracia'
 coverImage: '/images/laberinto-migratorio-espana.jpg'
 coverImageCredit: 'Foto: Unsplash'
 author: 'Equipo de Redacción'

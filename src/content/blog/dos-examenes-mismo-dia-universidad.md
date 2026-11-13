@@ -5,6 +5,7 @@ description: |
   Tener dos exámenes el mismo día en la universidad no es ilegal, pero sí profundamente anti educativo.
   Este sistema no mide conocimiento: mide resistencia. Y en el proceso, destruye la creatividad del estudiante.
 pubDate: 'Apr 16 2026'
+category: 'universidad'
 coverImage: '/images/examenes-mismo-dia.jpg'
 coverImageCredit: 'Ilustración de estudiante saturado de exámenes'
 lastModified: '16-04-2026'

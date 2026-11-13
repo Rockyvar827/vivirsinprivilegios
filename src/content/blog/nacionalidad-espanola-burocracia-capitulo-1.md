@@ -6,6 +6,7 @@ description: |
   Solicitar la nacionalidad española es una maratón de papeles, plazos incumplidos y silencio administrativo.
   Esta es la historia —y la sátira— de cómo el sistema convierte a los extranjeros en atletas del papeleo.
 pubDate: 'Oct 9 2025'
+category: 'burocracia'
 coverImage: '/images/burocracia-espana.jpg'
 coverImageCredit: 'Foto: Unsplash'
 lastModified: 'Nov 23 2025'

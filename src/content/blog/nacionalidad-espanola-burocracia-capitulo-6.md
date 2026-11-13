@@ -5,6 +5,7 @@ description: |
   Después de años de trámites y espera, la nacionalidad española se convierte en una ironía: 
   pagar por un derecho que el sistema niega con indiferencia.
 pubDate: 'Oct 14 2025'
+category: 'burocracia'
 coverImage: '/images/burocracia-espana.jpg'
 coverImageCredit: 'Foto: Unsplash'
 author: 'Rosana'

@@ -5,6 +5,7 @@ description: |
   Solicitar la nacionalidad española puede tardar años. 
   Entre papeles, leyes y silencio administrativo, la paciencia se agota.
 pubDate: 'Oct 11 2025'
+category: 'burocracia'
 coverImage: '/images/burocracia-espana.jpg'
 coverImageCredit: 'Foto: Unsplash'
 author: 'Rosana'

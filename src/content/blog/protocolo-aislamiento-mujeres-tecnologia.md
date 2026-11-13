@@ -8,6 +8,7 @@ description: |
   conversación de trabajo en un cuello de botella. Aislamiento, dependencia
   forzada y síndrome de la impostora fabricado, no nacido.
 pubDate: 'Aug 20 2026'
+category: 'feminismo'
 coverImage: '/images/protocolo-aislamiento-mujeres-tecnologia.jpg'
 coverImageCredit: 'Ilustración generada con IA – Derechos reservados'
 lastModified: '20-08-2026'

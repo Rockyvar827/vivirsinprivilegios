@@ -6,6 +6,7 @@ description: |
   a todos los estudiantes... menos a Odette. ¿La diferencia? Su color de piel.
   Esto es microracismo en la universidad española, y sí, apesta.
 pubDate: 'Apr 14 2026'
+category: 'racismo'
 coverImage: '/images/microracismo-udc-donacion.jpg'
 coverImageCredit: 'Ilustración real de bus fuera de UDC'
 lastModified: '14-04-2026'

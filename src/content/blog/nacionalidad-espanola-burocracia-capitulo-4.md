@@ -5,6 +5,7 @@ description: |
   El certificado digital prometía agilidad y modernidad. 
   En la práctica, se ha convertido en el nuevo obstáculo burocrático para los extranjeros.
 pubDate: 'Oct 12 2025'
+category: 'burocracia'
 coverImage: '/images/burocracia-espana.jpg'
 coverImageCredit: 'Foto: Unsplash'
 author: 'Rosana'

@@ -6,6 +6,7 @@ description: |
   con experiencia para reemplazarlos por “esclavos corporativos” dispuestos a todo.
   Cómo identificarlo, resistirlo y denunciarlo legalmente en España.
 pubDate: 'Nov 23 2025'
+category: 'trabajo'
 coverImage: '/images/mobbing-laboral-toxic.jpg'
 coverImageCredit: 'Ilustración generada con IA – Derechos reservados'
 lastModified: '23-11-2025'

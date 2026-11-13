@@ -6,6 +6,7 @@ description: |
   que culpa a la inmigración de todos los males estructurales de España.
   Datos, memoria histórica y pensamiento adulto frente a bulos y odio organizado.
 pubDate: 'Dec 24 2025'
+category: 'racismo'
 coverImage: '/images/extranjero-chivo-expiatorio.jpg'
 coverImageCredit: 'Ilustración generada con IA – Derechos reservados'
 lastModified: '24-12-2025'

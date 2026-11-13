@@ -29,6 +29,13 @@ const blog = defineCollection({
 		updatedDate: z.coerce.date().optional(),
 		coverImageCredit: z.string().optional(),
 		seoTitle: z.string().optional(),
+		category: z.enum([
+      'burocracia',
+      'racismo',
+      'feminismo',
+      'trabajo',
+      'universidad',
+    ]).optional().default('burocracia'),
 		tags: z.array(z.string()).optional(),
 	}),
 })
