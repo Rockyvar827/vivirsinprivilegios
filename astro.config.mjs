@@ -14,14 +14,16 @@ import rehypeExternalLinks from 'rehype-external-links';
 
 export default defineConfig({
 	site: 'https://www.vivirsinprivilegios.org',
+	redirects: {
+    '/inicio': '/',
+    '/inicio/': '/',
+    '/contact/contact': '/contact',
+    '/contact/contact/': '/contact',
+    '/extranjeria/ccse-tarea3': '/extranjeria',
+  },
 	integrations: [
 		mdx(),
-		sitemap({
-			i18n: {
-				defaultLocale: 'es',
-				locales: { es: 'es', en: 'en', gl: 'gl' },
-			},
-		}),
+		sitemap(),
 		icon(),
 		partytown({
 			config: {
@@ -35,13 +37,6 @@ export default defineConfig({
 	markdown: {
 		remarkPlugins: [remarkReadingTime, remarkModifiedTime],
 		rehypePlugins: [rehypeFigureTitle, rehypeAccessibleEmojis],
-	},
-	i18n: {
-		defaultLocale: 'es',
-		locales: ['es', 'en', 'gl'],
-		routing: {
-			prefixDefaultLocale: false,
-		},
 	},
 	markdown: {
     rehypePlugins: [

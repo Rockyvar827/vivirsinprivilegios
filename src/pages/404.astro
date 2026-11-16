@@ -2,26 +2,26 @@
 import BaseLayout from '../layouts/BaseLayout.astro'
 ---
 
-<BaseLayout title="404 - Páxina no encontrada" description="La página que buscas no existe o ha sido movida.">
-	<section class="max-w-xl mx-auto text-center py-20">
-		<h1 class="text-3xl font-semibold mb-4">Páxina non atopada (404)</h1>
+<BaseLayout title="404 - Página no encontrada" description="La página que buscas no existe o ha sido movida.">
+	<section class="max-w-xl mx-auto text-center py-20 px-4">
+		<h1 class="text-3xl font-semibold mb-4">Página no encontrada (404)</h1>
 
-		<p class="mb-4">
+		<p class="mb-6">
 			La página que buscas no existe o ha sido movida. Serás redirigido
 			automáticamente a la página de inicio.
 		</p>
 
 		<a
 			href="/"
-			class="inline-block px-5 py-2 rounded bg-blue-600 text-white font-semibold"
+			class="inline-block px-5 py-2.5 rounded bg-blue-600 hover:bg-blue-700 text-white font-semibold transition-colors"
 		>
-			Ir á páxina de inicio
+			Ir a la página de inicio
 		</a>
 	</section>
 
 	<script is:inline>
 		setTimeout(() => {
-			window.location.href = '/inicio/'
+			window.location.href = '/'
 		}, 3000)
 	</script>
 </BaseLayout>

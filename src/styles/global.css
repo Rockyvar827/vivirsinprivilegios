@@ -22,6 +22,7 @@ html {
 
 .app-container {
 	@apply container mx-auto px-6 sm:px-12 2xl:px-16;
+	
 }
 
 #mobile-menu.mobile-nav-open {
