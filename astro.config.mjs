@@ -4,23 +4,11 @@ import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import partytown from '@astrojs/partytown'
 import icon from 'astro-icon'
-import rehypeFigureTitle from 'rehype-figure-title'
-import { rehypeAccessibleEmojis } from 'rehype-accessible-emojis'
-import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
-import { remarkModifiedTime } from './src/plugins/remark-modified-time.mjs'
-import rehypeExternalLinks from 'rehype-external-links';
+import rehypeExternalLinks from 'rehype-external-links'
 
 // https://astro.build/config
-
 export default defineConfig({
 	site: 'https://www.vivirsinprivilegios.org',
-	redirects: {
-    '/inicio': '/',
-    '/inicio/': '/',
-    '/contact/contact': '/contact',
-    '/contact/contact/': '/contact',
-    '/extranjeria/ccse-tarea3': '/extranjeria',
-  },
 	integrations: [
 		mdx(),
 		sitemap(),
@@ -35,18 +23,14 @@ export default defineConfig({
 		plugins: [tailwindcss()],
 	},
 	markdown: {
-		remarkPlugins: [remarkReadingTime, remarkModifiedTime],
-		rehypePlugins: [rehypeFigureTitle, rehypeAccessibleEmojis],
+		rehypePlugins: [
+			[
+				rehypeExternalLinks,
+				{
+					target: '_blank',
+					rel: ['noopener', 'noreferrer'],
+				},
+			],
+		],
 	},
-	markdown: {
-    rehypePlugins: [
-      [
-        rehypeExternalLinks,
-        {
-          target: '_blank',
-          rel: ['noopener', 'noreferrer'],
-        },
-      ],
-    ],
-  },
 })
