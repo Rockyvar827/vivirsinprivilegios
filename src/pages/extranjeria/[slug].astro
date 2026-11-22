@@ -5,7 +5,7 @@ import RelatedGuides from '../../components/RelatedGuides.astro'
 import type { MarkdownHeading } from 'astro'
 
 export async function getStaticPaths() {
-	const posts = await getCollection('extranjeria')
+	const posts = await getCollection('extranjeria', ({ data }) => !data.draft)
 	const headings = await Promise.all(
 		posts.map(async (post) => {
 			const rendered = await render(post)

@@ -6,7 +6,7 @@ import ExtranjeriaNav from '../../../components/ExtranjeriaNav.astro'
 import { resumenCategoriasExtranjeria } from '../../../utils/extranjeria'
 
 export async function getStaticPaths() {
-	const posts = (await getCollection('extranjeria')).sort(
+	const posts = (await getCollection('extranjeria', ({ data }) => !data.draft)).sort(
 		(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 	)
 	const categorias = resumenCategoriasExtranjeria(posts)

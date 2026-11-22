@@ -54,6 +54,7 @@ const extranjeria = defineCollection({
       'reclamaciones',
       'galicia',
     ]).optional().default('residencia'),
+		draft: z.boolean().default(false),
   }),
 })
 

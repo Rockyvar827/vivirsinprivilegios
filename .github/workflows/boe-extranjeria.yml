@@ -1,0 +1,44 @@
+name: BOE extranjeria diario
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Fecha del BOE a revisar, AAAA-MM-DD (vacio = hoy)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  boe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests beautifulsoup4 google-genai
+
+      - name: Generar borradores desde el BOE
+        run: python scripts/boe_extranjeria.py $FECHA
+        env:
+          FECHA: ${{ inputs.fecha }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.6-flash
+
+      - name: Crear Pull Request con los borradores
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: boe-borradores-${{ github.run_number }}
+          title: "Borradores BOE extranjeria"
+          commit-message: "Borradores automaticos BOE extranjeria"
+          add-paths: src/content/extranjeria/*.md
+          body-path: /tmp/resumen_pr.txt

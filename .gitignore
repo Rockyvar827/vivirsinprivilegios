@@ -22,3 +22,10 @@ pnpm-debug.log*
 
 # New enviromet to python monitor
 .venv
+
+.venv/
+probar_boe.py
+buscar_dias.py
+
+pycache/
+*.pyc

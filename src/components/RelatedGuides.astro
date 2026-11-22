@@ -7,7 +7,7 @@ type Props = {
 
 const { current } = Astro.props
 const actuales = current.data.tags ?? []
-const todas = (await getCollection('extranjeria')).sort((a, b) =>
+const todas = (await getCollection('extranjeria', ({ data }) => !data.draft)).sort((a, b) =>
 	a.id.localeCompare(b.id)
 )
 
