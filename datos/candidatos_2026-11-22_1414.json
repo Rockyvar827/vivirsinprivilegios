@@ -1,0 +1,120 @@
+[
+  {
+    "estado": "NUEVO",
+    "puntuacion": 11.5,
+    "etiquetas": [
+      "FOCO: PERSONAS NEGRAS",
+      "ESTEREOTIPO DESHUMANIZANTE"
+    ],
+    "avisos": [],
+    "entradas": [
+      {
+        "fuente": "EFE Verifica",
+        "verificador": true,
+        "titulo": "Un vídeo de Frontex no muestra un «barco nodriza» que lleva inmigrantes a El Hierro",
+        "resumen": "¿Qué verificamos? Un vídeo de Frontex muestra un barco nodriza querecoge inmigrantes en El Hierro. Conclusión. Es falso. La entrada Un vídeo de Frontex no muestra un «barco nodriza» que lleva inmigrantes a El Hierro se publicó primero en EFE Verifica .",
+        "enlace": "https://verifica.efe.com/video-frontex-barco-nodriza-el-hierro-falso/",
+        "fecha": "2026-11-21T11:20:05"
+      }
+    ]
+  },
+  {
+    "estado": "NUEVO",
+    "puntuacion": 3.5,
+    "etiquetas": [
+      "FOCO: PERSONAS NEGRAS"
+    ],
+    "avisos": [],
+    "entradas": [
+      {
+        "fuente": "Google Noticias: cayucos Canarias",
+        "verificador": false,
+        "titulo": "Los cayucos de Senegal: historias de quienes se marchan y de quienes nunca regresan - RTVE.es",
+        "resumen": "Los cayucos de Senegal: historias de quienes se marchan y de quienes nunca regresan &nbsp;&nbsp; RTVE.es",
+        "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUXJHbl9lVVc0Z0QyckRQM2JJeGdJTGc4T3BvN2lyQS1wLWJXR3E1ZGFnTTdYRVNFRDd0MUVsX1JCVm9Gc1ZfdExaLTdsQWphVGtKWUlYYUh6SjYtcFRGYlRWUDNiSHNtZUFpN18ydTM0UFQ2Y0V2S01QN0RWSXVHSWp0aUJMM1hDNUNKMTZ5ajFLMzk2OWFtT1hXbU90cUFBTmhncm43YzkyZFNyMEtoaG8wQXYxQlh4TUZydw?oc=5",
+        "fecha": "2026-11-22T08:10:45"
+      }
+    ]
+  },
+  {
+    "estado": "NUEVO",
+    "puntuacion": 1.5,
+    "etiquetas": [
+      "FOCO: PERSONAS NEGRAS"
+    ],
+    "avisos": [
+      "ELECTORAL"
+    ],
+    "entradas": [
+      {
+        "fuente": "Google Noticias: cayucos Canarias",
+        "verificador": false,
+        "titulo": "Cuando un repunte en la ruta canaria coincide con elecciones: los bulos sobre la inmigración en campaña - elDiario.es",
+        "resumen": "Cuando un repunte en la ruta canaria coincide con elecciones: los bulos sobre la inmigración en campaña &nbsp;&nbsp; elDiario.es",
+        "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUjR1V2dJY2FidUMwZEFsNVlNSnJBRkp6SEpPenp3NFI3ZkVGdk9NeG54Y2tELU1ORTdQMzZVemtKd296YkdJRFlNaU03ZXZFNUx3Q2RpN285aFBZTGtiOWFuQXNWMHUwSVlyTjRNWXRvWDdVWjlUcUl1RV9SbjNiTmkzWTZ0b0xKRlk5aEZBTWJzUnowc0JYLVdZaXBBYmxRWGRtT2N1TFBZY0R1ckRBelhWVFR5anJ6Yy1lRU5ITnJ2akFBeC13eNIBzgFBVV95cUxPMnFGZ2hWQnUtQ1pfekpUc1VldzZDNGtpN3NRQzBUeE9EeFVweWg2YWk1R1pRb0ZydXFHVW5Vek0xcHVwM2JXbnRFQ0NOOVpuNWRfUUJrTEdWUzV1UWFZTnR6eENiVHVBcktyOGI5TmJHT0NOY3NsSUZnXzRqbzdrQXVXcjFEVExZTGt2UVN1Tk9mSjNJT3BxZjkxN3lkV2RHTWNmLVprUEM1NGhlZ1BRaXpvRzJVUEFHbGd1THZDNUUwR3lXdWxEWWE3WjUwUQ?oc=5",
+        "fecha": "2026-11-21T21:10:52"
+      }
+    ]
+  },
+  {
+    "estado": "NUEVO",
+    "puntuacion": 7.5,
+    "etiquetas": [
+      "GENERICO: migrantes, sin foco en personas negras",
+      "ESTEREOTIPO"
+    ],
+    "avisos": [],
+    "entradas": [
+      {
+        "fuente": "Maldita.es",
+        "verificador": true,
+        "titulo": "Los empadronamientos \"en bancos o cajeros\" de migrantes en situación irregular en Bizkaia: ni la Diputación ni la Asociación de Municipios Vascos tienen constancia, aunque es una práctica contemplada en la ley",
+        "resumen": "Respecto al empadronamiento como fin para obtener prestaciones sociales , en País Vasco la Renta Garantizada de Ingresos (RGI) sí puede percibirse aun estando en situación administrativa irregular, al contrario de ayudas estatales como el Ingreso Mínimo Vital (IMV).&nbsp; En cambio, el padrón no basta para poder participar en procesos electorales , que exigen , entre otras cosas, tener residencia legal . Una vez obtenida, las personas migrantes extracomunitarias pueden participar en elecciones m",
+        "enlace": "https://maldita.es/desinfo/20261120/en-vizcaya-se-estan-tramitando-altas-en-el-padron-de-inmigrantes-en-situacion-ilegal-en-bancos-de-la-calle-bajo-de-un-puente-o-en-cajeros/",
+        "fecha": "2026-11-20T15:40:09"
+      }
+    ]
+  },
+  {
+    "estado": "NUEVO",
+    "puntuacion": 5.5,
+    "etiquetas": [
+      "GENERICO: migrantes, sin foco en personas negras",
+      "ESTEREOTIPO"
+    ],
+    "avisos": [
+      "POLITICA"
+    ],
+    "entradas": [
+      {
+        "fuente": "Verificat",
+        "verificador": true,
+        "titulo": "Immigració i ajudes socials: tot el que has de saber per no caure en la desinformació de Vox",
+        "resumen": "Les principals ajudes socials s’atorguen per criteris socioeconòmics; els estrangers no tenen cap avantatge legal, però surten sobrerepresentats en algunes estadístiques perquè tenen taxes de pobresa més elevades",
+        "enlace": "https://www.verificat.cat/immigracio-ajudes-socials-desinformacio-vox/",
+        "fecha": "2026-11-21T10:25:41"
+      }
+    ]
+  },
+  {
+    "estado": "NUEVO",
+    "puntuacion": 5.5,
+    "etiquetas": [
+      "GENERICO: migrantes, sin foco en personas negras",
+      "ESTEREOTIPO"
+    ],
+    "avisos": [
+      "POLITICA"
+    ],
+    "entradas": [
+      {
+        "fuente": "Maldita.es",
+        "verificador": true,
+        "titulo": "Cuidado con los contenidos que dicen que Sánchez dará 2.800 euros al mes durante dos años a inmigrantes regularizados: no hay rastro de esa ayuda",
+        "resumen": "En España, las personas migrantes pueden acceder a determinadas prestaciones o recursos públicos en función de su situación administrativa y de vulnerabilidad, como el Ingreso Mínimo Vital , que exige residencia legal mínima de un año,&nbsp; ayudas autonómicas o municipales, ayudas en el marco de la atención humanitaria o recursos del sistema de acogida para protección internacional .",
+        "enlace": "https://maldita.es/desinfo/20261120/pedro-sanchez-dara-a-los-inmigrantes-regularizados-2800-euros-al-mes-durante-2-anos-hasta-que-encuentren-trabajo/",
+        "fecha": "2026-11-20T13:49:16"
+      }
+    ]
+  }
+]

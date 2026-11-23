@@ -1,0 +1,85 @@
+# Guardar como: .github/workflows/revision_diaria.yml
+#
+# Que hace, 3 veces al dia:
+#   1. Ejecuta scripts/recolectar_bulos.py
+#   2. Guarda el historial (datos/vistos.json) y los candidatos en el repositorio, para no repetir alertas
+#   3. Si hay una ALERTA nueva (datos/alertas.md), abre un Issue asignado a ti -> GitHub te envia un email
+#   4. Si fallan muchas fuentes o el script se rompe, el workflow falla -> GitHub tambien te avisa
+
+name: Revision diaria de bulos
+
+on:
+  schedule:
+    # Horas en UTC. En Espana: 07:00, 13:00 y 19:00 en invierno (08:00, 14:00 y 20:00 en verano).
+    # GitHub puede retrasar las ejecuciones programadas entre 5 y 30 minutos.
+    - cron: "0 6,12,18 * * *"
+  workflow_dispatch:   # permite lanzarlo a mano desde la pestana Actions
+
+permissions:
+  contents: write   # para guardar datos/ en el repositorio
+  issues: write     # para abrir el Issue de alerta
+
+concurrency:
+  group: revision-bulos
+  cancel-in-progress: false
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests feedparser
+
+      - name: Ejecutar la recoleccion de bulos
+        shell: bash   # con pipefail: si el script se rompe, el paso falla aunque pase por tee
+        run: python scripts/recolectar_bulos.py 2>&1 | tee run.log
+
+      - name: Guardar historial y candidatos en el repositorio
+        run: |
+          # Conservar solo los 30 ficheros de candidatos mas recientes (el historial va en vistos.json)
+          ls -1 datos/candidatos_*.json 2>/dev/null | head -n -30 | xargs -r rm -f
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos/vistos.json datos/candidatos_*.json
+          git add -u datos/ || true
+          if git diff --cached --quiet; then
+            echo "Sin cambios que guardar"
+          else
+            git commit -m "Revision diaria de bulos $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: Abrir Issue si hay alertas nuevas
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f datos/alertas.md ]; then
+            gh label create alerta --color D93F0B --description "Alerta de bulos" --force || true
+            gh issue create \
+              --title "Alerta de bulos $(TZ=Europe/Madrid date +'%d/%m/%Y %H:%M')" \
+              --body-file datos/alertas.md \
+              --label alerta \
+              --assignee "${{ github.repository_owner }}"
+          else
+            echo "Sin alertas en esta revision"
+          fi
+
+      - name: Avisar si fallan muchas fuentes
+        if: always()
+        run: |
+          fallos=$(grep -c '^  ERROR' run.log || true)
+          echo "Fuentes con error: $fallos"
+          if [ "$fallos" -ge 5 ]; then
+            echo "::error::Han fallado $fallos fuentes. Revisa si algun verificador cambio su RSS."
+            exit 1
+          fi

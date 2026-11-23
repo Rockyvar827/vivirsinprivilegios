@@ -1,0 +1,209 @@
+[
+  {
+    "estado": "NUEVO",
+    "puntuacion": 16.5,
+    "etiquetas": [
+      "LATINOAMERICANOS (incluye afrolatinos)"
+    ],
+    "avisos": [
+      "POLITICA",
+      "ELECTORAL"
+    ],
+    "entradas": [
+      {
+        "fuente": "Maldita.es",
+        "verificador": true,
+        "titulo": "No, el despacho de Baltasar Garzón no ofrece defensa gratuita a los nacionalizados por la “Ley de Nietos” ante la supuesta propuesta de Vox y PP “para que se les retire la nacionalidad”",
+        "resumen": "En este artículo de Maldita.es respondemos a algunas preguntas sobre el derecho a voto de los inscritos en el CERA antes de que el Tribunal Supremo dictase medidas cautelares sobre la “Ley de Nietos”. Además, en Maldita.es hemos podido comprobar que uno de los carteles que comparte la información de este supuesto servicio del despacho ILOCAD está generado con inteligencia artificial . &nbsp;Al subir la imagen a la herramienta de verificación de OpenAI , concluye que ha sido “generado con herrami",
+        "enlace": "https://maldita.es/desinfo/20261120/despacho-baltasar-garzon-representara-gratis-quienes-obtuvieron-nacionalidad-espanola-ley-memoria-democratica-ante-posible-retiro-nacionalidad-plantea-vox-y-pp/",
+        "fecha": "2026-11-20T13:53:06"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España - EL PAÍS",
+        "resumen": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España &nbsp;&nbsp; EL PAÍS",
+        "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSUZlS1RaeXZlc1YxUV8tWk9QN2dWd2pwM2ZLRk1BVkUtNjdibWo5WVVNMHY0S1NoNUk1YmdCX25NbEt0elJDWmp4ZnMwV2Y5VXF0YUV2Qk8tSGJpUDBwY19VcXJkNzJTcTVJcnhkeW1SMFd1aTh2WXltVndJSTlUOWFYR09hNTR6UmZBQTV0SldXQVM0N2ZTMmh1MlJiSjFnWG9HampiSEhqUlFtQS1vWU0xS0xLZm1wbWJfM0R5aXRCSmoxWVpqalNKcm1CODFwVVoxVUtWUTlNMXV0YlBTdndIZmhoaGMycjU3SDRqUGFISFhFQ1U2Ql9fNF9QdUdfeE5BdEhR0gGaAkFVX3lxTE56Q1NXbzRxWFdpTzhaUHhKODE0VldGSzRuOGY5dmNRakxJSE0wNklfMWdMMU9yRzFiSFBHWFEwNDBHQzBXQlVMUl9pSEhpOTE4N0VZcW9yUUZ0eEItbHZyWXFBUEkwUXVmclRzOU9Rb3ZnLWl5bllHc2hMMGxURXFJZGJ1S200MDhuSHJwMWF6MjVXODM3WENVbEJDdElqUHkyRDFZTXVCZ0VNQzY0OEk3NEFlWWtBMTBzR0w3T3QtVDN1bnoweEN6WlY3dTNPdWJPRkxpbG5tZ1JsVWpJLXNINFF6eE1aSHJvWXpldDVKaVU3NF9BOE44QXhPQlV4ZXJRWHdSeDhTN29vbnBVcm1RSkdxbU5yTVpTUQ?oc=5",
+        "fecha": "2026-11-20T13:57:59"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Supremo veta también el voto en las elecciones a los nacionalizados por la ley de nietos que viven en España - elDiario.es",
+        "resumen": "El Supremo veta también el voto en las elecciones a los nacionalizados por la ley de nietos que viven en España &nbsp;&nbsp; elDiario.es",
+        "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLTJSVXJ2YS1ORGE0Sk1QYmt5c0J5V3ZhUUFXYkRsUWI1RDVRV2FZbExKTHhaRFhkSEpMNllzSHBuMGNDajN1LTYzb2dsajFIWTBsZEY1SjlyNGlNSzJ3QU1WT1BOWGZsQXZUXzJMaGRFTVFwX25RNTFweUNMQmxJVjB3amVrbFpoTjR3V2FVdXZGYXdmbVdSdmR0NE9oRHlmNHZpbS1rek5tX1k5d2xHUF9qSE1NWGfSAbwBQVVfeXFMTk9iX1ZzcUpPb1lORGhWc2prZ1RRQ1hLRFAwZ2hEVjJ2dzA5dDdDUVJyVFliQXJxdzd5R3Z1bWpmamRQXzNYVFZISzhKbmJDb0w5SjdnbXROSFpHZVhLaDZwa0dFU0t4Y1AtMTU1MWdGRFpXZFd1R0hmc1hpQkNWaDNtN3NmQ01XWGVSQjZqVFVBdklGbjdFbDNmVFpKaWNXTTU2OTg0TnBsUFlsX2tORDZsUlFHbW5IVXVyTFM?oc=5",
+        "fecha": "2026-11-20T14:17:27"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Supremo ordena extender a España la prohibición de votar a los nacionalizados por la ley de nietos - El Correo",
+        "resumen": "El Supremo ordena extender a España la prohibición de votar a los nacionalizados por la ley de nietos &nbsp;&nbsp; El Correo",
+        "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaURSYUlCQ2I4ZVJNMDJMMk14OUt3YTNiOHRvbkhCYks1Wm5NaWs4V3prZEZjT3RXckdsTEhZUVdYRWpnLXJCdldtMG9iTExUVU9oaS00ekstSkJhdnZtWFdzVnRVMjV1TktMcXBVRzlRaURYcWh0dzVHbDdYQTd3V2ItWEJfSDFxX29MMk9GNVNBa3JORmJvWkNHQWNRUFRkZVFlZVBDcmFIWGgyNnIwRk10eEFqT3dXc1Rr0gHAAUFVX3lxTE5nVTVodERvX2kxTzhDMk9BRkM4azY0NGFfRUNjaXMwbGVubURCVXJpRWZkRzdaM2dCYXBBeFZrUWd1UHFMY1NRNjN3QlNfc0VOVG5YRjRxOGVaVld1ZUJLSS1PQVVseWttaWhDcTBpQ01MUU5qUmNvVHVraU1nTmpNU0JvazB1MlhwV3poTXZoZ0FOWnE5eHlkRmRteE5vU0VzSlFkV2lDeFZ6Xy1hdmhhaTczSjlKcWE0RjZoRVNGcQ?oc=5",
+        "fecha": "2026-11-20T13:56:59"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "Más de 163.000 nacionalizados por la ley de nietos quedan excluidos del voto por decisión del Supremo - MurciaEconomía.com",
+        "resumen": "Más de 163.000 nacionalizados por la ley de nietos quedan excluidos del voto por decisión del Supremo &nbsp;&nbsp; MurciaEconomía.com",
+        "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSkpKQktDRGJMZnBxZEZBbjJNWjU5N214OVJVanFqYmtycGxWbW01SWI2SHluQTV3OGVvNlcxNzVCdTNMcHBEZkFfUS1fVUxVZ2F2eFdiWnpZb3hpbGt0cjdlRVVyYkNHejRmMi15TXFCZWFoY19KcWROTGg5bl9OQnpGQ2xaVHNlRjRwTDlST0lpQUVWb05zc3R2VW8teXNlNFNWV2tad29jdDZmdUxVZXZUZEtaUUx6alN6c3l5M3hQajR2MVhubE5qcG1wZHFRTDUyaQ?oc=5",
+        "fecha": "2026-11-21T07:19:11"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Supremo exige a la Junta Electoral y la Oficina del Censo que cumplan la orden de dejar sin derecho a voto a los 163.355 nacionalizados por la 'ley de nietos' - El Mundo",
+        "resumen": "El Supremo exige a la Junta Electoral y la Oficina del Censo que cumplan la orden de dejar sin derecho a voto a los 163.355 nacionalizados por la 'ley de nietos' &nbsp;&nbsp; El Mundo",
+        "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWmtYaEJXNW03Smt4TU5TdXBOeG92cE9pRUlXc0lwVTBGYTRkWEQzdzNLRFdlR0lzek9DT3FPUVBiOUNzTWkwZWVCY0hJWm1JcHJVSGM1V0dSTFpfX2xGdGdtb3FVemphZHNrMm8wNU9samQyYjRtcVpseDgzbzJvVE4ycTgzZnNuSDNDSE5XcUlBMjFEYlpCT05ZMNIBmwFBVV95cUxQc3RaVm1ndmtiM3dFWVQ1UklkYnVEMnlqcUg4RWNOeTQzOWdrUDNZQi0xM3FWeEVqeFZibkNJMzliVjYxdkRvWENpWnlKbmxOdGVRTFZEYm93aXQxUkdSU1NfSWhrM0UweDU4ZEZ2QTZqOGtvblNPSnRJMWNBVllwdGFRY0RwNWhxVUY5aHNhNXFzc2ZRLWw3NmJYNA?oc=5",
+        "fecha": "2026-11-20T14:52:31"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Supremo ordena impedir el voto a más de 162.000 nacionalizados por la 'ley de nietos' el 29N - La 7",
+        "resumen": "El Supremo ordena impedir el voto a más de 162.000 nacionalizados por la 'ley de nietos' el 29N &nbsp;&nbsp; La 7",
+        "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR3RGeEttYUJScGhmcmZlM2lsZ3hId2tWSTBiSENtQlRfUlNUc2tqVXYtOUo5V1pUZG9CSEVWaFhETGFFaUdfN0lJenlEdmh0bU9WTXRFZGtpQzhncDZHTjdlUENYSExjdmVLY0FCUHl5UVVldmhFSEVCa3luY2tObWpfOVp5SE5nWm9RNTBuX0N5Q1hwc2dXV0lvWWRDQmhfV2dDQWZadDZaY0t4bC1tVVlFMkptUk5EblB0eE1tYnNFQdIBxwFBVV95cUxOOHNnWENfSjN0WkNMUDJCdDhrNnFLTFRpUnRWLV9wUmEtV19QQzQzUGM1d0pwck84TEJYNzZlSk5xYTViejdqRlA4Njlfa3NZMEpaSk5mc1pGQ21DRjFjblNBQ2pwX1VqeTdVZW9DVVFNSi1lM1JJeTFfUFBEMUpMVTZJVFZTLXFxQ0FPaEZabHV1T0ZRQzZqU3FaWjNKeTdKWnR5T2NNYUxUYWhQcWl6dmsxNklJNWJqY1kxUDY1aHlFNkFXRnN3?oc=5",
+        "fecha": "2026-11-20T17:47:32"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Supremo ordena al Censo que excluya a los 163.355 nacionalizados de la ‘ley de nietos’ que no pueden vot... - OkDiario",
+        "resumen": "El Supremo ordena al Censo que excluya a los 163.355 nacionalizados de la ‘ley de nietos’ que no pueden vot... &nbsp;&nbsp; OkDiario",
+        "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWER5ZHFrOE1yWWcxZ3N6S0RlV3pKeTRrZ2tQWmk2RnQzVnZCODZEcXU0TkY3TkJnRG9RSDdoczdhc1Z1SFV2bWtIMHloSWVabXF0OEJmNHQ3Z1dFekI5V0o1eDN0Y19XcW5NQ2tyTjloRU9WUVF6RUI5dGx3eHhWLWlvdTFtOE01OHJVTk5FZEpMTlFnRjItU3MzOGJoRTUxZXdvbG9DWFdjbVlBN3g4UzZNRk9ENS02YVN3eExtNjPSAcYBQVVfeXFMUDNwX0ppdV90VktMalA3SmdGQVVCSWNTTUVjWnRySlRsa0h1dWZ4VVVIUnRkUnBOTjhyMFBzejliTUxPN2k1cTd0STBEUEhjOTk4cW9VYUh0LUNoWVhLSzJ2NzlOSGNIdFpvRW5oTUstNGpoY1JMd3FLN1d4dldIUHhPX1g5dDBPWFNCcVBWcUh4TnF4Y2I3WVl2ZnN5bkNNaUVWbWRYWndKUEx3MGJSRDQzUHR0TnQtaDZKc3NOdjVjSWV2bDJ3?oc=5",
+        "fecha": "2026-11-20T15:57:32"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Supremo planta cara a la JEC y exige impedir el voto de 163.355 nacionalizados por la «ley de nietos - Confilegal",
+        "resumen": "El Supremo planta cara a la JEC y exige impedir el voto de 163.355 nacionalizados por la «ley de nietos &nbsp;&nbsp; Confilegal",
+        "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdEhqeWVtUlB1UXV0bmFJajQyTUlmRnlQMDI1N0p3ZElPc0NESzk3ZzJZaUl0UDU0akNUcURfaDI1WThUOWhrZWFjdS11T3ZBOXlBWlZvZE1BWExnSS03SllIX1JVdEhMS2NJWURDaHNpZFFtWU43ZlRFdVZHTGdTbTloLW1OaTlDWmxWV2piZnFiV1hZSWFBV2thUUpaWnlBbEE4MkZpOXhHZmozQmJicXNHSXJiMFBWbDEtdmpjY29vWTVNaUxiSU5ld0JkSDc2?oc=5",
+        "fecha": "2026-11-20T15:44:49"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El TS extiende al Estado español el veto a los nacionalizados por la 'ley de nietos' - Noticias de Navarra",
+        "resumen": "El TS extiende al Estado español el veto a los nacionalizados por la 'ley de nietos' &nbsp;&nbsp; Noticias de Navarra",
+        "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOUc5U3laTFozeGIzUTBTdUpySUtpbkhCY3p5MUJrSTM0U2lFNUJRNkRMdFRCZllIQjBQMlQ0YVFfbnk0ZHRDRG9TQ1VZMXZ1UDlhNWFqcTAxejhyckpQLWFwQ1ZOVF83RDdJci0xYnRzTmpOYkRhcXdIQms4bDJ4NTRfQzdjQnNRb2l1MUtyU1F5RmJzdjVESWdjaXpvU0pZSTN2RDlnRksxNWvSAbABQVVfeXFMUHdpS2dwcmlsUkN6VVlwUTRsZVl4YU54YVpmLXRtOGpjY1BiOU9UX3J4WEtfMl9KeGpvbFFDZ25wWW1SdktWTjZYb1QzVy1zaFd2YXZFSXB4c1ZCZVRHcGdjX2Q4cHUxckxzTFFXNTFTS3BQQVhZUUMybHp6RzA5ZmJPVVVKdWlXRm5Hd3ZQUFhVTFJhSXZEMWdmbEpoM2txazBIdlc4ckgyZUxfZmhlMnE?oc=5",
+        "fecha": "2026-11-20T15:29:33"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Tribunal Supremo prohíbe el voto a los 163.355 nacionalizados por la Ley de Nietos, aunque vivan actualmente en España - El Observador",
+        "resumen": "El Tribunal Supremo prohíbe el voto a los 163.355 nacionalizados por la Ley de Nietos, aunque vivan actualmente en España &nbsp;&nbsp; El Observador",
+        "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQUdGcmNiVGpJMG9fVlVGaWNCVk9acTZmQV9tRTN3ZV9oMEtuNkIxMWZiOUZuNFRuSmZXYmc0VlJEQWUwa0RUNDNLaGx3Tmk4ZGg5bUZWR19wRU1FVTY0NGxJZVlOXzJzczBKcTI2LXQ3MGl0dFktMmNtUmRXaDBBNEJLX0YxU01sTlN3cHRBQktzUlpHelpmTDF4WlgxbTA2RWNaTktvVDllTnBhQVVQZjQ1Q21wdldZbl9rVi1ha2h2NWxDX1dCeFZENzBEQmNmYWszTXNfbDgtbHYzclHSAeMBQVVfeXFMT2RaZ0U1c2VPb3JPcURMeEZyd21HWUkxejlsbmxQaTBTbnVJQXBfdVFDYU5LS3REd3FlYU9VMUdGRm1Ed1lEbjZUTE1jWVNwd3owN3Z6d2ZtVDBfU2ZKRWhVOFluVnBjRHhZZHhvbWdudWZvd1RSQ1k5NXdlQU50aHU4bGFrb0JSaUQzRHdKbnVwZG96OW8wN0djWG9nRllLQkpuOEhWVzJ1NGthRTRnX0ZHeWxBV3E1OExKNnV1MldWV0xhTU55SnU5LVV2Ml9TdThrb2FDVk9UcG1GT1NGeVJULTQ?oc=5",
+        "fecha": "2026-11-21T14:05:00"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Supremo exige a la Junta Electoral garantizar que los 163.355 nacionalizados por la «ley de nietos» afectados no voten el 29-N - Benavente Digital",
+        "resumen": "El Supremo exige a la Junta Electoral garantizar que los 163.355 nacionalizados por la «ley de nietos» afectados no voten el 29-N &nbsp;&nbsp; Benavente Digital",
+        "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaEgzTml3RGJ0ejl2aGgwc2wxT1hBZFpHSmN0ZW80RElkME1qcnFlMjR1cF9zMVEzQm80R1lwNDc0Rk9KTEthT1Y0NEFRWW9GVE1iamozN0NITW9GeHRWY0NRZ1FwYVZhN2FSSXRqaVYySFU2Z0NxYzZjdmYweGQ2ZHJnSDFlbjJmaVNMUEYwYVVRdVdqeE9aZmJR?oc=5",
+        "fecha": "2026-11-20T14:09:59"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "Nacionalizados por la Ley de Nietos no podrán votar aunque vivan en España - OnCubaNews",
+        "resumen": "Nacionalizados por la Ley de Nietos no podrán votar aunque vivan en España &nbsp;&nbsp; OnCubaNews",
+        "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTF8wUFVSVHhmQjJMVkpBaDgzTHVzZXZMWGhiN08zZzZITzBMWTN0SFoweWJQQmVBZ3FoQzFFbGg5Zl9ja0ljeUZBUWREZUdBeGhzcDBTdWktTTRYemdRLUlna3RqQjloU085bXlsal9OYy0xLVpYdWlRVmRXREcxaUlvSHlua1ZLeHJlUGRFTENXekM3U29BN2JSV0daenF1VUdvTDhURDg1YTViTEpNbg?oc=5",
+        "fecha": "2026-11-21T12:02:57"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Supremo confirma que los hijos de cubanos nacionalizados por la Ley de Nietos podrán votar el 29 de... - CiberCuba",
+        "resumen": "El Supremo confirma que los hijos de cubanos nacionalizados por la Ley de Nietos podrán votar el 29 de... &nbsp;&nbsp; CiberCuba",
+        "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzh0NmtQRTBQd0E1SDlsWmlGalo4SjdsYnJUVnJVNTNFbWt3V1d5MlFCVTNiZFlKRWZqRDZXZ3F3M3lpamJsSG9uNVNxS01lOFc3enhUcFlTSVRsTDdWdGVVVGJEOUxTZkFVTkUzWEdpelliY2VIUC1XRjBqaDFwTl9oRzJ4VUhSVlZmeFFvQTlraGY2NFFJbVdDaGhCNF9JeVRGbXRBTDdBdWM3QXRmM3JpMlE3TVFqN0xraWptQdIBvwFBVV95cUxNbzh0NmtQRTBQd0E1SDlsWmlGalo4SjdsYnJUVnJVNTNFbWt3V1d5MlFCVTNiZFlKRWZqRDZXZ3F3M3lpamJsSG9uNVNxS01lOFc3enhUcFlTSVRsTDdWdGVVVGJEOUxTZkFVTkUzWEdpelliY2VIUC1XRjBqaDFwTl9oRzJ4VUhSVlZmeFFvQTlraGY2NFFJbVdDaGhCNF9JeVRGbXRBTDdBdWM3QXRmM3JpMlE3TVFqN0xraWptQQ?oc=5",
+        "fecha": "2026-11-20T22:26:43"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "Tribunal decreta que nacionalizados por “ley de nietos” no podrán votar, aunque vivan en España - La Jornada Zacatecas",
+        "resumen": "Tribunal decreta que nacionalizados por “ley de nietos” no podrán votar, aunque vivan en España &nbsp;&nbsp; La Jornada Zacatecas",
+        "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY1VIS0ZxR0JUWVYyZkNTQkQwTVJxRDE0dlNYd2NWZkN0ZHotTzZxWl9fOFBWOGl0RVBzTzFlUnVLY0lsQWY3SDVNcC1lbHJlRUhWTGJNZXFVTmRiYk1rbkdCOWlKZl9Ob1J5NW11c2NUX09VRHd3RW81dTd0Q1lIZ3M0OWljaWo0cWFmckI3eVFoVzg1RzY2aFJfN3ZheDA5RkUxXzR3YXhmdG1nc2dPQjVZaV83MXg4WWlF?oc=5",
+        "fecha": "2026-11-21T19:35:08"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "Ratifican en España prohibición de votar a los naturalizados por la \"ley de nietos\" - La Jornada",
+        "resumen": "Ratifican en España prohibición de votar a los naturalizados por la \"ley de nietos\" &nbsp;&nbsp; La Jornada",
+        "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSnVsVzJRWVZ2c2tfX0x4by1TVklTU1M5clY5dGY5Qk9MLUNzYUppQTVzQ2tUTXBBS0NIY2p2N1B5ZExmbnE4Qm8wMngtWm9SRk16UDJMNlRGVThRWkJveGNSeFBmbG1YSDBqQ2o1amQyU2tNMzZZQWZ3cC0taUY5U3Fpbm9kWG81RjAzV2xWNnQ0d2ZLS2VULUx5eURmVHBjZ01kSmNUcEtGd2tOd0ttTmNLdGRnNzhzUVM3QWVJMkt4bU8xOE5wMG01WUZhUQ?oc=5",
+        "fecha": "2026-11-21T13:57:00"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "RDC: quiénes quedaron habilitados para votar en España con la Ley de Nietos y quiénes fueron excluidos - Perfil",
+        "resumen": "RDC: quiénes quedaron habilitados para votar en España con la Ley de Nietos y quiénes fueron excluidos &nbsp;&nbsp; Perfil",
+        "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQM3dVbmo2T2gtR04tazIyRXo2U3RyMlFsWUlCNkR0OUpyb2tjN3o0Y1MwdVhUZWNCbzJBd0hhN2c0azFTYjB5SVZHWnc2M3AxNkZkVjNHckgwSTF4cHVHZ3J0MFhpaldsZFBNSzdaWUszRXMyTlFWRnZ4WFFoNC0zWWxVc0ZCdVdiYmZVZ0djOGVVcEU4cExoQXVKRDE3dEZHbDlUaDAyZnktU2l3c3lVZDZReXpJR2hmXy0wWFc3b2Z0VUVVTnBEV3FTM3ExQkxKWkRLZnZBUl9jUlh5RkdEY25n?oc=5",
+        "fecha": "2026-11-20T22:06:21"
+      }
+    ]
+  },
+  {
+    "estado": "NUEVO",
+    "puntuacion": 2.5,
+    "etiquetas": [
+      "LATINOAMERICANOS (incluye afrolatinos)"
+    ],
+    "avisos": [],
+    "entradas": [
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "Los españoles en Latinoamérica votan con una urna separada por la ‘Ley de Nietos’ - EL PAÍS",
+        "resumen": "Los españoles en Latinoamérica votan con una urna separada por la ‘Ley de Nietos’ &nbsp;&nbsp; EL PAÍS",
+        "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSXJ4WWF2ZXpLblgwWEExY2VXb1F3aGtyNzVwMlp2Z1FkOHlFZWt2enNXWHNiX1FCc0ZXT2VnNjhyQjNYSi00ZTNDek1ZdHpVS3dYb0VkQlR6c3RwVEZWNC1vcEVCS0hyeTJETGdqY3JSTjQ0bFIzd2VaMGlTTHd5NVFHQk9KU2d2NEFTaThVdm03ZmY0eUJrU2ZKaDdYSVVxUlFuNFRWampzSlVFa1N0b3NWcUM4S2F6VEFSdDBB0gHSAUFVX3lxTE9nVU56bFJ2a3kzaF9SanJZMHROWjdUT01JRHNzRFQwMUJIbndRVGh4SlNrV25ZTVVYay1mblBoRWhHNXlvOUVMVWpWdTZHZHBaWGpFbmgwRVdIMi0tSTg1NUpUQjFwdFVTbUtrLW10UmtLSTJwV3B2ZV92UDlVOGMzUzRkcFhqZW5aN0ZCMkY4c3VLYlFreFVIeDc1eDJncXNGRGtfWk1hbjN1Yi1fSDhwM09memMzUjFyNFpULWJyQmExdmlfNENqSnNRQzZoTnVzQQ?oc=5",
+        "fecha": "2026-11-21T09:30:00"
+      }
+    ]
+  },
+  {
+    "estado": "NUEVO",
+    "puntuacion": 0.5,
+    "etiquetas": [
+      "LATINOAMERICANOS (incluye afrolatinos)"
+    ],
+    "avisos": [
+      "POLITICA"
+    ],
+    "entradas": [
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El PSOE promete crear una circunscripción exterior con siete diputados tras el escándalo de la Ley de Nietos - Libertad Digital",
+        "resumen": "El PSOE promete crear una circunscripción exterior con siete diputados tras el escándalo de la Ley de Nietos &nbsp;&nbsp; Libertad Digital",
+        "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQk4xSzA0V1EzWmtmRzVaM1pGaW4wOWlRc2tZeEpyX1hSRVFONWlhYkdlZjR2T1QxSVpWMGpWZXE5c0w3ck1odjFVaWd6QjBpeWVSUXRWSkNhck82bHpKekdyblRUNmNmTm9vRmRDeWFfOTdtSTJ2UWNjU21fc0dWamtGNVVvelJQVGJKTlA0TlJBUjJLVTFtZDVoTzRxU2xXSmFiRFdlSi1zMWhBVWJjdUd3bmdJa2kyYlVuSFJhalVSZGp3SnBWUjhZa1IzMjE1QXRBYWlJTVFXNG1sazE2TnpHekdqYUg1TjlladIB9wFBVV95cUxPeXdEUVBndnVUMVAxcE5sM3RyRGQwS1VHdnNBYzY5UmJwRUR5d0Rrc1p4dmVYd1Z5c2R2YmRVTkNwWndmZmswWkg1NlY1NGwwbDYtczZ2QTNVNW9YeFh2bU5ORFVJLVo3dmhYQkpCYWd6Y2dLTnoxZnducHIzeHR6cjlTeUdRb0pERXRJbndNN3JQaThhbUFHc3FZZmo4ZkhFaGdGUU1xN0NsWUQ4d0VGR2Z0UWl6ZFc0QnliWVRnRUlYQmFsTnpUMFBNTVZwcUZKVWpKTnNDNjRKdW05bHRlb1R6NmZLd0J0ZGJOQTdSN3lia3FFS21z?oc=5",
+        "fecha": "2026-11-21T04:00:09"
+      }
+    ]
+  },
+  {
+    "estado": "NUEVO",
+    "puntuacion": -0.5,
+    "etiquetas": [
+      "LATINOAMERICANOS (incluye afrolatinos)"
+    ],
+    "avisos": [
+      "ELECTORAL"
+    ],
+    "entradas": [
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "Preguntas y respuestas sobre la 'ley de nietos' y el voto anulado de más de 160.000 personas - RTVE.es",
+        "resumen": "Preguntas y respuestas sobre la 'ley de nietos' y el voto anulado de más de 160.000 personas &nbsp;&nbsp; RTVE.es",
+        "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbFNEMU1qRnFPRnlqZEJNS3loX1Q3UThuM2ZiNG9HX3I3SDh1NC1kT0JOOFk5Qy1RMjh1LVN1ZHNZVGZlUjdxUHRhNFl0QjlmYVlxcDFWR0RYeGZEQ3ltRTg3TEVoR25SOGd6NWFXLUJ3NVVnVEdOOFp2ZWJOVGNNVE9TcjJSbndvOUFad0h1ZFU0eXE3dGhyMG1OeTNWczR2LVA2bVNhLXdVWjZQeUQwV0NpUHkxUTQ?oc=5",
+        "fecha": "2026-11-20T08:00:00"
+      }
+    ]
+  }
+]
