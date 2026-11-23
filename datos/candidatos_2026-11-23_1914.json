@@ -1,0 +1,170 @@
+[
+  {
+    "estado": "YA VISTO + NOVEDADES",
+    "puntuacion": 14.0,
+    "etiquetas": [
+      "FOCO: PERSONAS NEGRAS",
+      "ESTEREOTIPO DESHUMANIZANTE"
+    ],
+    "avisos": [],
+    "entradas": [
+      {
+        "fuente": "Newtral",
+        "verificador": true,
+        "titulo": "Este vídeo de Frontex no muestra la llegada de inmigrantes a El Hierro en 2026",
+        "resumen": "Son imágenes de 2019 que muestran el trasbordo de 80 migrantes de un pesquero a otra embarcación rumbo a Lampedusa (Italia).",
+        "enlace": "https://www.newtral.es/frontex-el-hierro/20261123/",
+        "fecha": "2026-11-23T11:45:01"
+      },
+      {
+        "fuente": "EFE Verifica",
+        "verificador": true,
+        "titulo": "Un vídeo de Frontex no muestra un «barco nodriza» que lleva inmigrantes a El Hierro",
+        "resumen": "¿Qué verificamos? Un vídeo de Frontex muestra un barco nodriza querecoge inmigrantes en El Hierro. Conclusión. Es falso. La entrada Un vídeo de Frontex no muestra un «barco nodriza» que lleva inmigrantes a El Hierro se publicó primero en EFE Verifica .",
+        "enlace": "https://verifica.efe.com/video-frontex-barco-nodriza-el-hierro-falso/",
+        "fecha": "2026-11-21T11:20:05"
+      }
+    ]
+  },
+  {
+    "estado": "NUEVO",
+    "puntuacion": 3.5,
+    "etiquetas": [
+      "FOCO: PERSONAS NEGRAS"
+    ],
+    "avisos": [],
+    "entradas": [
+      {
+        "fuente": "Google Noticias: cayucos Canarias",
+        "verificador": false,
+        "titulo": "Casi 300 personas migrantes llegan a El Hierro este domingo a bordo de cinco cayucos - elDiario.es",
+        "resumen": "Casi 300 personas migrantes llegan a El Hierro este domingo a bordo de cinco cayucos &nbsp;&nbsp; elDiario.es",
+        "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNmZaMURUYU9kQ0RhU1RVQzRyY2NQMHdDNThYX1dOU3FqYzY3S0F3WUlTZEFmWW9pMnZOS1oyeUJwaXZCRXpIVklMYkliT3BYMV9jT3dXMXFOVlV5aXdIOVlsWDY4Z24ya29iTm1zWW5WTkhYd1c5STZrM0dNWHpHMUVCTGIxeUUwWEx0dGxOT01uQlB3VlNYX0dES1h3TGkxLUkzQUFtX0hLNXJSMFpXWlNUSGlBem5tbXFUdVNkNi14cFB0dnlFaUF30gHPAUFVX3lxTFAwdDZhLU5VWm5PRXEzM1o5RExLcDNkYmx1YkRQS215SG1yNWVWdTlEcHNYZ2ltOTJsS0hZSWxJM3JLZ0JvTUhTQUxzek5hbVdTb3c1cng3aGlrTVhudlNESFpWX25xeFI2dThSTDQzVklYeDFxRmxHaWpma3U5UzFYRGlHZXplMEFlYllPd3V2NVdNYnBYTjZWSGFrNGU3MHFnWFFjLTRfV1FBbkZ0YTN2TnhCMmljamk3T1FfcGdFZk9NMUJ6dDlYLUFubVQtWQ?oc=5",
+        "fecha": "2026-11-22T20:19:46"
+      }
+    ]
+  },
+  {
+    "estado": "YA VISTO + NOVEDADES",
+    "puntuacion": 4.5,
+    "etiquetas": [
+      "LATINOAMERICANOS (incluye afrolatinos)"
+    ],
+    "avisos": [
+      "ELECTORAL"
+    ],
+    "entradas": [
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Supremo mantiene suspendido el voto de 163.355 nacionalizados por la Ley de Nietos - Antena 3 Noticias",
+        "resumen": "El Supremo mantiene suspendido el voto de 163.355 nacionalizados por la Ley de Nietos &nbsp;&nbsp; Antena 3 Noticias",
+        "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbjRRNUFzbmtfcUdld3BFejBnWVZ3UkE0cnpBUWM0WGpraDNRVXAwMkNydmJyT01zMmxvcWtJajVXWlY5QnhvREE2OWZlUERjcHlHS1BUd3FXaVhFTGdWVF80MnJrX0k3d1FnZnZUdks3OTBIX2Ezd3lVVmJyd1JDRWN3RzB4WFJsYzNJY0ZNMDVPVF9fQ0ZZNURHMmJSZThHb25PM1FBbVpsVlBsT3V4eWh3MDluYTd0d2tTcUY5NzJHSHFGaDRESjFlamJsYWM0Z2ZZY0ZhbDJwUEHSAdsBQVVfeXFMUFltR3FkeU9DaGZ1SV9xU0ZSUXBuR1lGRmw4MkpOelR6X1pCWlR3Z2VXeWJNVlhzWkZ3Y2xHeTJiblUtaWR6emdoVjF6Vk1XRzBZTDFuNjNidWI3eFBFRU12WUV5U3Q5aURzLTRValR3cF9OOUlHbkRqN1YxM0VEcUdrWm1neDZJZkstUnFFOE5iS3hHTm1VUDJPNDcweVVwUDhuYWlCY1dCT2JzMlotcWxVOU82WVF5VlZmaGM0TmdnYzR0MEJXQVV0cFhFaFFnNkhaUmxVdm1pXy1r?oc=5",
+        "fecha": "2026-11-22T17:57:17"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "Más de 163.000 nacionalizados por la ley de nietos quedan excluidos del voto por decisión del Supremo - MurciaEconomía.com",
+        "resumen": "Más de 163.000 nacionalizados por la ley de nietos quedan excluidos del voto por decisión del Supremo &nbsp;&nbsp; MurciaEconomía.com",
+        "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSkpKQktDRGJMZnBxZEZBbjJNWjU5N214OVJVanFqYmtycGxWbW01SWI2SHluQTV3OGVvNlcxNzVCdTNMcHBEZkFfUS1fVUxVZ2F2eFdiWnpZb3hpbGt0cjdlRVVyYkNHejRmMi15TXFCZWFoY19KcWROTGg5bl9OQnpGQ2xaVHNlRjRwTDlST0lpQUVWb05zc3R2VW8teXNlNFNWV2tad29jdDZmdUxVZXZUZEtaUUx6alN6c3l5M3hQajR2MVhubE5qcG1wZHFRTDUyaQ?oc=5",
+        "fecha": "2026-11-21T07:19:11"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "Nacionalizados por la Ley de Nietos no podrán votar aunque vivan en España - OnCubaNews",
+        "resumen": "Nacionalizados por la Ley de Nietos no podrán votar aunque vivan en España &nbsp;&nbsp; OnCubaNews",
+        "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTF8wUFVSVHhmQjJMVkpBaDgzTHVzZXZMWGhiN08zZzZITzBMWTN0SFoweWJQQmVBZ3FoQzFFbGg5Zl9ja0ljeUZBUWREZUdBeGhzcDBTdWktTTRYemdRLUlna3RqQjloU085bXlsal9OYy0xLVpYdWlRVmRXREcxaUlvSHlua1ZLeHJlUGRFTENXekM3U29BN2JSV0daenF1VUdvTDhURDg1YTViTEpNbg?oc=5",
+        "fecha": "2026-11-21T12:02:57"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Tribunal Supremo prohíbe el voto a los 163.355 nacionalizados por la Ley de Nietos, aunque vivan actualmente en España - El Observador",
+        "resumen": "El Tribunal Supremo prohíbe el voto a los 163.355 nacionalizados por la Ley de Nietos, aunque vivan actualmente en España &nbsp;&nbsp; El Observador",
+        "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQUdGcmNiVGpJMG9fVlVGaWNCVk9acTZmQV9tRTN3ZV9oMEtuNkIxMWZiOUZuNFRuSmZXYmc0VlJEQWUwa0RUNDNLaGx3Tmk4ZGg5bUZWR19wRU1FVTY0NGxJZVlOXzJzczBKcTI2LXQ3MGl0dFktMmNtUmRXaDBBNEJLX0YxU01sTlN3cHRBQktzUlpHelpmTDF4WlgxbTA2RWNaTktvVDllTnBhQVVQZjQ1Q21wdldZbl9rVi1ha2h2NWxDX1dCeFZENzBEQmNmYWszTXNfbDgtbHYzclHSAeMBQVVfeXFMT2RaZ0U1c2VPb3JPcURMeEZyd21HWUkxejlsbmxQaTBTbnVJQXBfdVFDYU5LS3REd3FlYU9VMUdGRm1Ed1lEbjZUTE1jWVNwd3owN3Z6d2ZtVDBfU2ZKRWhVOFluVnBjRHhZZHhvbWdudWZvd1RSQ1k5NXdlQU50aHU4bGFrb0JSaUQzRHdKbnVwZG96OW8wN0djWG9nRllLQkpuOEhWVzJ1NGthRTRnX0ZHeWxBV3E1OExKNnV1MldWV0xhTU55SnU5LVV2Ml9TdThrb2FDVk9UcG1GT1NGeVJULTQ?oc=5",
+        "fecha": "2026-11-21T14:05:00"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "México habilita la ‘urna no urna’ para los votos de los nacionalizados por la Ley de Nietos, cuya validez está en el aire - Infobae",
+        "resumen": "México habilita la ‘urna no urna’ para los votos de los nacionalizados por la Ley de Nietos, cuya validez está en el aire &nbsp;&nbsp; Infobae",
+        "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxObG94SzE1TXdhVFJKWVVYbWpmXy1RQ25McFNsbHdscFAtbndQZ3AyalJGLWRvR1Fxcy1uZHAzSVFXRlZSNTVEbWhsN2RQX1FiUHlkaHZreGNUbHNBdEFhY2tiNnBpc2M2b1JudVh6eXpJc3RKdzV6elV5VUZfRTZvcUp6bmhfdGxMaWZUbFY3MnJXaDZtbTJ6dlhyYS1KdVFNMHJRU0wwUGRLWUlEUWUzMGZESm5HQWItdGtOdHI2cGdmWmJ3cHRNNGZ5MDhiWXhWX2JYZDRuYkJPMTdUUC1FV1FyVkNtZWNmSDdpQVFpTC1LbG_SAY4CQVVfeXFMUDg1M2hJeE9XR3Fpbk1aa01Ma0U0dzZ4azZWUElBUnpNdjdJT0xjd0llRWVsZ2NGTlFXQ1dGYXM1SEF3WTlmM2ZraHlvM1k3dGxJX1BFWThoWkFaRnZuSllSUlh3ODFWQnJXalVxSUZWZDFYMTJkYTZqTlhvSzh2c0g3R0V6YWNzbVQtZUFJVVk3ZEdWbDlqVm9BSnJpMkd1TzF3NkZrMWExdldkMTZLSFlIMmRFVmxSLUNYcDc3WkJfZElOZkNpVjhIdFN0bXlkd1ptcFkxcDF4UTZya1lpNVlpV1dIUUJ4RXhSZXJfN1pKQnRWdEgzSktqM2V2TFYtdmJSX0NMRGhkUzhTbGJ3?oc=5",
+        "fecha": "2026-11-22T15:08:00"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El Supremo confirma que los hijos de cubanos nacionalizados por la Ley de Nietos podrán votar el 29 de... - CiberCuba",
+        "resumen": "El Supremo confirma que los hijos de cubanos nacionalizados por la Ley de Nietos podrán votar el 29 de... &nbsp;&nbsp; CiberCuba",
+        "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzh0NmtQRTBQd0E1SDlsWmlGalo4SjdsYnJUVnJVNTNFbWt3V1d5MlFCVTNiZFlKRWZqRDZXZ3F3M3lpamJsSG9uNVNxS01lOFc3enhUcFlTSVRsTDdWdGVVVGJEOUxTZkFVTkUzWEdpelliY2VIUC1XRjBqaDFwTl9oRzJ4VUhSVlZmeFFvQTlraGY2NFFJbVdDaGhCNF9JeVRGbXRBTDdBdWM3QXRmM3JpMlE3TVFqN0xraWptQdIBvwFBVV95cUxNbzh0NmtQRTBQd0E1SDlsWmlGalo4SjdsYnJUVnJVNTNFbWt3V1d5MlFCVTNiZFlKRWZqRDZXZ3F3M3lpamJsSG9uNVNxS01lOFc3enhUcFlTSVRsTDdWdGVVVGJEOUxTZkFVTkUzWEdpelliY2VIUC1XRjBqaDFwTl9oRzJ4VUhSVlZmeFFvQTlraGY2NFFJbVdDaGhCNF9JeVRGbXRBTDdBdWM3QXRmM3JpMlE3TVFqN0xraWptQQ?oc=5",
+        "fecha": "2026-11-20T22:26:43"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "Ratifican en España prohibición de votar a los naturalizados por la \"ley de nietos\" - La Jornada",
+        "resumen": "Ratifican en España prohibición de votar a los naturalizados por la \"ley de nietos\" &nbsp;&nbsp; La Jornada",
+        "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSnVsVzJRWVZ2c2tfX0x4by1TVklTU1M5clY5dGY5Qk9MLUNzYUppQTVzQ2tUTXBBS0NIY2p2N1B5ZExmbnE4Qm8wMngtWm9SRk16UDJMNlRGVThRWkJveGNSeFBmbG1YSDBqQ2o1amQyU2tNMzZZQWZ3cC0taUY5U3Fpbm9kWG81RjAzV2xWNnQ0d2ZLS2VULUx5eURmVHBjZ01kSmNUcEtGd2tOd0ttTmNLdGRnNzhzUVM3QWVJMkt4bU8xOE5wMG01WUZhUQ?oc=5",
+        "fecha": "2026-11-21T13:57:00"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "Ley de nietos: mantiene Tribunal Supremo español veto al voto de exiliados nacionalizados - NVI Noticias",
+        "resumen": "Ley de nietos: mantiene Tribunal Supremo español veto al voto de exiliados nacionalizados &nbsp;&nbsp; NVI Noticias",
+        "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeHh0S0FVbmhtTE5DS2VJcTgxa0dlTklMenl6a3lOTDlJRTFaWkNhVndHN1paZWhKQmtiZnNObEtKNEdWOHE1NTR6cmxPZ0ZYRTVzTWMwVzJQaTAzWkpHTVkwX25RUGEyY2x0bnRzNFBRczZDQUtraFN0eGlOa0xhNklzQU95dzF0S01QclQ4bmZzZmJhaElVWE5ydE4yYkZNOWVxTmQ5WTZjZHhEanFEb3hSU1B0UmF1bnM0QUJmUWFfZ1NyR3NSWA?oc=5",
+        "fecha": "2026-11-22T14:43:40"
+      },
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "RDC: quiénes quedaron habilitados para votar en España con la Ley de Nietos y quiénes fueron excluidos - Perfil",
+        "resumen": "RDC: quiénes quedaron habilitados para votar en España con la Ley de Nietos y quiénes fueron excluidos &nbsp;&nbsp; Perfil",
+        "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQM3dVbmo2T2gtR04tazIyRXo2U3RyMlFsWUlCNkR0OUpyb2tjN3o0Y1MwdVhUZWNCbzJBd0hhN2c0azFTYjB5SVZHWnc2M3AxNkZkVjNHckgwSTF4cHVHZ3J0MFhpaldsZFBNSzdaWUszRXMyTlFWRnZ4WFFoNC0zWWxVc0ZCdVdiYmZVZ0djOGVVcEU4cExoQXVKRDE3dEZHbDlUaDAyZnktU2l3c3lVZDZReXpJR2hmXy0wWFc3b2Z0VUVVTnBEV3FTM3ExQkxKWkRLZnZBUl9jUlh5RkdEY25n?oc=5",
+        "fecha": "2026-11-20T22:06:21"
+      }
+    ]
+  },
+  {
+    "estado": "NUEVO",
+    "puntuacion": 2.5,
+    "etiquetas": [
+      "LATINOAMERICANOS (incluye afrolatinos)"
+    ],
+    "avisos": [],
+    "entradas": [
+      {
+        "fuente": "Google Noticias: ley de nietos",
+        "verificador": false,
+        "titulo": "El ICAV analizará los límites constitucionales de la Ley de Nietos y el papel de la nacionalidad como reparación histórica - Confilegal",
+        "resumen": "El ICAV analizará los límites constitucionales de la Ley de Nietos y el papel de la nacionalidad como reparación histórica &nbsp;&nbsp; Confilegal",
+        "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNN2ZKT3FaeWQwVm1VQTR6WXRIYlRsaEE4WWQwNVppSXdBVUxFdmRlNGNDMVZwT21CaGN3MzZ5YmVEb3pZWF9NX3VFV3BGaGI4aU1vb0lsOVptQVZwOEdtbDh6TGFRUWswTFpVWW50WGV1Y2Y0VjNrNjhJNnktZWhUU211YTdLWkVpdm5VVk9OaWlLMlBMQm1HamtoSkwxM2M?oc=5",
+        "fecha": "2026-11-23T04:46:15"
+      }
+    ]
+  },
+  {
+    "estado": "NUEVO",
+    "puntuacion": 5.5,
+    "etiquetas": [
+      "GENERICO: migrantes, sin foco en personas negras",
+      "ESTEREOTIPO"
+    ],
+    "avisos": [
+      "ELECTORAL"
+    ],
+    "entradas": [
+      {
+        "fuente": "EFE Verifica",
+        "verificador": true,
+        "titulo": "Alcorcón niega “decenas” de denuncias de vecinos sobre “magrebíes registrados en sus casas” a escasos días de las elecciones",
+        "resumen": "En los últimos días han circulado publicaciones que hablan sobre un “escándalo” con los empadronamientos en Alcorcón (Madrid) después de que “decenas de vecinos acudiesen al ayuntamiento a denunciar que magrebíes están registrados en sus casas” a escasos días del 29N. Sin embargo, el Ayuntamiento de Alcorcón lo niega. La entrada Alcorcón niega “decenas” de denuncias de vecinos sobre “magrebíes registrados en sus casas” a escasos días de las elecciones se publicó primero en EFE Verifica .",
+        "enlace": "https://verifica.efe.com/alcorcon-niega-decenas-de-denuncias-de-vecinos-sobre-magrebies-registrados-en-sus-casas-a-escasos-dias-de-las-elecciones/",
+        "fecha": "2026-11-23T15:25:07"
+      }
+    ]
+  }
+]
